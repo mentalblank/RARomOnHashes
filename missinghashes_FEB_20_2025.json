@@ -22,7 +22,6 @@
     "9aae68de710d38e2d2e4536640a6c0a3": "Ultimate Fighting Championship (USA)"
   },
   "417": {
-    "043cf610d2cf595329499a0fbb5cb459": "Bassin's Black Bass (U) [!].sfc",
     "4587317a6c91b4c62a2fb1da67c65d36": "Super Black Bass 2 (J).sfc"
   },
   "437": {
@@ -45,9 +44,6 @@
   "753": {
     "b0108e96c8394e017587c0b83eb502e2": "Dragon Ball GT: Transformation"
   },
-  "754": {
-    "3a74fce97f1ea2b28c2a50ec3df0acee": "Dragon Ball Z - Buu's Fury (USA).gba\tgba-htgdb"
-  },
   "775": {
     "68817204a691449e655cba739dbb0165": "Mega Man Battle Network 3 - White Version (USA).gba\tgba-htgdb"
   },
@@ -57,9 +53,6 @@
   "797": {
     "2649557b233d5f700d09f61429e51419": "Buttsubushi (Japan)",
     "0b5976144c574c7a53d0ec21d313b805": "Buttsubushi (Europe, Australia)"
-  },
-  "798": {
-    "36916861e921121015366b7d5ec45f3e": "Tony Hawk's Pro Skater 3 (USA, Europe).gba\tgba-htgdb"
   },
   "858": {
     "40b89fa020786f323ab5a36dde4686eb": "Claymates (1993)(Interplay)(US).bin"
@@ -77,17 +70,11 @@
   "1028": {
     "67e33db27253c90fe9edb9c5cfec9de9": "Mickey's Playtown Adventure - A Day of Discovery! (1994)(Hi Tech)(US)(beta).bin"
   },
-  "1061": {
-    "a93ffed8ea7198a8cd23d698933e2cd9": "NHL '94 (U) [!].sfc"
-  },
   "1095": {
     "6261db3e834e245f99fb2072fc97fde7": "Phalanx - The Enforce Fighter A-144 (U) [!].sfc"
   },
   "1239": {
     "5e3c3c232fdb344e36ddf2c2dac16397": "Gauntlet Legends (USA)"
-  },
-  "1258": {
-    "44ea32a5a4e5600282a16b094641ce07": "Terminator, The (U) [!].sfc"
   },
   "1324": {
     "f9690d679ed894344529bb80568d3c59": "Silent Hill 2"
@@ -392,9 +379,6 @@
   "3165": {
     "09ec75105c748f366acbbcc56817fe03": "Castlevania - The Dracula X Chronicles (Europe) (En,Fr,De,Es,It).iso"
   },
-  "3169": {
-    "c8ca4bb4b63a8a1f5b452608a6ca9f3d": "Final Fantasy IV - The Complete Collection (USA) (En,Ja,Fr).iso"
-  },
   "3176": {
     "ab902c1cd4bcff257657a16df4c322c0": "Resident Evil 2 (USA)"
   },
@@ -402,13 +386,6 @@
     "ea86895552fe7101969b1a6dc508ae6c": "Harvest Moon - A Wonderful Life (USA)",
     "c598ff0b2ffaf51353609cae27ae8d7e": "Harvest Moon - A Wonderful Life (Europe)",
     "40f00a29d84aa66dfd059687605113de": "Harvest Moon - A Wonderful Life (Germany)"
-  },
-  "3185": {
-    "8120f27104a6018698433582a52b1bf2": "Burnout Legends (USA) (En,Fr,De,Es,It,Nl) (v1.00).iso",
-    "e88343b1225dd91b9c5c826ad3b8410a": "Burnout Legends (Europe, Australia) (En,Fr,De,Es,It,Nl) (v1.01).iso"
-  },
-  "3186": {
-    "4596d65a2fc66cd87f1032d4a83aa40f": "Tekken 6 (Europe) (En,Ja,Fr,De,Es,It,Ko,Ru).iso"
   },
   "3187": {
     "f6a83b254bcde84a1cda7b7cd15b40e6": "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Es,It,Da).iso"
@@ -496,17 +473,11 @@
     "e869ece68f004f74278ec5fce58105e3": "Resident Evil (USA) (Disc 1)",
     "aa38a0a07d54aedc8a3bbabe15cc5574": "Resident Evil (USA) (Disc 2)"
   },
-  "3373": {
-    "5348bbcd51477fc6dcf74334e8ed8190": "Pipe Dream (J).sfc"
-  },
   "3417": {
     "7982b9cde5c45a838a8c656962505c8f": "Sonic Adventure 2 (Europe) (En,Ja,Fr,De,Es)",
     "ada3c364c783021884b066a4ad7ee49c": "Sonic Adventure 2 (USA) (En,Ja,Fr,De,Es)",
     "ce69a844244e3666e274938dfd72983d": "Sonic Adventure 2",
     "ff83b45ad98a2290096f787fea410836": "Sonic Adventure 2"
-  },
-  "3437": {
-    "9020cf6a7126e8bc7f1f59a2e76dbf2b": "Ryuuko no Ken 2 (J).sfc"
   },
   "3463": {
     "c2330bf563b33c189e0e23cb9613638b": "Cho Aniki Zero (USA) (PSN).iso"
@@ -650,9 +621,6 @@
     "7e132f728e1fa60a9e63ac6af67aca4a": "Disgaea 2 - Dark Hero Days (Europe).iso"
   },
   "3618": {
-    "15e37fb594c2dfe85b8b7ba3b7e565bd": "Crash Bandicoot Fusion (Europe) (En,Fr,De,Es,It).gba\tgba-htgdb",
-    "24ef180602e0658bbe38fabc5d09894c": "Crash Bandicoot Purple - Ripto's Rampage (USA) (Rev 1).gba\tgba-htgdb",
-    "a9c93a07964aa816a8e226ae0c735a41": "Crash Bandicoot Purple - Ripto's Rampage (USA).gba\tgba-htgdb-revisions",
     "d62a474cc5635bb4b9e8604eae677444": "Crash Bandicoot Fusion (E) (M5) [f_5][T+Rus_Pirate].gba\tgba-dominater01-translation-russian"
   },
   "3636": {
@@ -879,9 +847,6 @@
   "4004": {
     "477796bd4d04ac24ba0e53a0c9af4e6a": "Metal Slug XX (Europe) (En,Fr,De,Es,It).iso"
   },
-  "4050": {
-    "76bd3ac13808b1d6abea377815b10adb": "ChuChu Rocket! (USA) (En,Ja,Fr,De,Es).gba\tgba-htgdb"
-  },
   "4111": {
     "261ec744fcf7a4eb5a6025c48c0538a3": "Monster Max (1997)(Titus)(EU)(M6).gb\tNintendo Game Boy - Games (TOSEC-v2024-01-15)"
   },
@@ -892,9 +857,7 @@
     "413e1acd7847d628364163eb2c97cecd": "Driver - You Are the Wheelman (2000)(Infogrames)(US).bin\tNintendo Game Boy Color - Games - [GBC] (TOSEC-v2024-01-15)"
   },
   "4205": {
-    "0cb99d064f970b580a8f0c1b87bd643b": "Spyro Orange - The Cortex Conspiracy (USA) (Rev 1).gba\tgba-htgdb",
-    "44faf5ba9c3025ad59f53e82c8243631": "Spyro Fusion (Europe) (En,Fr,De,Es,It).gba\tgba-htgdb",
-    "6a496546576101291a97a93846f0d9dd": "Spyro Orange - The Cortex Conspiracy (USA).gba\tgba-htgdb-revisions"
+    "44faf5ba9c3025ad59f53e82c8243631": "Spyro Fusion (Europe) (En,Fr,De,Es,It).gba\tgba-htgdb"
   },
   "4276": {
     "952ad745fb759b48bfa73a04ec37bb71": "Gemfire (1992-11)(Koei)(US).bin\tSega Mega Drive & Genesis - Games - [BIN] (TOSEC-v2024-01-15)"
@@ -960,9 +923,6 @@
     "227444a8cc81dc579ba4fb76c9cb8b46": "Dogz (2000-01-01)(Mindscape)(EU).gbc\tNintendo Game Boy Color - Games - [GBC] (TOSEC-v2024-01-15)",
     "4040e7a81ee393909429f0bfcbeb1e47": "Dogz (1999-12-01)(Mindscape)(US).gbc\tNintendo Game Boy Color - Games - [GBC] (TOSEC-v2024-01-15)"
   },
-  "4991": {
-    "842f50e8321d16d33566839d76635448": "Goemon - New Age Shutsudou! (Japan).gba\tgba-htgdb"
-  },
   "5007": {
     "e71b45bbbe488cc268ef4cfceb92284a": "Nintendo e-Reader [Mario Party-e]"
   },
@@ -972,9 +932,6 @@
   "5056": {
     "2b3beefd56b02bf65b9d4745097b58d4": "Tales of Innocence"
   },
-  "5079": {
-    "9bb9e68ca6d9a2f0c4bc9052321fbee8": "One Piece - Going Baseball - Kaizoku Yakyuu (Japan).gba\tgba-htgdb"
-  },
   "5133": {
     "dd1fa7bae0dfc92295dde04458604fd3": "Resident Evil Gaiden [T+Rus_TagTeam].gbc\tgbc-yoriyoshizuki"
   },
@@ -983,10 +940,6 @@
   },
   "5334": {
     "c9a1f0543dd127e9e169f84ed5b04c0a": "Fishing King Adventure - Kite's Adventure (Japan) (Rumble Version) [T-En by Robert Goodwin v2.0] [n].gbc\tgbc-t-en"
-  },
-  "5344": {
-    "5a45ae003854f9aa9c91b8e12fcf3e8b": "Monopoly (Europe) (En,Fr,De,Es).gba\tgba-htgdb",
-    "ce55f087d1ed4ab12a5bad411dae1113": "Monopoly (USA).gba\tgba-htgdb"
   },
   "5360": {
     "5570869cfdb29a4244527df0c76d0e68": "Angry Birds (USA) (v2) (minis) (PSN).iso"
@@ -999,13 +952,6 @@
   },
   "5404": {
     "7d18357b73109df6c37fecac69f97a91": "Phantasy Star Online Episode I & II Plus (USA) (En,Ja,Fr,De,Es) (Rev 2)"
-  },
-  "5504": {
-    "ec5ab7a3224ac61106d1fe5b27c745e7": "Makeruna! Makendou 2 - Kimero! Youkai Souridaijin (J).sfc"
-  },
-  "5535": {
-    "03beecd053b2ddf56341a6a981c561fc": "Crash Bandicoot 2 - N-Tranced (Europe) (En,Fr,De,Es,It,Nl).gba\tgba-htgdb",
-    "617b2b2590e2925228dbdb162b05d6f6": "Crash Bandicoot 2 - N-Tranced (USA).gba\tgba-htgdb"
   },
   "5552": {
     "d1e174606ac4404499087626e8b60a7d": "~Hack~ Pokémon Sweet Version"
@@ -1079,10 +1025,6 @@
     "0124c4f76f309a319f96f0b3e2b1c5e2": "Dracula - Undead Awakening (Europe) (minis) (PSN).iso",
     "ba5d2f156bd613f656a10b5da5c27fa6": "Dracula - Undead Awakening (USA) (minis) (PSN).iso",
     "2716bed96506f13e18ef327ad3b4dc4b": "Dracula - Undead Awakening (USA) (minis) (PSN).iso"
-  },
-  "6141": {
-    "e2403303923bf63cd48c4b32e918b246": "Crash of the Titans (Europe) (En,Fr,De,Es,It,Nl).gba\tgba-htgdb",
-    "fdef312709444d6d901b8b7c619f5913": "Crash of the Titans (USA) (En,Fr).gba\tgba-htgdb"
   },
   "6151": {
     "d7544314991d30de0c20edc29806270a": "Kirby Air Ride (USA)",
@@ -1158,10 +1100,6 @@
   "6870": {
     "7d980856f5f09b295fa3278645cf229f": "Resident Evil 3 - Nemesis (USA)"
   },
-  "6876": {
-    "c6926d0bbbdbed3372e6fc01c81cd52b": "Kao the Kangaroo (USA) (En,Fr,De,Es,It,Nl).gba\tgba-htgdb",
-    "f9d25044142e0492f09c5e60a8da0509": "Kao the Kangaroo (Europe) (En,Fr,De,Es,It,Nl).gba\tgba-htgdb"
-  },
   "6915": {
     "9332e566f4caaf324353a2832b4dbc58": "Spider-Man (USA)"
   },
@@ -1199,12 +1137,6 @@
     "c375d1851733931a688572ea39a45a6d": "Battalion Wars (USA)",
     "a30cea2acf030fa8216f59b4f877847e": "Battalion Wars (Europe) (En,Fr,De,Es,It)"
   },
-  "7099": {
-    "634c9f8f862ef0c5d3c7702db2fb252b": "Cinnamon Game Series 3 - Fuwafuwa Daisakusen (Japan).gba\tgba-htgdb"
-  },
-  "7100": {
-    "6c923128bbe3baf6b242f58b8b1e4154": "Cinnamon Game Series 2 - Yume no Daibouken (Japan).gba\tgba-htgdb"
-  },
   "7113": {
     "dd42711dcdd3a82466d6f8542439fa3c": "Tiny Tank (USA)"
   },
@@ -1233,16 +1165,8 @@
   "7297": {
     "340d4314e654e05fa9a4705181799096": "Office Combat (2021-09-29)(Doman, Robert).gbc\tNintendo Game Boy Color - Homebrew - Games (TOSEC-v2024-01-15)"
   },
-  "7306": {
-    "25ead20d8d3cfedb35393740b3a36b74": "Kotoba no Puzzle - Mojipittan Advance (Japan).gba\tgba-htgdb",
-    "9fee0cf88cb21f2009636b0581a3a502": "Kotoba no Puzzle - Mojipittan Advance (Japan) (Virtual Console).gba\tgba-htgdb-virtualconsole"
-  },
   "7352": {
     "5fb42111dad880fb6835fcb134ff99c1": "Brush Roller (1990)(Hwang Shinwei)(AS).nes"
-  },
-  "7374": {
-    "5ea3eec1d71c05f46321ce090ca791ee": "Hot Wheels - Velocity X (USA).gba\tgba-htgdb",
-    "b19314e2b31266364a7a12d9d4b00b85": "Hot Wheels - Velocity X (Europe).gba\tgba-htgdb"
   },
   "7379": {
     "1807ac766310c0e705ca7442ba9012fa": "Dial Q o Mawase! (199x)(-)(JP)[p].bin\tSega Mega Drive & Genesis - Games - [BIN] (TOSEC-v2024-01-15)"
@@ -1258,9 +1182,6 @@
   },
   "7429": {
     "5e8640fe337d71d09523b0c3a14f7f0f": "Steamgear Mash (Japan) (2M)"
-  },
-  "7451": {
-    "00fc773fff582dc53604a7229f64e82f": "bit Generations - Dotstream (Japan) (En).gba\tgba-htgdb"
   },
   "7528": {
     "b822f7fcaa99bcabbf85926211e676a2": "Shanghai II (1990-08-24)(Sunsoft)(JP).nes"
@@ -1283,18 +1204,11 @@
   "7693": {
     "adad8934d2586d27ec4b653bae52e47b": "Mario Kart - Double Dash!! (USA)"
   },
-  "7698": {
-    "45e6e3088c5c9006175aaf045e8795e8": "SpongeBob SquarePants - Creature from the Krusty Krab (USA).gba\tgba-htgdb",
-    "7f22c443ec71a696d84ae46a9fe61980": "SpongeBob SquarePants - Creature from the Krusty Krab (Europe) (En,Fr,De,Es,It,Nl,Sv,Da).gba\tgba-htgdb"
-  },
   "7720": {
     "a74aa804a3a6439303583e6c0b413b00": "ZAS (1992)(T&E)(JP)(en).gb\tNintendo Game Boy - Games (TOSEC-v2024-01-15)"
   },
   "7748": {
     "64fa89b64514a71651c1b8dc629ba8f3": "Knockout Kings (USA, Europe).gbc\tgbc-htgdb"
-  },
-  "7751": {
-    "509e3a1fe6284a75c84315a64bd33f43": "Tom Clancy's Rainbow Six - Rogue Spear (USA) (En,Fr,De,Es,It).gba\tgba-htgdb"
   },
   "7777": {
     "ca3de8aabeb4f204b09087ae8d533564": "Killer7 (USA) (Disc 1) (Rev 1)",
@@ -1319,10 +1233,6 @@
   "8158": {
     "0f6705646dffb40fc6bfbcccfe7ae615": "Shadow Brain (1991-03-21)(Pony Canyon)(JP).nes",
     "1e36c4dda7799249724163009fce6092": "Shadow Brain (Japan) [T-En by Aishsha & Stardust Crusaders v1.0].nes\tDominater01 - Translations - English"
-  },
-  "8162": {
-    "93c6a92b841b2f3cad5cdc4e62112e61": "GT Advance 2 - Rally Racing (Europe).gba\tgba-htgdb",
-    "c0b296efea186b82f921cf0e9a6a6ef4": "GT Advance 2 - Rally Racing (USA).gba\tgba-htgdb"
   },
   "8220": {
     "de95d425f6a2836960f4ee2a9aa2f6f7": "Little Master (1991)(Zener Works)(JP).gb\tNintendo Game Boy - Games (TOSEC-v2024-01-15)",
@@ -1354,9 +1264,6 @@
   "8577": {
     "92c480e1e106d8b681e3c8e611b52e62": "Harvest Moon - Magical Melody (USA)"
   },
-  "8587": {
-    "9b72e0259be5e4adddd2fed212c9fde7": "Turbo Turtle Adventure (USA).gba\tgba-htgdb"
-  },
   "8737": {
     "186a5441980125aba8ed852da123adc9": "Esper Dream T+Eng v1 Mute.fds\tHTGDB\\3 Translations\\",
     "6b6cf238668429511a027b1739403975": "Esper Dream (Japan) (Rev 1) (Disk Writer).fds\tNo-Intro\\FDS (Headerless)\\"
@@ -1375,13 +1282,6 @@
   },
   "8998": {
     "0c7ac50df40b2c60ae8c1b7fb42dc3c6": "Widget's Odyssey (Europe) (minis) (PSN).iso"
-  },
-  "9051": {
-    "8e4687980914d70581c376f084ed8e06": "Tweety and the Magic Gems (Europe).gba\tgba-htgdb",
-    "0ea86808a1e0201968357e8b9bf282e8": "Tweety no Hearty Party (Japan).gba\tgba-htgdb"
-  },
-  "9088": {
-    "5cbca58a164385a5b256fff5c27b7f38": "Ty the Tasmanian Tiger 3 - Night of the Quinkan (USA).gba\tgba-htgdb"
   },
   "9138": {
     "17018d645592852a74e5ad965388f94e": "Lunar Ball (1985)(Pony Canyon).d88"
@@ -1405,11 +1305,7 @@
     "6774580db542b838eff5a155128b7413": "X-Men - Mutant Academy (USA, Europe) (Rev A).gbc\tgbc-yoriyoshizuki"
   },
   "9205": {
-    "25b2d758e9abc435441414aab6d43431": "Shin Megami Tensei (Japan).gba\tgba-htgdb",
     "5cfd19f0fdd9912bc0e1163235d9951c": "Shin Megami Tensei (Japan) [T-En by Gymzatan v1.3b] [iOS Localized].gba\tgba-t-en"
-  },
-  "9295": {
-    "fa70bac809f1801f26472a023330e1dc": "Hi Hi Puffy AmiYumi - Kaznapped! (Europe) (En,De).gba\tgba-htgdb"
   },
   "9331": {
     "5174f0efdb27136a8d2df79e8b932219": "Butano Fighter (2020-11-09)(GValiente).gba\tNintendo Game Boy Advance - Homebrew - Games (TOSEC-v2024-01-15)"
@@ -1457,9 +1353,6 @@
   },
   "9722": {
     "ec39462e39e3cbcabe03667fabf12d5a": "Sabrina - The Animated Series - Zapped! (USA, Europe).gbc\tgbc-htgdb"
-  },
-  "9746": {
-    "123978146274e2c7711209aba22ee244": "Over the Hedge (USA).gba\tgba-htgdb"
   },
   "9860": {
     "3187d09f0cb7945cae4373264a9e57a1": "Battle Hunter (USA)"
@@ -1542,9 +1435,6 @@
   },
   "10754": {
     "4f145d617b9191cbc0e005786ca993f6": "Air Rescue (1992)(Sega).bin\tSega Mark III & Master System - Games (TOSEC-v2024-01-15)"
-  },
-  "10775": {
-    "c45cde25dc1427df5896ae5ed8959fa0": "Hamepane - Tokyo Mew Mew (Japan).gba\tgba-htgdb"
   },
   "10814": {
     "c32c95222ce705c0c93732a8922f7453": "Running Battle (1991)(Sega).bin\tSega Mark III & Master System - Games (TOSEC-v2024-01-15)"
@@ -1821,9 +1711,6 @@
   "12885": {
     "2af81cfb285abafc46602f6475a79254": "~Hack~ SMW2+"
   },
-  "12958": {
-    "a202eea1b2801421714260d5e02a7492": "Micro Machines (Europe) (En,Fr,De,Es,It).gba\tgba-htgdb"
-  },
   "13030": {
     "3c57748c8286cf9e821ecd064f21aaa9": "Millipede (1984) (Atari, Jerome Domurat, Andrew Fuchs, Dave Staugas, Robert Vieira) (CX26118) ~.bin\tatari2600-romhunter"
   },
@@ -1910,7 +1797,6 @@
     "b8288592592e960d7b505943491db7dc": "The Castle.d88"
   },
   "13941": {
-    "27ebadff2f3b46ae0bf7a198b5f29952": "Magi Nation (Japan).gba\tgba-htgdb",
     "b8f3af7574032f9e480f401efd7b9a5c": "Magi Nation"
   },
   "13979": {
@@ -2120,9 +2006,6 @@
   },
   "15466": {
     "b7df62fa908d4b5deae80e4c4121e48d": "From TV Animation One Piece - Grand Battle! 2 (Japan)"
-  },
-  "15470": {
-    "064b4a2a29134a638f4d38f3c3fd4b98": "Naruto RPG - Uketsugareshi Hi no Ishi (Japan) (Rev 1).gba\tgba-htgdb"
   },
   "15481": {
     "14daa039d514f34708e6ebe7c03424a8": "Naruto RPG 2: Chidori vs Rasengan",
@@ -2439,12 +2322,6 @@
     "5c0baf421d5df433c247d10f0f2c95c8": "King's Quest III - To Heir is Human (1987)(Sierra On-Line)(IIE)(US)(Disk 4 of 5 Side B)[128K].woz\tApple II - TOSEC - Games",
     "657acdea6b385143eb1591934ac5ff33": "King's Quest III - To Heir is Human (1987)(Sierra On-Line)(IIE)(US)(Disk 5 of 5 Side A)[128K].woz\tApple II - TOSEC - Games",
     "8779df142b46cae6837a6536a109c444": "King's Quest III - To Heir is Human (1987)(Sierra On-Line)(IIE)(US)(Disk 5 of 5 Side B)[128K].woz\tApple II - TOSEC - Games"
-  },
-  "17937": {
-    "646d795f3244d780f32cb27f34daa7c8": "Dharma Doujou (J).sfc"
-  },
-  "17956": {
-    "90bd580db8b208798013b373bf1425a6": "Dottie - Dreads Nought (World) (v1.1) (Aftermarket) (Unl).sfc\tnointro 2025-01-22\tnintendo-snes"
   },
   "17976": {
     "8e74b73643e7fbbd8e6e5a816411b91a": "Monster Hunter Portable 3rd",
@@ -2974,9 +2851,6 @@
     "744dcc72a0396faf3ccb243a85f18dd7": "Sprung - The Dating Game (Europe).nds\tnointro 2024-09-01\tnintendo-nds",
     "96bf8e04217075084637ce82976ca3e6": "Sprung - A Game Where Everyone Scores (USA).nds\tnointro 2024-09-01\tnintendo-nds"
   },
-  "20424": {
-    "279af1b9d55efdcea19593a42f8ce23d": "Ms. Pac-Man - Maze Madness (USA).gba\tgba-htgdb"
-  },
   "20453": {
     "a132cba22af8ef2775d15315eefdf1cd": "Time Crisis 3"
   },
@@ -3298,17 +3172,10 @@
   "22906": {
     "9800e224cc9a69c83a59874bb46d30c5": "Ratchet & Clank 3 - Totsugeki! Galactic Rangers (Japan)"
   },
-  "23001": {
-    "bd9dbcd497764d2bd56992c698351d63": "Jungle no Ouja Tar-chan - Sekai Manyuu Daikakutou no Maki (J) [!].sfc"
-  },
-  "23024": {
-    "afcbfae9eadc31880b3216ac1519c7af": "Battle Blaze (U) [!].sfc"
-  },
   "23049": {
     "32bcdc6668a7e2bf0fb1c701fccc367f": "~Hack~ Super Koopa RPG: Here Comes the Koopa Bros.!"
   },
   "23290": {
-    "ffea48a0ac3c62e43ddcaad47c690537": "Kouryuu Densetsu Villgust - Kieta Shoujo (J) [!].sfc",
     "4f1e1e9b1ba5a07b747db8087bb8b95c": "Kouryuu Densetsu Villgust - Kieta Shoujo (Japan) [T-En by Dynamic Designs v1.01].sfc"
   },
   "23703": {
@@ -3384,9 +3251,6 @@
   },
   "24192": {
     "dbc84948d30a659e3abf4e083805da53": "Steel Dragon EX"
-  },
-  "24331": {
-    "c3d670914b052c6e7fafc5649b725afd": "Mooncat's Trio (World) (Aftermarket) (Unl).gba\tnointro 2025-01-22\tnintendo-gba"
   },
   "24395": {
     "6274e432cf34c2164e9ffe997ffa14c8": "Azumanga Daioh: Puzzle Bobble"
@@ -4001,24 +3865,6 @@
   },
   "29211": {
     "911fba77cced5ebad1a99794eb04fa49": "Coaster Works (USA)"
-  },
-  "29225": {
-    "6519cd2a2a4a4b35104502c3243279b2": "EZ-Talk - Shokyuu Hen 1 (Japan).gba\tgba-htgdb"
-  },
-  "29226": {
-    "371e238e0398877bd758cc4cd4499ad0": "EZ-Talk - Shokyuu Hen 2 (Japan).gba\tgba-htgdb"
-  },
-  "29227": {
-    "a581264601cbd608bd19922de4dc871e": "EZ-Talk - Shokyuu Hen 3 (Japan).gba\tgba-htgdb"
-  },
-  "29228": {
-    "e03754f31d720daeb5c6968c23647882": "EZ-Talk - Shokyuu Hen 4 (Japan).gba\tgba-htgdb"
-  },
-  "29229": {
-    "0ec6477593e4c9273b91676e464488f6": "EZ-Talk - Shokyuu Hen 5 (Japan).gba\tgba-htgdb"
-  },
-  "29230": {
-    "b51533d78e10faa7d17774adbbb03f44": "EZ-Talk - Shokyuu Hen 6 (Japan).gba\tgba-htgdb"
   },
   "29328": {
     "d2425dd3e6b2110a928cc21b27ea7333": "Resident Evil (USA)",
@@ -4785,4 +4631,4 @@
   "32952": {
     "4ea83a19867a3e32749b1c9d898583ca": "~Homebrew~ Mazy Mini"
   }
-  }
+}
