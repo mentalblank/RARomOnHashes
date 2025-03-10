@@ -9,7 +9,7 @@ function countIdsAndMd5(filePath) {
     const jsonData = JSON.parse(data);
 
     const countIds = Object.keys(jsonData).length;
-    console.log(`Number of IDs in ${filePath}: ${countIds}`);
+    //console.log(`Number of IDs in ${filePath}: ${countIds}`);
 
     let md5Count = 0;
     Object.values(jsonData).forEach(value => {
