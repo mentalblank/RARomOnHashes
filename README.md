@@ -1,12 +1,10 @@
-### TamperMonkey script to add download links to RetroAchievements.org's "Supported Game Files" pages
+### Download links on RetroAchievements.org's "Supported Game Files" pages - TamperMonkey Script
 ![Screenshot](https://i.imgur.com/O9ad6mm.png)
 
-### Status:
+### Linked Hash Status:
 (Based on data obtained Mar. 10 2025)
-- **Linked Games:** 8527
-- **Linked Hashes:** 13182
-- **Missing Games:** 1403
-- **Missing Hashes:** 1981
+- **Linked Hashes:** 13204
+- **Missing Hashes:** 1958
 
 ### Disclaimer:
 - **Please respect RA.org's policies and do not post links to ROMs on their website or Discord.**
@@ -36,6 +34,7 @@ There are 3 versions of the script to download (Only use one at a time):
 ### Installation Instructions for Tampermonkey:
 
 1. **Install Tampermonkey** (if you don't already have it) (or ViolentMonkey):
+   - **FAQ:** [TamperMonkey FAQ](https://www.tampermonkey.net/faq.php#Q102)
    - **For Chrome:** [Tampermonkey Chrome Extension](https://tampermonkey.net/?ext=dhdg&browser=chrome)
    - **For Firefox:** [Tampermonkey Firefox Add-on](https://tampermonkey.net/?ext=dhdg&browser=firefox)
    - **For Safari:** [Tampermonkey Safari Extension](https://tampermonkey.net/?ext=dhdg&browser=safari)
