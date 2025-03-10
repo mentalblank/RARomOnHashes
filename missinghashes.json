@@ -1088,7 +1088,7 @@
     "d38a3d49467f2271f8106ba340fc5b56": "Pokemon Colosseum (USA)"
   },
   "7429": {
-    "5e8640fe337d71d09523b0c3a14f7f0f": "Steamgear Mash (Japan) (2M)"
+    "5E8640FE337D71D09523B0C3A14F7F0F": "Steamgear Mash (Japan) (1M)/redump"
   },
   "7528": {
     "b822f7fcaa99bcabbf85926211e676a2": "Shanghai II (1990-08-24)(Sunsoft)(JP).nes"
@@ -4730,14 +4730,28 @@
   "7210": {
     "D1E875CB7DAC0092E83B9E7799B06653": "Star Wars Episode I - Racer (USA, Europe) (Rumble Version).gbc/nointro"
   },
-  "7429": {
-    "5E8640FE337D71D09523B0C3A14F7F0F": "Steamgear Mash (Japan) (1M)/redump"
-  },
   "9100": {
     "604A763E3B0DFE480EEEE79D1C33559C": "EA Playground (USA) (En,Fr,De,Es,It).nds/nointro",
     "6DE14A589C98A77717D3C720E556650E": "EA Playground (Europe) (En,Fr,De,Es,It).nds/nointro"
   },
   "9752": {
     "1D17A2DFEBC15F1D4AEAF2F3F2D6B092": "Children of Mana (Europe) (En,Fr,De,Es,It).nds/nointro"
+  },
+  "16143": {
+    "521dee8107ef14ffc0e0b3795207d9fd": "Digimon Adventure 02 - Tag Tamers (Japan) (En) (v1.4.5) (USC).ws/nointro/https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/WonderSwan/Translation/English/16143-DigimonAdventure02-TagTamers-English.zip"
+  },
+  "16772": {
+    "f5939c72ccd4e965e1b7df3bf4702992": "SMW - Crown Tale, The (En) (v1.33) (bandicoot).sfc/nointro/https://github.com/RetroAchievements/RAPatches/raw/main/SNES/Hacks/Super%20Mario%20World/16772-SMW-TheCrownTale.zip",
+    "bc345d04b4db36c71f0fb290f97dda6d": "SMW - Crown Tale, The (Pt) (v1.33) (bandicoot).sfc/nointro/https://github.com/RetroAchievements/RAPatches/raw/main/SNES/Hacks/Super%20Mario%20World/16772-SMW-TheCrownTale.zip"
+  },
+  "1330": {
+    "c216626a7e4896e81f49a4b1f5f760ca": "SMW - Waterworld (v1.0) (BabaYegha).sfc/nointro/https://github.com/RetroAchievements/RAPatches/raw/main/SNES/Hacks/Super%20Mario%20World/1330-SMW-Waterworld.zip",
+    "f36c28a59da756230d2d2d26ab890a73": "WaterWorld"
+  },
+  "33050": {
+    "c700d31347e1a7b487a3b500e0f8df4a": "Pokemon Snap (USA) [Subset - Perfect Picture] (v1.0 by KiwiTaco)"
+  },
+  "23777": {
+    "bab2d1c54921bded4b03875bc90b2569": "Arduboy/Kemono Patrol (World) (Erwin's Collection).hex"
   }
 }
