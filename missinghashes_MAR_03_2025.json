@@ -12,69 +12,25 @@
   "341": {
     "f34746ef44744f313f775876ad42a53b": "Final Fantasy III (U) (V1.1) [T+Ger1.40OldFont_ManuLoewe].smc\tdominater01 - Translations - German",
     "2cba753e115a60ec20b2b4ef52ff7a1e": "Final Fantasy III (U) (V1.1) [T+Ger1.40NewFont_ManuLoewe].smc\tdominater01 - Translations - German",
-    "cfb6a52d31d0bc37cc8543966248cb8f": "Final Fantasy VI",
-    "11aa974b516f7013362cc9e5268b07f4": "Final Fantasy VI"
-  },
-  "348": {
-    "99c3b215e69ebfc91372282749e35b76": "JoJo's Bizarre Adventure (USA)"
-  },
-  "364": {
-    "9aae68de710d38e2d2e4536640a6c0a3": "Ultimate Fighting Championship (USA)"
-  },
-  "417": {
-    "4587317a6c91b4c62a2fb1da67c65d36": "Super Black Bass 2 (J).sfc"
-  },
-  "437": {
-    "0fc1dd2c3ac2ec5baed77b3a32590ba4": "Blazeon (U) [!].sfc"
+    "cfb6a52d31d0bc37cc8543966248cb8f": "Final Fantasy VI (TWUE) (v3.06a) (Rodimus Primal).sfc \t nointro \t rapatches",
+    "11aa974b516f7013362cc9e5268b07f4": "Final Fantasy VI (TWUE, Bug Fixes, Updated Opera, Add Ons) (v3.06a) (Rodimus Primal).sfc \t nointro \t rapatches"
   },
   "450": {
     "a9efc9834c84eff40e1f7b771c6d5a7b": "Breath_of_Fire_II[T+RUS_Dreamy_Owl].sfc\tdominater01 - Unofficial Translations - Russian",
-    "bec5c898cf36639ff22f121768424efd": "Breath of Fire II"
+    "bec5c898cf36639ff22f121768424efd": "Breath of Fire II (USA) (PT-BR) (v1.00) (Dindo).sfc \t nointro \t rapatches"
   },
   "510": {
-    "0a0e22c53235394ad0dc70bc2a8ab142": "Castlevania: Aria of Sorrow",
-    "f37d9e501e142f1106c672d6bb0461f8": "Castlevania: Aria of Sorrow"
-  },
-  "699": {
-    "0d24eeff28040ff2a8f63de5bc8cbea2": "Earthworm Jim (1995)(Eurocom)(US).gb\tNintendo Game Boy - Games (TOSEC-v2024-01-15)"
+    "0a0e22c53235394ad0dc70bc2a8ab142": "Castlevania - Aria of Sorrow (USA) (Recolor) (v1.2) (JonataGuitar).gba \t nointro \t rapatches",
+    "f37d9e501e142f1106c672d6bb0461f8": "Castlevania - Aria of Sorrow (USA) (Symphony of the Colors) (v1.0) (JonataGuitar).gba \t nointro \t rapatches"
   },
   "701": {
-    "e7af45fbb8cba8a3bf049eec038452d8": "Arcade Classic No. 3: Galaga & Galaxian"
+    "e7af45fbb8cba8a3bf049eec038452d8": "Arcade Classic No. 3 - Galaga & Galaxian (DX) (v1.1) (MojoDodo).gb \t nointro \t rapatches"
   },
   "753": {
-    "b0108e96c8394e017587c0b83eb502e2": "Dragon Ball GT: Transformation"
-  },
-  "775": {
-    "68817204a691449e655cba739dbb0165": "Mega Man Battle Network 3 - White Version (USA).gba\tgba-htgdb"
-  },
-  "777": {
-    "d0dee5c06972cb072391cd968a248d52": "Mega Man Battle Network 4 - Red Sun (USA).gba\tgba-htgdb"
-  },
-  "797": {
-    "2649557b233d5f700d09f61429e51419": "Buttsubushi (Japan)",
-    "0b5976144c574c7a53d0ec21d313b805": "Buttsubushi (Europe, Australia)"
-  },
-  "858": {
-    "40b89fa020786f323ab5a36dde4686eb": "Claymates (1993)(Interplay)(US).bin"
+    "b0108e96c8394e017587c0b83eb502e2": "Dragon Ball GT - Transformation (USA) (Anti-Cheat) (manakoDE).gba \t nointro \t rapatches"
   },
   "881": {
     "d84a416783c094a5985c5163519718a5": "Dragon View (World) (Evercade).sfc\tnointro 2025-01-22\tnintendo-snes"
-  },
-  "971": {
-    "ff42b93f32c7921a88ef46fdf79a8445": "Jurassic Park Rev 1 (1993)(Ocean)(US).bin",
-    "c0c7e365d54ca41cf619908449ed069c": "Jurassic Park (1993)(Ocean)(FR).bin"
-  },
-  "1005": {
-    "8607561b2d3175b949ebd899aa12052b": "Lufia (1996)(Taito)(DE).bin"
-  },
-  "1028": {
-    "67e33db27253c90fe9edb9c5cfec9de9": "Mickey's Playtown Adventure - A Day of Discovery! (1994)(Hi Tech)(US)(beta).bin"
-  },
-  "1095": {
-    "6261db3e834e245f99fb2072fc97fde7": "Phalanx - The Enforce Fighter A-144 (U) [!].sfc"
-  },
-  "1239": {
-    "5e3c3c232fdb344e36ddf2c2dac16397": "Gauntlet Legends (USA)"
   },
   "1324": {
     "f9690d679ed894344529bb80568d3c59": "Silent Hill 2"
@@ -4630,5 +4586,207 @@
   },
   "32952": {
     "4ea83a19867a3e32749b1c9d898583ca": "~Homebrew~ Mazy Mini"
+  },
+  "10400": {
+    "84E7650F632437116022AC181EF28510": "Ultraman Club - Kaijuu Daikessen!! (Japan).nes/nointro"
+  },
+  "11206": {
+    "DCCB2ADEC6B97AC35614414A427ABDBB": "Barbie - Pet Rescue (Europe) (En,Fr,De,Es,It).gbc/nointro"
+  },
+  "11490": {
+    "87DFF4F4D5E1E4A7132D19F94D4E9B3A": "Bill & Ted's Excellent Adventure (USA, Europe).lnx/nointro"
+  },
+  "13523": {
+    "5D83FBFF2C6E938A41CB74F42F0C5EFC": "abscam.7z <Abscam>/fbneo"
+  },
+  "1383": {
+    "57EE0CB754638C08E6A432060D4ABE63": "Chrono Trigger - Flames of Eternity (Final) (Giro, Cubear).sfc/nointro",
+    "A5DB4D8C8FBDC278CCF28419BD46A90E": "Chrono Trigger - Flames of Eternity (vRC7D) (Giro).sfc/nointro,rapatches,PatchUrl:https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Chrono%20Trigger/1383-CT-FlamesofEternity.zip"
+  },
+  "14046": {
+    "F511FE9F37F1D686C2F8965DA9CFA47A": "Gensei Kyokou Seirei Kidoudan - Elemental Gearbolt (Japan)/redump"
+  },
+  "14381": {
+    "25D1F48B3010F133D32C89C9C7B2E534": "Trap Gunner (USA)/redump"
+  },
+  "14812": {
+    "7158CB3A10E6AAE63A5A71982DA31527": "Mario & Sonic at the Olympic Games (Europe) (En,Fr,De,Es,It).nds/nointro"
+  },
+  "15061": {
+    "B1B4B52FC0E199CDD532B74BA21A329A": "drivfrcp.7z <Driving Force (Pac-Man conversion)>/fbneo"
+  },
+  "16089": {
+    "0CA36ED6F60BD296619BE20A1EA046F7": "Medarot 3 - Kabuto Version (Japan) (En) (20250225) (Cash Medal Chameleon)/nointro,rhdn",
+    "66039FFD2BD4EC27B8DD43C3EE0B7B7C": "Medarot 3 - Kabuto Version (Japan) (En) (v1.0) (Cash Medal Chameleon)/nointro,rhdn",
+    "CBC55F3BB98F8C0443917AE477E56E51": "Medarot 3 - Kabuto Version (Japan).gbc/nointro"
+  },
+  "16090": {
+    "B378D40A74B79CFCC58984534C4CA25A": "Medarot 3 - Kuwagata Version (Japan) (En) (20250225) (Cash Medal Chameleon)/nointro,rhdn",
+    "DABFBDC9ABA5F2EDC21F884C52881E0D": "Medarot 3 - Kuwagata Version (Japan).gbc/nointro",
+    "DEBAAABE98CFCA4555B1F775D5EA35A2": "Medarot 3 - Kuwagata Version (Japan) (En) (v1.0) (Cash Medal Chameleon)/nointro,rhdn"
+  },
+  "16652": {
+    "D090C6E88C056B8A02359B7647026223": "Shrek Treasure Hunt (USA)/redump"
+  },
+  "17842": {
+    "97DF275B2EEA49D8F7220C32489AF6E5": "MKDS - Revolution Kart DS (Beta 2.1) (RoverNeko).nds/nointro"
+  },
+  "19038": {
+    "55260663F8326F0188EE891E831B6784": "Ar tonelico II - Melody of Metafalica (USA)/redump",
+    "DE3F215B8C1D69F0C66A81E641CF7ABB": "Ar tonelico II - Melody of Metafalica (USA) + Relocalization Project v1.0/redump"
+  },
+  "19342": {
+    "50CC09F64A5116B6578DE5DFAEDF505E": "Lara Croft Tomb Raider - The Angel of Darkness (USA)/redump"
+  },
+  "19905": {
+    "15D9830D98C1C66384EF378ACA48BB6D": "18 Card Games (Europe) (En,Fr,De,Es,Nl).nds/nointro"
+  },
+  "20537": {
+    "71F0495C7ED6F9C0A10478FEACB25643": "Namco X Capcom (Japan) (En) (Final) (TransGen)/redump,rapatches"
+  },
+  "20731": {
+    "CBC4769F8876A7ECA8AD1FAED47304EF": "FlatOut 2 (USA)/redump"
+  },
+  "20741": {
+    "032F33479E96692CB216B58975088EAA": "MS Saga - A New Dawn (USA)/redump"
+  },
+  "20751": {
+    "EF27F75C1A7DB9D4FEF71C93CF6A8771": "Disney's The Haunted Mansion (USA) (Anti-Cheat) (v1.0) (Raeyene)/redump,rapatches,PatchUrl:https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Fix/20751-HauntedMansion-AntiCheat.zip"
+  },
+  "20843": {
+    "053EF6F0E7AE7A8F93085E5AAB095D15": "Teenage Mutant Ninja Turtles 2 - Battle Nexus (USA)/redump",
+    "20D3F7DFB28895527EB2D4D4125207C0": "Teenage Mutant Ninja Turtles 2 - Battle Nexus (SLUS-20981) [EE628509]/elf"
+  },
+  "2198": {
+    "BC79775029222F94C91A92DA970431F4": "Legend of Zelda, The - Collector's Edition (Europe) (En,Fr,De,Es,It)/redump"
+  },
+  "22352": {
+    "1013F21E5385D3085139C1693FBAAD79": "Airport Mania - First Flight (Europe, Australia)/nointro"
+  },
+  "24618": {
+    "AA66D1E247D3C9D635F4DDEF09C7F9A9": "Pokemon Crazy Drummer (China) (En) (Aftermarket) (Unl).md/nointro"
+  },
+  "24694": {
+    "C18827BFD5BA0185702128E7F332C67C": "Dizzy - The Ultimate Cartoon Adventure (UK) (1988) [Original][b].dsk/cleancpc",
+    "C861F2C471BEABEDEB1AD86FFA62C616": "Dizzy - The Ultimate Cartoon Adventure (1987)(Codemasters).dsk/tosec"
+  },
+  "26911": {
+    "8C304722F73B9C91D3B68DB6EAAD690D": "Wall-E 2600 (Wall-E.bas) (2013.06.24 15.09)/nongood,homebrew"
+  },
+  "2726": {
+    "4CC5ACDBBC8BBB51FC0FB91B88DD6CE6": "Fatal Frame III - The Tormented (USA)/redump",
+    "B035CF7AB26C17D09E350CA45E94E0D6": "Project Zero 3 (Europe) (En,Fr,De,Es,It)/redump"
+  },
+  "27375": {
+    "55AE4AC7A1A97016FEC44AED9BAB0D42": "Disney Think Fast (USA)/redump"
+  },
+  "27462": {
+    "88F5AA28C7651767625844636C5A1190": "Mario Calculator (USA) (Rev 1)/nointro"
+  },
+  "27973": {
+    "C57FEFF6647E7E1303D05B53ECE9B4B2": "Over the Hedge (Europe).nds/nointro"
+  },
+  "28647": {
+    "7614C1185902826B252BF62FB7FE24C2": "Kinnikuman - Muscle Grand Prix 2 - Tokumori (Japan)/redump"
+  },
+  "2865": {
+    "325DE3E006DE9A0EFFBBED39CD2397F6": "SMW - A Plumber for All Seasons (WhiteYoshiEgg) (v2021-10-09).sfc/nointro,rapatches,PatchUrl:https://github.com/RetroAchievements/RAPatches/raw/main/SNES/Hacks/Super%20Mario%20World/2865-PlumberForAllSeasons.zip"
+  },
+  "29756": {
+    "6CFE4C52DDC5AFCA426889A210EB1E99": "Xstinger_supervision/"
+  },
+  "29939": {
+    "F8F57B1C5171A771B3987BE56EF9F0FF": "multiverse-2019/"
+  },
+  "30033": {
+    "9C0A4C071A15FE7B273AE586B39DDFD4": "FX Unit Yuki - The Henshin Engine (World) (Aftermarket) (Unl).md/nointro"
+  },
+  "30317": {
+    "494DC8045372440EB68A511AB592B010": "X-Men - Next Dimension (USA)/redump"
+  },
+  "30894": {
+    "FE5F3A1995CA8BB26C68B5F74360D798": "Pokemon Emerald - Seaglass (v3.0) (Nemo622).gba/"
+  },
+  "30906": {
+    "FEDA879C47A717AD736EBFB676B3B148": "SMW - Reverie (v1.0) (Fyre150, Abdu).sfc/nointro,rapatches,PatchUrl:https://github.com/RetroAchievements/RAPatches/raw/main/SNES/Hacks/Super%20Mario%20World/30906-SMW-Reverie.zip"
+  },
+  "31170": {
+    "34483432B92F565F4CED82A141119164": "Bentley Bear's Crystal Quest (World) (NTSC) (Aftermarket) (Unl).a78/nointro,homebrew"
+  },
+  "32135": {
+    "A7EC465D91433991D3AC63A8D0199E6B": "Kirby's Dream Course (USA) [Subset - 2P Courses].sfc/nointro,rapatches,PatchUrl:https://github.com/RetroAchievements/RAPatches/raw/main/SNES/Subset/32135-KirbysDreamCourse-Subset-2PCourses.zip"
+  },
+  "32659": {
+    "8DF3FACE1A4FAF62F1496BE2E4C7D22C": "FFVI - Final Fantasy VI Reimagined (v1.5) (DrakeyC).sfc/nointro"
+  },
+  "32801": {
+    "D94F736035E14939185FB9A8AF4012F8": "Shinobi-TTE-NGCD (1.0)/itchio",
+    "FAFAC288DB61100B8CE57086D3B5A6AB": "Shinobi-TTE-NGCD (1.1)/itchio"
+  },
+  "32806": {
+    "275397242777B3077D3734C4D5E968C1": "Red Dead Revolver (USA) (Beta) (SeniorRed Singleplayer) (v1.0) (ASolidSnack)/nointro,rapatches,PatchUrl:https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Cosmetic/32806-RDR0-SeniorRedSinglePlayer.zip",
+    "286690E373E89D91408387A4A68C6742": "Red Dead Revolver (USA) (Beta) (2002-01-15)/nointro,nonredump"
+  },
+  "32807": {
+    "FF2BF2B6DEC1348887FD958DD3751F33": "Sonic 2 - SNOLF (v0.5) (drmelon).md/nointro,rapatches,PatchUrl:https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/MD/Hacks/Sonic%20the%20Hedgehog%202/32807-Sonic2-SNOLF.zip"
+  },
+  "32823": {
+    "B93F53F5FB7931B4A973624F15188E50": "Gun.Smoke - Hell's Maw (v1.0) (Hexadigital).nes/nointro,rapatches,PatchUrl:https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/NES/Hacks/Gun.Smoke/32823-GunSmoke-HellsMaw.zip"
+  },
+  "32950": {
+    "2B13A9F9D7EED192405545DC3C347315": "Kirby's Dream Course [Subset - Hole In One]/nointro,rapatches,PatchUrl:https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Subset/32950-KirbysDreamCourse-Subset-HoleInOne.zip"
+  },
+  "33006": {
+    "223AC5717907037EF91778C354935902": "Pokemon - LeafGreen Version (Rev 1) [Subset - Professor Oak Challenge].gba/nointro,rapatches,PatchUrl:https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Subset/33006-PokemonLeafGreen-POC.zip"
+  },
+  "33033": {
+    "AC2645CDE71F89CAC25D2154748E2F4E": "Brooktown High (USA).iso/redump"
+  },
+  "33035": {
+    "3DF1173B3792F0C9D52ADE95A43B02C7": "SM64 - Box World (v1.1) (MorningStorm64).z64/nointro,rapatches,PatchUrl:https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/33035-SM64-BoxWorld.zip"
+  },
+  "33036": {
+    "42BC23E4E68DFBCDD3428771DCBB2861": "SM64 - Box World Greens (v1.0) (MorningStorm64).z64/nointro,rapatches,PatchUrl:https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/33036-SM64-BoxWorldGreens.zip"
+  },
+  "33038": {
+    "A6D7A4DCDB9751B6092CF81DE5301AEF": "GRAVITY - v1.01/"
+  },
+  "33043": {
+    "A8829E2820C2C06B3202A8A2E22B97DF": "ZAMN - The Terrifying Time Trials of Dr. Tongue (v1.0) (Zombie101,Stanley_Decker).sfc/nointro,rapatches,PatchUrl:https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Zombies%20Ate%20My%20Neighbors/33043-ZAMN-TTTToDT.zip"
+  },
+  "33047": {
+    "0E4343A0B76FC719CDF5D8F0B49A3B37": "Ookami to Koushinryou - Umi wo Wataru Kaze (English Translation)/",
+    "7A68886D7FC7AD919F81F1C1675A38F9": "Ookami to Koushinryou - Umi o Wataru Kaze (Japan).nds/nointro"
+  },
+  "33048": {
+    "BF657A4954CE7CA7B7164E5FB250DE67": "Untangle (World) (v0.1.1) (Mota Link).wasm/homebrew,lostlevel"
+  },
+  "33061": {
+    "C411EC2FED53FA14C1FDE93A8A975345": "KellyKangaroo_NTSC_0.6.bin/homebrew,itchio"
+  },
+  "3808": {
+    "0C1CC5369A31C988858A087598BAB9C3": "Super Off Road (USA).sfc/nointro",
+    "7F9FDAD2F596AD4B8ACE178AA588215B": "Super Off-Road (USA) (MSU-1) (Arcade Pack) (Relikk).sfc/nointro,msu1,PatchUrl:https://github.com/RetroAchievements/RAPatches/raw/main/SNES/MSU-1/3808-SuperOffRoad-MSU1.zip",
+    "8FD2D0B42286B001E3EA5E779426CCCF": "Super Off Road (Europe).sfc/nointro"
+  },
+  "6726": {
+    "4D606ACFB94B05E7F2853562642942DE": "Adventures of Lomax, The (USA)/redump"
+  },
+  "7125": {
+    "149073AFD1CF8AE83783143A166592F7": "Godzilla - The Series (Europe) (En,Fr,De) (GB Compatible).gbc/nointro",
+    "7B4345DAF8EBDA416A84C5932BF817EC": "Godzilla - The Series (USA) (En,Fr,De) (GB Compatible).gbc/nointro"
+  },
+  "7210": {
+    "D1E875CB7DAC0092E83B9E7799B06653": "Star Wars Episode I - Racer (USA, Europe) (Rumble Version).gbc/nointro"
+  },
+  "7429": {
+    "5E8640FE337D71D09523B0C3A14F7F0F": "Steamgear Mash (Japan) (1M)/redump"
+  },
+  "9100": {
+    "604A763E3B0DFE480EEEE79D1C33559C": "EA Playground (USA) (En,Fr,De,Es,It).nds/nointro",
+    "6DE14A589C98A77717D3C720E556650E": "EA Playground (Europe) (En,Fr,De,Es,It).nds/nointro"
+  },
+  "9752": {
+    "1D17A2DFEBC15F1D4AEAF2F3F2D6B092": "Children of Mana (Europe) (En,Fr,De,Es,It).nds/nointro"
   }
 }

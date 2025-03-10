@@ -1559,6 +1559,11 @@
       "F489AFC519749C0E5C8CF8A6B57E28DF": "https://archive.org/download/retroachievements_collection_v5/Dreamcast/Capcom vs. SNK 2 - Millionaire Fighting 2001/Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan).zip"
     }
   ],
+  "348": [
+    {
+      "99C3B215E69EBFC91372282749E35B76": "https://myrient.erista.me/files/Redump/Sega - Dreamcast/JoJo's Bizarre Adventure (USA).zip"
+    }
+  ],
   "349": [
     {
       "75AF3F1E3B16D725CAC258BFAFAAEA8A": "https://archive.org/download/retroachievements_collection_v5/Genesis-Mega Drive/Spider-Man & Venom - Maximum Carnage/Spider-Man and Venom - Maximum Carnage (W) [!].zip"
@@ -1625,6 +1630,11 @@
   "360": [
     {
       "6AE225F4D94D3017415714449246D2E1": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/2020 Super Baseball/2020 Super Baseball (U) [!].zip"
+    }
+  ],
+  "364": [
+    {
+      "9AAE68DE710D38E2D2E4536640A6C0A3": "https://myrient.erista.me/files/Redump/Sega - Dreamcast/Ultimate Fighting Championship (USA).zip"
     }
   ],
   "365": [
@@ -1837,7 +1847,8 @@
   ],
   "417": [
     {
-      "043CF610D2CF595329499A0FBB5CB459": "https://myrient.erista.me/files/No-Intro/Nintendo - Super Nintendo Entertainment System/Bassin's Black Bass (USA).zip"
+      "043CF610D2CF595329499A0FBB5CB459": "https://myrient.erista.me/files/No-Intro/Nintendo - Super Nintendo Entertainment System/Bassin's Black Bass (USA).zip",
+      "4587317A6C91B4C62A2FB1DA67C65D36": "https://myrient.erista.me/files/No-Intro/Nintendo - Super Nintendo Entertainment System/Super Black Bass 2 (Japan).zip"
     }
   ],
   "418": [
@@ -1911,6 +1922,11 @@
       "C9BE62563253854CBAFF00041E8E06C0": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Blackthorne/Blackthorne (U) [T+Spa2.0_DaRKWiZaRDX].zip",
       "E292260ABD6DAD2348975ACCECFB2395": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Blackthorne/Blackthorne (U) [T+Bra100%_Mr. Magoo].zip",
       "EE33097D436B4901A71F7E4C9A5CB409": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Blackthorne/Blackthorne (U) [!].zip"
+    }
+  ],
+  "437": [
+    {
+      "0FC1DD2C3AC2EC5BAED77B3A32590BA4": "https://myrient.erista.me/files/No-Intro/Nintendo - Super Nintendo Entertainment System/BlaZeon - The Bio-Cyborg Challenge (USA).zip"
     }
   ],
   "439": [
@@ -2906,6 +2922,11 @@
       "AE4FDA03378A0584D45A4735C9D6290E": "https://archive.org/download/retroachievements_collection_v5/Game Boy/Dragon's Lair - The Legend/Dragon's Lair - The Legend (U) [!].zip"
     }
   ],
+  "699": [
+    {
+      "0D24EEFF28040FF2A8F63DE5BC8CBEA2": "https://myrient.erista.me/files/No-Intro/Nintendo - Game Boy/Earthworm Jim (USA).zip"
+    }
+  ],
   "700": [
     {
       "31E0B16020D3B7A08A80D4416507D631": "https://archive.org/download/retroachievements_collection_v5/Game Boy/Final Fantasy Legend III/Final Fantasy Legend III text & graphics update v1.5 (FFL3 Hack).zip",
@@ -3297,11 +3318,21 @@
       "C1F7ADE0EBCE39A97C6EFCAD33661E20": "https://archive.org/download/retroachievements_collection_v5/Game Boy Advance/Mega Man Battle Network 3 - Blue Version/Megaman Battle Network 3 - Blue Version (E).zip"
     }
   ],
+  "775": [
+    {
+      "68817204A691449E655CBA739DBB0165": "https://myrient.erista.me/files/No-Intro/Nintendo - Game Boy Advance/Megaman - Battle Network 3 - White Version (USA).zip"
+    }
+  ],
   "776": [
     {
       "E9DFE02B283E29D67C224AB6F86C3B9C": "https://archive.org/download/retroachievements_collection_v5/Game Boy Advance/Mega Man Battle Network 4 - Blue Moon/Megaman Battle Network 4 - Blue Moon (U) [!].zip",
       "FC3F0676031EB3DF7E9F97DE95919E5D": "https://archive.org/download/retroachievements_collection_v5/Game Boy Advance/Mega Man Battle Network 4 - Blue Moon/Mega Man Battle Network 4 - Blue Moon (USA) [Bug Fix-Akuma glitch] [H-Exeguy11][V-1.1 A-2014].zip",
       "6C653DE4749981579252E59FCAE956D5": "https://archive.org/download/retroachievements_collection_v5/Game Boy Advance/Mega Man Battle Network 4 - Blue Moon/Megaman Battle Network 4 - Blue Moon (E).zip"
+    }
+  ],
+  "777": [
+    {
+      "D0DEE5C06972CB072391CD968A248D52": "https://myrient.erista.me/files/No-Intro/Nintendo - Game Boy Advance/Megaman - Battle Network 4 - Red Sun (USA).zip"
     }
   ],
   "779": [
@@ -3433,6 +3464,12 @@
       "8D9FBF8BDE7941CA97DCBA7757D60E81": "https://archive.org/download/retroachievements_collection_v5/Game Boy Advance/Spyro 2 - Season of Flame/Spyro 2 - Season of Flame (U) [!].zip",
       "97109A5BDFAF19926135EDB84876888E": "https://archive.org/download/retroachievements_collection_v5/Game Boy Advance/Spyro 2 - Season of Flame/Spyro 2 - Season of Flame (E) (M5) [T+Rus_Pirate][f_5].zip",
       "B7236BF34D66EAD26BA5B6C1CB16C5F0": "https://archive.org/download/retroachievements_collection_v5/Game Boy Advance/Spyro 2 - Season of Flame/Spyro 2 - Season of Flame (E) (M5).zip"
+    }
+  ],
+  "797": [
+    {
+      "2649557B233D5F700D09F61429E51419": "https://myrient.erista.me/files/Redump/Sony - PlayStation/Buttsubushi (Japan).zip",
+      "0B5976144C574C7A53D0EC21D313B805": "https://myrient.erista.me/files/Redump/Sony - PlayStation/Buttsubushi (Europe, Australia).zip"
     }
   ],
   "798": [
@@ -3613,6 +3650,11 @@
   "857": [
     {
       "90E90F2AAE4770EE98130580A594E2BB": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Clay Fighter/Clay Fighter (U) [!].zip"
+    }
+  ],
+  "858": [
+    {
+      "40B89FA020786F323AB5A36DDE4686EB": "https://myrient.erista.me/files/No-Intro/Nintendo - Super Nintendo Entertainment System/Claymates (USA).zip"
     }
   ],
   "863": [
@@ -3896,7 +3938,9 @@
       "BB9C2F667CED16A2E605B385C041C744": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Jurassic Park/Jurassic Park (U) (V1.0) [!].zip",
       "D4F063F065BD06935DC3F75732DF9450": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Jurassic Park/Jurassic Park (G).zip",
       "EBFD33826ACA72CE98AC0ED9B293F94D": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Jurassic Park/Jurassic Park (MSU) [Patch by PepilloPEV, Conn v2].zip",
-      "FA583B9D1A2DCC270A8FC91259B89C96": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Jurassic Park/Jurassic Park (E).zip"
+      "FA583B9D1A2DCC270A8FC91259B89C96": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Jurassic Park/Jurassic Park (E).zip",
+      "C0C7E365D54CA41CF619908449ED069C": "https://myrient.erista.me/files/No-Intro/Nintendo - Super Nintendo Entertainment System/Jurassic Park (France).zip",
+      "FF42B93F32C7921A88EF46FDF79A8445": "https://myrient.erista.me/files/No-Intro/Nintendo - Super Nintendo Entertainment System/Jurassic Park (USA) (Rev 1).zip"
     }
   ],
   "972": [
@@ -4033,7 +4077,8 @@
       "D7B17796C17749485FEAC614A2598344": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Lufia II - Rise of the Sinistrals/Lufia II - Rise of the Sinistrals (MSU) (USA) [v1 Conn, JUD6MENT].zip",
       "F81AF0A9E66E1AA0119419A9F57BF8A7": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Lufia II - Rise of the Sinistrals/Lufia II - Frue Lufia v5.2.zip",
       "ED37FC950EF8BE02FC7F66CB37424063": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Lufia II - Rise of the Sinistrals/Lufia II - Rise of the Sinistrals (USA) (Frue Lufia) (v6.0) (Artemis).zip",
-      "9877B2B1B6B0F32DB434947D0B910523": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Lufia II - Rise of the Sinistrals/Lufia II - Rise of the Sinistrals (USA) (Frue Lufia) (v7.0) (Artemis).zip"
+      "9877B2B1B6B0F32DB434947D0B910523": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Lufia II - Rise of the Sinistrals/Lufia II - Rise of the Sinistrals (USA) (Frue Lufia) (v7.0) (Artemis).zip",
+      "8607561B2D3175B949EBD899AA12052B": "https://myrient.erista.me/files/No-Intro/Nintendo - Super Nintendo Entertainment System/Lufia (Germany).zip"
     }
   ],
   "1012": [
@@ -4099,6 +4144,11 @@
     {
       "02061638A5E74746FD24E5AA9C1F1F60": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Micro Machines/Micro Machines (E) [!].zip",
       "B447B20F378BFF1342338C5C1ACC0E53": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Micro Machines/Micro Machines (U) [!].zip"
+    }
+  ],
+  "1028": [
+    {
+      "67E33DB27253C90FE9EDB9C5CFEC9DE9": "https://myrient.erista.me/files/No-Intro/Nintendo - Super Nintendo Entertainment System/Mickey's Playtown Adventure - A Day of Discovery! (USA) (Proto).zip"
     }
   ],
   "1029": [
@@ -4249,6 +4299,11 @@
   "1090": [
     {
       "96E0F7D8BECB6C203BDE703C02A60122": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Paladin's Quest/Paladin's Quest (U) [!].zip"
+    }
+  ],
+  "1095": [
+    {
+      "6261DB3E834E245F99FB2072FC97FDE7": "https://myrient.erista.me/files/No-Intro/Nintendo - Super Nintendo Entertainment System/Phalanx (USA).zip"
     }
   ],
   "1097": [
@@ -4665,6 +4720,11 @@
     {
       "06AA5B85ED1D3BC61D94ECE1F96A050E": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Super Star Wars - Return of the Jedi/Super Star Wars - Return of the Jedi (U) (V1.0) [!].zip",
       "11BC951A9AC8AC1B073F8D9D55F44639": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Super Star Wars - Return of the Jedi/Super Star Wars Return of the Jedi (MSU) [John Williams OST - By  Relikk, Conn].zip"
+    }
+  ],
+  "1239": [
+    {
+      "5E3C3C232FDB344E36DDf2C2DAC16397": "https://myrient.erista.me/files/Redump/Sony - PlayStation/Gauntlet Legends (USA).zip"
     }
   ],
   "1240": [
@@ -9383,6 +9443,12 @@
   "2531": [
     {
       "EFEFEE9082A83FC6E49F87510746EAC0": "https://archive.org/download/retroachievements_collection_v5/Game Boy Advance/Doom II/Doom II (U) [!].zip"
+    }
+  ],
+  "2532": [
+    {
+      "83511ED734D5BF842B9062EBC574A434": "https://myrient.erista.me/files/No-Intro/Nintendo - Game Boy Advance/Pac-Man World (Europe) (En,Fr,De,Es,It).zip",
+      "3EDA36856917A9AB80B9BB7A930BE834": "https://myrient.erista.me/files/No-Intro/Nintendo - Game Boy Advance/Pac-Man World (USA).zip"
     }
   ],
   "2533": [
@@ -32310,6 +32376,11 @@
       "F7B234F68ED6D3A636B9D8F08910E00A": "https://archive.org/download/retroachievements_collection_PlayStation/PlayStation/Red Asphalt/Red Asphalt (USA).zip"
     }
   ],
+  "15978": [
+    {
+      "6A5EFCAF25D32A8330FD623F21F7A00D": "https://myrient.erista.me/files/Redump/Sega - Mega CD & Sega CD/Dungeon Explorer (USA).zip"
+    }
+  ],
   "15981": [
     {
       "CD39B46786F48933FC468E8236FE478F": "https://archive.org/download/retroachievements_collection_v5/Nintendo DS/LEGO Rock Band/LEGO Rock Band (USA) (En,Fr,De,Es,It,Da).zip"
@@ -33622,6 +33693,12 @@
   "16599": [
     {
       "89845F204552381FEF97A4DB1E4DC568": "https://archive.org/download/retroachievements_collection_PlayStation/PlayStation/Pink Panther - Pinkadelic Pursuit/Pink Panther - Pinkadelic Pursuit (USA).zip"
+    }
+  ],
+  "16604": [
+    {
+      "6BC365808A00B8A640DD86CCB5A0EA24": "https://myrient.erista.me/files/No-Intro/Sega - 32X/Motocross Championship (Europe).zip",
+      "2C4A934985021624D48725B8D7B039E8": "https://myrient.erista.me/files/No-Intro/Sega - 32X/Motocross Championship (USA).zip"
     }
   ],
   "16607": [
@@ -39733,6 +39810,11 @@
       "335808621244E3519259D656C6531E08": "https://archive.org/download/retroachievements_collection_v5/WASM-4/StarPilot W/starpilot-w.zip"
     }
   ],
+  "20384": [
+    {
+      "68358CF4D689D1D61E7A7EFD554482FD": "https://myrient.erista.me/files/Redump/Sony - PlayStation/Rakugaki Showtime (Japan).zip"
+    }
+  ],
   "20385": [
     {
       "DD00AE8310FAC3EBF2CBBA7678EEFA17": "https://archive.org/download/retroachievements_collection_v5/Saturn/Night Striker S/Night Striker S (Japan).zip"
@@ -40032,6 +40114,11 @@
   "20536": [
     {
       "E7B820A7A2DABD33D61A0728BAFE984A": "https://archive.org/download/retroachievements_collection_PlayStation_2_A-M/PlayStation 2/~Hack~ Half-Life - Blue Shift/Half-Life - Blue Shift [Anniversary Edition v1.20].zip"
+    }
+  ],
+  "20537": [
+    {
+      "9426201A7453BB0530CA46F7868B14F1": "https://myrient.erista.me/files/Redump/Sony - PlayStation 2/Namco x Capcom (Japan).zip"
     }
   ],
   "20542": [
@@ -43274,6 +43361,11 @@
   "23922": [
     {
       "82EF43AC3DA4F8DDA5E59C58313BA401": "https://archive.org/download/retroachievements_collection_PlayStation/PlayStation/Oh No!/Oh No! (Japan).zip"
+    }
+  ],
+  "23939": [
+    {
+      "A59AD20569353A736C768D77DC178C0C": "https://myrient.erista.me/files/Redump/Sony - PlayStation 2/Asterix & Obelix XXL (Europe) (En,Fr,De,Es,It).zip"
     }
   ],
   "23962": [
@@ -47121,7 +47213,7 @@
   ],
   "29869": [
     {
-      "BC5263BDDF8A4D9E214FB60AAB607560": "https://archive.org/download/retroachievements_collection_v5/Nintendo 64/~Hack~ Legend of Zelda, The - Ultimate Trial [Subset - Bonus]/Legend of Zelda, The - Ocarina of Time - Ultimate Trial (v1.0.1) (RichieUltimate)[[Subset - Bonus]].zip"
+      "68358CF4D689D1D61E7A7EFD554482FD": "https://myrient.erista.me/files/Redump/Sony - PlayStation/Rakugaki Showtime (Japan).zip"
     }
   ],
   "29870": [

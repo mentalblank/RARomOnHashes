@@ -1,4 +1,12 @@
 ### TamperMonkey script to add download links to RetroAchievements.org's "Supported Game Files" pages
+![Screenshot](https://i.imgur.com/O9ad6mm.png)
+
+### Status:
+(Based on data obtained Mar. 10 2025)
+- **Linked Games:** 8527
+- **Linked Hashes:** 13182
+- **Missing Games:** 1403
+- **Missing Hashes:** 1981
 
 ### Disclaimer:
 - **Please respect RA.org's policies and do not post links to ROMs on their website or Discord.**
@@ -13,14 +21,17 @@ There are 3 versions of the script to download (Only use one at a time):
 - **Fixed Old Script** - Wholee's original script and hashlist hosted on Archive.org with changes by me to ensure it's compatible with the new RA web layout.
 - **Original Wholee Script** - A broken script and hashlist hosted on Archive.org.
 
-### Note:
-The updated and fixed scripts have a small delay, but if no download link appears after a few moments, you may need to source it manually as the file most likely does not exist in hashlinks.json / the archive.org source.
+### Notes:
+- The updated and fixed scripts have a small delay, but if no download link appears after a few moments refresh the page, or source it manually as the file most likely does not exist in hashlinks.json / the archive.org source.
+- RA occasionally "recycles" game id's for various reasons including not meeting standards, this can lead to incorrect links appearing under some hashes as these were previously linked roms. If this happens please report it via bug report or modify it via pull request.
 
 ### Install:
 
-- **Updated Script:** [TamperMonkeyRetroachievements.js](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/TamperMonkeyRetroachievements.js)
-- **Fixed Old Script:** [OriginalTamperMonkeyRetroachievementsFixed.js](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/OriginalTamperMonkeyRetroachievementsFixed.js)
-- **Original Wholee Script:** [External Link to Archive.org collection](https://archive.org/details/retroachievements_collection_v5)
+- Includes improvements and recently linked hashes:
+  - **Updated Script:** [TamperMonkeyRetroachievements.js](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/TamperMonkeyRetroachievements.js)
+- The following do **NOT** include recently linked hashes:
+  - **Fixed Old Script:** [OriginalTamperMonkeyRetroachievementsFixed.js](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/OriginalTamperMonkeyRetroachievementsFixed.js)
+  - **Original Wholee Script:** [External Link to Archive.org collection](https://archive.org/details/retroachievements_collection_v5)
 
 ### Installation Instructions for Tampermonkey:
 
@@ -39,9 +50,6 @@ The updated and fixed scripts have a small delay, but if no download link appear
 
 6. **Refresh** the RetroAchievements.org "Supported Game Files" page to activate the script.
 
-### Screenshot:
-
-![Screenshot](https://i.imgur.com/O9ad6mm.png)
-
 ### Pull Requests:
-If submitting pull requests that edit hashlinks.json. please list the games you are adding in the commit description and its system (eg. Genesis: Beyond Oasis) and ensure your addition is formatted correctly.
+If submitting pull requests that edit hashlinks.json. please list the games you are adding in the commit description and its system (eg. Sega Genesis: Beyond Oasis) and ensure your addition is formatted correctly.
+
