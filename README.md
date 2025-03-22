@@ -7,7 +7,7 @@ This script adds download links for supported game files on RetroAchievements.or
 ## Linked Hash Status (as of Mar. 17, 2025)
 
 - **Linked Hashes:** 13,223
-- **Missing Hashes:** 2,061
+- **Missing Hashes:** 2,034
 
 ## Disclaimer
 
