@@ -547,6 +547,9 @@
   "10171": {
     "7C8EFCF4FBA28F9F5B5EA10A71283BF3": "Tetris 64 (Japan) (En).z64 - nointro"
   },
+  "10200": {
+    "2C6D146A8473511CFCFBBE8518F49D71": "FIFA - Road to World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv).z64 - nointro"
+  },
   "10229": {
     "3C0E3F3459F28CE45DB81CF3B99FDAAE": "Street Fighter 2 Remastered Edition (v1.0) (Pyron) (MD+) (PepilloPEV).md - nointro, mdplus, rapatches",
     "2D24E59DB6939E0A320310E4004F8097": "Street Fighter 2 Remastered Edition (v1.0) (Pyron).md - nointro, rapatches"
@@ -895,6 +898,9 @@
     "FA24A35A016658170D6ED68F68C40771": "Eamon Adventure #006 - The Death Star (1985-12-15)(Brown, Donald)(US)[Eamon Adventurer's Guild].dsk - tosec",
     "97F2E02FF4235ABD2DF7426C0B8AA438": "Eamon Adventure #096 - The Chamber of the Dragons (1984-07-15)(Kondalski, Brian)(US)[Eamon Adventurer's Guild].dsk - tosec"
   },
+  "14025": {
+    "001D722FF7618F70700EAA8989AFBCCA": "Akalabeth.woz - wozaday"
+  },
   "14037": {
     "E20582A89BA7076BF3181D55268DA290": "Where in the World is Carmen Sandiego side A.woz - wozaday",
     "912FFD8BE228C97DEAAEB08E7520176C": "Where in the World is Carmen Sandiego side B.woz - wozaday"
@@ -1055,6 +1061,11 @@
   "15748": {
     "DF5E0DC805DF0CC85A8FB0752E4652BE": "bigbucks.7z <Big Bucks> - fbneo"
   },
+  "15762": {
+    "0985C37CF39A01FE36336B638C66FC4C": "congoa.7z <Congo Bongo (Rev C, 3 board stack)> - fbneo",
+    "443FD8C93D17446BAD49472AF0E22DC3": "congo.7z <Congo Bongo> - fbneo",
+    "E5BD62B42448D2A0B542700B4B156EB3": "tiptop.7z <Tip Top> - fbneo"
+  },
   "15814": {
     "BECC70A20FD6B6185662F625A1F60A0E": "jumpshot.7z <Jump Shot> - fbneo"
   },
@@ -1135,6 +1146,9 @@
   },
   "16441": {
     "EE40ECD5E3321BF89D3F6288674161B2": "SMW - Birola World (v2.0) (TheMURAmatsu).sfc - nointro, rapatches, smwcentral"
+  },
+  "16455": {
+    "52EDC3B3B0998FF36FD43C55DCDBC968": "Return to Zork (Japan) - redump"
   },
   "16496": {
     "63101AE34CB3783538C91391CBD23122": "Final Fantasy VI - Return of the Dark Sorcerer (v2.11) (Mike Ferrell).sfc - nointro, rapatches",
@@ -1548,6 +1562,9 @@
   },
   "22535": {
     "3689865D8B1D1C30C878778DE5565CB8": "Welcome House 2 - Keaton and His Uncle (Japan) (En) (v1.1) (Chapu) - redump, rapatches"
+  },
+  "22571": {
+    "113061A5EE4A0831C287AB258F7B2B19": "AW2 - Fire Emblem Wars (v2.0) (Kartal).gba - nointro, rapatches"
   },
   "22575": {
     "E997F5654B70C1CA1CB4623E7142285D": "Dungeons & Doomknights (World) (Aftermarket) (Unl).nes - nointro, homebrew",
@@ -2926,6 +2943,9 @@
   "32925": {
     "119568CA77097278F48F7875183790C0": "Digimon World (USA) + Vice + Vice Hardcore + Ultra Hardcore + True Hardcore + Super Dirt Reduction + Super Low Monochromon Goal + Myotismon Patch + Restore Panjyamon - redump, rapatches"
   },
+  "32927": {
+    "F63EE5AE1662892890F57ED1B22D16AC": "SML - Super Mario Land Hack 2017 - Tatanga's Revenge (HeavyMetalRocker1988).gb - nointro, rapatches"
+  },
   "32928": {
     "AC0B46CD9CCB9DDA088A0E4E2DE96A16": "Pokemon Blue - Professor Oak Challenge (v1.0) (Rubicate).gb - nointro, rapatches",
     "36A3105487967946D62570F917A5EEAB": "Pokemon Red - Professor Oak Challenge (v1.0) (Rubicate).gb - nointro, rapatches"
@@ -2968,5 +2988,15 @@
   },
   "33061": {
     "C411EC2FED53FA14C1FDE93A8A975345": "KellyKangaroo_NTSC_0.6.bin - homebrew, itchio"
+  },
+  "33084": {
+    "4257690B5C114FC60231F9D6E37B9E25": "SM64 - Mario Goes Skateboarding 64 (AphidKirby).z64 - nointro",
+    "BC915C05E82527F58F64BD447F4FB1E5": "SM64 - Mario Goes Skateboarding 64 (AphidKirby) (Latino).z64 - nointro"
+  },
+  "33095": {
+    "B29F86EEA51FB11BC388A09C4F09E43F": "Knight Move (World) (v0.11) (Erwin's Collection).hex - nointro"
+  },
+  "33115": {
+    "6E684F059D3228B0C99E59CB69C3EE10": "unpan - homebrew"
   }
 }
