@@ -18356,6 +18356,11 @@
       "3CF985DDE797F178B8446AEFEDF5CD20": "https://archive.org/download/retroachievements_collection_v5/Game Boy/~Homebrew~ Bouncing Ball, The/THEBOUNCINGBALL.zip"
     }
   ],
+  "6639": [
+    {
+      "776E089DB00EB7949BB24CFFD25F1C10": "https://myrient.erista.me/files/Redump/Sega - Dreamcast/Sonic Shuffle (Europe) (En,Fr,De,Es).zip"
+    }
+  ],
   "6640": [
     {
       "4FCC13DB8144687E6B28200387AED25C": "https://archive.org/download/retroachievements_collection_v5/Game Boy/Flipull/Flipull (U) [!].zip"
@@ -27705,11 +27710,13 @@
   "12236": [
     {
       "1A926AC8CEB89D0F010C79D46B7663C7": "https://myrient.erista.me/files/Internet Archive/chadmaster/fbnarcade-fullnonmerged/arcade/snowbrosb.zip",
-    "209CE030A7F237FB382D0E0F33B1A7BD": "https://myrient.erista.me/files/Internet Archive/chadmaster/fbnarcade-fullnonmerged/arcade/snowbros.zip",
-    "22C1EE3719ECBBF500912405D3871F46": "https://myrient.erista.me/files/Internet Archive/chadmaster/fbnarcade-fullnonmerged/arcade/snowbrosc.zip",
-    "65718B284FA6608B9D794F2435943DD6": "https://myrient.erista.me/files/Internet Archive/chadmaster/fbnarcade-fullnonmerged/arcade/snowbrosd.zip",
-    "6BA512D34D9DC048BF957EBCBCAC5071": "https://myrient.erista.me/files/Internet Archive/chadmaster/fbnarcade-fullnonmerged/arcade/snowbrosa.zip",
-    "8145F0BFABE65541DACE0C42C2BFA3E6": "https://myrient.erista.me/files/Internet Archive/chadmaster/fbnarcade-fullnonmerged/arcade/snowbrosj.zip"
+      "209CE030A7F237FB382D0E0F33B1A7BD": "https://myrient.erista.me/files/Internet Archive/chadmaster/fbnarcade-fullnonmerged/arcade/snowbros.zip",
+      "22C1EE3719ECBBF500912405D3871F46": "https://myrient.erista.me/files/Internet Archive/chadmaster/fbnarcade-fullnonmerged/arcade/snowbrosc.zip",
+      "65718B284FA6608B9D794F2435943DD6": "https://myrient.erista.me/files/Internet Archive/chadmaster/fbnarcade-fullnonmerged/arcade/snowbrosd.zip",
+      "6BA512D34D9DC048BF957EBCBCAC5071": "https://myrient.erista.me/files/Internet Archive/chadmaster/fbnarcade-fullnonmerged/arcade/snowbrosa.zip",
+      "8145F0BFABE65541DACE0C42C2BFA3E6": "https://myrient.erista.me/files/Internet Archive/chadmaster/fbnarcade-fullnonmerged/arcade/snowbrosj.zip",
+      "03DBB0B68EA5361ACF9CCDC726C22D2B": "https://myrient.erista.me/files/Internet Archive/chadmaster/fbnarcade-fullnonmerged/arcade/snowbroswb.zip",
+      "457D5DDD057A47D54FE8DCBFCDB1C667": "https://myrient.erista.me/files/Internet Archive/chadmaster/fbnarcade-fullnonmerged/arcade/wintbob.zip"
     }
   ],
   "12241": [
@@ -28086,6 +28093,11 @@
   "12492": [
     {
       "467247D5E3383D066005565BF8218436": "https://archive.org/download/retroachievements_collection_v5/Virtual Boy/Panic Bomber/Panic Bomber (USA).zip"
+    }
+  ],
+  "12493": [
+    {
+      "D54FD7067BD774E32B57F9C2C0496899": "https://myrient.erista.me/files/No-Intro/Nintendo - Nintendo 64 (BigEndian)/Bomberman 64 (Japan).zip"
     }
   ],
   "12499": [
@@ -30844,6 +30856,11 @@
       "1208CC0B1D18D6B6B077164FCA770C9B": "https://archive.org/download/retroachievements_collection_v5/Apple II/Megabots/Megabots.zip"
     }
   ],
+  "14025": [
+    {
+      "001D722FF7618F70700EAA8989AFBCCA": "https://archive.org/download/wozaday_Akalabeth/Akalabeth (woz-a-day collection).zip/Akalabeth (woz-a-day collection)%2FAkalabeth.woz"
+    }
+  ],
   "14026": [
     {
       "44A06F2F441A2D72DF998CD086C345A5": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ SMW2+3 - The Essence Star/Super Mario World 2 Plus 3 - The Essence Star by Golden Yoshi (Final Version)[Fix].zip",
@@ -30880,6 +30897,12 @@
     {
       "6BBF30E75A6C2FA2B71AE1E9009CBC4E": "https://archive.org/download/retroachievements_collection_v5/Nintendo 64/~Hack~ Star Revenge 1 - Star Takeover/Star Revenge 1 Star Takeover v1.2a (SM64 hack).zip",
       "AFD66341A292568EA1A849DE523089A9": "https://archive.org/download/retroachievements_collection_v5/Nintendo 64/~Hack~ Star Revenge 1 - Star Takeover/Super Mario 64 (U) [!] [Hack] [Star Revenge 1 Star Takeover v1.2.1].zip"
+    }
+  ],
+  "14037": [
+    {
+      "E20582A89BA7076BF3181D55268DA290": "https://archive.org/download/wozaday_Where_In_The_World_Is_Carmen_Sandiego/Where in the World is Carmen Sandiego (woz-a-day collection).zip/Where in the World is Carmen Sandiego (woz-a-day collection)%2FWhere in the World is Carmen Sandiego side A.woz",
+      "912FFD8BE228C97DEAAEB08E7520176C": "https://archive.org/download/wozaday_Where_In_The_World_Is_Carmen_Sandiego/Where in the World is Carmen Sandiego (woz-a-day collection).zip/Where in the World is Carmen Sandiego (woz-a-day collection)%2FWhere in the World is Carmen Sandiego side B.woz"
     }
   ],
   "14038": [
@@ -31651,7 +31674,10 @@
       "5CE474D9EE686F66FFFF6E6F26A90418": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest/King's Quest (4am and san inc crack) disk A.zip",
       "C5C91D02D70478080F376E280592DB9D": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest/King's Quest 1 - Disk C.zip",
       "C7D0D8E28DA4C4EE93EF059230260C62": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest/King's Quest 1 - Disk B.zip",
-      "F4C6C8C11E3FAB4FC22E44BE3C535F67": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest/King's Quest (4am and san inc crack) disk C.zip"
+      "F4C6C8C11E3FAB4FC22E44BE3C535F67": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest/King's Quest (4am and san inc crack) disk C.zip",
+      "38027DD56819F2A03C5945179866332A": "https://archive.org/download/wozaday_Kings_Quest/King's Quest (woz-a-day collection).zip/King's Quest (woz-a-day collection)%2FKing's Quest - A.woz",
+      "AD6F0B49D6777A4BAA9FA645BE8F8C72": "https://archive.org/download/wozaday_Kings_Quest/King's Quest (woz-a-day collection).zip/King's Quest (woz-a-day collection)%2FKing's Quest - B.woz",
+      "3DF2F894D07E22B18631053D7DD3D00A": "https://archive.org/download/wozaday_Kings_Quest/King's Quest (woz-a-day collection).zip/King's Quest (woz-a-day collection)%2FKing's Quest - C.woz"
     }
   ],
   "14399": [
@@ -31928,7 +31954,12 @@
       "9214FDB0B3A53C5F4160AC681A2002BD": "https://archive.org/download/retroachievements_collection_v5/Apple II/Black Cauldron, The/Black Cauldron, The disk 2A.zip",
       "A7CEA209C45DACF4474753A701B4229D": "https://archive.org/download/retroachievements_collection_v5/Apple II/Black Cauldron, The/Black Cauldron, The disk 2B.zip",
       "DBCC564FDD15795C4B994AF26A01A09E": "https://archive.org/download/retroachievements_collection_v5/Apple II/Black Cauldron, The/BLAKCLD1.zip",
-      "02DE27187FD6446DAAE8303066611F13": "https://archive.org/download/retroachievements_collection_v5/Apple II/Black Cauldron, The/BLAKCLD4.zip"
+      "02DE27187FD6446DAAE8303066611F13": "https://archive.org/download/retroachievements_collection_v5/Apple II/Black Cauldron, The/BLAKCLD4.zip",
+      "20521505AFAA87BB93533172F0AB5467": "https://archive.org/download/wozaday_The_Black_Cauldron/The Black Cauldron (woz-a-day collection).zip/The Black Cauldron (woz-a-day collection)%2FThe Black Cauldron disk 1A.woz",
+      "7EE36F4258C655325BEF305300BD6F6E": "https://archive.org/download/wozaday_The_Black_Cauldron/The Black Cauldron (woz-a-day collection).zip/The Black Cauldron (woz-a-day collection)%2FThe Black Cauldron disk 1B.woz",
+      "DB2D941216029330A9FE89A65DFDD459": "https://archive.org/download/wozaday_The_Black_Cauldron/The Black Cauldron (woz-a-day collection).zip/The Black Cauldron (woz-a-day collection)%2FThe Black Cauldron disk 2A.woz",
+      "A3FAD474E60DA976C32C29BF7DB7D7F7": "https://archive.org/download/wozaday_The_Black_Cauldron/The Black Cauldron (woz-a-day collection).zip/The Black Cauldron (woz-a-day collection)%2FThe Black Cauldron disk 2B.woz",
+      "147464E241A0B6065C49E1880F0F6E0A": "https://archive.org/download/wozaday_The_Black_Cauldron/The Black Cauldron (woz-a-day collection).zip/The Black Cauldron (woz-a-day collection)%2FThe Black Cauldron disk 3.woz"
     }
   ],
   "14480": [
@@ -34601,6 +34632,11 @@
       "219EC41D577CE72612FB010ECAFF7577": "https://archive.org/download/retroachievements_collection_v5/Game Boy Advance/~Hack~ Hypno's Lullaby/Pokemon Hypno's Lullaby (Fire Red Hack).zip"
     }
   ],
+  "16168": [
+    {
+      "CE0B5E83A40016079574409E405C5E7C": "https://archive.org/download/wozaday_The_Hitchhikers_Guide_to_the_Galaxy_r58/The Hitchhiker's Guide to the Galaxy r58 (woz-a-day collection).zip/The Hitchhiker's Guide to the Galaxy r58 (woz-a-day collection)%2FThe Hitchhiker's Guide to the Galaxy r58.woz"
+    }
+  ],
   "16172": [
     {
       "065D972A245399A7E4E460C6529841B5": "https://archive.org/download/retroachievements_collection_PlayStation/PlayStation/~Hack~ Resident Evil 3 - The Only One/Resident Evil 3 - Nemesis (USA)[Hack][The Only One v1.1 BiohazardEsp].zip"
@@ -34635,7 +34671,8 @@
   ],
   "16188": [
     {
-      "7E6783F2D7880B3792B311366EAF61F1": "https://archive.org/download/retroachievements_collection_v5/Apple II/Galaxian/Galaxian (Atari) (4am crack).zip"
+      "7E6783F2D7880B3792B311366EAF61F1": "https://archive.org/download/retroachievements_collection_v5/Apple II/Galaxian/Galaxian (Atari) (4am crack).zip",
+      "209EC3CF2429FA740F30C401916CB059": "https://archive.org/download/wozaday_Galaxian/Galaxian (woz-a-day collection).zip/Galaxian (woz-a-day collection)%2FGalaxian.woz"
     }
   ],
   "16189": [
@@ -36559,7 +36596,12 @@
       "51FECF807B7369288714FA67492D0209": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest II - Romancing the Throne/Kings' Quest II - Disk 1 - Front.zip",
       "654F982FF24269DEDF646052EC469F94": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest II - Romancing the Throne/Kings' Quest II - Disk 1 - Back.zip",
       "74571C7ECFA0F2F6686A8FF70029B595": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest II - Romancing the Throne/Kings' Quest II - Disk 2 - Front.zip",
-      "9998017630A30D635DFF03BBD5515925": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest II - Romancing the Throne/Kings' Quest II - Disk 3 - Front.zip"
+      "9998017630A30D635DFF03BBD5515925": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest II - Romancing the Throne/Kings' Quest II - Disk 3 - Front.zip",
+      "0717FACA504DAA539E6B2771E256D3ED": "https://archive.org/download/wozaday_Kings_Quest_II/King's Quest II (woz-a-day collection).zip/King's Quest II (woz-a-day collection)%2FKing's Quest II disk 1A.woz",
+      "56443AFD0F1FD3BEF2D7B1765D4C3B01": "https://archive.org/download/wozaday_Kings_Quest_II/King's Quest II (woz-a-day collection).zip/King's Quest II (woz-a-day collection)%2FKing's Quest II disk 1B.woz",
+      "313FB09806AB5696BE6EBFA710688D6B": "https://archive.org/download/wozaday_Kings_Quest_II/King's Quest II (woz-a-day collection).zip/King's Quest II (woz-a-day collection)%2FKing's Quest II disk 2A.woz",
+      "8E7AE73692D8FED3260F1B609D941049": "https://archive.org/download/wozaday_Kings_Quest_II/King's Quest II (woz-a-day collection).zip/King's Quest II (woz-a-day collection)%2FKing's Quest II disk 2B.woz",
+      "30C74C11694AE9797931BCC3E54AA310": "https://archive.org/download/wozaday_Kings_Quest_II/King's Quest II (woz-a-day collection).zip/King's Quest II (woz-a-day collection)%2FKing's Quest II disk 3A.woz"
     }
   ],
   "17139": [
@@ -38477,7 +38519,17 @@
       "E1A71AC3AC8BBB76054985608D17ECAE": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest III - To Heir is Human/King's Quest III (4am and san inc crack) disk 2B.zip",
       "F35CF26BEF5A3E60E5A0CBEDFE39A038": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest III - To Heir is Human/King's Quest III (4am and san inc crack) disk 1B.zip",
       "1CA154925F519BBED3E71D2819088CB7": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest III - To Heir is Human/King's Quest III (4am and san inc crack) disk 5B.zip",
-      "60002B432259775AE0EBAA570D9028B8": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest III - To Heir is Human/King's Quest III (4am and san inc crack) disk 5A.zip"
+      "60002B432259775AE0EBAA570D9028B8": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest III - To Heir is Human/King's Quest III (4am and san inc crack) disk 5A.zip",
+      "007C38D9195C68203E017C004298A7E2": "https://archive.org/download/wozaday_Kings_Quest_III/King's Quest III (woz-a-day collection).zip/King's Quest III (woz-a-day collection)%2FKing's Quest III disk 1A.woz",
+      "17CC68FD948AE386A252FE3F508EA848": "https://archive.org/download/wozaday_Kings_Quest_III/King's Quest III (woz-a-day collection).zip/King's Quest III (woz-a-day collection)%2FKing's Quest III disk 1B.woz",
+      "698039CD1A7926F6E806DD03B8192C5D": "https://archive.org/download/wozaday_Kings_Quest_III/King's Quest III (woz-a-day collection).zip/King's Quest III (woz-a-day collection)%2FKing's Quest III disk 2A.woz",
+      "F0293E5BC8D30DFA34F5AD857AFBEB28": "https://archive.org/download/wozaday_Kings_Quest_III/King's Quest III (woz-a-day collection).zip/King's Quest III (woz-a-day collection)%2FKing's Quest III disk 2B.woz",
+      "E3D0682CDE08222E5E4C4B58BB6D4528": "https://archive.org/download/wozaday_Kings_Quest_III/King's Quest III (woz-a-day collection).zip/King's Quest III (woz-a-day collection)%2FKing's Quest III disk 3A.woz",
+      "8680C098461EDDF2D035F1CC9CDA978E": "https://archive.org/download/wozaday_Kings_Quest_III/King's Quest III (woz-a-day collection).zip/King's Quest III (woz-a-day collection)%2FKing's Quest III disk 3B.woz",
+      "6F4365ED05C7F39381B0FBC624E57E4A": "https://archive.org/download/wozaday_Kings_Quest_III/King's Quest III (woz-a-day collection).zip/King's Quest III (woz-a-day collection)%2FKing's Quest III disk 4A.woz",
+      "5C0BAF421D5DF433C247D10F0F2C95C8": "https://archive.org/download/wozaday_Kings_Quest_III/King's Quest III (woz-a-day collection).zip/King's Quest III (woz-a-day collection)%2FKing's Quest III disk 4B.woz",
+      "657ACDEA6B385143EB1591934AC5FF33": "https://archive.org/download/wozaday_Kings_Quest_III/King's Quest III (woz-a-day collection).zip/King's Quest III (woz-a-day collection)%2FKing's Quest III disk 5A.woz",
+      "8779DF142B46CAE6837A6536A109C444": "https://archive.org/download/wozaday_Kings_Quest_III/King's Quest III (woz-a-day collection).zip/King's Quest III (woz-a-day collection)%2FKing's Quest III disk 5B.woz"
     }
   ],
   "17936": [
@@ -39994,6 +40046,26 @@
       "A81635E7C78AA0B9B1943328ACE3C258": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest IV - The Perils of Rosella/King's Quest IV disk 4A.zip",
       "C578D2209649BCD13A2F0C3348F47883": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest IV - The Perils of Rosella/King's Quest IV disk 3B.zip",
       "2F72CAAAE8E445733C92FBDF50A1D8F5": "https://archive.org/download/retroachievements_collection_v5/Apple II/King's Quest IV - The Perils of Rosella/King's Quest IV disk 3A.zip"
+    }
+  ],
+  "18957": [
+    {
+      "6E530176714C4ACCAA0975FC127F767B": "https://archive.org/download/wozaday_The_Dark_Crystal/The Dark Crystal (woz-a-day collection).zip/The Dark Crystal (woz-a-day collection)%2FThe Dark Crystal disk 1A.woz",
+      "64D7C44540C341832213258D4E9D099E": "https://archive.org/download/wozaday_The_Dark_Crystal/The Dark Crystal (woz-a-day collection).zip/The Dark Crystal (woz-a-day collection)%2FThe Dark Crystal disk 1B.woz",
+      "C119ADEE8FE46F45C03B1E4FBDFEA059": "https://archive.org/download/wozaday_The_Dark_Crystal/The Dark Crystal (woz-a-day collection).zip/The Dark Crystal (woz-a-day collection)%2FThe Dark Crystal disk 2A.woz",
+      "59B0D152C4FCFCF064C9488AF3F444F3": "https://archive.org/download/wozaday_The_Dark_Crystal/The Dark Crystal (woz-a-day collection).zip/The Dark Crystal (woz-a-day collection)%2FThe Dark Crystal disk 2B.woz"
+    }
+  ],
+  "18958": [
+    {
+      "37323A3833C87CF78344621CB6F07050": "https://archive.org/download/wozaday_Space_Quest_II_Vohauls_Revenge/Space Quest II (woz-a-day collection).zip/Space Quest II (woz-a-day collection)%2FSpace Quest II v2.0A disk 1A.woz",
+      "C98952F0FBB1C27A92DBF053A875F721": "https://archive.org/download/wozaday_Space_Quest_II_Vohauls_Revenge/Space Quest II (woz-a-day collection).zip/Space Quest II (woz-a-day collection)%2FSpace Quest II v2.0A disk 1B.woz",
+      "42707D78FE179C092D692A05C71927BC": "https://archive.org/download/wozaday_Space_Quest_II_Vohauls_Revenge/Space Quest II (woz-a-day collection).zip/Space Quest II (woz-a-day collection)%2FSpace Quest II v2.0A disk 2A.woz",
+      "5045844B415D6F0DF37EAD4BD1DEB11C": "https://archive.org/download/wozaday_Space_Quest_II_Vohauls_Revenge/Space Quest II (woz-a-day collection).zip/Space Quest II (woz-a-day collection)%2FSpace Quest II v2.0A disk 2B.woz",
+      "27E95535FC4D12AD25E44BE6F9CE9C42": "https://archive.org/download/wozaday_Space_Quest_II_Vohauls_Revenge/Space Quest II (woz-a-day collection).zip/Space Quest II (woz-a-day collection)%2FSpace Quest II v2.0A disk 3A.woz",
+      "DC2DC9E66F498812E6D04A1048023E4F": "https://archive.org/download/wozaday_Space_Quest_II_Vohauls_Revenge/Space Quest II (woz-a-day collection).zip/Space Quest II (woz-a-day collection)%2FSpace Quest II v2.0A disk 3B.woz",
+      "A9B5EDCEBFB5FE8D9D90C60235822C38": "https://archive.org/download/wozaday_Space_Quest_II_Vohauls_Revenge/Space Quest II (woz-a-day collection).zip/Space Quest II (woz-a-day collection)%2FSpace Quest II v2.0A disk 4A.woz",
+      "6C999EC3A98C6126E04608E34F34413D": "https://archive.org/download/wozaday_Space_Quest_II_Vohauls_Revenge/Space Quest II (woz-a-day collection).zip/Space Quest II (woz-a-day collection)%2FSpace Quest II v2.0A disk 4B.woz"
     }
   ],
   "18959": [
@@ -44630,6 +44702,12 @@
       "B2F76747250C9C1DAA68EBD7001D6390": "https://archive.org/download/retroachievements_collection_PlayStation_2_A-M/PlayStation 2/Dirge of Cerberus - Final Fantasy VII [Subset - Lv1 Hard S Rank]/Dirge of Cerberus - Final Fantasy VII (USA)[Subset - Lv1 Hard S Rank].zip"
     }
   ],
+  "22130": [
+    {
+      "957C6AC3752BCD138B7B6932DB34B51D": "https://archive.org/download/wozaday_AE/A.E. (woz-a-day collection).zip/A.E. (woz-a-day collection)%2FA.E. side A.woz",
+      "A4DF0C61D951483D8BBEA9A03F3449A0": "https://archive.org/download/wozaday_AE/A.E. (woz-a-day collection).zip/A.E. (woz-a-day collection)%2FA.E. side B.woz"
+    }
+  ],
   "22132": [
     {
       "164FB8076431CE9659BAB8AA9CB96A7B": "https://archive.org/download/retroachievements_collection_PlayStation_2_N-Z/PlayStation 2/Mobile Suit Gundam - Federation vs. Zeon/Mobile Suit Gundam - Federation vs. Zeon (USA).zip"
@@ -45523,6 +45601,11 @@
   "22829": [
     {
       "1B14889B8B7298790FC1B5E8169E8849": "https://archive.org/download/retroachievements_collection_PlayStation/PlayStation/~Demo~ Rockman X4, Rockman 8 - Metal Heroes, Rockman - Battle & Chase/Rockman X4, Rockman 8 - Metal Heroes, Rockman - Battle & Chase (Japan) (Demo).zip"
+    }
+  ],
+  "22830": [
+    {
+      "E325257FBA1FE7E149FF314CB9DECF5C": "https://archive.org/download/wozaday_Championship_Lode_Runner/Championship Lode Runner (woz-a-day collection).zip/Championship Lode Runner (woz-a-day collection)%2FChampionship Lode Runner.woz"
     }
   ],
   "22833": [
@@ -48742,6 +48825,11 @@
       "D34373410E47029BFD485C524C8DA042": "https://archive.org/download/retroachievements_collection_v5/Saturn/Ultraman - Hikari no Kyojin Densetsu ! Ultraman - Legendary Giant of Light/Ultraman - Hikari no Kyojin Densetsu (Japan).zip"
     }
   ],
+  "26106": [
+    {
+      "2F4AA83A3DE7B99C33FAC3A773B09D37": "https://archive.org/download/wozaday_Pooyan/Pooyan (woz-a-day collection).zip/Pooyan (woz-a-day collection)%2FPooyan.woz"
+    }
+  ],
   "26147": [
     {
       "77A58ABD4D641F32F913FAB909C16008": "https://archive.org/download/retroachievements_collection_v5/Saturn/Tenchi o Kurau II - Sekiheki no Tatakai/Tenchi o Kurau II - Sekiheki no Tatakai (Japan).zip"
@@ -49305,6 +49393,20 @@
   "27561": [
     {
       "E692A27BBBDCA37E7F07A81420E1D154": "https://archive.org/download/retroachievements_collection_v5/Nintendo DS/Nervous Brickdown/Nervous Brickdown (Europe) (En,Fr,De,Es,It).zip"
+    }
+  ],
+  "27573": [
+    {
+      "EE355B7F0FE5447C9E7DE4A4B80E3690": "https://archive.org/download/wozaday_Ultima_III_Exodus/Ultima III (woz-a-day collection).zip/Ultima III (woz-a-day collection)%2FUltima III side A.woz",
+      "99FA9D5C91EC95CEFAD32FA57D3463CC": "https://archive.org/download/wozaday_Ultima_III_Exodus/Ultima III (woz-a-day collection).zip/Ultima III (woz-a-day collection)%2FUltima III side B.woz"
+    }
+  ],
+  "27574": [
+    {
+      "C89B0B45333D336ACA11AF5D8449A7BB": "https://archive.org/download/wozaday_Ultima_IV/Ultima IV (woz-a-day collection).zip/Ultima IV (woz-a-day collection)%2FUltima IV - Side A - Program.woz",
+      "702459F52EACE781DC8FAF0AD0FA60F3": "https://archive.org/download/wozaday_Ultima_IV/Ultima IV (woz-a-day collection).zip/Ultima IV (woz-a-day collection)%2FUltima IV - Side C - Britannia.woz",
+      "3B5C55CF1F1E74A2D01EBCD37326E3F3": "https://archive.org/download/wozaday_Ultima_IV/Ultima IV (woz-a-day collection).zip/Ultima IV (woz-a-day collection)%2FUltima IV - Side B - Towne.woz",
+      "6F8625BD37422CC9977AA306FF4342FC": "https://archive.org/download/wozaday_Ultima_IV/Ultima IV (woz-a-day collection).zip/Ultima IV (woz-a-day collection)%2FUltima IV - Side D - Underworld.woz"
     }
   ],
   "27576": [
@@ -50665,6 +50767,11 @@
       "09DADB5071EB35050067A32462E39C5F": "https://archive.org/download/retroachievements_collection_v5/Genesis-Mega Drive/Sonic the Hedgehog [Subset - Perfect Bonus]/Sonic The Hedgehog (W) (REV01) [!].zip"
     }
   ],
+  "29920": [
+    {
+      "1D9CA90ED3BA671FF91BDBE57710575C": "https://myrient.erista.me/files/No-Intro/Arduboy Inc - Arduboy/Blob Attack (World) (No QR Code).zip"
+    }
+  ],
   "29933": [
     {
       "69BC17615456437905B56A703F134084": "https://archive.org/download/retroachievements_collection_v5/Genesis-Mega Drive/~Hack~ Knuckles the Echidna in Sonic the Hedgehog [Subset - Hold Right to Lose]/Knuckles the Echidna in Sonic the Hedgehog [Subset - Hold Right to Lose Knuckles].zip"
@@ -50838,6 +50945,12 @@
       "B74D9122EB2B0DEB67B17D3523449A88": "https://myrient.erista.me/files/No-Intro/Microsoft - MSX/Burgertime (Japan).zip"
     }
   ],
+  "30974": [
+    {
+      "C528FA485C130352470CE07F33334223": "https://archive.org/download/wozaday_Conan/Conan (woz-a-day collection).zip/Conan (woz-a-day collection)%2FConan side A.woz",
+      "D8F4BAFB48C1B663BDB846037DCA15E0": "https://archive.org/download/wozaday_Conan/Conan (woz-a-day collection).zip/Conan (woz-a-day collection)%2FConan side B.woz"
+    }
+  ],
   "30985": [
     {
       "08130CB33FE270321D04D056B85D2037": "https://myrient.erista.me/files/No-Intro/Nintendo - Game Boy Color/Sylvanian Melodies - Mori no Nakama to Odori Masho! (Japan) (SGB Enhanced) (GB Compatible).zip"
@@ -50863,9 +50976,90 @@
       "ECBE58E2CE9B56192FBDDCC694A050DF": "https://myrient.erista.me/files/No-Intro/Nintendo - Nintendo Entertainment System (Headered)/Rampart (Japan) (Konami).zip"
     }
   ],
+  "31970": [
+    {
+      "52942323C85627C51B3D2E6DBF7C6F5D": "https://archive.org/download/wozaday_Cavern_Creatures/Cavern Creatures (woz-a-day collection).zip/Cavern Creatures (woz-a-day collection)%2FCavern Creatures.woz"
+    }
+  ],
+  "31991": [
+    {
+      "9C57651762323DA6C786DF1BD1C9984E": "https://archive.org/download/wozaday_Realm_of_Impossibility/Realm of Impossibility (woz-a-day collection).zip/Realm of Impossibility (woz-a-day collection)%2FRealm of Impossibility.woz"
+    }
+  ],
+  "31996": [
+    {
+      "14EAF619C453CEF19FD54A15508C5B60": "https://archive.org/download/wozaday_Cranston_Manor/Cranston Manor (woz-a-day collection).zip/Cranston Manor (woz-a-day collection)%2FCranston Manor.woz"
+    }
+  ],
+  "31997": [
+    {
+      "4CDACE0399C61CCB173A4C1C6A5EDF60": "https://archive.org/download/wozaday_Mission_Asteroid/Mission Asteroid (woz-a-day collection).zip/Mission Asteroid (woz-a-day collection)%2FMission Asteroid.woz"
+    }
+  ],
+  "31999": [
+    {
+      "D837732DE99CF814E160D93672F1C559": "https://archive.org/download/wozaday_Ulysses_and_the_Golden_Fleece/Ulysses and the Golden Fleece (woz-a-day collection).zip/Ulysses and the Golden Fleece (woz-a-day collection)%2FUlysses and the Golden Fleece side A.woz",
+      "391CC09141418DE2A6C929FA907BABE9": "https://archive.org/download/wozaday_Ulysses_and_the_Golden_Fleece/Ulysses and the Golden Fleece (woz-a-day collection).zip/Ulysses and the Golden Fleece (woz-a-day collection)%2FUlysses and the Golden Fleece side B.woz"
+    }
+  ],
+  "32089": [
+    {
+      "9893862A9A93F438F68884E3970CCC50": "https://archive.org/download/wozaday_The_Rocky_Horror_Show/The Rocky Horror Show (woz-a-day collection).zip/The Rocky Horror Show (woz-a-day collection)%2FThe Rocky Horror Show.woz"
+    }
+  ],
+  "32104": [
+    {
+      "73C4587D0A3D6521F098E2C6FEB2370B": "https://archive.org/download/wozaday_The_Wizard_of_Oz/The Wizard of Oz (woz-a-day collection).zip/The Wizard of Oz (woz-a-day collection)%2FThe Wizard of Oz disk A.woz",
+      "2A300B2238167A5E616690046F6216C3": "https://archive.org/download/wozaday_The_Wizard_of_Oz/The Wizard of Oz (woz-a-day collection).zip/The Wizard of Oz (woz-a-day collection)%2FThe Wizard of Oz disk B.woz",
+      "AF4C28EDAAC7EFA7D866C49EC7F96421": "https://archive.org/download/wozaday_The_Wizard_of_Oz/The Wizard of Oz (woz-a-day collection).zip/The Wizard of Oz (woz-a-day collection)%2FThe Wizard of Oz disk C.woz",
+      "1E98B45543BFA45CD8B4DBD96C3323A8": "https://archive.org/download/wozaday_The_Wizard_of_Oz/The Wizard of Oz (woz-a-day collection).zip/The Wizard of Oz (woz-a-day collection)%2FThe Wizard of Oz disk D.woz"
+    }
+  ],
+  "32114": [
+    {
+      "7ED0C718A8798062B9774E2C6E230A10": "https://archive.org/download/wozaday_Fraction_Munchers/Fraction Munchers (woz-a-day collection).zip/Fraction Munchers (woz-a-day collection)%2FFraction Munchers.woz"
+    }
+  ],
+  "32138": [
+    {
+      "73F514F8D70EAFA2097F5AC8659168C0": "https://archive.org/download/wozaday_Alf/Alf v3.2 (woz-a-day collection).zip/Alf v3.2 (woz-a-day collection)%2FAlf v3.2.woz"
+    }
+  ],
+  "32161": [
+    {
+      "B7FF77F70A15A05295F8A7B104BD8907": "https://archive.org/download/wozaday_Indiana_Jones_and_the_Temple_of_Doom/Indiana Jones and the Temple of Doom (woz-a-day collection).zip/Indiana Jones and the Temple of Doom (woz-a-day collection)%2FIndiana Jones and the Temple of Doom side A.woz",
+      "71E31E6AB2BF001F7838E75E9811CA33": "https://archive.org/download/wozaday_Indiana_Jones_and_the_Temple_of_Doom/Indiana Jones and the Temple of Doom (woz-a-day collection).zip/Indiana Jones and the Temple of Doom (woz-a-day collection)%2FIndiana Jones and the Temple of Doom side B.woz"
+    }
+  ],
+  "32343": [
+    {
+      "15F0390BB59AE0EE1B05C8A3549F9136": "https://archive.org/download/wozaday_Time_Zone_v11/Time Zone v1.1 (woz-a-day collection).zip/Time Zone v1.1 (woz-a-day collection)%2FTime Zone v1.1 disk A.woz",
+      "97175DE30B2C232EAC3A4CD281194787": "https://archive.org/download/wozaday_Time_Zone_v11/Time Zone v1.1 (woz-a-day collection).zip/Time Zone v1.1 (woz-a-day collection)%2FTime Zone v1.1 disk B.woz",
+      "A6512ACE8AE19D68452E393A37273896": "https://archive.org/download/wozaday_Time_Zone_v11/Time Zone v1.1 (woz-a-day collection).zip/Time Zone v1.1 (woz-a-day collection)%2FTime Zone v1.1 disk C.woz",
+      "8B43E21A6BBEFE126C9A25D0CF79311C": "https://archive.org/download/wozaday_Time_Zone_v11/Time Zone v1.1 (woz-a-day collection).zip/Time Zone v1.1 (woz-a-day collection)%2FTime Zone v1.1 disk D.woz",
+      "B38299459778943BD504870277547738": "https://archive.org/download/wozaday_Time_Zone_v11/Time Zone v1.1 (woz-a-day collection).zip/Time Zone v1.1 (woz-a-day collection)%2FTime Zone v1.1 disk E.woz",
+      "42113D37E9BE4DB9E87A7FF0DE37BCF1": "https://archive.org/download/wozaday_Time_Zone_v11/Time Zone v1.1 (woz-a-day collection).zip/Time Zone v1.1 (woz-a-day collection)%2FTime Zone v1.1 disk F.woz",
+      "48D54C62F5FAC4B3B4E5661D60E4CAC0": "https://archive.org/download/wozaday_Time_Zone_v11/Time Zone v1.1 (woz-a-day collection).zip/Time Zone v1.1 (woz-a-day collection)%2FTime Zone v1.1 disk G.woz",
+      "05FEA0FA803EF62BEDE527772C8F6CD5": "https://archive.org/download/wozaday_Time_Zone_v11/Time Zone v1.1 (woz-a-day collection).zip/Time Zone v1.1 (woz-a-day collection)%2FTime Zone v1.1 disk H.woz",
+      "8EA8F8BB7CFB30E23430445736F49EA6": "https://archive.org/download/wozaday_Time_Zone_v11/Time Zone v1.1 (woz-a-day collection).zip/Time Zone v1.1 (woz-a-day collection)%2FTime Zone v1.1 disk I.woz",
+      "543840D1AC12097DE2BB21B31EC61283": "https://archive.org/download/wozaday_Time_Zone_v11/Time Zone v1.1 (woz-a-day collection).zip/Time Zone v1.1 (woz-a-day collection)%2FTime Zone v1.1 disk J.woz",
+      "357DF1FD3CBFC808C7C48D5A2D11A49B": "https://archive.org/download/wozaday_Time_Zone_v11/Time Zone v1.1 (woz-a-day collection).zip/Time Zone v1.1 (woz-a-day collection)%2FTime Zone v1.1 disk K.woz",
+      "BFA5C0DF411C2CC599E6DB0FD55632F1": "https://archive.org/download/wozaday_Time_Zone_v11/Time Zone v1.1 (woz-a-day collection).zip/Time Zone v1.1 (woz-a-day collection)%2FTime Zone v1.1 disk L.woz"
+    }
+  ],
   "32346": [
     {
       "9FF137B6C9672882EE95A66476B9020C": "https://myrient.erista.me/files/Internet Archive/chadmaster/fbnarcade-fullnonmerged/arcade/dkchrmx.zip"
+    }
+  ],
+  "32457": [
+    {
+      "8704F64BBCBE161A9CB84751354585DC": "https://archive.org/download/wozaday_CongoBongo/Congo Bongo (woz-a-day collection).zip/Congo Bongo (woz-a-day collection)%2FCongo Bongo.woz"
+    }
+  ],
+  "32479": [
+    {
+      "FB49AE5E13807C32C385330880167797": "https://archive.org/download/wozaday_Newbery_Winners_Bridge_to_Terabithia/Newbery Winners- Bridge to Terabithia (woz-a-day collection).zip/Newbery Winners- Bridge to Terabithia (woz-a-day collection)%2FNewbery Winners- Bridge to Terabithia.woz"
     }
   ],
   "32480": [
@@ -50879,6 +51073,38 @@
       "D31C47FE1203347C802CA568ADEE87A6": "https://myrient.erista.me/files/No-Intro/Microsoft - MSX/Kick It (Japan) (Alt).zip"
     }
   ],
+  "32563": [
+    {
+      "B3AD5F8C06E5721FFA7E0BCC0EABE6C1": "https://archive.org/download/wozaday_Both_Barrels/Both Barrels (woz-a-day collection).zip/Both Barrels (woz-a-day collection)%2FBoth Barrels.woz"
+    }
+  ],
+  "32644": [
+    {
+      "DCEB7F41C35891323A35A2ED81A55B45": "https://archive.org/download/wozaday_Dark_Lord/Dark Lord (woz-a-day collection).zip/Dark Lord (woz-a-day collection)%2FDark Lord side A.woz",
+      "41673BA6275BB4665E22616E33799D47": "https://archive.org/download/wozaday_Dark_Lord/Dark Lord (woz-a-day collection).zip/Dark Lord (woz-a-day collection)%2FDark Lord side B.woz"
+    }
+  ],
+  "32652": [
+    {
+      "7869888ADACA87239FCED64787FB6AED": "https://archive.org/download/wozaday_Mind_Castle_I/Mind Castle I (woz-a-day collection).zip/Mind Castle I (woz-a-day collection)%2FMind Castle I.woz"
+    }
+  ],
+  "32653": [
+    {
+      "936AECBB8FD34A410DC8AC6F153474F5": "https://archive.org/download/wozaday_Mind_Castle_II/Mind Castle II (woz-a-day collection).zip/Mind Castle II (woz-a-day collection)%2FMind Castle II.woz"
+    }
+  ],
+  "32722": [
+    {
+      "D1E28255DCAA07D4F8291639BEC84D2B": "https://archive.org/download/wozaday_The_Demons_Forge/The Demon's Forge (woz-a-day collection).zip/The Demon's Forge (woz-a-day collection)%2FThe Demon's Forge.woz"
+    }
+  ],
+  "32905": [
+    {
+      "48D5A95911742C869CE8A93086F87072": "https://archive.org/download/wozaday_Winnie_the_Pooh_in_the_Hundred_Acre_Wood_Sunburst/Winnie the Pooh in the Hundred Acre Wood (woz-a-day collection).zip/Winnie the Pooh in the Hundred Acre Wood (woz-a-day collection)%2FWinnie the Pooh in the Hundred Acre Wood disk 1.woz",
+      "EAC803C863CD1FC78F21B666B30F618D": "https://archive.org/download/wozaday_Winnie_the_Pooh_in_the_Hundred_Acre_Wood_Sunburst/Winnie the Pooh in the Hundred Acre Wood (woz-a-day collection).zip/Winnie the Pooh in the Hundred Acre Wood (woz-a-day collection)%2FWinnie the Pooh in the Hundred Acre Wood disk 2.woz"
+    }
+  ],
   "33033": [
     {
       "AC2645CDE71F89CAC25D2154748E2F4E": "https://myrient.erista.me/files/Redump/Sony - PlayStation Portable/Brooktown High (USA).zip"
@@ -50887,6 +51113,11 @@
   "33047": [
     {
       "7A68886D7FC7AD919F81F1C1675A38F9": "https://myrient.erista.me/files/No-Intro/Nintendo - Nintendo DS (Decrypted)/Ookami to Koushinryou - Umi o Wataru Kaze (Japan).zip"
+    }
+  ],
+  "33058": [
+    {
+      "F03195E9FAC7E2D69BD94D0189EEB141": "https://archive.org/download/wozaday_Frog_Jump_Ordering_Numbers/Frog Jump- Ordering Numbers (woz-a-day collection).zip/Frog Jump- Ordering Numbers (woz-a-day collection)%2FFrog Jump- Ordering Numbers.woz"
     }
   ],
   "33095": [

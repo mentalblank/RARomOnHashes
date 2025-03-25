@@ -405,13 +405,6 @@
     "FA24A35A016658170D6ED68F68C40771": "Eamon Adventure #006 - The Death Star (1985-12-15)(Brown, Donald)(US)[Eamon Adventurer's Guild].dsk - tosec",
     "97F2E02FF4235ABD2DF7426C0B8AA438": "Eamon Adventure #096 - The Chamber of the Dragons (1984-07-15)(Kondalski, Brian)(US)[Eamon Adventurer's Guild].dsk - tosec"
   },
-  "14025": {
-    "001D722FF7618F70700EAA8989AFBCCA": "Akalabeth.woz - wozaday"
-  },
-  "14037": {
-    "E20582A89BA7076BF3181D55268DA290": "Where in the World is Carmen Sandiego side A.woz - wozaday",
-    "912FFD8BE228C97DEAAEB08E7520176C": "Where in the World is Carmen Sandiego side B.woz - wozaday"
-  },
   "14132": {
     "3876A310798AE116E21E09701EEC8F09": "Cuby Panic.d88 - neokobe"
   },
@@ -427,20 +420,8 @@
   "14194": {
     "D00E07046291EFDA14A076B870D26FD5": "Bomb Jack.d88 - neokobe"
   },
-  "14398": {
-    "38027DD56819F2A03C5945179866332A": "King's Quest - disk A.woz - wozaday",
-    "AD6F0B49D6777A4BAA9FA645BE8F8C72": "King's Quest - disk B.woz - wozaday",
-    "3DF2F894D07E22B18631053D7DD3D00A": "King's Quest - disk C.woz - wozaday"
-  },
   "14405": {
     "E9FF3DFB280A795BF2CA8ADE11BE5683": "Soukoban {V1 mode}.d88 - neokobe"
-  },
-  "14478": {
-    "20521505AFAA87BB93533172F0AB5467": "The Black Cauldron disk 1A.woz - wozaday",
-    "7EE36F4258C655325BEF305300BD6F6E": "The Black Cauldron disk 1B.woz - wozaday",
-    "DB2D941216029330A9FE89A65DFDD459": "The Black Cauldron disk 2A.woz - wozaday",
-    "A3FAD474E60DA976C32C29BF7DB7D7F7": "The Black Cauldron disk 2B.woz - wozaday",
-    "147464E241A0B6065C49E1880F0F6E0A": "The Black Cauldron disk 3.woz - wozaday"
   },
   "14483": {
     "A9AB32E8AA66ACF206FB19C3764F29CE": "Pokemon FireRed - Orange Islands (Beta) (v5.7) (kalarie).gba - nointro, rapatches"
@@ -505,12 +486,6 @@
   "16143": {
     "521DEE8107EF14FFC0E0B3795207D9FD": "Digimon Adventure 02 - Tag Tamers (Japan) (En) (v1.4.5) (USC).ws - nointro, rapatches"
   },
-  "16168": {
-    "CE0B5E83A40016079574409E405C5E7C": "The Hitchhiker's Guide to the Galaxy r58.woz - wozaday"
-  },
-  "16188": {
-    "209EC3CF2429FA740F30C401916CB059": "Galaxian.woz - wozaday"
-  },
   "16255": {
     "CFBEAE8CC66BD5A6354EDECCA8979093": "Echo Night 2 - Nemuri no Shihaisha (Japan) (En) (v1.0a) (Gemini,Tom) - redump, rapatches"
   },
@@ -551,13 +526,6 @@
   },
   "17005": {
     "4A756D1BD0869029D819D44D64DC451E": "Clock Tower - The First Fear (Japan) (Pt) (v1.2) (Matizhill) - redump, rapatches"
-  },
-  "17138": {
-    "0717FACA504DAA539E6B2771E256D3ED": "King's Quest II disk 1A.woz - wozaday",
-    "56443AFD0F1FD3BEF2D7B1765D4C3B01": "King's Quest II disk 1B.woz - wozaday",
-    "313FB09806AB5696BE6EBFA710688D6B": "King's Quest II disk 2A.woz - wozaday",
-    "8E7AE73692D8FED3260F1B609D941049": "King's Quest II disk 2B.woz - wozaday",
-    "30C74C11694AE9797931BCC3E54AA310": "King's Quest II disk 3A.woz - wozaday"
   },
   "17360": {
     "C697210491FEDE2B282ECEE2DCE7B8C2": "Arcana - Seal of Rimsala (v3.0) (Sarah Shinespark).sfc - nointro, rapatches, rhdn"
@@ -619,18 +587,6 @@
   "17842": {
     "97DF275B2EEA49D8F7220C32489AF6E5": "MKDS - Revolution Kart DS (Beta 2.1) (RoverNeko).nds - nointro, gamebanana"
   },
-  "17931": {
-    "007C38D9195C68203E017C004298A7E2": "King's Quest III disk 1A.woz - wozaday",
-    "17CC68FD948AE386A252FE3F508EA848": "King's Quest III disk 1B.woz - wozaday",
-    "698039CD1A7926F6E806DD03B8192C5D": "King's Quest III disk 2A.woz - wozaday",
-    "F0293E5BC8D30DFA34F5AD857AFBEB28": "King's Quest III disk 2B.woz - wozaday",
-    "E3D0682CDE08222E5E4C4B58BB6D4528": "King's Quest III disk 3A.woz - wozaday",
-    "8680C098461EDDF2D035F1CC9CDA978E": "King's Quest III disk 3B.woz - wozaday",
-    "6F4365ED05C7F39381B0FBC624E57E4A": "King's Quest III disk 4A.woz - wozaday",
-    "5C0BAF421D5DF433C247D10F0F2C95C8": "King's Quest III disk 4B.woz - wozaday",
-    "657ACDEA6B385143EB1591934AC5FF33": "King's Quest III disk 5A.woz - wozaday",
-    "8779DF142B46CAE6837A6536A109C444": "King's Quest III disk 5B.woz - wozaday"
-  },
   "17978": {
     "D9F4D44F630047B0F7613380AF88E4CC": "Ben 10 - Protector of Earth (Europe).iso - redump, nointro"
   },
@@ -687,24 +643,10 @@
     "2DBF63FD426870235DA903FEE3C5FCFE": "Mystery House (4am crack).dsk - 4amcrack"
   },
   "18957": {
-    "6E530176714C4ACCAA0975FC127F767B": "The Dark Crystal disk 1A.woz - wozaday",
-    "64D7C44540C341832213258D4E9D099E": "The Dark Crystal disk 1B.woz - wozaday",
-    "C119ADEE8FE46F45C03B1E4FBDFEA059": "The Dark Crystal disk 2A.woz - wozaday",
-    "59B0D152C4FCFCF064C9488AF3F444F3": "The Dark Crystal disk 2B.woz - wozaday",
     "8C419C88EDF6F36CC3C60061997DBB60": "The Dark Crystal (4am and san inc crack) disk 1A.dsk - 4amcrack",
     "133277CD78897F0A9A3C3C76C4919E5B": "The Dark Crystal (4am and san inc crack) disk 1B.dsk - 4amcrack",
     "D587819B395B331434EC083B6CC56A04": "The Dark Crystal (4am and san inc crack) disk 2A.dsk - 4amcrack",
     "C325EA40E0B8864F121C1D35D90F3534": "The Dark Crystal (4am and san inc crack) disk 2B.dsk - 4amcrack"
-  },
-  "18958": {
-    "37323A3833C87CF78344621CB6F07050": "Space Quest II v2.0A disk 1A.woz - wozaday",
-    "C98952F0FBB1C27A92DBF053A875F721": "Space Quest II v2.0A disk 1B.woz - wozaday",
-    "42707D78FE179C092D692A05C71927BC": "Space Quest II v2.0A disk 2A.woz - wozaday",
-    "5045844B415D6F0DF37EAD4BD1DEB11C": "Space Quest II v2.0A disk 2B.woz - wozaday",
-    "27E95535FC4D12AD25E44BE6F9CE9C42": "Space Quest II v2.0A disk 3A.woz - wozaday",
-    "DC2DC9E66F498812E6D04A1048023E4F": "Space Quest II v2.0A disk 3B.woz - wozaday",
-    "A9B5EDCEBFB5FE8D9D90C60235822C38": "Space Quest II v2.0A disk 4A.woz - wozaday",
-    "6C999EC3A98C6126E04608E34F34413D": "Space Quest II v2.0A disk 4B.woz - wozaday"
   },
   "18985": {
     "DE1B1692ED257BF933A83F64DAC96B1B": "Pokemon FireRed - Sword and Shield Ultimate Plus (En) (v1.1.8) (PCL.G).gba - nointro, rapatches",
@@ -871,10 +813,6 @@
     "60F45339FBE46F408592BCA103CFE39A": "Donald Duck's Playground (1986)(Sierra - Walt Disney Personal Computer Software)(Side A).do - tosec",
     "5EEC6A88BAA3F36A219A13125F6E2163": "Donald Duck's Playground (1986)(Sierra - Walt Disney Personal Computer Software)(Side B)[unk filesys].do - tosec"
   },
-  "22130": {
-    "957C6AC3752BCD138B7B6932DB34B51D": "A.E. side A.woz - wozaday",
-    "A4DF0C61D951483D8BBEA9A03F3449A0": "A.E. side B.woz - wozaday"
-  },
   "22174": {
     "999855774E7787F16E84006FBCC0012F": "Tactics Ogre - Let Us Cling Together (Japan) (En) (v1.0.1) (Stardust Crusaders) - redump, rapatches"
   },
@@ -921,9 +859,6 @@
   },
   "22697": {
     "8DD8A709F8C7EB756FEDE77829720977": "Diddy Kong Racing (USA) [Subset - Unorthodox Racing].z64 - nointro, rapatches"
-  },
-  "22830": {
-    "E325257FBA1FE7E149FF314CB9DECF5C": "Championship Lode Runner.woz - wozaday"
   },
   "22840": {
     "441191D6AEAFDD3E88F0B16F84134EA7": "Dragon Quest VIII - Journey of the Cursed King [Subset - Party and Records Chat] - redump, rapatches"
@@ -1013,9 +948,6 @@
   "25940": {
     "1982D736CAAAA8D553E8CE51B669C0F6": "Tony Hawk's Pro Skater 4 [Subset - One Combo] - redump, rapatches"
   },
-  "26106": {
-    "2F4AA83A3DE7B99C33FAC3A773B09D37": "Pooyan.woz - wozaday"
-  },
   "26276": {
     "FB931153B43EAA9E8FC157B30DA313D2": "Zelda II - The Resurrection of Ganon (v1.2) (GTM604).nes - nointro, rapatches"
   },
@@ -1067,19 +999,11 @@
   "27527": {
     "1299750DF42941DC73E61F822F6E16DC": "SLES-12345 [?] (SLES-12345) [ACC52540] - No Labels"
   },
-  "27573": {
-    "EE355B7F0FE5447C9E7DE4A4B80E3690": "Ultima III side A - wozaday",
-    "99FA9D5C91EC95CEFAD32FA57D3463CC": "Ultima III side B - wozaday"
-  },
   "27574": {
     "40D402CE16E5BEAAEBA319AE3BA66BCE": "Ultima IV (4am crack) side A - Program.dsk - 4amcrack",
     "0F474D0A535E14F28B020D1050037E94": "Ultima IV (4am crack) side B - Towne.dsk - 4amcrack",
     "20D945CC40DE1DAC36A7561D5956F644": "Ultima IV (4am crack) side C - Britannia.dsk - 4amcrack",
-    "1609A5CB17140E694CA3E9041B2D3F50": "Ultima IV (4am crack) side D - Underworld.dsk - 4amcrack",
-    "C89B0B45333D336ACA11AF5D8449A7BB": "Ultima IV - Side A - Program.woz - wozaday",
-    "702459F52EACE781DC8FAF0AD0FA60F3": "Ultima IV - Side C - Britannia.woz - wozaday",
-    "3B5C55CF1F1E74A2D01EBCD37326E3F3": "Ultima IV - Side B - Towne.woz - wozaday",
-    "6F8625BD37422CC9977AA306FF4342FC": "Ultima IV - Side D - Underworld.woz - wozaday"
+    "1609A5CB17140E694CA3E9041B2D3F50": "Ultima IV (4am crack) side D - Underworld.dsk - 4amcrack"
   },
   "27584": {
     "9C7B11EA67D07798602D3FF791F797E4": "Goodboy Galaxy (World) (v1.2) (En,Ja,Fr,De,Es,Pt-BR,Zh,Ar) (Aftermarket) (Unl) (Rumble).gba - homebrew, itchio, lostlevel",
@@ -1659,10 +1583,6 @@
   "30940": {
     "5DB9D07FC98706D0E2F89E11708DCFA7": "Thinking With Boxes (World) (GMTK Game Jam 2021) (Aftermarket) (Unl).gba - homebrew, itchio, lostlevel"
   },
-  "30974": {
-    "C528FA485C130352470CE07F33334223": "Conan side A.woz - wozaday",
-    "D8F4BAFB48C1B663BDB846037DCA15E0": "Conan side B.woz - wozaday"
-  },
   "30984": {
     "D976145A9714188A42911C9F99DF6574": "SMB3 - Mario Adventure 3 (v1.9.9) (DahrkDalz).nes - nointro, rapatches"
   },
@@ -1807,9 +1727,6 @@
   "31934": {
     "029CD8AE6B130B91918597239464CC35": "Combo Fishing (World) (Aftermarket) (Unl).gbc - homebrew, itchio, lostlevel"
   },
-  "31970": {
-    "52942323C85627C51B3D2E6DBF7C6F5D": "Cavern Creatures.woz - wozaday"
-  },
   "31972": {
     "C5BE505DF9347B7FFFFE2BBE074FA975": "Investigating Plant Growth (4am crack).dsk - 4amcrack"
   },
@@ -1819,18 +1736,7 @@
   "31975": {
     "8F325B05C4D5CB9B98FE8AC87E310525": "The Melting Apartment - itchio, homebrew"
   },
-  "31991": {
-    "9C57651762323DA6C786DF1BD1C9984E": "Realm of Impossibility.woz - wozaday"
-  },
-  "31996": {
-    "14EAF619C453CEF19FD54A15508C5B60": "Cranston Manor.woz - wozaday"
-  },
-  "31997": {
-    "4CDACE0399C61CCB173A4C1C6A5EDF60": "Mission Asteroid.woz - wozaday"
-  },
   "31999": {
-    "D837732DE99CF814E160D93672F1C559": "Ulysses and the Golden Fleece side A.woz - wozaday",
-    "391CC09141418DE2A6C929FA907BABE9": "Ulysses and the Golden Fleece side B.woz - wozaday",
     "49256E89C1BADAF8C523015CB1C39375": "Hi-Res Adventure 4 - Ulysses and the Golden Fleece (1981)(On-Line Systems)(Side A).do - tosec",
     "3FB477266FDCED934332C803A78105B4": "Hi-Res Adventure 4 - Ulysses and the Golden Fleece (1981)(On-Line Systems)(Side B)[unk filesys].do - tosec"
   },
@@ -1840,45 +1746,12 @@
   "32004": {
     "9B3077BF785168C3D19D05173C443421": "Taiyaki Fabulous Museum of Fish (World) (v1.4.2) (Aftermarket) (Unl).gbc - homebrew, itchio, lostlevel"
   },
-  "32089": {
-    "9893862A9A93F438F68884E3970CCC50": "The Rocky Horror Show.woz - wozaday"
-  },
-  "32104": {
-    "73C4587D0A3D6521F098E2C6FEB2370B": "The Wizard of Oz disk A.woz - wozaday",
-    "2A300B2238167A5E616690046F6216C3": "The Wizard of Oz disk B.woz - wozaday",
-    "AF4C28EDAAC7EFA7D866C49EC7F96421": "The Wizard of Oz disk C.woz - wozaday",
-    "1E98B45543BFA45CD8B4DBD96C3323A8": "The Wizard of Oz disk D.woz - wozaday"
-  },
-  "32114": {
-    "7ED0C718A8798062B9774E2C6E230A10": "Fraction Munchers.woz - wozaday"
-  },
   "32120": {
     "05818755ED7BA092AEF2A3BB681D0118": "Monster Rancher 2 [Subset - 389 Major 4] - redump, rapatches",
     "1C1565ED69E14606FA508EBC5EE452FC": "Monster Rancher 2 - No Labels"
   },
   "32135": {
     "A7EC465D91433991D3AC63A8D0199E6B": "Kirby's Dream Course (USA) [Subset - 2P Courses].sfc - nointro, rapatches"
-  },
-  "32138": {
-    "73F514F8D70EAFA2097F5AC8659168C0": "Alf v3.2.woz - wozaday"
-  },
-  "32161": {
-    "B7FF77F70A15A05295F8A7B104BD8907": "Indiana Jones and the Temple of Doom side A.woz - wozaday",
-    "71E31E6AB2BF001F7838E75E9811CA33": "Indiana Jones and the Temple of Doom side B.woz - wozaday"
-  },
-  "32343": {
-    "15F0390BB59AE0EE1B05C8A3549F9136": "Time Zone v1.1 disk A.woz - wozaday",
-    "97175DE30B2C232EAC3A4CD281194787": "Time Zone v1.1 disk B.woz - wozaday",
-    "A6512ACE8AE19D68452E393A37273896": "Time Zone v1.1 disk C.woz - wozaday",
-    "8B43E21A6BBEFE126C9A25D0CF79311C": "Time Zone v1.1 disk D.woz - wozaday",
-    "B38299459778943BD504870277547738": "Time Zone v1.1 disk E.woz - wozaday",
-    "42113D37E9BE4DB9E87A7FF0DE37BCF1": "Time Zone v1.1 disk F.woz - wozaday",
-    "48D54C62F5FAC4B3B4E5661D60E4CAC0": "Time Zone v1.1 disk G.woz - wozaday",
-    "05FEA0FA803EF62BEDE527772C8F6CD5": "Time Zone v1.1 disk H.woz - wozaday",
-    "8EA8F8BB7CFB30E23430445736F49EA6": "Time Zone v1.1 disk I.woz - wozaday",
-    "543840D1AC12097DE2BB21B31EC61283": "Time Zone v1.1 disk J.woz - wozaday",
-    "357DF1FD3CBFC808C7C48D5A2D11A49B": "Time Zone v1.1 disk K.woz - wozaday",
-    "BFA5C0DF411C2CC599E6DB0FD55632F1": "Time Zone v1.1 disk L.woz - wozaday"
   },
   "32345": {
     "E9CDDA3FDB86F74337226B191245CA5A": "Shin Megami Tensei - Persona 2 - Innocent Sin (USA) [Subset - Theater DLC].iso - redump, rapatches"
@@ -1889,12 +1762,6 @@
   "32376": {
     "EABAE527761197CF64822A6D4A60CBC9": "SMW - Sauna Mario World 2 (v1.1) (pnaha).sfc - nointro, rapatches",
     "A044324CE6C9901E429F77549635EBC2": "Sauna Mario World 2 - No Labels"
-  },
-  "32457": {
-    "8704F64BBCBE161A9CB84751354585DC": "Congo Bongo.woz - wozaday"
-  },
-  "32479": {
-    "FB49AE5E13807C32C385330880167797": "Newbery Winners- Bridge to Terabithia.woz - wozaday"
   },
   "32481": {
     "586BAB84959EAC0A757F69F5DC62CB25": "Digimon World (USA) + Vice + Drimogemon Dirt Reduction + Training Boost Fix + Full Time Seadramon - redump, rapatches",
@@ -1916,24 +1783,11 @@
   "32562": {
     "8361700448FF0C1D2848F97D19957C26": "galagawm.zip - fbneo"
   },
-  "32563": {
-    "B3AD5F8C06E5721FFA7E0BCC0EABE6C1": "Both Barrels.woz - wozaday"
-  },
-  "32644": {
-    "DCEB7F41C35891323A35A2ED81A55B45": "Dark Lord side A.woz - wozaday",
-    "41673BA6275BB4665E22616E33799D47": "Dark Lord side B.woz - wozaday"
-  },
   "32648": {
     "E4A9591B33C0DA0668458445142E3E27": "Blue Mint.d88 - neokobe"
   },
   "32649": {
     "8854AF579A0D076E22107F1FCF2606BC": "SM64 - Mario in the Multiverse (v1.1.0) (rovertronic) - nointro, rapatches"
-  },
-  "32652": {
-    "7869888ADACA87239FCED64787FB6AED": "Mind Castle I.woz - wozaday"
-  },
-  "32653": {
-    "936AECBB8FD34A410DC8AC6F153474F5": "Mind Castle II.woz - wozaday"
   },
   "32655": {
     "FDA8D7B4FF5B7B53F82E37831292004C": "FFVI - General Leo Edition (v4.0) (Fauntleroy).sfc - nointro, rapatches",
@@ -1950,9 +1804,6 @@
   },
   "32663": {
     "27B9444B3F3863F260A1C60B41CCD771": "SM64 - Uranium Mario 64 (v1.1) (usernamesarespiders).z64 - nointro, rapatches"
-  },
-  "32722": {
-    "D1E28255DCAA07D4F8291639BEC84D2B": "The Demon's Forge.woz - wozaday"
   },
   "32797": {
     "5D78E41BB0995E0E3CB9184331295986": "SMW - Easyland 2 (v1.0) (RicardoDeMelo).sfc - nointro, rapatches"
@@ -2002,10 +1853,6 @@
     "92710101C41261A1B44CB055C176B161": "FFVI - Awful Fantasy III (v1.0) (X JAKK).sfc - nointro, rapatches",
     "B07B1646626885A99B2D429DB7B9D8F9": "FFVI - Awful Fantasy III (Final) (X JAKK, Cubear).sfc - nointro, rapatches"
   },
-  "32905": {
-    "48D5A95911742C869CE8A93086F87072": "Winnie the Pooh in the Hundred Acre Wood disk 1.woz - wozaday",
-    "EAC803C863CD1FC78F21B666B30F618D": "Winnie the Pooh in the Hundred Acre Wood disk 2.woz - wozaday"
-  },
   "32919": {
     "1542A1478094CDE60E46D79536315262": "Nightmare of Druaga, The - Fushigino Dungeon (USA) [Subset - Alchemy] - redump, rapatches"
   },
@@ -2054,9 +1901,6 @@
   },
   "33050": {
     "C700D31347E1A7B487A3B500E0F8DF4A": "Pokemon Snap (USA) [Subset - Perfect Picture] (v1.0 by KiwiTaco) - No Labels"
-  },
-  "33058": {
-    "F03195E9FAC7E2D69BD94D0189EEB141": "Frog Jump- Ordering Numbers.woz - wozaday"
   },
   "33061": {
     "C411EC2FED53FA14C1FDE93A8A975345": "KellyKangaroo_NTSC_0.6.bin - homebrew, itchio"
