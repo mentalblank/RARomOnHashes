@@ -6,8 +6,8 @@ This script adds download links for supported game files on RetroAchievements.or
 
 ## Linked Hash Status (as of Mar. 23, 2025)
 
-- **Linked Hashes:** 14,151
-- **Missing Hashes:** 791
+- **Linked Hashes:** 13,088
+- **Missing Hashes:** 1,854
 
 ## Disclaimer
 
@@ -29,6 +29,7 @@ There are three versions of the script available. Choose only one version to use
 - The updated and fixed scripts may have a small delay in generating download links. If no download link appears after a few moments, try refreshing the page or sourcing it manually, as the file might not exist in `hashlinks.json` or on Archive.org.
 - RetroAchievements occasionally "recycles" game IDs, which can lead to incorrect links. These game IDs may no longer match the linked ROMs. If this happens, please report it via bug report or modify the hashlist via a pull request.
 - The updated script will pull updates from this repo only when it has been 24 hours since the last time it pulled an update.
+- Most of the missing hashes (1063) are currently missing due to an issue with wholee's SNES archive.org dump, I am working on replacing these.
 
 ## Installation
 
