@@ -305,9 +305,25 @@
   "562": {
     "E36878C7D6C7ECBB090DE659E5F3893C": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Super Castlevania IV/Super Castlevania IV (USA) (MSU).zip"
   },
+  "577": {
+    "415A515431F475A205677F5CE6E8F06F": "gbc_ygo_dm3_en.gbc - Yu-Gi-Oh! Early Days Collection",
+    "DEB664A34525670C74E7125AE1CB9B44": "gbc_ygo_dm3_de.gbc - Yu-Gi-Oh! Early Days Collection",
+    "57668627E94A89A7AF41106F1E824F29": "gbc_ygo_dm3_es.gbc - Yu-Gi-Oh! Early Days Collection",
+    "874B0BD243476EA3E499C4A197340B7A": "gbc_ygo_dm3_fr.gbc - Yu-Gi-Oh! Early Days Collection",
+    "5502BE61FA069A471986660038855A49": "gbc_ygo_dm3_it.gbc - Yu-Gi-Oh! Early Days Collection",
+    "E32F8091F32772B4132710C96C69351B": "gbc_ygo_dm3_jp.gbc - Yu-Gi-Oh! Early Days Collection"
+  },
   "582": {
     "6668441D698E928546291FFC01CB1A3A": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Ultimate Mortal Kombat 3/Ultimate Mortal Kombat 3 (USA) (MSU) [Hack by Conn & Kurrono & Relikk v1.0].zip",
     "DCCED4B3E90725218D4A5ECA90528130": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Ultimate Mortal Kombat 3/Ultimate Mortal Kombat 3 (USA) (MSU) [Arcade Relikk MSU v1 Conn].zip"
+  },
+  "595": {
+    "0C21CF8DF56D55F0696036ED7508946B": "gb_ygo_dm_en.gb - Yu-Gi-Oh! Early Days Collection",
+    "3ADBDA6DE0B4EDB496064D2E83449326": "gb_ygo_dm_es.gb - Yu-Gi-Oh! Early Days Collection",
+    "2534C95317A9C0324A5BCD0E4765EA23": "gb_ygo_dm_de.gb - Yu-Gi-Oh! Early Days Collection",
+    "43CBC5B46FDD1C9825E0D8F3FDF17639": "gb_ygo_dm_fr.gb - Yu-Gi-Oh! Early Days Collection",
+    "9371994BAB043A73D678776F84E526D0": "gb_ygo_dm_it.gb - Yu-Gi-Oh! Early Days Collection",
+    "35E6E4336D8C1A1997CF7C4F047BC91A": "gb_ygo_dm_jp.gb - Yu-Gi-Oh! Early Days Collection"
   },
   "605": {
     "E1850EF86958EFD01B1B16D53FC7B6D3": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Street Fighter Alpha 2/Street Fighter Alpha 2 (MSU) [CPS2 Arcade Pack by Relikk].zip",
@@ -438,7 +454,8 @@
   "990": {
     "EC25BA881050BAAE5261CE82EBAD8277": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Legend of the Mystical Ninja, The ! Ganbare Goemon - Yukihime Kyuushutsu Emaki/Legend of the Mystical Ninja (MSU) [v1 Kurrono, Conn].zip",
     "605208D037C654524B8D5484C2C73D8D": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Legend of the Mystical Ninja, The ! Ganbare Goemon - Yukihime Kyuushutsu Emaki/Legend of The Mystical Ninja, The (U) [!] [T-Spa by jackic v0.9c].zip",
-    "8596EEBAAD7AC1D0DA3772628E436D72": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Legend of the Mystical Ninja, The ! Ganbare Goemon - Yukihime Kyuushutsu Emaki/Legend of The Mystical Ninja, The (U) [!] [Hack] [Goemon v1.02].zip"
+    "8596EEBAAD7AC1D0DA3772628E436D72": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Legend of the Mystical Ninja, The ! Ganbare Goemon - Yukihime Kyuushutsu Emaki/Legend of The Mystical Ninja, The (U) [!] [Hack] [Goemon v1.02].zip",
+    "4FD0BA2E996AFB5E022E6B31145C5015": "Ganbare Goemon - Yuki Hime Kyuushutsu Emaki (Japan) (De) (v1.1) (Poe).sfc - nointro,rapatches"
   },
   "991": {
     "711AFE5A0D32B3B1E40AFCFAADA20FA9": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Legend/Legend (U) [!] [T.Pt v1.0, ripman].zip"
@@ -551,7 +568,8 @@
     "D1101752B5BAB443C83DB4AF936B5AE3": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Tetris and Dr. Mario/Tetris & Dr. Mario (U) [!] (MSU).zip"
   },
   "1262": {
-    "A1CA658B2941DC71BC61552C76EB6C40": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Mega Man X - Generation/Megaman X - Generation (dashfix1.1-final).zip"
+    "A1CA658B2941DC71BC61552C76EB6C40": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Mega Man X - Generation/Megaman X - Generation (dashfix1.1-final).zip",
+    "0D9F0ADD5A94B499BFD2A770D98E1680": "Mega Man X - Generation (v1.0) (SOPHIA).sfc - nointro,rapatches"
   },
   "1277": {
     "4704F212BE4FF8AFB99F2B77FF9FE3CD": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Top Gear 2/Top Gear 2 (MSU) [Amiga CD32 v1.1 DarkShock].zip",
@@ -662,6 +680,9 @@
   },
   "2429": {
     "9D67E9F5382CBCBCAD063AF5F422EFCA": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Unlicensed~ Sextris + Hentai Columns/Columns (Unl).zip"
+  },
+  "2595": {
+    "37313F0A503C1DE3D58079A862F48948": "Mother 1+2 (Japan) (En) (v20220709) (Jeffman).gba - nointro,rapatches"
   },
   "2601": {
     "D9AC315CAF3CD20C7E5B638625B0FA4A": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Marvelous - Mouhitotsu no Takarajima/Marvelous - Another Treasure Island (Japan) [T-En by Tashi] [Add by DackR v1.07] [n].zip"
@@ -794,6 +815,9 @@
   },
   "2961": {
     "E89351869362E0E8E2C4A1C274FE22F7": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Super LSG World/Super Mario World (USA) - Super LSG World (1.1) (Insanit).zip"
+  },
+  "2988": {
+    "80979DFAF7D7205B0A1C6A4BD2F3A2DD": "Prince of Persia - The Sands of Time (USA) [Prince of Persia Machintosh (1992) Mode] - redump"
   },
   "3041": {
     "244E77A77D45D1228363A13B8D6C97CF": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Hyper Iria/Hyper Iria (Japan) [T-En by Dynamic Designs+Matt's Messy Room v1.01].zip",
@@ -1168,6 +1192,9 @@
     "CE38E1507C1F196E388756562B9588DE": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Fire Emblem - Mystery of the Emblem/Fire Emblem - Mystery of the Emblem (Japan) (Rev 1) (En) (Addendum) (0.22) (RobertTheSable).zip",
     "EB2C31971709221382590CAA278F6052": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Fire Emblem - Mystery of the Emblem/Fire Emblem - Mystery of the Emblem (Japan) (Rev 1) (En) (Addendum) (0.21) (RobertTheSable).zip"
   },
+  "6415": {
+    "32C285ECA82DA1711D4364B63A818792": "Shinseiki Evangelion - Koutetsu no Girlfriend 2nd -portable- (Japan) (En) (v1.02) (Mugi).iso - lostlevel"
+  },
   "6614": {
     "012D5EC25D9BBFC9E035483911BA0631": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Super Mario Bros. 3X/Super Mario Bros. 3 X (Final 2.6) by Mirumo (Koyuki) [2014-06-24] (SMW Hack).zip"
   },
@@ -1347,6 +1374,9 @@
   "8991": {
     "6295AB7A2C7FAE510EE4C0768144C22C": "Double Moon Densetsu (Japan) (En) (v1.02) (Stardust Crusaders).nes - nointro, rapatches"
   },
+  "9015": {
+    "D9CA8C9B37C449DAD9888F7B9F58AA2F": "disc - No Labels"
+  },
   "9060": {
     "7F44A65CF20B213502314FC118B5A6F4": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Oh No! More Zombies Ate My Neighbors!/Oh No! More Zombies Ate My Neighbors by Sloat+Stanley Decker v1.0 (Hack) [a1].zip"
   },
@@ -1490,6 +1520,9 @@
   "10679": {
     "05AD897A87D88EA7BE737246BE07D3E7": "Legend of Zelda, The - Majora's Mask (USA) (Pt-Br) (v1.0) (Mex Maximus).z64 - nointro, rapatches"
   },
+  "11127": {
+    "AACC854EBB449E34C1C5C518C97C6B1E": "Virus LQP-79 (World) (Team A.R.G.) (Save Fix) (Vancleef).hex - homebrew,lostlevel"
+  },
   "11241": {
     "A4FCCC5D4B7361DDA044A1E696754445": "Suikoden II (USA) (Id) (v1.0) (Pi-Man) - redump, rapatches"
   },
@@ -1539,8 +1572,14 @@
   "11709": {
     "B3060B012F71AC28DDAAC1E45DD4EA76": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Legends of Mario/Legends of Mario (V1.2) by Tubbaluvin et al [2018-01-27] (SMW Hack).zip"
   },
+  "12446": {
+    "F8F98D3DEB3D1DCA8121F3B33EE03C31": "suprloco.7z <Super Locomotive (Rev.A)> - fbneo"
+  },
   "12491": {
     "2151EBFA67663E1E270C0ACA9CA67E61": "arcade\\sonicfgtu.zip - fbneo"
+  },
+  "12493": {
+    "C714806B4CC144A3EABD234C07412109": "Bomberman 64 (Japan) (En) (v1.3) (Zoinkity).z64 - nointro,rapatches"
   },
   "12729": {
     "C1A1E55C83D33B7FE3F4935C7C5AF45A": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/SD The Great Battle - Aratanaru Chousen/SD The Great Battle - A New Challenge (Japan) [T-En by Aeon Genesis v1.0] [n].zip"
@@ -1598,6 +1637,9 @@
   "13344": {
     "F7D86084C1411B36DF316A18B47421D5": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Donkey Kong Country 3 - Tag Team Trouble/Donkey Kong Country 3 - Tag Team Trouble (1.1).zip"
   },
+  "13415": {
+    "4A172B994FBB95DBF5E34256B86AEACB": "Xak III - The Eternal Recurrence (Japan) (En) (v1.00) (Xak III De-Japanization) - redump"
+  },
   "13417": {
     "BA30A1CAE15A2246A9A3B94F28741B16": "Nebs 'n Debs (World) (v1.1) (Aftermarket) (Unl).nes - nointro",
     "A22DED54ECF8BCEC90AF5ECF733A5F7D": "Nebs 'n Debs (World) (v1.0) (Aftermarket) (Unl).nes - nointro"
@@ -1617,6 +1659,14 @@
   },
   "13753": {
     "DC66BCD1034C08879A2A47A10E6C95C8": "Mario Bros. Special [Set 1] {V1 mode}.d88 - neokobe"
+  },
+  "13801": {
+    "4BCBC2D3B173C5F53FBA3A6C4C2B9920": "gbc_ygo_dm4_kaiba_de.gbc - Yu-Gi-Oh! Early Days Collection",
+    "BD7FF710B645110CFDA420694019EC71": "gbc_ygo_dm4_kaiba_es.gbc - Yu-Gi-Oh! Early Days Collection",
+    "2C00464DCAC758C6428CF5F61717C51E": "gbc_ygo_dm4_kaiba_fr.gbc - Yu-Gi-Oh! Early Days Collection",
+    "97F6E15E24D95DBD17BA6C924EC2A6C1": "gbc_ygo_dm4_kaiba_it.gbc - Yu-Gi-Oh! Early Days Collection",
+    "7D817ADCCE9ECB3AD270DC053781F3D6": "gbc_ygo_dm4_kaiba_en.gbc - Yu-Gi-Oh! Early Days Collection",
+    "2B1DA77B7C41AFAB3558CF364CFEB8B3": "gbc_ygo_dm4_kaiba_jp.gbc - Yu-Gi-Oh! Early Days Collection"
   },
   "13936": {
     "C4E9BA49171BA4724CA4FAC2D96F7791": "Karateka (1984)(Broderbund).dsk - tosec"
@@ -1663,8 +1713,32 @@
     "44A06F2F441A2D72DF998CD086C345A5": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ SMW2+3 - The Essence Star/Super Mario World 2 Plus 3 - The Essence Star by Golden Yoshi (Final Version)[Fix].zip",
     "B5FCBD9EA168BF10D7EA8B7637197DD5": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ SMW2+3 - The Essence Star/Super Mario World 2 Plus 3 - The Essence Star by Golden Yoshi (Final Version).zip"
   },
+  "14108": {
+    "54A5F9B4BAE5EBD452E56277F5EE82DF": "gbc_ygo_dm4_yuugi_de.gbc - Yu-Gi-Oh! Early Days Collection",
+    "1DCB73C62167339DF4C848BA466547DB": "gbc_ygo_dm4_yuugi_es.gbc - Yu-Gi-Oh! Early Days Collection",
+    "0B7253CFF85FAAC4DD2B9FC441F52FEB": "gbc_ygo_dm4_yuugi_fr.gbc - Yu-Gi-Oh! Early Days Collection",
+    "A47E4E4E97D8C78448AF704DF7DB689F": "gbc_ygo_dm4_yuugi_it.gbc - Yu-Gi-Oh! Early Days Collection",
+    "97819D8701876AE3D3DEEE8B98749E8A": "gbc_ygo_dm4_yuugi_jp.gbc - Yu-Gi-Oh! Early Days Collection",
+    "0B9B51FDD41A15A10D02D7FBF64AC7DE": "gbc_ygo_dm4_yuugi_en.gbc - Yu-Gi-Oh! Early Days Collection"
+  },
+  "14109": {
+    "AB07C5BC4E95338A130B64C39505A3FB": "gbc_ygo_dm4_joey_de.gbc - Yu-Gi-Oh! Early Days Collection",
+    "E4C2F4212E285A49083E860E38CFFFCF": "gbc_ygo_dm4_joey_es.gbc - Yu-Gi-Oh! Early Days Collection",
+    "ACDC1E4EA90D13F055DFCA2DAB986E5A": "gbc_ygo_dm4_joey_fr.gbc - Yu-Gi-Oh! Early Days Collection",
+    "AC56166A141560AAEDF3A71E50A655D4": "gbc_ygo_dm4_joey_it.gbc - Yu-Gi-Oh! Early Days Collection",
+    "1A6A93843AAC109B11A0EADCAF3D0B0E": "gbc_ygo_dm4_joey_jp.gbc - Yu-Gi-Oh! Early Days Collection",
+    "ABD8693C2F03ACD8C0E2508E61268B70": "gbc_ygo_dm4_joey_en.gbc - Yu-Gi-Oh! Early Days Collection"
+  },
   "14120": {
     "FC2AF7162258233EB9968AB5C0310506": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Super Mario World - 2 Player Co-Op Quest!/Super Mario World (USA) - SMW 2 Player Co-op Quest.zip"
+  },
+  "14123": {
+    "E2A25621D6701B8FD75444CEB6D42E91": "gbc_ygo_dm2_de.gbc - Yu-Gi-Oh! Early Days Collection",
+    "4E855F025C999CC8CBBE002927C26542": "gbc_ygo_dm2_fr.gbc - Yu-Gi-Oh! Early Days Collection",
+    "B9D30C4FE3F4E0801B0E187B07B6F6FA": "gbc_ygo_dm2_es.gbc - Yu-Gi-Oh! Early Days Collection",
+    "F7000CF59D9F402F88053B58B285399F": "gbc_ygo_dm2_en.gbc - Yu-Gi-Oh! Early Days Collection",
+    "338B94A31EE1186F884229FBA4AC78F6": "gbc_ygo_dm2_it.gbc - Yu-Gi-Oh! Early Days Collection",
+    "17A43887863C2E485CA72940F4738F79": "gbc_ygo_dm2_jp.gbc - Yu-Gi-Oh! Early Days Collection"
   },
   "14128": {
     "6D21C8D656D526D086D5BCA57C7BB005": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Quickie World 2/Super Mario World (USA) - Quickie World 2 (1.0).zip"
@@ -1969,6 +2043,9 @@
   "17136": {
     "245678D1F7856EDC9865C7F1282E8243": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Super Mario Bros. R ! Super Mario Bros. Returns - An 8-bit like hack/Super Mario World (USA) - Super Mario Bros. R  An 8-Bit Like Hack.zip"
   },
+  "17166": {
+    "372B003E0DB5E51A13A7ACE480A675D4": "...Iru! (Japan) (En) (v1.0) (SnowyAria) - redump,rapatches"
+  },
   "17184": {
     "30359102DFB37FFA786215082851186F": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Rockman 7 EP/Rockman 7 - Shukumei no Taiketsu! (Japan)[Hack][Rockman 7 EP v1.02].zip",
     "DA459DD0BFD353837F4517B8357A6E55": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Rockman 7 EP/Rockman 7 - Shukumei no Taiketsu! (Japan)[Hack][T-Eng][Rockman 7 EP v1.02].zip"
@@ -2102,6 +2179,9 @@
   "17921": {
     "0243AB97447B64E8E1EC7AE44AE22482": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ EightBound Regal/EightBound Regal (EarthBound Hack by Polinym).zip"
   },
+  "17923": {
+    "4C9EFF41A7581228CEEE32BF200916F6": "Legend of Zelda, The - Ocarina of Time & Master Quest (USA) - Bonus - redump,rapatches"
+  },
   "17929": {
     "D9ADAF7F73949833B1219B1E11C6DB50": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Super Slope Muncher/Super Slope Muncher (V1.1) by Team DICKS (Hiro-sofT et al) [2018-09-11] (SMW Hack).zip"
   },
@@ -2195,6 +2275,15 @@
   "18433": {
     "8B619E48CE3657E9F4E331880B5FAEDC": "Toradora Portable! (English 1.10 / Português v1.1) - rapatches",
     "C684C8450FC81D88A45BECF892AFD55A": "Tora Dora Portable! (Japan).iso - nointro"
+  },
+  "18463": {
+    "C6D992DEBF55DA08CF0EC7C5C8D1D943": "Rockman - New Year 2020 (p12n) (Puresabe) (Rockman 5).nes - nointro,rapatches",
+    "6A8AD44FC90379D5E10E60A2CE930065": "Rockman - New Year 2018 (p12n) (Puresabe) (Rockman 5).nes - nointro,rapatches",
+    "2535F6B6A7B1658ACBAF7786416BA4DC": "Rockman - New Year 2019 (p12n) (Puresabe) (Rockman 5).nes - nointro,rapatches",
+    "DDA597CE0D6E6052AF7F9AB8843A2116": "Rockman - New Year 2014 (p12n) (Puresabe) (Rockman 6).nes - nointro,rapatches",
+    "2B5DD7A5BCD5506B190F84F6441B7E73": "Rockman - New Year 2015 (p12n) (Puresabe) (Rockman 5).nes - nointro,rapatches",
+    "56DFA8DF7D624A22203EA6631D8F05D1": "Rockman - New Year 2024 (p12n) (Puresabe) (Rockman 5).nes - nointro,rapatches",
+    "FB3777AFF8938ADF9ED914CDD5229F38": "Rockman - New Year 2025 (p12n) (Puresabe) (Rockman 5).nes - nointro,rapatches"
   },
   "18608": {
     "5A01A819D6551089E38A8D76015ABF3A": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Super Mario Bros. Peach's Adventure/Super Mario World (U) [!] [Hack][Peach's Adventure v1.1 BWGLite].zip"
@@ -2295,6 +2384,9 @@
   },
   "19208": {
     "652A78C4C6FA61B08188B0EA56D9C4EF": "007 - Nightfire (USA) (60fps Driving) (v1.0) (Souzooka) - redump, rapatches"
+  },
+  "19344": {
+    "B7765BC5255C91F18039EC399B978AAA": "Legend of Spyro, The - Dawn of the Dragon (USA) (Anti-cheat) (v1.0) (Souzooka) - redump,rapatches"
   },
   "19371": {
     "D0A6ED1135840AD16A48F4BA5CD25574": "True Crime - Streets of LA (USA) (60fps) (v1.0) (Souzooka) - redump, rapatches"
@@ -2420,6 +2512,9 @@
     "A208B6E3CEA582B1E45255031B6B7152": "Knights of the Zodiac - The Phoenix Returns (World) (Pt) (v1.2.0) (Aftermarket) (Unl).gbc - homebrew, itchio, lostlevel",
     "F79C225FBC24FF9844D5B2F012A8541E": "Knights of the Zodiac - The Phoenix Returns (World) (Fr) (v1.2.1) (Aftermarket) (Unl).gbc - homebrew, itchio, lostlevel"
   },
+  "20645": {
+    "FF1874ED02E8C5838D61F71C9DB5998D": "Polaroid Pete (Europe) (NTSC Mode) (v1.0) (Souzooka) - redump,rapatches"
+  },
   "20684": {
     "A39A825BED46BEC76C9FF330FC0B1903": "Scarface - The World Is Yours (USA) (60FPS) (v1.0) (Souzooka) - redump, rapatches"
   },
@@ -2439,6 +2534,9 @@
   "20816": {
     "2B29726F50914661A33537C59927477B": "007 - Agent Under Fire (USA) (Widescreen + 60fps Driving) (v1.0) (Souzooka) - redump, rapatches"
   },
+  "20871": {
+    "01FA5AE0A155665E31421491E03D7C2E": "Battle of Hoth (1980)(Tukumo).do - tosec"
+  },
   "20987": {
     "B5D0599231AE8549465A120B531C3A56": "Harry Potter and the Half-Blood Prince (En,Fr,Es,Pt) - redump"
   },
@@ -2451,6 +2549,9 @@
   "21172": {
     "9BC4FE479F412F15638AF59591E18FD6": "Vampire Night (USA) (No Guncon Flash) (v1.0) (Souzooka) - redump, rapatches"
   },
+  "21393": {
+    "5921F8B9BB63024BD3145172806D2498": "Ninja vs Knights (World) (v1.0.1) (Mr.Rafael).wasm - lostlevel,homebrew"
+  },
   "21506": {
     "170BBD3186C4CA8D30279D8682921A59": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Mega Man X - Soft-Type/Megaman X (U) (V1.1) [!] [Hack][Soft Type v2.1.1].zip"
   },
@@ -2461,6 +2562,9 @@
   "21552": {
     "BF301B83308EEFEC7655CB7D2FFC49C8": "Dragon Ball Z - Budokai Tenkaichi 4 v0.13.2 (Rev 2) (En) - redump",
     "7AC403AB006621487905D207D9AA66D3": "Dragon Ball Z - Budokai Tenkaichi 4 v0.13.2 (Rev 2) (Es) - redump"
+  },
+  "21635": {
+    "94919C6D03CB6E9FACAF4A0FEC449FC2": "Head On (Europe).BIN - No Labels"
   },
   "21688": {
     "6694177A7B22739EA019CA21EC95C029": "Disney/Pixar Monsters, Inc. - Scare Island (Europe) (Widescreen) (v1.0) (Souzooka) - redump, rapatches"
@@ -2507,9 +2611,6 @@
   "22183": {
     "AB592A8C85B8468D9C191693080A8C4F": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Brave New World/Super Mario World (U) [!] [Hack][Brave New World v1.1].zip"
   },
-  "22352": {
-    "1013F21E5385D3085139C1693FBAAD79": "Airport Mania - First Flight (Europe, Australia) - nointro"
-  },
   "22359": {
     "4F47983AC54499D795AFD45260A1CFFC": "wldrider.zip - mamesl"
   },
@@ -2533,6 +2634,9 @@
   },
   "22535": {
     "3689865D8B1D1C30C878778DE5565CB8": "Welcome House 2 - Keaton and His Uncle (Japan) (En) (v1.1) (Chapu) - redump, rapatches"
+  },
+  "22550": {
+    "BD8E69F715855FCF292331C7846B8199": "Fuzzy World Cup (World) (v1.0) (Damian Girardi, Sebastian Alvarez).wasm - homebrew,lostlevel"
   },
   "22560": {
     "7D4BCB32A9FDF11C261EF87C478014FF": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Celeste.smc [Subset - Golden Strawberries]/Super Mario World (U) [!] [Hack][Celeste v1.0 by MarkAlarm] [Subset - Golden Strawberries].zip"
@@ -2574,6 +2678,9 @@
   },
   "22862": {
     "B52B9EE675D0DC91DC2F52EF470BCDF8": "Pokemon - HeartGold Version (USA) [Uncapped Framerate] [Subset - Professor Oak Challenge] - nointro, rapatches"
+  },
+  "22942": {
+    "7A3837F8D61C7E60D09E7E3864195C0B": "Alice's Mom's Rescue (World) (Aftermarket) (Unl) (OrionSoft).cdi - homebrew,lostlevel"
   },
   "23049": {
     "32BCDC6668A7E2BF0FB1C701FCCC367F": "SMRPG - Super Koopa RPG - Here Comes the Koopa Bros.! (v1.1) (AnAxemRanger).sfc - nointro, rapatches"
@@ -2626,8 +2733,23 @@
   "24395": {
     "6274E432CF34C2164E9FFE997FFA14C8": "azumanga.zip <Azumanga Daioh Puzzle Bobble (GDL-0018)> - mamesl"
   },
+  "24476": {
+    "274AFF5236B7C26241E370C4798B5F04": "Break-It (World) (v1.0) (douglett).wasm - homebrew,lostlevel"
+  },
   "24495": {
     "15EF7A55EBA99EAC60DF91835B8E7EB2": "SM64 - Mario vs. Wario Ware v1.0.1 (Arcticjaguar725,Mel,PablosCorner).z64 - nointro, rapatches"
+  },
+  "24515": {
+    "87A5B4EECD0B5EBD56A44D924FA54077": "Elansar (World) (Aftermarket) (Unl) (OrionSoft).cdi - itchio,homebrew,lostlevel"
+  },
+  "24650": {
+    "AA5EC6F121145FD6FB5B443988B22F6A": "Invaders (Europe) (ESS-010-1).tvc - lostlevel"
+  },
+  "24652": {
+    "61B04505EBEDDF8946E3F5954E6C9962": "Memory (Europe) (ESS-009-5).tvc - lostlevel"
+  },
+  "24655": {
+    "65C12687D63606BC51A84AE8FDA8D006": "Omega Landing (Europe) (ESS-011-7).tvc - No Labels"
   },
   "24694": {
     "C18827BFD5BA0185702128E7F332C67C": "Dizzy - The Ultimate Cartoon Adventure (UK) (1988) [Original][b].dsk - cleancpc",
@@ -2635,6 +2757,15 @@
   },
   "24709": {
     "4032F604F1E2A50508C563409FD39E75": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Sure Shot ~ featuring Sonic the Hedgehog DELUXE EDITION/Super Mario World (U) [!] [Hack][featuring Sonic the Hedgehog DELUXE EDITION v1.3 Maddy, Margo].zip"
+  },
+  "24740": {
+    "D5A490A1C9E1CF14CC6807A2367F4BDB": "Frogger (World) (v1.0) (Paul McPhee).uze - homebrew,lostlevel"
+  },
+  "24772": {
+    "96D62386036C99F054E6E0506B2385C1": "Solitaire (World) (Final) (D3thAdd3r).uze - homebrew,lostlevel"
+  },
+  "24824": {
+    "0934FD918A00072A6F76D457957A5110": "Penalty (Europe) (Peter Marschat).tvc - lostlevel"
   },
   "24889": {
     "60A895659D2DB3DAD79A4B3EBA7642A8": "Super Bunny (1983)(Datamost)[cr].do - tosec",
@@ -2848,8 +2979,18 @@
   "28251": {
     "DCDDFE468E76436BFBF864E111667589": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Monty Mole Island/Monty Mole Island.zip"
   },
+  "28275": {
+    "0000000000AAAAAAAAAAEEEEEEEEEE12": "null - No Labels",
+    "5E5145DFA97FCC592768110385D03C47": "null - No Labels"
+  },
+  "28303": {
+    "3F5F3F81BAFCC5462BD99B79174538C6": "null - No Labels"
+  },
   "28308": {
     "DA4D7D5D62F6E0A5854393BF17656C02": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Tortured Souls/SMW - Tortured Souls (v1.2) (RZRider).zip"
+  },
+  "28317": {
+    "D971897D649779CCD0A18C40656D2957": "null - No Labels"
   },
   "28329": {
     "6C558374AC16BB9EB603C976A677A029": "Legend of Zelda, The - LttP - Allhallows Eve (v1.03) (Allhallows Team).sfc - nointro, rapatches"
@@ -3052,6 +3193,9 @@
   "29325": {
     "7B776B9FF46D1D900B13D5EEBD27DC0C": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ UP The Romhack/Super Mario World (U) [!][Hack][UP The Romhack (Sweetdude)].zip"
   },
+  "29339": {
+    "CB860501A5F16A84FE2359E4498D0FE4": "Electrocardioground FX (World) (oddgoo).hex - homebrew,lostlevel"
+  },
   "29594": {
     "450599133CF83960A96063027342D6B6": "waidrive.7z - mamesl"
   },
@@ -3087,6 +3231,9 @@
   },
   "29758": {
     "D646009120F4ED86B65406D4AD58E997": "Pokemon Emerald - Recharged Yellow (v1.7.2) (Jaizu).gba - nointro, rapatches"
+  },
+  "29779": {
+    "A1F348694D654F46621290770F06289A": "null - No Labels"
   },
   "29784": {
     "F3B067321F7C8AB61C7AEF24A498AFCF": "Megaman - Battle Network 3 - White Version [Subset - Powerless].gba - nointro, rapatches"
@@ -3135,8 +3282,14 @@
   "29868": {
     "9CEBE6571AA12803EADCEFD9CDE6B1B6": "Pac-Man Collection (2008 Opcode Games).col - nongood, homebrew"
   },
+  "29869": {
+    "BC5263BDDF8A4D9E214FB60AAB607560": "Legend of Zelda, The - Ocarina of Time - Ultimate Trial (v1.0.1) [Subset - Bonus].z64 - nointro,rapatches"
+  },
   "29873": {
     "FCC17C7D5BA68B2E6F17C818A5F9D092": "Friday Night Funkin' - Friday Night Pikmin - homebrew, rapatches"
+  },
+  "29905": {
+    "D0F8B93D78F1FC7852F98990FD0940D7": "ArduRogue (World) (brow1067).hex - homebrew,lostlevel"
   },
   "29923": {
     "6E0F878C1E5452963665CFE5D09C362E": "SMW - 2Kaizo2Learn (v1.0) (Blue Ribbon High Life).sfc - nointro, rapatches"
@@ -3568,6 +3721,9 @@
   "31323": {
     "3E151D9BFD7B36A80EF475A98863A001": "G-ZERO World GP (World) (v1.0) (Aftermarket) (Unl).gbc - lostlevel"
   },
+  "31358": {
+    "00FCE515551B8617F1DF204F0FB41B2C": "SMW - A Goblin's Quest to Leave Her House and Get a Gyro for Lunch (v1.1) (Lizstar).sfc - nointro,smwcentral,rapatches"
+  },
   "31423": {
     "EB90117AC001A9518E79A8DF2D903E5E": "Lock On.d88 - neokobe"
   },
@@ -3633,9 +3789,18 @@
   "32004": {
     "9B3077BF785168C3D19D05173C443421": "Taiyaki Fabulous Museum of Fish (World) (v1.4.2) (Aftermarket) (Unl).gbc - homebrew, itchio, lostlevel"
   },
+  "32091": {
+    "94A70FED0893D60084B59D4E4A955924": "Wheel of Fortune (1987)(Sharedata)(US).dsk - tosec",
+    "5F7D5EBC16F129D6967FFF6539E272FB": "Wheel of Fortune (1987)(Sharedata)(US)(Side A).dsk - tosec",
+    "A67B2944154B4DDA4731CB2E31D81691": "Wheel of Fortune (1987)(Sharedata)(US)(Side B).dsk - tosec"
+  },
   "32120": {
     "05818755ED7BA092AEF2A3BB681D0118": "Monster Rancher 2 [Subset - 389 Major 4] - redump, rapatches",
     "1C1565ED69E14606FA508EBC5EE452FC": "Monster Rancher 2 - No Labels"
+  },
+  "32123": {
+    "FA9F3E2FDD197B6BA101061285E18A25": "SMW - VIP and Wall Mix 4 (En) (Fix Update 1) (Vipper).sfc - nointro,rapatches",
+    "5997BC72DC18B13DBA78EA4F09D28D94": "SMW - VIP and Wall Mix 4 (En) (v1.01) (Vipper) (ASM Improvements).sfc - nointro,rapatches"
   },
   "32135": {
     "A7EC465D91433991D3AC63A8D0199E6B": "Kirby's Dream Course (USA) [Subset - 2P Courses].sfc - nointro, rapatches"
@@ -3649,6 +3814,9 @@
   "32376": {
     "EABAE527761197CF64822A6D4A60CBC9": "SMW - Sauna Mario World 2 (v1.1) (pnaha).sfc - nointro, rapatches",
     "A044324CE6C9901E429F77549635EBC2": "Sauna Mario World 2 - No Labels"
+  },
+  "32475": {
+    "742D297C1D0F0C2A58D64BE4A00A8462": "Rick Ardurous (World) (lswbanban).hex - homebrew,lostlevel"
   },
   "32481": {
     "586BAB84959EAC0A757F69F5DC62CB25": "Digimon World (USA) + Vice + Drimogemon Dirt Reduction + Training Boost Fix + Full Time Seadramon - redump, rapatches",
@@ -3684,13 +3852,17 @@
     "590C4DD13E2B62B33992358C74C921D0": "SMW - Amazing (v1.0) (Tanasinn).sfc - nointro, rapatches"
   },
   "32659": {
-    "9872D4C2757C3B42D3A7F67C123D4985": "FFVI - Final Fantasy VI Reimagined (v1.5) (DrakeyC).sfc - nointro"
+    "9872D4C2757C3B42D3A7F67C123D4985": "FFVI - Final Fantasy VI Reimagined (v1.5) (DrakeyC).sfc - nointro",
+    "16BE455BCD08A9E7E81ACF785F9D492E": "FFVI - Final Fantasy VI Reimagined (v1.5) (DrakeyC).sfc - nointro,rapatches"
   },
   "32661": {
     "B7136DBE095EE57CB38B0DD4DA5A493C": "Phantasy Star 0 [Subset - Item Catalog].nds - nointro, rapatches"
   },
   "32663": {
     "27B9444B3F3863F260A1C60B41CCD771": "SM64 - Uranium Mario 64 (v1.1) (usernamesarespiders).z64 - nointro, rapatches"
+  },
+  "32724": {
+    "DC887349207B424D13C33E2E34A64F9A": "Formula One 06 [Subset - Multi] - redump,rapatches"
   },
   "32797": {
     "5D78E41BB0995E0E3CB9184331295986": "SMW - Easyland 2 (v1.0) (RicardoDeMelo).sfc - nointro, rapatches"
@@ -3798,5 +3970,8 @@
   },
   "33115": {
     "6E684F059D3228B0C99E59CB69C3EE10": "unpan - homebrew"
+  },
+  "33306": {
+    "72237B5E10A368393C288492517E910C": "Legend of Zelda: Whomp's Fortress v1.0 - No Labels"
   }
 }
