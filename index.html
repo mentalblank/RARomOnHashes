@@ -104,38 +104,35 @@
 
   <script>
     async function searchGame() {
-      const searchInput = document.getElementById("searchInput").value.trim();
+      const searchInput = document.getElementById("searchInput").value.trim().toLowerCase(); // Convert input to lowercase
       const resultsDiv = document.getElementById("results");
       const tableContainer = document.querySelector('.table-container');
       const table = tableContainer.querySelector('table');
-
       if (table) table.style.display = 'none';
-
       resultsDiv.innerHTML = "";
       if (!searchInput) {
         resultsDiv.innerHTML = "<p class='text-red-500 text-lg'>Please enter a Game ID or Hash.</p>";
         return;
       }
-
       const isHash = /^[a-f0-9]{32}$/i.test(searchInput); // Simple regex to check if it looks like a hash (MD5)
-
       try {
         const response = await fetch("hashlinks.json");
         const data = await response.json();
         let output = "";
         let found = false;
-
         if (isHash) {
           for (const game in data) {
             const gameEntries = data[game][0];
-            if (gameEntries[searchInput]) {
-              found = true;
-              const fileName = gameEntries[searchInput].split('/').pop();
-              output += `<table class='w-full table-auto text-left table-dark rounded'>
-                <thead><tr><th class='px-4 py-2'>Game ID</th><th class='px-4 py-2'>File</th><th class='px-4 py-2'>Action</th></tr></thead>
-                <tbody><tr><td class='px-4 py-2'>${game}</td><td class='px-4 py-2'>${fileName}</td><td class='px-4 py-2'>
-                <a href="${gameEntries[searchInput]}" class='bg-blue-500 text-white px-4 py-2 rounded inline-block' target='_blank'>Download</a>
-                </td></tr></tbody></table>`;
+            for (const hash in gameEntries) {
+              if (hash.toLowerCase() === searchInput) { // Case-insensitive comparison
+                found = true;
+                const fileName = gameEntries[hash].split('/').pop();
+                output += `<table class='w-full table-auto text-left table-dark rounded'>
+                  <thead><tr><th class='px-4 py-2'>Game ID</th><th class='px-4 py-2'>File</th><th class='px-4 py-2'>Action</th></tr></thead>
+                  <tbody><tr><td class='px-4 py-2'>${game}</td><td class='px-4 py-2'>${fileName}</td><td class='px-4 py-2'>
+                  <a href="${gameEntries[hash]}" class='bg-blue-500 text-white px-4 py-2 rounded inline-block' target='_blank'>Download</a>
+                  </td></tr></tbody></table>`;
+              }
             }
           }
           if (!found) output = "<p class='text-yellow-500 text-lg'>No game found with this Hash.</p>";
@@ -153,15 +150,12 @@
           }
           if (!found) output = "<p class='text-yellow-500 text-lg'>No game found with this Game ID.</p>";
         }
-
         if (!found) {
           if (table) table.style.display = 'none';
         } else {
           if (table) table.style.display = 'table';
         }
-
         resultsDiv.innerHTML = output;
-
       } catch (error) {
         resultsDiv.innerHTML = "<p class='text-red-500 text-lg'>Error loading data.</p>";
         console.error("Error fetching JSON:", error);
