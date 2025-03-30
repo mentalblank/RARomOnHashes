@@ -6,8 +6,8 @@ This script adds download links for supported game files on RetroAchievements.or
 
 ## Linked Hash Status (as of Mar. 27, 2025)
 
-- **Linked Hashes:** 13,323
-- **Missing Hashes:** 1,729
+- **Linked Hashes:** 13,333
+- **Missing Hashes:** 1,735
 
 ## Searchable Webpage (Search by Game ID or Hash)
 ### [CLICK HERE FOR WEBPAGE VERSION](https://mentalblank.github.io/RARomOnHashes)
@@ -18,6 +18,7 @@ This script adds download links for supported game files on RetroAchievements.or
 - **ROM Legality:** Ensure you have the legal rights to any files accessed through this script. Downloading ROMs without owning the original physical copy may violate copyright laws in your region.
 - **Game Preservation:** The script supports video game preservation efforts by enabling easier access to classic games. However, always respect the rights of game developers and publishers when using such tools.
 - By using this script, you agree to comply with all applicable laws in your jurisdiction. Be cautious and mindful of legal boundaries when sharing or downloading digital content.
+- No actual files are hosted here and these tools will simply link you to them, Think of it like google but for roms.
 
 ## Important Notes
 
