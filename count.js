@@ -1,3 +1,5 @@
+//This file is a simple script to count the amount of MD5 entries in hashlinks.json and missinghashes.json
+
 const fs = require('fs');
 
 function countIdsAndMd5(filePath) {
@@ -9,7 +11,6 @@ function countIdsAndMd5(filePath) {
     const jsonData = JSON.parse(data);
 
     const countIds = Object.keys(jsonData).length;
-    //console.log(`Number of IDs in ${filePath}: ${countIds}`);
 
     let md5Count = 0;
     Object.values(jsonData).forEach(value => {
@@ -27,5 +28,5 @@ function countIdsAndMd5(filePath) {
   });
 }
 
-countIdsAndMd5('missinghashes.json');
 countIdsAndMd5('hashlinks.json');
+countIdsAndMd5('missinghashes.json');

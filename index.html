@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RA Rom Linker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .bg-dark-bg { background-color: #1F2937; }
+    .text-dark-text { color: #F3F4F6; }
+    .bg-dark-input { background-color: #2D3748; }
+    .bg-dark-results { background-color: #1F2937; }
+    .table-dark th, .table-dark td {
+      background-color: #2D3748;
+      color: #F3F4F6;
+    }
+
+    /* Modal Styles */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+    }
+    .modal-content {
+      background-color: #2D3748;
+      color: #F3F4F6;
+      padding: 2rem;
+      border-radius: 8px;
+      max-width: 600px;
+      width: 90%;
+    }
+    .modal-header {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .modal-footer {
+      text-align: right;
+      margin-top: 1rem; /* Add some space between the footer and content */
+    }
+    .modal-footer button {
+      margin-top: 20px; /* Adjust the position of the Close button */
+    }
+
+    /* Adjust width for results table */
+    .table-container {
+      width: 100%;
+      max-width: 768px; /* Ensure it doesn't exceed the input button width */
+    }
+  </style>
+</head>
+<body class="bg-dark-bg text-dark-text flex flex-col items-center p-5 min-h-screen transition-colors duration-300">
+
+  <h1 class="text-4xl font-bold mb-6 text-center">RA Rom Linker</h1>
+
+  <!-- Search Section -->
+  <div class="flex items-center w-full max-w-3xl sm:w-full mb-6">
+    <input id="searchInput" type="text" placeholder="Enter Game ID or Hash" class="p-3 text-white rounded-l-md mb-0 w-full bg-dark-input placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 h-12">
+    <button onclick="searchGame()" class="bg-blue-500 text-white px-6 py-3 rounded-r-md font-semibold hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 h-12">
+      Search
+    </button>
+  </div>
+
+  <!-- Instructions Button -->
+  <button onclick="openInstructionsModal()" class="bg-green-500 text-white px-6 py-3 rounded-md mb-6 font-semibold hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500">
+    How to Find Hash
+  </button>
+
+  <!-- Results Section -->
+  <div id="results" class="table-container mt-6 w-full max-w-3xl sm:w-full space-y-6 overflow-auto p-6 rounded-md"></div>
+
+  <!-- Instructions Modal -->
+  <div id="instructionsModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>How to Find Hash for a Game</h2>
+      </div>
+      <div class="modal-body">
+        <p>To find the hash of a game at RetroAchievements, follow these steps:</p>
+        <ol class="list-decimal ml-6">
+          <li>Visit the <a href="https://retroachievements.org/" target="_blank" class="text-blue-400 underline">RetroAchievements website</a>.</li>
+          <li>Search for and select the game you want.</li>
+          <li>Click on the game to open its details page.</li>
+          <li>Scroll to the "Supported Game Files" section.</li>
+          <li>Find the hash in the corresponding section.</li>
+        </ol>
+        <div class="mt-4">
+          <img src="images/1.png" alt="Step 1" class="w-full rounded-md mb-2">
+          <img src="images/2.png" alt="Step 2" class="w-full rounded-md">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button onclick="closeInstructionsModal()" class="bg-red-500 text-white px-6 py-2 rounded-md font-semibold hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    async function searchGame() {
+      const searchInput = document.getElementById("searchInput").value.trim();
+      const resultsDiv = document.getElementById("results");
+      const tableContainer = document.querySelector('.table-container');
+      const table = tableContainer.querySelector('table');
+
+      if (table) table.style.display = 'none';
+
+      resultsDiv.innerHTML = "";
+      if (!searchInput) {
+        resultsDiv.innerHTML = "<p class='text-red-500 text-lg'>Please enter a Game ID or Hash.</p>";
+        return;
+      }
+
+      const isHash = /^[a-f0-9]{32}$/i.test(searchInput); // Simple regex to check if it looks like a hash (MD5)
+
+      try {
+        const response = await fetch("hashlinks.json");
+        const data = await response.json();
+        let output = "";
+        let found = false;
+
+        if (isHash) {
+          for (const game in data) {
+            const gameEntries = data[game][0];
+            if (gameEntries[searchInput]) {
+              found = true;
+              const fileName = gameEntries[searchInput].split('/').pop();
+              output += `<table class='w-full table-auto text-left table-dark rounded'>
+                <thead><tr><th class='px-4 py-2'>Game ID</th><th class='px-4 py-2'>File</th><th class='px-4 py-2'>Action</th></tr></thead>
+                <tbody><tr><td class='px-4 py-2'>${game}</td><td class='px-4 py-2'>${fileName}</td><td class='px-4 py-2'>
+                <a href="${gameEntries[searchInput]}" class='bg-blue-500 text-white px-4 py-2 rounded inline-block' target='_blank'>Download</a>
+                </td></tr></tbody></table>`;
+            }
+          }
+          if (!found) output = "<p class='text-yellow-500 text-lg'>No game found with this Hash.</p>";
+        } else {
+          if (data[searchInput]) {
+            const gameEntries = data[searchInput][0];
+            output += "<table class='w-full table-auto text-left table-dark rounded'><thead><tr><th class='px-4 py-2'>Hash</th><th class='px-4 py-2'>File</th><th class='px-4 py-2'>Action</th></tr></thead><tbody>";
+            for (const [hash, url] of Object.entries(gameEntries)) {
+              const fileName = url.split('/').pop();
+              output += `<tr><td class='px-4 py-2'>${hash}</td><td class='px-4 py-2'>${fileName}</td><td class='px-4 py-2'>
+                <a href="${url}" class='bg-blue-500 text-white px-4 py-2 rounded inline-block' target='_blank'>Download</a></td></tr>`;
+            }
+            output += "</tbody></table>";
+            found = true;
+          }
+          if (!found) output = "<p class='text-yellow-500 text-lg'>No game found with this Game ID.</p>";
+        }
+
+        if (!found) {
+          if (table) table.style.display = 'none';
+        } else {
+          if (table) table.style.display = 'table';
+        }
+
+        resultsDiv.innerHTML = output;
+
+      } catch (error) {
+        resultsDiv.innerHTML = "<p class='text-red-500 text-lg'>Error loading data.</p>";
+        console.error("Error fetching JSON:", error);
+        if (table) table.style.display = 'none';
+      }
+    }
+
+    // Modal functions
+    function openInstructionsModal() {
+      document.getElementById("instructionsModal").style.display = 'flex';
+    }
+
+    function closeInstructionsModal() {
+      document.getElementById("instructionsModal").style.display = 'none';
+    }
+  </script>
+
+  <footer class="mt-10 text-center text-sm text-gray-400">
+    <p>Project and TamperMonkey script hosted on <a href="https://github.com/MentalBlank/RARomOnHashes/" class="text-blue-400 underline" target="_blank">GitHub</a></p>
+  </footer>
+</body>
+</html>

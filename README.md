@@ -9,12 +9,22 @@ This script adds download links for supported game files on RetroAchievements.or
 - **Linked Hashes:** 13,323
 - **Missing Hashes:** 1,729
 
+## Searchable Webpage (Search by Game ID or Hash)
+### [CLICK HERE FOR WEBPAGE VERSION](https://mentalblank.github.io/RARomOnHashes)
+
 ## Disclaimer
 
 - **Respect RA.org's Policies:** Please refrain from posting links to ROMs on RetroAchievements' website or Discord.
 - **ROM Legality:** Ensure you have the legal rights to any files accessed through this script. Downloading ROMs without owning the original physical copy may violate copyright laws in your region.
 - **Game Preservation:** The script supports video game preservation efforts by enabling easier access to classic games. However, always respect the rights of game developers and publishers when using such tools.
 - By using this script, you agree to comply with all applicable laws in your jurisdiction. Be cautious and mindful of legal boundaries when sharing or downloading digital content.
+
+## Important Notes
+
+- The updated and fixed scripts may have a small delay in generating download links. If no download link appears after a few moments, try refreshing the page or sourcing it manually, as the file might not exist in `hashlinks.json` or on Archive.org.
+- RetroAchievements occasionally "recycles" game IDs, which can lead to incorrect links. These game IDs may no longer match the linked ROMs. If this happens, please report it via bug report or modify the hashlist via a pull request.
+- The updated script will pull updates from this repo only when it has been 24 hours since the last time it pulled an update.
+- Most of the missing hashes (1063) are currently missing due to an issue with wholee's SNES archive.org dump, I am working on replacing these.
 
 ## Script Versions
 
@@ -24,14 +34,7 @@ There are three versions of the script available. Choose only one version to use
 - **Fixed Old Script** – The original script by Wholee, hosted on Archive.org, with modifications for compatibility with RetroAchievements’ new layout.
 - **Original Wholee Script** – The initial, unmodified version of the script, hosted on Archive.org, which may not be functional.
 
-## Important Notes
-
-- The updated and fixed scripts may have a small delay in generating download links. If no download link appears after a few moments, try refreshing the page or sourcing it manually, as the file might not exist in `hashlinks.json` or on Archive.org.
-- RetroAchievements occasionally "recycles" game IDs, which can lead to incorrect links. These game IDs may no longer match the linked ROMs. If this happens, please report it via bug report or modify the hashlist via a pull request.
-- The updated script will pull updates from this repo only when it has been 24 hours since the last time it pulled an update.
-- Most of the missing hashes (1063) are currently missing due to an issue with wholee's SNES archive.org dump, I am working on replacing these.
-
-## Installation
+## Userscript Installation
 
 Follow these steps to install the script using TamperMonkey (or ViolentMonkey):
 
@@ -60,5 +63,3 @@ Follow these steps to install the script using TamperMonkey (or ViolentMonkey):
 
 When submitting pull requests to update the `hashlinks.json` file, please ensure the following:
 
-- List the games you're adding in the commit description, along with their system (e.g., "Sega Genesis: Beyond Oasis").
-- Ensure that the format of your additions is correct for the hashlist.
