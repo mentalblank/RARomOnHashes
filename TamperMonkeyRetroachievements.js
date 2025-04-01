@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Rom Download on RA Hash List
-// @namespace    https://github.com/MentalBlank/RARomOnHashesUserScript
-// @updateURL    https://raw.githubusercontent.com/MentalBlank/RARomOnHashesUserScript/main/TamperMonkeyRetroachievements.js
-// @downloadURL  https://raw.githubusercontent.com/MentalBlank/RARomOnHashesUserScript/main/TamperMonkeyRetroachievements.js
-// @version      1.0.1
+// @namespace    https://github.com/MentalBlank/RARomOnHashes
+// @updateURL    https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/TamperMonkeyRetroachievements.js
+// @downloadURL  https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/TamperMonkeyRetroachievements.js
+// @version      1.0.2
 // @description  Add download links to retroachievements.org Supported Game Files page
 // @author       MentalBlank
 // @match        https://retroachievements.org/game/*/hashes
@@ -29,13 +29,13 @@ if (document.readyState === 'loading') {
 function onDomLoaded() {
   console.log("Rom Download on RA Hash List Script is running!");
 
-  const collectionDownloadURL = 'https://raw.githubusercontent.com/MentalBlank/RARomOnHashesUserScript/main/';
+  const collectionDownloadURL = 'https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/';
   const retroachievementsHashList = collectionDownloadURL + 'hashlinks.json';
   const updateInterval = 86400;  // 24 hours in seconds
   const currentUnixTimestamp = Math.floor(Date.now() / 1000);
   const collectionLastUpdated = parseInt(localStorage.getItem('collectionLastUpdated')) / 1000;
   const collectionLastModified = parseInt(localStorage.getItem('collectionLastModified'));
-  const apiUrl = 'https://api.github.com/repos/MentalBlank/RARomOnHashesUserScript/commits?path=hashlinks.json';
+  const apiUrl = 'https://api.github.com/repos/MentalBlank/RARomOnHashes/commits?path=hashlinks.json';
 
   if (isNaN(collectionLastUpdated) || currentUnixTimestamp > collectionLastUpdated + updateInterval) {
     fetch(apiUrl)
