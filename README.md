@@ -4,9 +4,8 @@ This script adds download links for supported game files on RetroAchievements.or
 
 ![Screenshot](https://i.imgur.com/O9ad6mm.png)
 
-## Linked Hash Status (as of Mar. 27, 2025)
-
-- **Linked Hashes:** 13,352
+## Linked Hash Status (as of Mar. 31, 2025)
+- **Linked Hashes:** 13,360
 - **Missing Hashes:** 1,716
 
 ## Searchable Web Application (Search by either Game ID or Hash)
@@ -32,7 +31,7 @@ This script adds download links for supported game files on RetroAchievements.or
 
 There are three versions of the script available. Choose only one version to use at a time:
 
-- **[Updated Script](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/TamperMonkeyRetroachievements.js)** – The most current version with a GitHub-hosted hashlist that can be edited through pull requests.
+- **[Updated Script](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/TamperMonkeyRetroachievements.js)** – The most current version with a GitHub-hosted hashlist that can be edited through pull requests, also has more linked roms!
 - **[Fixed Old Script](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/OriginalTamperMonkeyRetroachievementsFixed.js)** – The original script by Wholee, hosted on Archive.org, with modifications for compatibility with RetroAchievements’ new layout.
 - **[Original Wholee Script](https://archive.org/details/retroachievements_collection_v5)** – The initial, unmodified version of the script, hosted on Archive.org, which may not be functional.
 
