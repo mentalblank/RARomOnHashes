@@ -3169,6 +3169,9 @@
   "29905": {
     "D0F8B93D78F1FC7852F98990FD0940D7": "ArduRogue (World) (brow1067).hex - homebrew,lostlevel"
   },
+  "29921": {
+    "F2A9EE6FAFC936562EDAF6199AC81E35": "SMW - Fulfill the Dream (v2024-06-08) (Abstract).sfc - nointro,rapatches"
+  },
   "29923": {
     "6E0F878C1E5452963665CFE5D09C362E": "SMW - 2Kaizo2Learn (v1.0) (Blue Ribbon High Life).sfc - nointro, rapatches"
   },
@@ -3804,10 +3807,16 @@
   "33061": {
     "C411EC2FED53FA14C1FDE93A8A975345": "KellyKangaroo_NTSC_0.6.bin - homebrew, itchio"
   },
+  "33105": {
+    "95BB981AC35E07F64D18231A92B02C05": "Donkey Kong Country NES Edition (v1.1) (the jabu).nes - nointro,rhdn"
+  },
   "33115": {
     "6E684F059D3228B0C99E59CB69C3EE10": "unpan - homebrew"
   },
   "33306": {
     "72237B5E10A368393C288492517E910C": "Legend of Zelda: Whomp's Fortress v1.0 - No Labels"
+  },
+  "33394": {
+    "7762D78A526D38663DF1418712D0D62D": "SM64 - Glass Smash 64 (v1.0) (Nobbie, Woissil, Aeza, JackTheGothGuy) - nointro"
   }
 }
