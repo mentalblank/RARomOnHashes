@@ -4,9 +4,9 @@ This script adds download links for supported game files on RetroAchievements.or
 
 ![Screenshot](https://i.imgur.com/O9ad6mm.png)
 
-## Linked Hash Status (as of Apr. 7, 2025)
-- **Linked Hashes:** 13,479
-- **Missing Hashes:** 1,631
+## Linked Hash Status (as of Apr. 8, 2025)
+- **Linked Hashes:** 13,482
+- **Missing Hashes:** 1,633
 
 ## Searchable Web Application (Search by either Game ID or Hash)
 ### [CLICK HERE FOR WEB APP VERSION](https://mentalblank.github.io/RARomOnHashes)
