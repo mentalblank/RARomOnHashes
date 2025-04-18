@@ -1357,6 +1357,11 @@
   "10471": {
     "139323805DA1AAB77537ADCAA985F62A": "Legend of Banjo-Kazooie, The - The Bear Waker Deluxe (v1.1) (Markus Kurko).z64 - nointro, rapatches"
   },
+  "10475": {
+    "801DB5352C6B1ADA7C74A681169A2804": "AshGuine Story II - Kokuu no Gajou (Japan) (En) (v1.0) (MSX Translations).rom - nointro,rapatches",
+    "DC3F1ABA221492B5B2D9EAD9B36E8A07": "AshGuine Story II - Kokuu no Gajou (Japan) (En) (v1.0 - AS MSX-Audio) (MSX Translations).rom - nointro,rapatches",
+    "3B191BA16E7C5DEF2F1E9FEBC1FB92E5": "AshGuine Story II - Kokuu no Gajou (Japan).rom - nointro"
+  },
   "10533": {
     "A06D01F8140F6E209B2A9BF2AD082A32": "Metal Gear Solid - Peace Walker (En,Fr,Es) (v1.01) [60 FPS] - redump, nointro, rapatches"
   },
@@ -1780,6 +1785,9 @@
   "16315": {
     "05CE98F320099D93F04873B7FE70DD3E": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Wolverine - Feral Instinct/Wolverine - Feral District (V3) by Billy Time! Games (Negan) [2020-06-14] (SMW Hack).zip",
     "872835F85FFB6EA60C7B2D7606656C96": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Wolverine - Feral Instinct/Wolverine - Feral District (V4) by Billy Time! Games (Negan) [2020-05-18] (SMW Hack).zip"
+  },
+  "16387": {
+    "FF1419AB6C2A099EED072762978BC1CC": "Luigi Puzzle (World) (v1.2) (Unl).gba - homebrew,lostlevel"
   },
   "16441": {
     "EE40ECD5E3321BF89D3F6288674161B2": "SMW - Birola World (v2.0) (TheMURAmatsu).sfc - nointro, rapatches, smwcentral"
@@ -2847,6 +2855,12 @@
   "28317": {
     "D971897D649779CCD0A18C40656D2957": "null - No Labels"
   },
+  "28319": {
+    "7F6CC86DE572A068AE03B63C926716CA": "Pokemon Emerald - National History Museum (v1.0.4) (wiz1989).gba - nointro,rapatches,pokecommunity"
+  },
+  "28320": {
+    "B63B62B3AA0C8940EF61F16402739A8C": "Pokemon Emerald - Pokescape - A Pokemon Escape Room (v1.0.4) (wiz1989).gba - nointro,rapatches,pokecommunity"
+  },
   "28329": {
     "6C558374AC16BB9EB603C976A677A029": "Legend of Zelda, The - LttP - Allhallows Eve (v1.03) (Allhallows Team).sfc - nointro, rapatches"
   },
@@ -3505,6 +3519,9 @@
     "A5A18420294ED1F1F1E6F523C8A8F339": "SM64 - Arthurtilly's 2nd Hacking Competition - Mario Odyssey - sm64pie Submission (sm64pie).z64 - nointro, rapatches",
     "7EA2660AA957CF88F96F74746488E91E": "SM64 - Palmsear Sands (v1.0) (sm64pie).z64 - nointro, rapatches"
   },
+  "30993": {
+    "6E875844552132C360421F1AF9B0050A": "Pikmin 2 (USA) - Caveless Edition v1.2.1 (Cutscenes: Yes, Purple Pikmin: Yes) - redump"
+  },
   "30995": {
     "F11D8679EE240B6C4CB2C8112202CC6C": "Flappy Bird DS (World) (Aftermarket) (Unl) (PolyMars).nds - homebrew, lostlevel"
   },
@@ -3772,6 +3789,9 @@
   "32919": {
     "1542A1478094CDE60E46D79536315262": "Nightmare of Druaga, The - Fushigino Dungeon (USA) [Subset - Alchemy] - redump, rapatches"
   },
+  "32920": {
+    "6DC4A4C2C31B3FBEAABD728E74507D77": "Mr. Prospector - Horiate-kun (Japan) - "
+  },
   "32925": {
     "119568CA77097278F48F7875183790C0": "Digimon World (USA) + Vice + Vice Hardcore + Ultra Hardcore + True Hardcore + Super Dirt Reduction + Super Low Monochromon Goal + Myotismon Patch + Restore Panjyamon - redump, rapatches"
   },
@@ -3813,5 +3833,11 @@
   },
   "33398": {
     "2BE14A8CD1D143F090E624334C71C39E": "mariomon v1.3 - "
+  },
+  "33408": {
+    "44CF115C1030149C4862A3A3B573C151": "CT Special Forces (Europe) (En,Fr,De,Es,It,Nl) - "
+  },
+  "33412": {
+    "DC1205F70C638ABF6D0C1C89E26436E0": "Metroid - Galactic Marine v1.1 - "
   }
 }
