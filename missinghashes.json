@@ -818,9 +818,6 @@
   "3618": {
     "D62A474CC5635BB4B9E8604EAE677444": "Crash Bandicoot Fusion (Europe) (Ru) (Pirate).gba - nointro, rapatches"
   },
-  "3631": {
-    "D05A3C8E6AF26686166B5049F1438DFF": "Winnie the Pooh - Adventures in the 100 Acre Wood (Europe) (En,Fr,De,Es,It,Nl,Da) - "
-  },
   "3731": {
     "96501E0E8D2F7435AC6AC5727571F8BB": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/Super Famicom Wars/Super Famicom Wars (Japan) (NP) [T-En by Optiroc v1.1].zip"
   },
@@ -1353,6 +1350,9 @@
   },
   "10242": {
     "7EE41EDAEF283459C9DF93366C5DA267": "Lexis (World) (Aftermarket) (Unl).lnx - nointro"
+  },
+  "10339": {
+    "761A082AAE1C8BBE118B786010EC27AF": "Legend of Zelda, The - ALttP - Zelda3 Cube (v1.0) (PuzzleDude).sfc - nointro,rapatches"
   },
   "10401": {
     "12B0165CCCA702B8CAA763BE96FB356F": "Legend of Zelda, The - Legend of Banjo (v3.3.1) (Charade).nes - nointro, rapatches"
@@ -2263,6 +2263,12 @@
   "19406": {
     "BF6375A46BD4DB949760D4E03F13DC32": "SM64 - Star Revenge 5.5 - Destroyed Memories (v1.3) (BroDute).z64 - nointro, rapatches"
   },
+  "19407": {
+    "A5BE14BD122F4E157CB93010AD72F6BF": "SM64 - Star Revenge 6 - Luigi's Adventure (v1.3.1) (BroDute).z64 - nointro,rapatches"
+  },
+  "19409": {
+    "32CB417C8C8953728905FFDAF9F3A579": "SM64 - Star Revenge 6.5 - Wrath of the Dim Flower (v1.1.1) (BroDute).z64 - nointro,rapatches"
+  },
   "19492": {
     "5CEC2EA484464BAF61AED4DB439557A9": "Banjo-Kazooie - Fort Fun (v5.0) (Kurko Mods).z64 - nointro, rapatches"
   },
@@ -2572,6 +2578,9 @@
   },
   "23727": {
     "1E37A373D3B073341F2D25B1AAA138EF": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ Windows Mario World/Windows Mario World (Demo) by BetaMaster64 (AirMario) [2015-01-01] (SMW Hack).zip"
+  },
+  "23731": {
+    "B66C0335BE91D86650E31C5942A69323": "Another Day in Hell (World) (v1.1) (Aftermarket) (Unl).ngc - homebrew,lostlevel"
   },
   "23740": {
     "573677F08A0D8E9EE78A1C8A87E99E87": "https://archive.org/download/retroachievements_collection_SNES-Super_Famicom/SNES-Super Famicom/~Hack~ ~Demo~ Super Alicorn Sisters - Return of the Tantabus/Super Alicorn Sisters - Return of the Tantabus (Demo V0.05.2) by DPBOX [2019-04-19] (SMW Hack).zip"
@@ -3623,6 +3632,9 @@
   "31423": {
     "EB90117AC001A9518E79A8DF2D903E5E": "Lock On.d88 - neokobe"
   },
+  "31452": {
+    "02865E1B0B3882EEFC065957E52F4C04": "Simple 2960 Tomodachi Series Vol. 3 - The Itsudemo Puzzle - Massugu Soroete Straws (Japan) (En) (v1.0) (AnotherBlob).gba - nointro,rapatches"
+  },
   "31453": {
     "B26307C090211B85672A3A71EF3BD53F": "aerial - No Labels"
   },
@@ -3692,6 +3704,9 @@
     "94A70FED0893D60084B59D4E4A955924": "Wheel of Fortune (1987)(Sharedata)(US).dsk - tosec",
     "5F7D5EBC16F129D6967FFF6539E272FB": "Wheel of Fortune (1987)(Sharedata)(US)(Side A).dsk - tosec",
     "A67B2944154B4DDA4731CB2E31D81691": "Wheel of Fortune (1987)(Sharedata)(US)(Side B).dsk - tosec"
+  },
+  "32108": {
+    "62EF4020AA956287EE45294612CAF195": "SpongeBob and the Pit of 100 Trials (v2.0) (Hacked Header) (Gravity) - lostlevel,rapatches"
   },
   "32120": {
     "05818755ED7BA092AEF2A3BB681D0118": "Monster Rancher 2 [Subset - 389 Major 4] - redump, rapatches",
@@ -3860,5 +3875,11 @@
   },
   "33412": {
     "DC1205F70C638ABF6D0C1C89E26436E0": "Metroid - Galactic Marine v1.1 - "
+  },
+  "33413": {
+    "FD57E7627FEC7A3E889D2342653FC180": "Where in Hell is Carmen Santiago (1990) (St. John M. Morrison).po - homebrew,lostlevel"
+  },
+  "33456": {
+    "347D0EF33C889CC826D214CAF8475AE0": "King of Fighters R-1 - Pocket Fighting Series (Japan, Europe) (En,Ja).ngp - nointro"
   }
 }
