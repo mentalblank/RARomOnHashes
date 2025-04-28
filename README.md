@@ -1,73 +1,81 @@
-# RetroAchievements.org Download Supported Game Files TamperMonkey Script
+# RetroAchievements.org Supported Game Files TamperMonkey Script
 
-This script adds download links for supported game files on RetroAchievements.org's "Supported Game Files" pages. It utilizes hash information to inject direct download links for supported ROM files. Please ensure you respect RetroAchievements' policies and the legal framework in your region when using this tool.
+This script adds download links for supported game files on RetroAchievements.org's "Supported Game Files" pages. It uses hash information to inject direct download links for supported ROM files. Please ensure you comply with RetroAchievements' policies and the legal framework in your region when using this tool.
 
 ![Screenshot](https://i.imgur.com/O9ad6mm.png)
 
-## Linked Hash Status (as of Apr. 26, 2025)
+## 🔗 Linked Hash Status (as of Apr. 26, 2025)
 - **Linked Hashes:** 13,524
 - **Missing Hashes:** 1,659
 
-## Searchable Web Application (Search by either Game ID or Hash)
-### [CLICK HERE FOR WEB APP VERSION](https://mentalblank.github.io/RARomOnHashes)
+## 🌐 Searchable Web Application
 
-## Disclaimer
+[Click here for the web app version](https://mentalblank.github.io/RARomOnHashes)
+> **Note:** Search by either the Game ID or a linked hash.
 
-- **Respect RA.org's Policies:** Please refrain from posting links to ROMs on RetroAchievements' website or Discord.
-- **ROM Legality:** Ensure you have the legal rights to any files accessed through this script. Downloading ROMs without owning the original physical copy may violate copyright laws in your region.
-- **Game Preservation:** The script supports video game preservation efforts by enabling easier access to classic games. However, always respect the rights of game developers and publishers when using such tools.
-- By using this script, you agree to comply with all applicable laws in your jurisdiction. Be cautious and mindful of legal boundaries when sharing or downloading digital content.
-- No actual files are hosted here and these tools will simply link you to them, Think of it like google but for roms.
+## ⚖️ Disclaimer
 
-## Important Notes
+- **Respect RA’s Policies**: Do not post ROM links on RetroAchievements' website or Discord.
+- **ROM Legality**: Ensure you have legal rights to access any ROMs through this script. Downloading ROMs without owning the physical copy may violate copyright laws in your jurisdiction.
+- **Game Preservation**: This tool supports video game preservation efforts by enabling easier access to classic games. However, you should always respect the game developers' and publishers' rights.
+- By using this script, you agree to comply with all relevant laws. Always be mindful of legal boundaries when sharing or downloading digital content.
+- **No File Hosting**: This tool does not host ROMs but links to them, similar to a search engine.
 
-- The updated and fixed scripts may have a small delay in generating download links. If no download link appears after a few moments, try refreshing the page or sourcing it manually, as the file might not exist in `hashlinks.json` or on Archive.org.
-- RetroAchievements occasionally "recycles" game IDs, which can lead to incorrect links. These game IDs may no longer match the linked ROMs. If this happens, please report it via bug report or modify the hashlist via a pull request.
-- The updated script will pull updates from this repo only when it has been 24 hours since the last time it pulled an update.
-- Most of the missing hashes (1063) are currently missing due to an issue with wholee's SNES archive.org dump, I am working on replacing these. The rest of them are mainly rom hacks and I plan on including these too.
-- TBH I have no idea if the userscripts will work with Chromium based browsers (eg. Chrome, Edge, Opera, etc.) after the whole Manifest V3 thing, although i've seen that it is now necessary to [enable developer mode to run userscripts via Tampermonkey](https://www.tampermonkey.net/faq#Q209). From what i understand, Google is also force disabling / blocking installs of TamperMonkey. I use Firefox with ViolentMonkey and have no intention of switching or troubleshooting any Chromium related issues.
+## ⚠️ Important Notes
 
-## Script Versions
+- **Download Link Delays**: New or updated scripts may have a slight delay in generating links. If a link does not appear, refresh the page or source it manually from Archive.org or `hashlinks.json`.
+- **Game ID Changes**: RetroAchievements occasionally "recycles" game IDs, leading to mismatched links. Please report any issues or submit a pull request to update `hashlinks.json`.
+- **Update Cycle**: The script will pull updates from this repository only if a change has been made and check only once every 24 hours.
+- **Missing Hashes**: 1,063 of the missing hashes are due to issues with Wholee’s SNES archive dump on Archive.org, which will slowly be re-linked as the files are located elsewhere. The rest are mostly ROM hacks, which will also be included.
+- **Manifest V3**: Userscripts may face compatibility issues with Chromium browsers (e.g., Chrome, Edge, Opera) after the shift to Manifest V3. You may need to [enable developer mode](https://www.tampermonkey.net/faq#Q209) to run userscripts. I use Firefox and do not troubleshoot Chromium-specific issues at this time.
 
-There are three versions of the script available. Choose only one version to use at a time:
+## 📜 Script Versions
 
-- **[Updated Script](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/TamperMonkeyRetroachievements.js)** – The most current version with a GitHub-hosted hashlist that can be edited through pull requests, also has more linked roms!
-- **[Fixed Old Script](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/OriginalTamperMonkeyRetroachievementsFixed.js)** – The original script by Wholee, hosted on Archive.org, with modifications for compatibility with RetroAchievements’ new layout.
-- **[Original Wholee Script](https://archive.org/details/retroachievements_collection_v5)** – The initial, unmodified version of the script, hosted on Archive.org, which may not be functional.
+There are three versions of the script available. Choose one to use at a time:
 
-## Userscript Installation
+- **[Updated Script](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/TamperMonkeyRetroachievements.js)**: The most current version with a GitHub-hosted hash list that can be edited via pull requests.
+- **[Fixed Original Script](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/OriginalTamperMonkeyRetroachievementsFixed.js)**: The original script by Wholee, with modifications for RetroAchievements’ new layout.
+- **[Original Wholee Script](https://archive.org/details/retroachievements_collection_v5)**: The initial, unmodified script (Non-Functional).
+> **Note:** My updated version is linked to more ROMs than the original or fixed versions of Wholee's script. This may change if Wholee comes back to update and fix their Archive.org upload, but my script can be edited far more often and more easily by multiple people.
 
-Follow these steps to install the script using TamperMonkey (or ViolentMonkey):
+## 📥 Installation Instructions
 
 ### 1. Install TamperMonkey
 
-- **FAQ:** [TamperMonkey FAQ](https://www.tampermonkey.net/faq.php#Q102)
-- **For Chrome:** [TamperMonkey Chrome Extension](https://tampermonkey.net/?ext=dhdg&browser=chrome)
-- **For Firefox:** [Tampermonkey Firefox Add-on](https://tampermonkey.net/?ext=dhdg&browser=firefox)
-- **For Safari:** [Tampermonkey Safari Extension](https://tampermonkey.net/?ext=dhdg&browser=safari)
+- **[TamperMonkey FAQ](https://www.tampermonkey.net/faq.php#Q102)**
+- **[Chrome Extension](https://tampermonkey.net/?ext=dhdg&browser=chrome)**
+- **[Firefox Add-On](https://tampermonkey.net/?ext=dhdg&browser=firefox)**
+- **[Safari Extension](https://tampermonkey.net/?ext=dhdg&browser=safari)**
+> **Note:** Alternatively, you can also use ***ViolentMonkey*** or ***FireMonkey***
 
 ### 2. Add the Script to TamperMonkey
 
 - Open the **TamperMonkey dashboard** by clicking the TamperMonkey icon and selecting **Dashboard**.
-- Click on the **"Add a new script"** button (or the "+" icon).
-- In the editor, delete any default code and paste in one of the following scripts:
-  - **[Updated Script](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/TamperMonkeyRetroachievements.js)**
-  - **[Fixed Old Script](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/OriginalTamperMonkeyRetroachievementsFixed.js)**
-  - **[Original Wholee Script](https://archive.org/details/retroachievements_collection_v5)**
+- Click on **"Add a new script"** (or the "+" icon).
+- Paste the URL of one of the above script versions into the editor.
 
 ### 3. Save and Activate
 
 - Save the script by selecting **File > Save** or pressing **Ctrl + S** (Windows) / **Cmd + S** (Mac).
-- Refresh the RetroAchievements.org "Supported Game Files" page to activate the script.
+- Refresh any RetroAchievements.org "Supported Game Files" page to activate the script.
+> **Notes:**
+> - If no links appear ([Screenshot](https://i.imgur.com/O9ad6mm.png)) after a few seconds or a page refresh, you can check to see if the script is running in your browser's dev console which will say "***RA Hash List Script is running!***"
+> - You can also check [hashlinks.json](https://raw.githubusercontent.com/mentalblank/RARomOnHashes/refs/heads/main/hashlinks.json) to see if the hashes have been linked.
 
-## Pull Requests
+## 🔄 Pull Requests
 
-When submitting pull requests to update the `hashlinks.json` file, please ensure the json is valid, the matching hashes are removed from `missinghashes.json`, and you list in the commit description the games added / modified.
+Pull requests from the community are welcome here.
 
-## Thanks, Acknowledgements, & Credits
+To contribute updates to `hashlinks.json`, please ensure the following:
 
-- Wholee for their RA Dump and original script.
-- Pipetboy for the idea of a web application.
-- The Erista Group & Myrient teams.
-- The RetroAchievements team.
-- Anyone who finds these scripts useful <3
+- The JSON is valid.
+- Matching hashes are removed from `missinghashes.json`.
+- List the added or modified games in the commit description.
+
+## 🙏 Thanks, Acknowledgements, & Credits
+
+- **Wholee**: For the RA Dump and the original script.
+- **Pipetboy**: For the web application idea.
+- **Erista Group & Myrient teams**: For their preservation efforts.
+- **RetroAchievements Team**: For their platform and contributions to emulation and nostalgia.
+- **All Users**: Thank you for using these scripts!
