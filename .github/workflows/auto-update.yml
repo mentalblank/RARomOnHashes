@@ -1,0 +1,44 @@
+name: Auto Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  run-hash-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run hash pipeline script
+        id: script
+        env:
+          RA_API_KEY: ${{ secrets.RA_API_KEY }}
+        run: |
+          output=$(node tools/hashpipegen.js)
+          echo "commit_message<<EOF" >> $GITHUB_OUTPUT
+          echo "$output" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add hashlinks.json missinghashes.json README.md
+          git commit -m "${{ steps.script.outputs.commit_message }}" || echo "No changes to commit"
+          git push

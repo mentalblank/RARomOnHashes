@@ -1,0 +1,12 @@
+{
+  "name": "retroachievements-rom-linker",
+  "version": "1.0.0",
+  "description": "A script to link RetroAchievements hashes to ROMs.",
+  "main": "tools/hashpipegen.js",
+  "scripts": {
+    "start": "node tools/hashpipegen.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
