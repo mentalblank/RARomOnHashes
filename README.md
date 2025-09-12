@@ -4,9 +4,9 @@ This script adds download links for supported game files on RetroAchievements.or
 
 ![Screenshot](https://i.imgur.com/O9ad6mm.png)
 
-## 🔗 Linked Hash Status (as of Sep. 11, 2025)
-- **Linked Hashes:** 13,888
-- **Missing Hashes:** 1,988
+## 🔗 Linked Hash Status (as of Sep. 13, 2025)
+- **Linked Hashes:** 13,892
+- **Missing Hashes:** 1,996
 
 ## 🌐 Searchable Web Application
 
@@ -26,8 +26,9 @@ This script adds download links for supported game files on RetroAchievements.or
 - **Download Link Delays**: New or updated scripts may have a slight delay in generating links. If a link does not appear, refresh the page or source it manually from Archive.org or `hashlinks.json`.
 - **Game ID Changes**: RetroAchievements occasionally "recycles" game IDs, leading to mismatched links. Please report any issues or submit a pull request to update `hashlinks.json`.
 - **Update Cycle**: The script will pull updates from this repository only if a change has been made and check only once every 24 hours.
-- **Missing Hashes**: 1,063 of the missing hashes are due to issues with Wholee’s SNES archive dump on Archive.org, which will slowly be re-linked as the files are located elsewhere. The rest are mostly ROM hacks, which will also be included.
+- **Missing Hashes**: A significant amount of the missing hashes are due to issues with Wholee’s SNES archive dump on Archive.org, which will slowly be re-linked as the files are located elsewhere. The rest are mostly rom hacks.
 - **Manifest V3**: Userscripts may face compatibility issues with Chromium browsers (e.g., Chrome, Edge, Opera) after the shift to Manifest V3. You may need to [enable developer mode](https://www.tampermonkey.net/faq#Q209) to run userscripts. I use Firefox and do not troubleshoot Chromium-specific issues at this time.
+- **Archive.org**: As this project relies on a small number of Archive.org dumps, it is advised to remain signed into Archive.org so you can access these files.
 
 ## 📜 Script Versions
 
@@ -52,7 +53,7 @@ There are three versions of the script available. Choose one to use at a time:
 
 - Open the **TamperMonkey dashboard** by clicking the TamperMonkey icon and selecting **Dashboard**.
 - Click on **"Add a new script"** (or the "+" icon).
-- Paste the URL of one of the above script versions into the editor.
+- Paste the contents of one of the above script versions into the editor.
 
 ### 3. Save and Activate
 

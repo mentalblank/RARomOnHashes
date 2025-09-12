@@ -109,20 +109,20 @@ async function generateHashes() {
       const claims = await res.json();
 
       const now = new Date();
-      const thirtyOneDaysAgo = new Date(
-        now.getTime() - 7 * 24 * 60 * 60 * 1000
+      const setDaysAgo = new Date(
+        now.getTime() - 8 * 24 * 60 * 60 * 1000
       );
 
       const recentClaims = claims.filter((claim) => {
         const doneTime = new Date(claim.DoneTime);
-        return doneTime >= thirtyOneDaysAgo;
+        return doneTime >= setDaysAgo;
       });
 
       const recentGameIds = [
         ...new Set(recentClaims.map((claim) => claim.GameID)),
       ];
 
-      console.error("Game IDs completed in last 7 days:", recentGameIds);
+      console.error("Game IDs completed in last 8 days:", recentGameIds);
       return recentGameIds;
     } catch (err) {
       console.error("Error fetching completed claims:", err.message);
