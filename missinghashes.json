@@ -4516,6 +4516,9 @@
   "33607": {
     "1BF5A85D8621C0855EA6ECFF245E0ED2": "SMW - 20 Challenges - Episode 4 - Temple of the elements (2025-05-16) (Drakel).sfc - nointro,rapatches"
   },
+  "33608": {
+    "FE0C87571C83B2AF29D5614A2224EBC0": "Nicktoons - Attack of the Toybots [Subset - Multi] - redump,rapatches"
+  },
   "33610": {
     "2A61C47153FAE98C6D6DFC1CF2A840E8": "SMA2 - Yet Another Vanilla SMA2 Hack (v1.1) (Gamer Hedgehog).gba - nointro,rapatches"
   },
@@ -4666,6 +4669,9 @@
   "34489": {
     "4EF1A460A9356E63477E5538760E0A62": "Tetris [Subset - Master].nes - nointro,rapatches"
   },
+  "34493": {
+    "637CF956AFAB0B61EDFCE237273E7E1D": "Mike Tyson's Punch-Out - Nightmare Punch-Out!! (v1.4) (Landa) - nointro,rapatches"
+  },
   "34495": {
     "4C7828AA9798EF21A740692B5C1C4669": "SMW - Chomper Ville (v2011-04-20) (SMWFanatic).sfc - nointro,rapatches",
     "E0DB3F6076F2D54F1DE885B82C3794F0": "SMW - Chomper Ville (v2011-04-20) (Inf. Lives) (SMWFanatic).sfc - nointro,rapatches"
@@ -4692,5 +4698,8 @@
   },
   "34509": {
     "FB86F69095469445A6E8962CD618B39E": "Dynasty Warriors 3 - Xtreme Legends [Subset Max Item Break].iso - redump,rapatches"
+  },
+  "34534": {
+    "B04D10AF7FF5010C90BE47948158F016": "Game of Life Kuzushi (World) (Aftermarket) (Unl).gb - homebrew,itchio,lostlevel"
   }
 }
