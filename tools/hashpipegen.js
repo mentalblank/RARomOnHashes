@@ -39,6 +39,15 @@ async function generateHashes() {
 
       const hashesWithUrls = await Promise.all(
         results.map(async (hashInfo) => {
+        const excludedLabels = ["legacy", "elf"];
+        if (
+          !hashInfo.Name || 
+          excludedLabels.some(label => hashInfo.Labels.includes(label)) ||
+          hashInfo.Name.includes("[legacy]") ||
+          hashInfo.Name.includes("[elf]")
+        ) {
+          continue;
+        }
           let romUrl;
           try {
             romUrl = await checkFileExists(
@@ -130,205 +139,367 @@ async function generateHashes() {
     }
   }
 
-  async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
-    let dumpGroup = null;
-
-    if (hashlabels.includes("nointro") && hashlabels.includes("redump")) {
-      dumpGroup = "Non-Redump";
-    } else if (hashlabels.includes("nointro")) {
-      dumpGroup = "No-Intro";
-    } else if (hashlabels.includes("redump")) {
-      dumpGroup = "Redump";
-    } else if (hashlabels.includes("fbneo")) {
-      dumpGroup = "fbneo";
-    } else {
-      return null;
+async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
+    if (!fileName || fileName.includes("[legacy]") || fileName.includes("[elf]")) {
+        return null;
     }
+    const dumpGroupMap = [
+        { labels: ["nointro", "redump"], group: "Non-Redump" },
+        { labels: ["nointro"], group: "No-Intro" },
+        { labels: ["redump"], group: "Redump" },
+        { labels: ["fbneo"], group: "fbneo" },
+        { labels: ["wozaday"], group: "wozaday" },
+        { labels: ["4amcrack"], group: "4amcrack" },
+        { labels: ["cleancpc"], group: "cleancpc" },
+        { labels: ["neokobe"], group: "neokobe" },
+        { labels: ["lostlevel"], group: "lostlevel" },
+        { labels: ["rapatches"], group: "rapatches" },
+        { labels: ["mamesl"], group: "mamesl" },
+        { labels: ["tosec"], group: "tosec" },
+        { labels: ["goodtools"], group: "goodtools" },
+        { labels: ["nongood"], group: "nongood" },
+    ];
 
-    if (
-      hashlabels.includes("rapatches") ||
-      hashlabels.includes("tosec") ||
-      hashlabels.includes("wozaday") ||
-      hashlabels.includes("4amcrack") ||
-      hashlabels.includes("cleancpc") ||
-      hashlabels.includes("neokobe") ||
-      hashlabels.includes("lostlevel") ||
-      hashlabels.includes("mamesl") ||
-      hashlabels.includes("goodtools") ||
-      hashlabels.includes("nongood") ||
-      hashlabels.includes("legacy") ||
-      hashlabels.includes("elf") ||
-      hashname.includes("[legacy]") ||
-      hashname.includes("[elf]")
-    ) {
-      return null;
-    }
+const dumpGroup = dumpGroupMap.find(entry =>
+    entry.labels.every(label => hashlabels.includes(label))
+)?.group || null;
+
+    if (!dumpGroup) return null;
+
+    const fbneoConsoleMap = {
+        "Arcade": "arcade"
+    };
+
+    const cleancpcConsoleMap = {
+        "Amstrad CPC": ""
+    };
+
+    const wozadayConsoleMap = {
+        "Apple II": ""
+    };
+
+    const neokobeConsoleMap = {
+        "NEC PC-8001": "",
+        "NEC PC-8801": ""
+    };
+
+    const tosecConsoleMap = {
+        "MSX": [
+            "MSX/MSX/Games/[CAS]",
+            "MSX/MSX/Games/[DSK]",
+            "MSX/MSX/Games/[ROM]",
+            "MSX/MSX/Games/[WAV]",
+            "MSX/MSX/Games/[WV]"
+        ],
+        "MSX2": [
+            "MSX/MSX2/Games/[CAS]",
+            "MSX/MSX2/Games/[DSK]",
+            "MSX/MSX2/Games/[HFE]",
+            "MSX/MSX2/Games/[ROM]",
+            "MSX/MSX2/Games/[SCP]",
+            "MSX/MSX2/Games/[WAV]"
+        ],
+        "Apple II": [
+            "Apple/II/Games/[2MG]",
+            "Apple/II/Games/[A2R]",
+            "Apple/II/Games/[AIF]/",
+            "Apple/II/Games/[BIN]",
+            "Apple/II/Games/[D13]",
+            "Apple/II/Games/[DSK]",
+            "Apple/II/Games/[EDD]",
+            "Apple/II/Games/[FDI]",
+            "Apple/II/Games/[NIB]",
+            "Apple/II/Games/[PO]",
+            "Apple/II/Games/[SHK]",
+            "Apple/II/Games/[WAV]",
+            "Apple/II/Games/[WOZ]"
+        ],
+        "NEC PC-8001": [
+            "NEC/PC-8001/Games/[CMT]",
+            "NEC/PC-8001/Games/[D88]",
+            "NEC/PC-8001/Games/[T88]",
+            "NEC/PC-8001/Games/[WAV]"
+        ],
+        "NEC PC-8801": [
+            "NEC/PC-8801/Games/[CAS]",
+            "NEC/PC-8801/Games/[CMT]",
+            "NEC/PC-8801/Games/[D88]",
+            "NEC/PC-8801/Games/[HFE]",
+            "NEC/PC-8801/Games/[SCP]",
+            "NEC/PC-8801/Games/[T88]",
+            "NEC/PC-8801/Games/[WAV]"
+        ],
+        "Amstrad CPC": [
+            "Amstrad/CPC/Games/[BIN]",
+            "Amstrad/CPC/Games/[CPR]",
+            "Amstrad/CPC/Games/[DSK]",
+            "Amstrad/CPC/Games/[HXCSTREAM]",
+            "Amstrad/CPC/Games/[MP3]",
+            "Amstrad/CPC/Games/[RAW]",
+            "Amstrad/CPC/Games/[ROM]",
+            "Amstrad/CPC/Games/[SNA]",
+            "Amstrad/CPC/Games/[TZX]",
+            "Amstrad/CPC/Games/[WAV]"
+        ]
+    };
+
+    const miscConsoleMap = {
+        "Elektor TV Games Computer": ""
+    };
+
+    const redumpConsoleMap = {
+        "Sega CD": "Sega - Mega CD & Sega CD",
+        "Sega CD/Mega CD": "Sega - Mega CD & Sega CD",
+        "PlayStation": "Sony - PlayStation",
+        "GameCube": "Nintendo - GameCube - NKit RVZ [zstd-19-128k]",
+        "PlayStation 2": "Sony - PlayStation 2",
+        "Sega Saturn": "Sega - Saturn",
+        "Dreamcast": "Sega - Dreamcast",
+        "PlayStation Portable": "Sony - PlayStation Portable",
+        "3DO Interactive Multiplayer": "Panasonic - 3DO Interactive Multiplayer",
+        "PC-FX": "NEC - PC-FX & PC-FXGA",
+        "Neo Geo CD": "SNK - Neo Geo CD",
+        "TurboGrafx-CD/PC Engine CD": "NEC - PC Engine CD & TurboGrafx CD",
+        "Atari Jaguar CD": "Atari - Jaguar CD Interactive Multimedia System"
+    };
 
     const noIntroConsoleMap = {
-        "3DO Interactive Multiplayer": "Non-Redump - Panasonic - 3DO Interactive Multiplayer",
-        "32X": "Sega - 32X",
-        "Amstrad CPC": "Amstrad - CPC",
-        "Apple II": "Apple - Apple II",
-        "Arcade": "MAME - Multiple Arcade Machine Emulator",
-        "Arcadia 2001": "Arcadia - 2001",
-        "Arduboy": "Arduboy Inc - Arduboy",
-        "Atari 2600": "Atari - 2600",
-        "Atari 7800": "Atari - 7800",
-        "Atari Jaguar": "Atari - Jaguar (J64)",
-        "Atari Jaguar CD": "Non-Redump - Atari - Atari Jaguar CD",
-        "Atari Lynx": "Atari - Atari Lynx (LYX)",
-        "ColecoVision": "Coleco - ColecoVision",
-        "Dreamcast": "Non-Redump - Sega - Dreamcast",
-        "Elektor TV Games Computer": "Elektor - TV Games Computer",
-        "Fairchild Channel F": "Fairchild - Channel F",
-        "Game Boy": "Nintendo - Game Boy",
-        "Game Boy Advance": "Nintendo - Game Boy Advance",
-        "Game Boy Color": "Nintendo - Game Boy Color",
-        "GameCube": "Non-Redump - Nintendo - Nintendo GameCube",
-        "Game Gear": "Sega - Game Gear",
-        "Genesis/Mega Drive": "Sega - Mega Drive - Genesis",
-        "Intellivision": "Mattel - Intellivision",
-        "Interton VC 4000": "Interton - VC 4000",
+        "Genesis/Mega Drive": [
+            "Sega - Mega Drive - Genesis",
+            "Sega - Mega Drive - Genesis (Aftermarket)"
+         ],
+        "Nintendo 64": [
+            "Nintendo - Nintendo 64 (BigEndian)",
+            "Nintendo - Nintendo 64 (BigEndian)  (Aftermarket)"
+         ],
+        "Super Nintendo/Super Famicom": [
+            "Nintendo - Super Nintendo Entertainment System",
+            "Nintendo - Super Nintendo Entertainment System (Aftermarket)"
+        ],
+        "SNES/Super Famicom": [
+            "Nintendo - Super Nintendo Entertainment System",
+            "Nintendo - Super Nintendo Entertainment System (Aftermarket)"
+        ],
+        "Sufami Turbo": "Nintendo - Sufami Turbo",
+        "Satellaview": "Nintendo - Satellaview",
+        "Game Boy": [
+             "Nintendo - Game Boy",
+             "Nintendo - Game Boy (Aftermarket)"
+        ],
+        "Game Boy Advance": [
+             "Nintendo - Game Boy Advance",
+             "Nintendo - Game Boy Advance (Aftermarket)"
+        ],
+        "Game Boy Color": [
+             "Nintendo - Game Boy Color",
+             "Nintendo - Game Boy Color (Aftermarket)"
+        ],
+        "NES/Famicom": [
+            "Nintendo - Nintendo Entertainment System (Headered)",
+            "Nintendo - Family Computer Disk System (FDS)",
+            "Nintendo - Family Computer Disk System (QD)",
+            "Nintendo - Nintendo Entertainment System (Headered) (Aftermarket)"
+        ],
+        "Famicom Disk System": [
+            "Nintendo - Nintendo Entertainment System (Headered)",
+            "Nintendo - Family Computer Disk System (FDS)",
+            "Nintendo - Family Computer Disk System (QD)"
+        ],
+        "PC Engine/TurboGrafx-16": "NEC - PC Engine - TurboGrafx-16",
+        "SuperGrafx": "NEC - PC Engine SuperGrafx",
+        "32X": [
+            "Sega - 32X",
+            "Sega - 32X (Aftermarket)"
+        ],
+        "Master System": [
+            "Sega - Master System - Mark III",
+            "Sega - Master System - Mark III (Aftermarket)"
+        ],
+        "Atari Lynx": [
+            "Atari - Atari Lynx (LYX)",
+            "Atari - Atari Lynx (BLL)",
+            "Atari - Atari Lynx (LNX)",
+            "Atari - Atari Lynx (LYX) (Aftermarket)",
+            "Atari - Atari Lynx (BLL) (Aftermarket)",
+            "Atari - Atari Lynx (LNX) (Aftermarket)",
+        ],
+        "Neo Geo Pocket": "SNK - NeoGeo Pocket",
+        "Neo Geo Pocket Color": "SNK - NeoGeo Pocket Color",
+        "Game Gear": [
+            "Sega - Game Gear",
+            "Sega - Game Gear (Aftermarket)",
+        ],
+        "Atari Jaguar": [
+            "Atari - Atari Jaguar (J64)",
+            "Atari - Atari Jaguar (JAG)",
+            "Atari - Atari Jaguar (ROM)",
+            "Atari - Atari Jaguar (J64) (Aftermarket)",
+            "Atari - Atari Jaguar (JAG) (Aftermarket)",
+            "Atari - Atari Jaguar (ROM) (Aftermarket)"
+        ],
+        "Nintendo DS": [
+            "Nintendo - Nintendo DS (Decrypted)",
+            "Nintendo - Nintendo DS (Decrypted) (Aftermarket)"
+         ],
         "Magnavox Odyssey 2": "Magnavox - Odyssey 2",
-        "Master System": "Sega - Master System - Mark III",
-        "Mega Duck": "Welback - Mega Duck",
-        "MSX": "Microsoft - MSX",
-        "Neo Geo Pocket": "SNK - Neo Geo Pocket",
-        "NES/Famicom": "Nintendo - Nintendo Entertainment System (Headered)",
-        "Nintendo 64": "Nintendo - Nintendo 64 (BigEndian)",
-        "Nintendo DS": "Nintendo - Nintendo DS (Decrypted)",
-        "Nintendo DSi": "Nintendo - Nintendo DSi (Digital)",
-        "PC-8000/8800": "Non-Redump - NEC - PC-88",
-        "PC-FX": "NEC - PC-FX & PC-FXGA",
-        "PC Engine CD/TurboGrafx-CD": "Non-Redump - NEC - PC Engine CD + TurboGrafx CD",
-        "PC Engine/TurboGrafx-16": "NEC - PC Engine - TurboGrafx 16",
-        "PlayStation": "Non-Redump - Sony - PlayStation",
-        "PlayStation 2": "Non-Redump - Sony - PlayStation 2",
-        "PlayStation Portable": "Non-Redump - Sony - PlayStation Portable",
-        "Pokemon Mini": "Nintendo - Pokemon Mini",
-        "Saturn": "Non-Redump - Sega - Sega Saturn",
-        "Sega CD": "Non-Redump - Sega - Sega Mega CD + Sega CD",
-        "SG-1000": "Sega - SG-1000",
-        "SNES/Super Famicom": "Nintendo - Super Nintendo Entertainment System",
-        "Standalone": "Standalone - Standalone",
-        "Super Nintendo": "Nintendo - Super Nintendo Entertainment System",
-        "Uzebox": "Uzebox - Uzebox",
+        "Pokemon Mini": [
+            "Nintendo - Pokemon Mini",
+            "Nintendo - Pokemon Mini (Aftermarket)"
+        ],
+        "Atari 2600": [
+            "Atari - Atari 2600",
+            "Atari - Atari 2600 (Aftermarket)"
+        ],
+        "Virtual Boy": [
+            "Nintendo - Virtual Boy",
+            "Nintendo - Virtual Boy (Aftermarket)"
+        ],
+        "MSX": [
+            "Microsoft - MSX",
+            "Microsoft - MSX (Aftermarket)"
+        ],
+        "MSX2": [
+            "Microsoft - MSX2",
+            "Microsoft - MSX2 (Aftermarket)"
+        ],
+        "SG-1000": [
+            "Sega - SG-1000 - SC-3000",
+            "Sega - SG-1000 - SC-3000 (Aftermarket)"
+        ],
+        "PlayStation Portable": [
+            "Sony - PlayStation Portable (PSN) (Decrypted)",
+            "Sony - PlayStation Portable (PSN) (Minis) (Decrypted)"
+        ],
+        "ColecoVision": "Coleco - ColecoVision",
+        "Intellivision": [
+            "Mattel - Intellivision",
+            "Mattel - Intellivision (Aftermarket)",
+        ],
         "Vectrex": "GCE - Vectrex",
-        "Virtual Boy": "Nintendo - Virtual Boy",
-        "WASM-4": "WASM-4 - WASM-4",
-        "Watara Supervision": "Watara - Supervision",
-        "Wii": "Non-Redump - Nintendo - Wii",
-        "Wii U": "Non-Redump - Nintendo - Wii U",
-        "WonderSwan": "Bandai - WonderSwan Color"
-    };
-
-    const noIntroAftermarketConsoleMap = {
-        "32X": "Sega - 32X (Aftermarket)",
-        "Atari 2600": "Atari - 2600 (Aftermarket)",
-        "Atari 7800": "Atari - Atari 7800 (A78) (Aftermarket)",
-        "Atari Jaguar": "Atari - Jaguar (J64) (Aftermarket)",
-        "Atari Lynx": "Atari - Atari Lynx (LYX) (Aftermarket)",
-        "Dreamcast": "Non-Redump - Sega - Dreamcast (Aftermarket)",
-        "Game Boy": "Nintendo - Game Boy (Aftermarket)",
-        "Game Boy Advance": "Nintendo - Game Boy Advance (Aftermarket)",
-        "Game Boy Color": "Nintendo - Game Boy Color (Aftermarket)",
-        "Game Gear": "Sega - Game Gear (Aftermarket)",
-        "Genesis/Mega Drive": "Sega - Mega Drive - Genesis (Aftermarket)",
-        "Intellivision": "Mattel - Intellivision (Aftermarket)",
-        "Master System": "Sega - Master System - Mark III (Aftermarket)",
-        "Mega Duck": "Welback - Mega Duck (Aftermarket)",
-        "MSX": "Microsoft - MSX (Aftermarket)",
-        "NES/Famicom": "Nintendo - Nintendo Entertainment System (Headered) (Aftermarket)",
-        "Nintendo 64": "Nintendo - Nintendo 64 (BigEndian) (Aftermarket)",
-        "Nintendo DS": "Nintendo - Nintendo DS (Decrypted) (Aftermarket)",
-        "PC Engine CD/TurboGrafx-CD": "Non-Redump - NEC - PC Engine CD + TurboGrafx CD (Aftermarket)",
-        "PC Engine/TurboGrafx-16": "NEC - PC Engine - TurboGrafx 16 (Aftermarket)",
-        "Pokemon Mini": "Nintendo - Pokemon Mini (Aftermarket)",
-        "Sega CD": "Non-Redump - Sega - Sega Mega CD + Sega CD (Aftermarket)",
-        "SG-1000": "Sega - SG-1000 (Aftermarket)",
-        "SNES/Super Famicom": "Nintendo - Super Nintendo Entertainment System (Aftermarket)",
-        "Super Nintendo": "Nintendo - Super Nintendo Entertainment System (Aftermarket)",
-        "Virtual Boy": "Nintendo - Virtual Boy (Aftermarket)",
-        "Watara Supervision": "Watara - Supervision (Aftermarket)",
-        "WonderSwan": "Bandai - WonderSwan Color (Aftermarket)"
-    };
-
-    const RedumpConsoleMap = {
-        "3DO Interactive Multiplayer": "Panasonic - 3DO Interactive Multiplayer",
-        "Atari Jaguar CD": "Atari - Jaguar CD Interactive Multimedia System",
-        "Dreamcast": "Sega - Dreamcast",
-        "GameCube": "Nintendo - GameCube - NKit RVZ [zstd-19-128k]",
-        "Neo Geo CD": "SNK - Neo Geo CD",
-        "PC-8000/8800": "NEC - PC-88 series",
-        "PC-FX": "NEC - PC-FX & PC-FXGA",
-        "PC Engine CD/TurboGrafx-CD": "NEC - PC Engine CD & TurboGrafx CD",
-        "PlayStation": "Sony - PlayStation",
-        "PlayStation 2": "Sony - PlayStation 2",
-        "PlayStation 3": "Sony - PlayStation 3",
-        "PlayStation Portable": "Sony - PlayStation Portable",
-        "Saturn": "Sega - Saturn",
-        "Sega CD": "Sega - Mega CD & Sega CD",
-        "Wii": "Wii - NKit RVZ [zstd-19-128k]",
-        "Wii U": "Nintendo - Wii U - WUX"
+        "Atari 7800": [
+            "Atari - Atari 7800 (BIN)",
+            "Atari - Atari 7800 (BIN) (Aftermarket)",
+            "Atari - Atari 7800 (A78)",
+            "Atari - Atari 7800 (A78) (Aftermarket)"
+        ],
+        "WonderSwan": [
+            "Bandai - WonderSwan",
+            "Bandai - WonderSwan (Aftermarket)"
+        ],
+        "WonderSwan Color": [
+            "Bandai - WonderSwan Color",
+            "Bandai - WonderSwan Color (Aftermarket)"
+        ],
+        "Fairchild Channel F": "Fairchild - Channel F",
+        "Watara Supervision": [
+            "Watara - Supervision",
+            "Watara - Supervision (Aftermarket)"
+        ],
+        "Mega Duck": [
+            "Welback - Mega Duck",
+            "Welback - Mega Duck (Aftermarket)"
+        ],
+        "Arduboy": "Arduboy Inc - Arduboy",
+        "Arcadia 2001": "Emerson - Arcadia 2001",
+        "Interton VC 4000": "Interton - VC 4000",
+        "Nintendo DSi": "Nintendo - Nintendo DSi (Digital)",
     };
 
     const nonRedumpConsoleMap = {
         "3DO Interactive Multiplayer": "Non-Redump - Panasonic - 3DO Interactive Multiplayer",
         "Atari Jaguar CD": "Non-Redump - Atari - Atari Jaguar CD",
-        "Dreamcast": "Non-Redump - Sega - Dreamcast",
+        "Dreamcast": [
+            "Non-Redump - Sega - Dreamcast",
+            "Non-Redump - Sega - Dreamcast (Aftermarket)"
+        ],
         "GameCube": "Non-Redump - Nintendo - Nintendo GameCube",
         "PC-8000/8800": "Non-Redump - NEC - PC-88",
-        "PC Engine CD/TurboGrafx-CD": "Non-Redump - NEC - PC Engine CD + TurboGrafx CD",
+        "PC Engine CD/TurboGrafx-CD": [
+            "Non-Redump - NEC - PC Engine CD + TurboGrafx CD",
+            "Non-Redump - NEC - PC Engine CD + TurboGrafx CD (Aftermarket)"
+        ],
         "PlayStation": "Non-Redump - Sony - PlayStation",
         "PlayStation 2": "Non-Redump - Sony - PlayStation 2",
         "PlayStation Portable": "Non-Redump - Sony - PlayStation Portable",
         "Saturn": "Non-Redump - Sega - Sega Saturn",
-        "Sega CD": "Non-Redump - Sega - Sega Mega CD + Sega CD",
+        "PC Engine/TurboGrafx-16": [
+            "NEC - PC Engine - TurboGrafx 16",
+            "NEC - PC Engine - TurboGrafx 16 (Aftermarket)"
+        ],
+        "Sega CD": [
+            "Non-Redump - Sega - Sega Mega CD + Sega CD",
+            "Non-Redump - Sega - Sega Mega CD + Sega CD (Aftermarket)"
+        ],
         "Wii": "Non-Redump - Nintendo - Wii",
         "Wii U": "Non-Redump - Nintendo - Wii U"
     };
 
-    const fbneoConsoleMap = { "Arcade": "arcade" };
+    const homebrewConsoleMap = {
+        "WASM-4": "",
+        "Uzebox": ""
+    };
 
-    let consoleMap = null;
-    if (dumpGroup === "Non-Redump") {
-        consoleMap = nonRedumpConsoleMap;
-    } else if (dumpGroup === "No-Intro") {
-        consoleMap = hashname.includes("Aftermarket") ? noIntroAftermarketConsoleMap : noIntroConsoleMap;
-    } else if (dumpGroup === "fbneo") {
-        consoleMap = fbneoConsoleMap;
-    } else if (dumpGroup === "Redump") {
-        consoleMap = RedumpConsoleMap;
+    const lostLevelConsoleMap = {
+        "WASM-4": "",
+        "Uzebox": ""
+    };
+
+    const consoleMapLookup = {
+        "Non-Redump": nonRedumpConsoleMap,
+        "No-Intro": noIntroConsoleMap,
+        "Redump": redumpConsoleMap,
+        "fbneo": fbneoConsoleMap,
+        "wozaday": wozadayConsoleMap,
+        "4amcrack": {},
+        "cleancpc": cleancpcConsoleMap,
+        "neokobe": neokobeConsoleMap,
+        "lostlevel": lostLevelConsoleMap,
+        "rapatches": {},
+        "mamesl": {},
+        "tosec": tosecConsoleMap,
+        "goodtools": miscConsoleMap,
+        "nongood": {}
+    };
+
+
+    consoleMap = consoleMapLookup[dumpGroup] || null;
+
+    const consoleEntry = consoleMap?.[consoleName] || consoleName;
+    const formattedConsoleNames = Array.isArray(consoleEntry) ? consoleEntry : [consoleEntry];
+
+    const cleanedFileName = fileName.replace(/\.[^.]+$/, "");
+    const fileCandidates = [cleanedFileName + ".zip", fileName + ".zip"];
+
+    let basePath;
+    switch (dumpGroup) {
+      case "Redump":
+        basePath = "Redump";
+        break;
+      case "fbneo":
+        basePath = "Internet Archive/chadmaster/fbnarcade-fullnonmerged";
+        break;
+      case "No-Intro":
+      case "Non-Redump":
+        basePath = "No-Intro";
+        break;
+      default:
+        basePath = dumpGroup;
     }
 
-    const formattedConsoleName = consoleMap[consoleName] || consoleName;
-    const cleanedFileName = fileName.replace(/\.[^.]+$/, "");
-    const finalFileName = cleanedFileName + ".zip";
-    const uncleanFileName = fileName + ".zip";
-    let baseUrl = `https://myrient.erista.me/files/${
-      dumpGroup === "Non-Redump"
-        ? "No-Intro"
-        : dumpGroup === "Redump"
-          ? "Redump"
-          : dumpGroup === "fbneo"
-            ? "Internet Archive/chadmaster/fbnarcade-fullnonmerged"
-            : dumpGroup === "No-Intro"
-              ? "No-Intro"
-              : dumpGroup
-    }/${formattedConsoleName}/`;
-
-    const url = `${baseUrl}${finalFileName}`;
-    const uncleanUrl = `${baseUrl}${uncleanFileName}`;
-
-    try {
-      const response = await axios.head(url, { timeout: 5000 });
-      if (response.status === 200) return url;
-    } catch (error) {}
-
-    try {
-      const uncleanResponse = await axios.head(uncleanUrl, { timeout: 5000 });
-      if (uncleanResponse.status === 200) return uncleanUrl;
-    } catch (uncleanError) {}
+    for (const folder of formattedConsoleNames) {
+      const cleanFolder = folder.replace(/\/+$/, "");
+      const baseUrl = `https://myrient.erista.me/files/${basePath}/${cleanFolder}/`;
+      for (const candidate of fileCandidates) {
+        const url = baseUrl + candidate;
+        try {
+          const response = await axios.head(url, { timeout: 5000 });
+          if (response.status === 200) {
+            return url;
+          }
+        } catch (err) {
+        }
+      }
+    }
 
     return null;
   }
