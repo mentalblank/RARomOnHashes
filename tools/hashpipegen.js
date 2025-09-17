@@ -46,7 +46,7 @@ async function generateHashes() {
           hashInfo.Name.includes("[legacy]") ||
           hashInfo.Name.includes("[elf]")
         ) {
-          continue;
+          return null;
         }
           let romUrl;
           try {
@@ -66,7 +66,7 @@ async function generateHashes() {
               nonMatchingHashes[gameId] = {};
             }
             nonMatchingHashes[gameId][hashInfo.MD5.toUpperCase()] =
-              `${hashInfo.Name} - ${hashInfo.Labels}`;
+              `${hashInfo.Name} - ${consoleName} - ${hashInfo.Labels} - ${hashInfo.PatchUrl}`;
             return null;
           }
 
@@ -81,7 +81,7 @@ async function generateHashes() {
               nonMatchingHashes[gameId] = {};
             }
             nonMatchingHashes[gameId][hashInfo.MD5.toUpperCase()] =
-              `${hashInfo.Name} - ${hashInfo.Labels}`;
+              `${hashInfo.Name} - ${consoleName} - ${hashInfo.Labels} - ${hashInfo.PatchUrl}`;
             return null;
           }
         })

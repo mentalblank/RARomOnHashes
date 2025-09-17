@@ -861,6 +861,9 @@
   "3438": {
     "57F96C09EAEA20382A52F55E5D4C7871": "Rockman & Forte (Japan) (En) (MMB) (v1.0) (Aeon Genesis).sfc - nointro,rapatches"
   },
+  "3445": {
+    "4054EF350628AB9743425C0F3BD499A9": "SMW - Polyphony (v1.1.1) (TomatoPhalanges).sfc - nointro,rapatches,smwcentral"
+  },
   "3462": {
     "2C5D54DAFECF38550DA9D9B710DDEED1": "SMW - Super Mario Flash 2 - SMW Remake (Apple Boy, Dark Prince, Donut, Segment1Zone2, Stivi) (1.3).sfc - nointro,rapatches"
   },
@@ -2237,6 +2240,9 @@
   "17732": {
     "2A78020573E60AC8DCDE101E6DC326B6": "Mega Man X - Proto Edition (1.2.1) (XStuff).sfc - nointro,rapatches"
   },
+  "17734": {
+    "8D7068BC51669A2F0DB46FEF5B72E6CB": "Hyper Fighting (Brightness Fix) (v1.0) (Guy Perfect).vb - nointro,rapatches"
+  },
   "17804": {
     "83D5F8C0A7C2DCF26FDC44BDA98EC911": "SM64DS - The New Beginning (v1.6.4) (Unofficial Update by ICUP321).nds - nointro,rapatches",
     "34D83ED562C0E44FD65C7C0EC45E16DB": "SM64DS - The New Beginning (v1.6.5) (Unofficial Update by ICUP321).nds - nointro,rapatches"
@@ -2394,8 +2400,14 @@
   "18608": {
     "5A01A819D6551089E38A8D76015ABF3A": "SMW - Super Mario Bros. Peach's Adventure (BWGLite) (1.1).sfc - nointro,rapatches"
   },
+  "18611": {
+    "83079124C8EFCE1EEE4C3A34A89441A5": "Mega Man 2 (World) (v0.87) (Proto) (Aftermarket) (Unl).pce - nointro"
+  },
   "18640": {
     "D957D7734E4BBB0F92CDE4CB58F72CB6": "GEO Puzzle - Wunder Natur - Echter Puzzlespass fuer Unterwegs (Europe) (Puzzle 21 Fix).nds - nointro,rapatches"
+  },
+  "18643": {
+    "E68B97F12B236E7B827DC77F98D29CD5": "Mega Man 2 [Subset - Bonus].pce - nointro,rapatches"
   },
   "18649": {
     "8F37367B046DCFD3EC1A453E9C5CA8E1": "Vandal Hearts - Ushinawareta Kodai Bunmei (Japan) (En) (v1.5) (Stardust Crusaders) - redump,rhdn"
@@ -2749,6 +2761,9 @@
   "21558": {
     "6669BA8E9DCD087124AB657C8A8AD0DB": "Melanie and the Magic Forest (World) (v2025) (GB Compatible) (Aftermarket) (Unl).gbc - itchio,homebrew,lostlevel"
   },
+  "21597": {
+    "6F2CFBF3C07D1B096F096FC8A763E500": "Jump Bug (1982) (UA) (DE).bin - tosec"
+  },
   "21635": {
     "94919C6D03CB6E9FACAF4A0FEC449FC2": "Head On (Europe).BIN - No Labels"
   },
@@ -2831,6 +2846,9 @@
   "22491": {
     "35887BB3523C619968683C0AEAC1B43D": "Toaru Majutsu no Index (Japan) (En) (v1.0) (JeruTz Translations).iso - redump,rapatches"
   },
+  "22510": {
+    "B189304DC040907D8D732991DA7BD4B5": "Sonic 3 and Knuckles - Hellfire Saga (v2.1) (Red Miso Studios).md - nointro,rapatches"
+  },
   "22512": {
     "F09B0BA23C6CFF87869AC371D857DCD6": "Legend of Zelda, The - Ocarina of Time - Zelda's Birthday (v1.0) (jsa).z64 - nointro,rapatches"
   },
@@ -2889,6 +2907,12 @@
   },
   "22862": {
     "B52B9EE675D0DC91DC2F52EF470BCDF8": "Pokemon - HeartGold Version (USA) [Uncapped Framerate] [Subset - Professor Oak Challenge] - nointro,rapatches"
+  },
+  "22898": {
+    "4EFFFB40E9BD84FF37F9DEBB8807D68C": "Asteroids (Europe) (ESS-011-5).tvc - lostlevel"
+  },
+  "22900": {
+    "470D888650F2144D94C37A48017E4D6F": "Molebasher (Europe) (ESS-011-2).tvc - lostlevel"
   },
   "22942": {
     "7A3837F8D61C7E60D09E7E3864195C0B": "Alice's Mom's Rescue (World) (Aftermarket) (Unl) (OrionSoft).cdi - homebrew,lostlevel"
@@ -2983,17 +3007,86 @@
   "24515": {
     "87A5B4EECD0B5EBD56A44D924FA54077": "Elansar (World) (Aftermarket) (Unl) (OrionSoft).cdi - itchio,homebrew,lostlevel"
   },
+  "24641": {
+    "B69A9C1519F20A42686C542F270434B2": "Attack from Space (Europe) (ESS-010-7).tvc - lostlevel"
+  },
+  "24643": {
+    "9EF4ED004D188D0543DAA1EEB6C3BEFC": "Basketball (Europe) (ESS-010-A).tvc - lostlevel"
+  },
+  "24644": {
+    "D6B3A7879A1BE746E994926D91601F60": "Bursting Balloons (Europe) (ESS-010-B).tvc - lostlevel"
+  },
+  "24646": {
+    "E731B5FB80355976FEAFA0A5A31EF4E4": "Cosmic Adventure (Europe) (ESS-011-F).tvc - lostlevel"
+  },
+  "24647": {
+    "31352FA861C990364E57B37DB97DDA0D": "Destroyer (Europe) (ESS-009-7).tvc - lostlevel"
+  },
+  "24649": {
+    "D59524E3EFAE862B9A42196E30DA6C4F": "Helicopter (Europe) (ESS-010-3).tvc - lostlevel"
+  },
   "24650": {
     "AA5EC6F121145FD6FB5B443988B22F6A": "Invaders (Europe) (ESS-010-1).tvc - lostlevel",
     "541601096DA0FBD15FD28BAC5793FBED": "Invaders (Europe) (ESS-010-1).tvc - lostlevel"
+  },
+  "24651": {
+    "1CD8CFB7FBCD9D5AB146337873914986": "Labyrinth (Europe) (ESS-009-6).tvc - lostlevel"
   },
   "24652": {
     "61B04505EBEDDF8946E3F5954E6C9962": "Memory (Europe) (ESS-009-5).tvc - lostlevel",
     "6029558D05817F14189B1D68C9EA9FEF": "Memory (Europe) (ESS-009-5).tvc - lostlevel"
   },
+  "24653": {
+    "F94D028134169F434134AD2D5A3BF2FC": "Newton (Europe) (ESS-011-B).tvc - lostlevel"
+  },
   "24655": {
     "65C12687D63606BC51A84AE8FDA8D006": "Omega Landing (Europe) (ESS-011-7).tvc - No Labels",
     "067B6B03E52F2A9A1B3ECBDCABA66C07": "Omega Landing (Europe) (ESS-011-7).tvc - lostlevel"
+  },
+  "24658": {
+    "778AD7909404E74ADD179DBA705A580F": "Pinball (Europe) (ESS-010-2).tvc - lostlevel"
+  },
+  "24659": {
+    "5312273C8048A40339D1DF6F54B237C9": "Raster (Europe) (ESS-009-D).tvc - lostlevel"
+  },
+  "24661": {
+    "FF5F7F6C0BBA34A081ACB131653CA758": "Rocket Hunting (Europe) (ESS-010-9).tvc - lostlevel"
+  },
+  "24665": {
+    "48A6D88B1E5B8AFF7D7827B364522CB4": "Tiny Tim (Europe) (ESS-011-9).tvc - lostlevel"
+  },
+  "24666": {
+    "5F8A6148F466C081E0E3903DEE97F7E9": "UFO Shooting (Europe) (ESS-009-C).tvc - lostlevel"
+  },
+  "24670": {
+    "B0CB507CFDF9F5A4D4EE49DDDDB31FE2": "Catapult (Europe) (ESS-010-5).tvc - lostlevel"
+  },
+  "24673": {
+    "FD5BFE6C009FBDA5C6266A45B22B3369": "Jackpot (Europe) (ESS-007-8).tvc - lostlevel"
+  },
+  "24675": {
+    "752B04C7F8D537301B60AD776ADAE9D1": "Mazes (Europe) (ESS-011-4).tvc - lostlevel"
+  },
+  "24678": {
+    "3A15E7B4920FE8EBB3253B01A226EE32": "Dragster (Europe) (ESS-011-6).tvc - lostlevel"
+  },
+  "24681": {
+    "EC77C9285986436BF95FF41021665C38": "Snakes and Ladders (Europe) (ESS-011-1).tvc - lostlevel"
+  },
+  "24683": {
+    "6F7AC2B5D983D5F34A56971962DC4CFE": "Solitaire (Europe) (ESS-009-F).tvc - lostlevel"
+  },
+  "24684": {
+    "FF1A7BDD03150F744431A506C641E451": "Car Race (Europe) (Peter Marschat).tvc - lostlevel"
+  },
+  "24686": {
+    "2938509D9C2A2316B460B2A617581771": "Doraemon (Japan) (1983) (Bandai).bin - lostlevel"
+  },
+  "24688": {
+    "ECA02A18E0FF4222283AB16947FE6911": "Mobile Soldier Gundam (1983) (Bandai) (JP).bin - tosec"
+  },
+  "24689": {
+    "60EE33A137802D27B5B0567FF4DE52AE": "Super Dimension Fortress Macross (1983) (Bandai) (JP).bin - tosec"
   },
   "24694": {
     "C18827BFD5BA0185702128E7F332C67C": "Dizzy - The Ultimate Cartoon Adventure (UK) (1988) [Original][b].dsk - cleancpc",
@@ -3113,6 +3206,9 @@
   "25643": {
     "78E0C673C3369D2F42DB06E4F5637EAE": "SM64 - Mario's Point and Click 64 (v0.6.0) (thecozies, Reonu).z64 - nointro,rapatches"
   },
+  "25661": {
+    "E06C35F25727B6198B6CECD9D1EEA299": "BirdLife (v0.2) (bu-nyan) [EBOOT] - homebrew,lostlevel"
+  },
   "25668": {
     "6D65C3B493042B13378DEF3CCF120869": "Battlefield 2 - Modern Combat (USA) [Subset - Online Multiplayer] - redump,rapatches"
   },
@@ -3228,6 +3324,9 @@
     "0D0EF46237A5970D634A338CCDE5E2CE": "Ultima V - Disk 4 Side B - Keep.woz - wozaday",
     "206F0FADD2DAF14B191BCE6072F8455C": "Ultima V - Disk 1 Side B - Dungeon.woz - wozaday",
     "163B975AA865AAB6740294A859651935": "Ultima V - Disk 2 Side B - Underworld.woz - wozaday"
+  },
+  "27577": {
+    "5104073C930D866287E733C1E7B1C7F5": "SM64 - Shotgun Mario 64 (v1.0.5) (Dorrieal).z64 - nointro,rapatches,rhdc"
   },
   "27584": {
     "9C7B11EA67D07798602D3FF791F797E4": "Goodboy Galaxy (World) (v1.2) (En,Ja,Fr,De,Es,Pt-BR,Zh,Ar) (Aftermarket) (Unl) (Rumble).gba - homebrew,itchio,lostlevel",
@@ -3609,6 +3708,9 @@
   },
   "29856": {
     "DBF6BA8CB438D901756600E344B8517E": "Super Mario Kart - Horizons (v1.3) (gridatttack).sfc - nointro,rapatches"
+  },
+  "29859": {
+    "8BB3AD1E07A3B302BA4930B9B121B8D6": "DK64 - Banjo-Kongzooie (v1.2) (GloriousLiar).z64 - nointro,rapatches"
   },
   "29863": {
     "A7D02D49A4EB4947A823A33E005D2B78": "Final Fantasy V - Whirlwind (v1.45c) (clymax) [Subset - Bonus].sfc - nointro",
@@ -4342,6 +4444,10 @@
     "4D05834B0E72362BC19681EB718ACF8C": "Pokemon FireRed - Pokemon Odyssey (v4.0.3) (Yggdrasil Project).gba - nointro,rapatches",
     "C2F1F0D5A1659C05E2686C23A448B48C": "Pokemon FireRed - Pokemon Odyssey (v4.1.0) (Yggdrasil Project).gba - nointro,rapatches"
   },
+  "33084": {
+    "8905B2F0BADC5DBA1E4255CA459ABAFE": "SM64 - Mario Goes Skateboarding 64 (En) (v2.0) (AphidKirby).z64 - nointro,rapatches",
+    "70A8FB8B1F3B19B73FBF7C71E0E95D65": "SM64 - Mario Goes Skateboarding 64 (Es) (v2.0) (AphidKirby).z64 - nointro,rapatches"
+  },
   "33089": {
     "8AAFFF8F93212B121203B41387DA18DD": "Psikyo Shooting Collection Vol.1 - Strikers 1945 1-2 (SLPM-62515) [280E86C2] - "
   },
@@ -4581,6 +4687,9 @@
   "34305": {
     "65779E8A2EF841267B46728275375386": "SM64 - Mario Breaks EVERY BONE IN HIS BODY (v2.0) (CowQuack).z64 - nointro,rapatches"
   },
+  "34313": {
+    "A6D142742D41B624217123BD020F8391": "Uma Musume Delish Derby (World) (Aftermarket) (shiki).gb - homebrew,itchio,lostlevel"
+  },
   "34314": {
     "87BB642D39484F8FF94617B8760B4187": "SM64 - Super Mario 64 and the Koopa Power (v1.0.2) (VenusFeuerFalle).z64 - nointro,rapatches,rhdc",
     "530AA09C6FCEA4F2B5D29578F4A64933": "SM64 - Super Mario 64 and the Koopa Power (v1.1.2) (VenusFeuerFalle, LinCrash).z64 - nointro,rapatches,rhdc"
@@ -4601,7 +4710,8 @@
     "4EF1A460A9356E63477E5538760E0A62": "Tetris [Subset - Master].nes - nointro,rapatches"
   },
   "34493": {
-    "637CF956AFAB0B61EDFCE237273E7E1D": "Mike Tyson's Punch-Out - Nightmare Punch-Out!! (v1.4) (Landa) - nointro,rapatches"
+    "637CF956AFAB0B61EDFCE237273E7E1D": "Mike Tyson's Punch-Out - Nightmare Punch-Out!! (v1.4) (Landa) - nointro,rapatches",
+    "8AA770B10BDF0094D44A0236C89E51DD": "Mike Tyson's Punch-Out - Nightmare Punch-Out!! (v1.5) (Landa) - nointro"
   },
   "34495": {
     "4C7828AA9798EF21A740692B5C1C4669": "SMW - Chomper Ville (v2011-04-20) (SMWFanatic).sfc - nointro,rapatches",
