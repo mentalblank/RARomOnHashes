@@ -1848,6 +1848,9 @@
   "14821": {
     "41D166FE122F35C9F55F93CEAA5A6F2C": "Puyo Puyo 7 (Japan) (En) (v1.0) (PuyoNexus).nds - nointro,rapatches"
   },
+  "14822": {
+    "F5D9C3C1E23FFA28107750727BACB0CE": "Puyo Puyo!! - Puyopuyo 20th Anniversary (Japan) (En) (v1.0) (Precise Museum).nds - Nintendo DS - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/NDS/Translation/English/14822-PuyoPuyo20thENG.zip"
+  },
   "14920": {
     "4388D6EB5058146C461C801A0A87FB8B": "Beer Slinger (World) (Aftermarket) (Unl).nes - nointro"
   },
@@ -2538,6 +2541,9 @@
     "E42324738C17EEDFFBC9551E0FB782A9": "Leisure Suit Larry - Magna cum Laude (France) - redump",
     "0E6F552B74BAF75316319A0D6C5777EB": "Leisure Suit Larry - Magna cum Laude (Italy) - redump"
   },
+  "19256": {
+    "1C8CFD2373E58ACB141762F7630F7D0E": "beachspi.zip - Arcade - mamesl - null"
+  },
   "19341": {
     "302BE53406EB148556F392033F8B5EA0": "Tomb Raider Anniversary (USA) (60fps) (v1.0) (Homuki).iso - redump,rapatches"
   },
@@ -2567,6 +2573,9 @@
   },
   "19504": {
     "98F13F2AB307C84EEA5C4965006CFE7C": "SMW - 11th Annual Vanilla Level Design Contest, The (v1.4) (smwcentral.net).sfc - nointro,rapatches"
+  },
+  "19515": {
+    "9EA09ACD5C73B8298C64911E4CCB83F2": "SpaceCab (World) (v1.0.1) (Press Play On Tape).hex - Arduboy - homebrew,lostlevel - null"
   },
   "19755": {
     "7B8387228E629FFFE80FC103F30962E4": "Puzzle Kana.d88 - neokobe"
@@ -2704,6 +2713,9 @@
   },
   "20684": {
     "A39A825BED46BEC76C9FF330FC0B1903": "Scarface - The World Is Yours (USA) (60FPS) (v1.0) (Souzooka) - redump,rapatches"
+  },
+  "20736": {
+    "7C1CC2B248D9F7D809BB6D0759B22379": "Kingdom Hearts - Final Mix (Japan) (En) (2025-05-09) (Crazycatz00) [Subset - Proud Level 1] - PlayStation 2 - redump,rapatches,lostlevel - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Subset/20736-KHFM-Subset-ProudLevel1.zip"
   },
   "20751": {
     "EF27F75C1A7DB9D4FEF71C93CF6A8771": "Disney's The Haunted Mansion (USA) (Anti-Cheat) (v1.0) (Raeyene) - redump,rapatches"
@@ -3844,6 +3856,9 @@
   "30281": {
     "1F588974615840AD9A82B69735AECDFD": "Zatch Bell! Mamodo Fury (USA) (Undub) (SuperrSonic) - lostlevel"
   },
+  "30330": {
+    "C9BCAFA71713A796CA9726445CF92098": "Naruto - Gekitou Ninja Taisen! 4 (Japan) (En) (Kosheh) - GameCube - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GameCube/Translation/English/30330-NarutoGekitouNinjaTaisen4-English.zip"
+  },
   "30400": {
     "D62C31A536C9CD4A8A16B27F790A7445": "Final Fantasy - Spell Flashing Disabled + Manall's FF1 Magecore (v3.1d) (Manall Lockhart).nes - nointro,rapatches"
   },
@@ -4380,6 +4395,9 @@
   "32823": {
     "B93F53F5FB7931B4A973624F15188E50": "Gun.Smoke - Hell's Maw (v1.0) (Hexadigital).nes - nointro,rapatches"
   },
+  "32844": {
+    "ECEAA049048A61EBE66F3F58E3723A5B": "Pokemon Emerald - Recharged Emerald (v2.2.5) (Jaizu).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Pokemon%20Emerald/32844-Pokemon-RechargedEmerald.zip"
+  },
   "32918": {
     "C3EE116AD71941957D9073D9BADE76AE": "Shin Megami Tensei - Nocturne (SLUS-20911) [B7479F4C] - "
   },
@@ -4706,6 +4724,9 @@
   "34484": {
     "3070A074B89292D7EDC9879473EB5231": "SM64 - Katze Stuck in the Toilet 64 (Console Compatible) (Tomatobird8).z64 - nointro,rapatches,rhdc"
   },
+  "34487": {
+    "295DDC270A3F55EF8ACAAB39F70C65BD": "Banjo Kazooie - The Corrupted Jiggies (v1.0) (Sorra1-Mods).z64 - Nintendo 64 - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Banjo-Kazooie/34487-BK-TheCorruptedJiggies.zip"
+  },
   "34489": {
     "4EF1A460A9356E63477E5538760E0A62": "Tetris [Subset - Master].nes - nointro,rapatches"
   },
@@ -4737,10 +4758,17 @@
   "34505": {
     "6396078EC874CE73BCED3D841B82CA78": "Castlevania II - Simon's Quest (USA) [Subset - Full Game Damageless].nes - nointro,rapatches"
   },
+  "34508": {
+    "B4799CDF60FFA240D24E7444C0F28713": "Pikmin² - GameCube -  - null"
+  },
   "34509": {
     "FB86F69095469445A6E8962CD618B39E": "Dynasty Warriors 3 - Xtreme Legends [Subset Max Item Break].iso - redump,rapatches"
   },
   "34534": {
     "B04D10AF7FF5010C90BE47948158F016": "Game of Life Kuzushi (World) (Aftermarket) (Unl).gb - homebrew,itchio,lostlevel"
+  },
+  "34878": {
+    "BD3CDBFDA1046E0A3E12CE46E5981980": "SMW - Yosamikalo (v2008-11-19) (Inf. Lives) (KingYoshi89).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/34878-SMW-Yosamikalo.zip",
+    "359C3BA1D7C24B049BE172EAC422794E": "SMW - Yosamikalo (v2008-11-19) (KingYoshi89).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/34878-SMW-Yosamikalo.zip"
   }
 }
