@@ -1007,6 +1007,9 @@
     "4B737BBA158EE734C220557EBC367EA9": "Luigi's Mansion (Europe) (Rev 1) (60hz) (v1.0) (Maeson) - redump,rapatches",
     "9BE90FD0A49908BE157F8C001794699E": "Luigi's Mansion (Europe) (En,Fr,De,Es,It) (Rev 1) (Player's Choice) - redump"
   },
+  "4414": {
+    "B78430B26A276939D64F73C9B9AEA8E6": "Rings of Power (USA, Europe) (Cheats Disabled) (v1.0) (Bartis1989).md - Genesis/Mega Drive - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/MD/Fix/Rings%20of%20Power/4414-RingsofPower-CheatsDisabled.zip"
+  },
   "4578": {
     "82CBDA347E2BDFB18EF8EE088F5ECC3E": "EarthBound (USA) - EarthBound Halloween (Redone) (the_ally235).sfc - nointro,rapatches"
   },
@@ -1465,6 +1468,9 @@
     "3C0E3F3459F28CE45DB81CF3B99FDAAE": "Street Fighter 2 Remastered Edition (v1.0) (Pyron) (MD+) (PepilloPEV).md - nointro,mdplus,rapatches",
     "2D24E59DB6939E0A320310E4004F8097": "Street Fighter 2 Remastered Edition (v1.0) (Pyron).md - nointro,rapatches"
   },
+  "10282": {
+    "0AC7A16F8AFCC03031835C89D095D7B9": "Getter Love!! - Cho Renai Party Game Tanjou (Japan) (En) (v1.01) (ozidual).z64 - Nintendo 64 - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Translation/English/10282-GetterLove-English.zip"
+  },
   "10339": {
     "761A082AAE1C8BBE118B786010EC27AF": "Legend of Zelda, The - ALttP - Zelda3 Cube (v1.0) (PuzzleDude).sfc - nointro,rapatches"
   },
@@ -1533,6 +1539,11 @@
   },
   "11428": {
     "490E911ED23A5C4EF17CD06AADB02111": "SMW - Super Mario World - Christmas Edition (Nowieso) (1.3.2).sfc - nointro,rapatches"
+  },
+  "11604": {
+    "65CAA8756F35B0DFE5BA4DA9734F273C": "MDK (USA) (En,De,It,Es,Fr) (v1.0) (dynwayv) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PlayStation/Translation/Multi/11604-MDK-MultiLanguage.zip",
+    "3C01DE739C588842244469A989EDBFBD": "MDK (USA) (Sv) (v1.0) (dynwayv) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PlayStation/Translation/Swedish/11604-MDK-Swedish.zip",
+    "ECE45EC5E5FE3F5270721E897B54160A": "MDK (USA) (Uk) (v1.0) (dynwayv) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PlayStation/Translation/Ukrainian/11604-MDK-Ukrainian.zip"
   },
   "11636": {
     "06850D01F7153D4616626B5330E9FDBA": "SMW - Mario's Keytastrophe - Rebirth Edition (S.N.N.).sfc - nointro,rapatches"
@@ -1626,6 +1637,12 @@
   },
   "13455": {
     "592423A0B0B9B7EFC682CC47D6A2D61D": "SMB2 - Return to SubCon (v1.1) (GlitchCat7).nes - nointro,rapatches"
+  },
+  "13493": {
+    "C77C91E5CE1AEA62BC12880F8A14CF7C": "X-COM - UFO Defense (USA) (Es) (v1.0) (KeiTH) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PlayStation/Translation/Spanish/13493-XCOMUFODefense-Spanish.zip",
+    "C9DF579D61E3A991F8BE6707A220B567": "X-COM - UFO Defense (USA) (It) (v1.0) (KeiTH) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PlayStation/Translation/Italian/13493-XCOMUFODefense-Italian.zip",
+    "F0A164CAEC8EAD4C9526F057F27AC542": "X-COM - UFO Defense (USA) (De) (v1.0) (KeiTH) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PlayStation/Translation/German/13493-XCOMUFODefense-German.zip",
+    "ACAA77A81257268F44DDD27E1C701FFC": "X-COM - UFO Defense (USA) (Fr) (v1.0) (KeiTH) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PlayStation/Translation/French/13493-XCOMUFODefense-French.zip"
   },
   "13578": {
     "44FC58F70F6A69C02B348F121CAFB28C": "Desert Bus (World) (Aftermarket) (Unl).gb - homebrew,itchio,lostlevel"
@@ -1780,9 +1797,15 @@
   "14485": {
     "C0DDA0E2F9E731D6FB14B543C2C912AE": "SMW - Super Machok World (Kurukururin).sfc - nointro,rapatches"
   },
+  "14542": {
+    "4F6AB49745FA06590042FC4ECDC5666F": "Legend of Oasis, The (USA) - Saturn - redump - null"
+  },
   "14553": {
     "130CF2C824FA177AA6C6C7CC64D4CDB2": "SMW - Super Diagonal Mario 2 - The Ultimate Meme Machine (Pt) (Lester_Vine).sfc - nointro,rapatches",
     "309C37F76920A13596FB6BD4BE569541": "SMW - Super Diagonal Mario 2 - The Ultimate Meme Machine (En) (Lester_Vine).sfc - nointro,rapatches"
+  },
+  "14607": {
+    "8E2907B6C7A47E4C011E5902B4135F0E": "Sonic Jam 6 (Taiwan) (En) (Pirate) (Black Screen Fix) (Alexdatadestroyer).md - Genesis/Mega Drive - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/MD/Fix/Sonic%20Jam%206/14607-SonicJam6-BlackScreenFix.zip"
   },
   "14626": {
     "C08AAF6FC033C580A53DD98272FA488C": "SMW - Ninja World 2 (VLSkoot).sfc - nointro,rapatches"
@@ -2886,6 +2909,20 @@
   "22942": {
     "7A3837F8D61C7E60D09E7E3864195C0B": "Alice's Mom's Rescue (World) (Aftermarket) (Unl) (OrionSoft).cdi - homebrew,lostlevel"
   },
+  "23003": {
+    "BBB778E1023AC5DA2EDDE430B7DF9E29": "BS Super Mario USA - Power Challenge - Week 4 (Japan) (Improvement) (v1.1) (Conn).bs - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Translation/English/23003-BSSuperMarioUSA-PowerChallenge-English.zip",
+    "159528E718285656001292083F141C64": "BS Super Mario USA - Power Challenge - Week 3 (Japan) (Improvement) (v1.1) (Conn).bs - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Translation/English/23003-BSSuperMarioUSA-PowerChallenge-English.zip",
+    "0789ECA39067B3A12510EB5676335EC3": "BS Super Mario USA - Power Challenge - Week 3 (Japan) (Improvement) (v1.1) (Conn) (En) (v1.0) (pacnsacdave).bs - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Translation/English/23003-BSSuperMarioUSA-PowerChallenge-English.zip",
+    "F08E24FFD1C2B1F0C85CD81BA72C66BD": "BS Super Mario USA - Power Challenge - Dai-4-kai (Japan) (SoundLink).bs - SNES/Super Famicom - nointro - null",
+    "7ACA67C5FEC3F20CCB522EDAAC19821A": "BS Super Mario USA - Power Challenge - Week 1 (Japan) (Improvement) (v1.1) (Conn) (En) (v1.0) (pacnsacdave).bs - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Translation/English/23003-BSSuperMarioUSA-PowerChallenge-English.zip",
+    "25B4D32C87E25F303A1AC87434028F5D": "BS Super Mario USA - Power Challenge - Week 2 (Japan) (Improvement) (v1.1) (Conn) (En) (v1.0) (pacnsacdave).bs - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Translation/English/23003-BSSuperMarioUSA-PowerChallenge-English.zip",
+    "62331BFA00172B3E2705DC33DC93E1EE": "BS Super Mario USA - Power Challenge - Dai-3-kai (Japan) (SoundLink).bs - SNES/Super Famicom - nointro - null",
+    "D5D65FCFCF125AA4050784B964B2CE54": "BS Super Mario USA - Power Challenge - Week 4 (Japan) (Improvement) (v1.1) (Conn) (En) (v1.0) (pacnsacdave).bs - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Translation/English/23003-BSSuperMarioUSA-PowerChallenge-English.zip",
+    "506F7D161960E4385577A5626AA80124": "BS Super Mario USA - Power Challenge - Week 1 (Japan) (Improvement) (v1.1) (Conn).bs - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Translation/English/23003-BSSuperMarioUSA-PowerChallenge-English.zip",
+    "EFFD7E9360BE56DA5A9876B45A5989FC": "BS Super Mario USA - Power Challenge - Dai-2-kai (Japan) (SoundLink).bs - SNES/Super Famicom - nointro - null",
+    "887E9D1AF2192C55314B07112C3F9818": "BS Super Mario USA - Power Challenge - Week 2 (Japan) (Improvement) (v1.1) (Conn).bs - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Translation/English/23003-BSSuperMarioUSA-PowerChallenge-English.zip",
+    "BE58760840703A1F1F36B3BFA2E7B108": "BS Super Mario USA - Power Challenge - Dai-1-kai (Japan) (SoundLink).bs - SNES/Super Famicom - nointro - null"
+  },
   "23049": {
     "32BCDC6668A7E2BF0FB1C701FCCC367F": "SMRPG - Super Koopa RPG - Here Comes the Koopa Bros.! (v1.1) (AnAxemRanger).sfc - nointro,rapatches"
   },
@@ -3142,6 +3179,9 @@
   "25493": {
     "18FA708CC3D54DFDC36652637ED65ADB": "Kururin Squash! (Japan) (En) (v2.0.0) (NewGBAXL) - redump,rapatches"
   },
+  "25608": {
+    "05E8CCE2EFA8D05DFA739D03221DCF7E": "Celeste (USA) (PICO-8 Port) (Aftermarket) (iProgramInCpp).nes - NES/Famicom - homebrew,lostlevel - null"
+  },
   "25610": {
     "15A3B3F671C2161EE8C9AB18ADF37EB0": "Paper Mario - TTYD64 (v1.0.0) (elDexter).z64 - nointro,rapatches"
   },
@@ -3232,6 +3272,9 @@
   },
   "26633": {
     "D004C8F14ACEB1F861F7277CA3DF5CC3": "FE8 - Storge (v1.22) (knabepricer).gba - nointro,rapatches"
+  },
+  "26718": {
+    "8E5F4483C7B8D819875D91F6E75E4095": "Ms. Pac-Man (Atari) (4am crack).dsk - Apple II - 4amcrack - null"
   },
   "26731": {
     "E83E387387BBA16AFD576001A0861AED": "Sonic 1 - Tails in Sonic the Hedgehog (v2.1.1) (Puto).md - nointro,rapatches"
@@ -4640,6 +4683,10 @@
   "34096": {
     "C54284810931820A1B3E9E86B7AAC6F1": "Celeste Classic 2 (World) (v1.0) (Aftermarket) (Skaleee).gba - homebrew,lostlevel"
   },
+  "34129": {
+    "DF77829789B41CC5BE505E8CDCE80CE1": "GSPS - The Game (Poland) (Pl) (v1.0) (Aftermarket) (zachariasz455).gb - Game Boy - homebrew,itchio,lostlevel - null",
+    "01CF4C043F69A9924F2A689E3FA60157": "GSPS - The Game (Poland) (En) (v1.0) (Aftermarket) (zachariasz455).gb - Game Boy - homebrew,itchio,lostlevel - null"
+  },
   "34167": {
     "CE4B848F23F04CB456C6B5D633CFF0C1": "Formula 1 (World) (Davy Willems).wasm - homebrew,lostlevel"
   },
@@ -4720,5 +4767,11 @@
   "34878": {
     "BD3CDBFDA1046E0A3E12CE46E5981980": "SMW - Yosamikalo (v2008-11-19) (Inf. Lives) (KingYoshi89).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super Mario World/34878-SMW-Yosamikalo.zip",
     "359C3BA1D7C24B049BE172EAC422794E": "SMW - Yosamikalo (v2008-11-19) (KingYoshi89).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super Mario World/34878-SMW-Yosamikalo.zip"
+  },
+  "34885": {
+    "3580B6EB0E26F89F9D89A615EF1663C4": "SM64 - TsucnenT's Treasures (v1.0) (TsucnenT).z64 - Nintendo 64 - nointro,rhdc,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/34885-SM64-TsucnenTsTreasures.zip"
+  },
+  "34886": {
+    "2D0E8090EF236FCA175C1FCC44B2732C": "SM64 - TsucnenT's Treasures 2 (v1.0) (TsucnenT).z64 - Nintendo 64 - nointro,rhdc,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/34886-SM64-TsucnenTsTreasures2.zip"
   }
 }
