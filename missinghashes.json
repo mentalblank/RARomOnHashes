@@ -2306,6 +2306,10 @@
   "18201": {
     "E134D49DDDF40A17FC3C81DB3CD88468": "Kyoro-chan no Purikura Daisakusen (Japan) - redump"
   },
+  "18237": {
+    "B7051B24F7C9EDE944BCA05B3A5DA345": "Serial Experiments Lain (Japan) (En) (v1.0) (carlosrhv) (Disc 2) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PlayStation/Translation/English/18237-SerialExperimentsLain-English.zip",
+    "6174103153FE588027171D3692B41389": "Serial Experiments Lain (Japan) (En) (v1.0) (carlosrhv) (Disc 1) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PlayStation/Translation/English/18237-SerialExperimentsLain-English.zip"
+  },
   "18274": {
     "A66AA34AA7907AB86B83007D97FD2D1A": "Ys IV - Mask of the Sun (Japan) [Subset - Bonus].sfc - nointro,rapatches"
   },
@@ -2359,6 +2363,9 @@
   },
   "18353": {
     "A9347EFEE640447CDF05275CFA0BF993": "fotns.7z - mamesl"
+  },
+  "18366": {
+    "436CEB68658B81C42B1294DAC1188357": "Digivice Ver Portable (Japan) (PSN).iso - PlayStation Portable - nointro - null"
   },
   "18372": {
     "BBE584521E781E8A402087C1928C8C99": "Adventures of Panzer, The (World) (v1.6) (Aftermarket) (Unl).nes - nointro"
@@ -3098,6 +3105,10 @@
     "C18827BFD5BA0185702128E7F332C67C": "Dizzy - The Ultimate Cartoon Adventure (UK) (1988) [Original][b].dsk - cleancpc",
     "C861F2C471BEABEDEB1AD86FFA62C616": "Dizzy - The Ultimate Cartoon Adventure (1987)(Codemasters).dsk - tosec"
   },
+  "24702": {
+    "4311E7667D4EDAFBA75FF0397856B25D": "Pokemon Yellow - Cramorant Edition (v1.5) (Cram-o-dev).gb - Game Boy - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/Game%20Boy/Hacks/Pokemon%20Yellow/24702-PokemonYellow-CramorantEdition.zip",
+    "8A02E978F2F413944CFF4112B446E22C": "Pokemon Yellow - Cramorant Edition (v1.5) (Alt Voice) (Cram-o-dev).gb - Game Boy - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/Game%20Boy/Hacks/Pokemon%20Yellow/24702-PokemonYellow-CramorantEdition.zip"
+  },
   "24709": {
     "4032F604F1E2A50508C563409FD39E75": "SMW - Sure Shot ~ featuring Sonic the Hedgehog DELUXE EDITION (v1.3) (Maddy,Margo).sfc - nointro,smwcentral,rapatches"
   },
@@ -3292,6 +3303,9 @@
   },
   "26926": {
     "A2558E8B836005FC2B869C0EDFB9D89A": "Nintendo no Golf.d88 - neokobe"
+  },
+  "27016": {
+    "E07E71E9D01B6AEB7622741B93A5B1FD": "wrally.zip <World Rally (Version 1.0, Checksum 0E56)> - Arcade - fbneo - null"
   },
   "27303": {
     "95BE169289C1A62B541D7E536232491C": "Super Smash Bros. (USA) [Subset - Targets and Platforms] (v1.1) (SubliminalSiren).z64 - nointro,rapatches"
@@ -4657,13 +4671,17 @@
   },
   "34006": {
     "D826E04D46BE813079BFF7E8720D0F98": "LoZOoT - Hero of Law (v1.03) (Newer Team).z64 - nointro,rapatches",
-    "6F9476D767E61960C1DAFBB006D4923A": "LoZOoT - Hero of Law (v1.04) (Newer Team).z64 - nointro,rapatches"
+    "6F9476D767E61960C1DAFBB006D4923A": "LoZOoT - Hero of Law (v1.04) (Newer Team).z64 - nointro,rapatches",
+    "3EBA56D724A9B0C540ED62B9C878425A": "LoZOoT - Hero of Law (v1.10) (Newer Team).z64 - Nintendo 64 - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/LoZ%20-%20Ocarina%20of%20Time/34006-LoZOoT-HeroofLaw.zip"
   },
   "34028": {
     "45E9109C358D91C9094D5CE36DD85FC0": "Squid Game Boy (World) (v1.1) (Aftermarket) (64 Bits Animation).gb - homebrew,itchio,lostlevel"
   },
   "34029": {
     "7034AAC069FEBF8EE81732CB1E9E9854": "Arkanoid (1987)(Imagine Software).dsk - cleancpc"
+  },
+  "34046": {
+    "A58D1A7D1C23E6F2622437856CB36920": "Pokemon - White Version 2 [Subset - Completionist].nds - Nintendo DS - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/NDS/Subset/34046-PokemonWhiteVer2-Subset-Completionist.zip"
   },
   "34053": {
     "85DA406377515BBA6C7E2B70B3E6FFC0": "Pokemon Mystery Dungeon - Blue Rescue Team (Europe) (En,Fr,De,Es,It) [Subset - Bonus].nds - nointro,rapatches"
@@ -4717,6 +4735,9 @@
   },
   "34399": {
     "0E5D415741EBEA44FC2048B82D5CD51A": "Mike Tyson's Punch-Out - Glass Joe's Punch Out!! (v1.2) (Landa).nes - nointro,rapatches"
+  },
+  "34478": {
+    "77B7B9BF40E8B8AB04B474D912979459": "SM64 - Pacmario (v1.0) (Nebula).z64 - Nintendo 64 - nointro,rhdc,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/34478-SM64-Pacmario.zip"
   },
   "34484": {
     "3070A074B89292D7EDC9879473EB5231": "SM64 - Katze Stuck in the Toilet 64 (Console Compatible) (Tomatobird8).z64 - nointro,rapatches,rhdc"
