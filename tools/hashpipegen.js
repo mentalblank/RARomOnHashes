@@ -108,36 +108,42 @@ async function generateHashes() {
     }
   }
 
-  async function fetchRecentCompletedGameIds() {
-    const url = `https://retroachievements.org/API/API_GetClaims.php?k=1&y=${raApiKey}`;
+async function fetchRecentCompletedGameIds() {
 
-    try {
+  const claimUrls = [
+    `https://retroachievements.org/API/API_GetClaims.php?k=1&y=${raApiKey}`,
+    `https://retroachievements.org/API/API_GetClaims.php?k=2&y=${raApiKey}`,
+    `https://retroachievements.org/API/API_GetClaims.php?k=3&y=${raApiKey}`,
+    `https://retroachievements.org/API/API_GetActiveClaims.php?y=${raApiKey}`
+  ];
+
+  try {
+    const now = new Date();
+    const cutoff = new Date(now.getTime() - 8 * 24 * 60 * 60 * 1000);
+
+    let allClaims = [];
+
+    for (const url of claimUrls) {
       const res = await fetch(url);
-      if (!res.ok) throw new Error(`Request failed with status ${res.status}`);
-
+      if (!res.ok) throw new Error(`Request failed: ${res.status}`);
       const claims = await res.json();
 
-      const now = new Date();
-      const setDaysAgo = new Date(
-        now.getTime() - 8 * 24 * 60 * 60 * 1000
-      );
+      const dateField = url.includes("ActiveClaims") ? "ClaimedAt" : "DoneTime";
 
-      const recentClaims = claims.filter((claim) => {
-        const doneTime = new Date(claim.DoneTime);
-        return doneTime >= setDaysAgo;
-      });
-
-      const recentGameIds = [
-        ...new Set(recentClaims.map((claim) => claim.GameID)),
-      ];
-
-      console.error("Game IDs completed in last 8 days:", recentGameIds);
-      return recentGameIds;
-    } catch (err) {
-      console.error("Error fetching completed claims:", err.message);
-      return [];
+      const recentClaims = claims.filter((c) => new Date(c[dateField]) >= cutoff);
+      allClaims = allClaims.concat(recentClaims);
     }
+
+    const uniqueIds = [...new Set(allClaims.map((c) => c.GameID))];
+
+    console.log("Unique Game IDs (last 8 days):", uniqueIds);
+    return uniqueIds;
+  } catch (err) {
+    console.error("Error fetching claims:", err.message);
+    return [];
   }
+}
+
 
 async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
     if (!fileName || fileName.includes("[legacy]") || fileName.includes("[elf]")) {
@@ -260,7 +266,8 @@ const dumpGroup = dumpGroupMap.find(entry =>
         "PC-FX": "NEC - PC-FX & PC-FXGA",
         "Neo Geo CD": "SNK - Neo Geo CD",
         "TurboGrafx-CD/PC Engine CD": "NEC - PC Engine CD & TurboGrafx CD",
-        "Atari Jaguar CD": "Atari - Jaguar CD Interactive Multimedia System"
+        "Atari Jaguar CD": "Atari - Jaguar CD Interactive Multimedia System",
+        "Wii": "Nintendo - Wii - NKit RVZ [zstd-19-128k]"
     };
 
     const noIntroConsoleMap = {
@@ -403,6 +410,7 @@ const dumpGroup = dumpGroupMap.find(entry =>
         "Arcadia 2001": "Emerson - Arcadia 2001",
         "Interton VC 4000": "Interton - VC 4000",
         "Nintendo DSi": "Nintendo - Nintendo DSi (Digital)",
+        "Wii": "Nintendo - Wii (Digital) (CDN)"
     };
 
     const nonRedumpConsoleMap = {

@@ -759,8 +759,14 @@
   "3089": {
     "C3C342CCD9D7A9FFE3882D5454BE130B": "Tobal 2 (Japan) (Rev 1) (En) (v1.01b) (Infinite Lupine Translations,r4dius) - redump,rapatches"
   },
+  "3100": {
+    "418D33B0AE9F01AB4ABF0440EF8469F1": "Psychonauts (USA) (60fps) (v1.0) (Souzooka) - PlayStation 2 - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Improvement/3100-Psychonauts-60fps.7z"
+  },
   "3101": {
     "3563F0D2C33412AC488F25691F9AC9F4": "JoJo no Kimyou na Bouken (Japan) (Es) (v1.0) (Max1323).sfc - nointro,rapatches"
+  },
+  "3143": {
+    "3D995CB1E54E97B48D64CA5AE87809D7": "Star Wars - Battlefront II (SLUS-21240) [02F4B541] - PlayStation 2 -  - null"
   },
   "3144": {
     "B0E3ED4E8B207B56292874DC3085F42E": "SMW - Kaizo Kindergarten (v1.09) (PangaeaPanga).sfc - nointro,rapatches"
@@ -822,7 +828,8 @@
     "223B53955C02B5A9B0F11603F6A10102": "Aleste 2 (1989) (Compile) (En) (v1.0) (Woomb, BacklogOddy) (Disk 3).dsk - MSX - tosec,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/MSX/Translation/English/3287-Aleste2-English.zip",
     "F5BE2140761D3F3B36CF62598ED6004B": "Aleste 2 (1989)(Compile)(JP)(Disk 3 of 3).dsk - MSX - tosec - null",
     "883E46527DA292C148769425B30AD685": "Aleste 2 (1989)(Compile)(JP)(Disk 1 of 3).dsk - MSX - tosec - null",
-    "52B1591D7CD5921B8256E213A6859600": "Aleste 2 (1989)(Compile)(JP)(Disk 2 of 3).dsk - MSX - tosec - null"
+    "52B1591D7CD5921B8256E213A6859600": "Aleste 2 (1989)(Compile)(JP)(Disk 2 of 3).dsk - MSX - tosec - null",
+    "D7A82C877457E9917171C77AA828C1AA": "Aleste 2 (1989) (Compile) (ROM Conversion) (v8.0) (Ricbit).rom - MSX -  - null"
   },
   "3299": {
     "D8E315C1B3E38573939829DA0FC108C2": "Shadow Tower Abyss (Japan) (En) (v1.0) (Mord of Swoonlight) - redump,rapatches,rhdn"
@@ -976,6 +983,9 @@
   "3934": {
     "2B0B9F7F0EE38CD47E2589D44C52FC1B": "Twilight Princess Wide Test - No Labels"
   },
+  "3935": {
+    "A13D920A68E94B1BD846EE3623524CFB": "Digimon World Re:Digitize (Japan) (En) (v1.1) (Operation Decoded).iso - PlayStation Portable - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/PlayStation%20Portable/Translation/English/3935-DigimonWorldReDigitize-English.7z"
+  },
   "3939": {
     "C7E2C0518261F009052BBA044C17444D": "Sonic Rivals (Europe) (En,Fr,De,Es,It) (60fps).iso - redump,rapatches"
   },
@@ -1011,6 +1021,9 @@
   "4011": {
     "88E940BB5C15D201BF1779821C10D923": "Tengoku Yoitoko (Japan).rom - MSX - nointro - null",
     "783F58FA61BF122B78A9807C5ED35205": "Tengoku Yoitoko (Japan) (En) (v1.0.2) (MSX Translations).rom - MSX - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/MSX/Translation/English/4011-TengokuYoitoko-English.zip"
+  },
+  "4026": {
+    "8C83A0920B10A01F44AD50D3613708DE": "Becky (Japan) (En) (v1.0) (Sargon,hap).rom - MSX - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/MSX/Translation/English/4026-Becky-English.zip"
   },
   "4049": {
     "F208E5CD6842A35FB01FEE9FE81CED0F": "SMW - Super Demo World - The Legend Continues (FuSoYa).sfc - nointro,rapatches"
@@ -1150,6 +1163,9 @@
   },
   "6258": {
     "0D4C23F2663EC2118CC5AE2D44DAAAC9": "Chrono Trigger - Shi Kong Zhi Lun (China) (En + Extras) (v1.1) (pacnsnac, Cubear).nes - nointro,rapatches"
+  },
+  "6305": {
+    "9B8A3FD719987D292E23C32B0E5AC309": "Gussun Oyoyo S (Japan) - Saturn - redump - null"
   },
   "6345": {
     "1A882CD6F4AEC52FCD75716EAF93213D": "Gekisou Sentai Car Rangers (ST) (GTConversion) [o1].sfc - nointro,rapatches",
@@ -1405,6 +1421,9 @@
   },
   "9408": {
     "59E09021A6A688F8303FD94C99BAA917": "Mega Man X - Alpha (v1.0) (MyselfTheThird).sfc - nointro,rapatches"
+  },
+  "9428": {
+    "8C1A7B5D959577094B74A2AA5D93462F": "Playmobil Interactive - Pirates (USA) (En,Fr,De,Es,Nl).nds - Nintendo DS - nointro - null"
   },
   "9481": {
     "1EDF4DB1CC849201DB140C5F6A2126FA": "SMW - Ninja World (VLSkoot) (1.2).sfc - nointro,rapatches"
@@ -2124,6 +2143,9 @@
   },
   "17005": {
     "4A756D1BD0869029D819D44D64DC451E": "Clock Tower - The First Fear (Japan) (Pt) (v1.2) (Matizhill) - redump,rapatches"
+  },
+  "17007": {
+    "B0E9B92AFA241DFE4ECEF261FBA4E227": "Dune (USA) - Sega CD - redump - null"
   },
   "17038": {
     "E20E1AB7490F256E5A45C5652E975BE4": "SMW - Hack 1 2 (2020-09-30) (Golden Yoshi).sfc - nointro,rapatches"
@@ -2923,6 +2945,9 @@
   "22592": {
     "B604104CACFDA30315B60B00B3CA5ADE": "Space Race (USA) (v2023) (Aftermarket) (MikeBloke).bin - homebrew,itchio,lostlevel"
   },
+  "22605": {
+    "B847A2D660F6DC3850F04D7BC7F21465": "Disney's Tarzan - Untamed (USA) - PlayStation 2 - redump - null"
+  },
   "22610": {
     "362F725E9FE844399D7933F05210A925": "Saint Seiya - The Sanctuary (Europe) (NTSC) (60Hz) (v3.0) (Unknown) - redump,rapatches"
   },
@@ -3215,6 +3240,9 @@
   "25091": {
     "855DC91E683D897662C2F676B4DC3E3A": "Contra (Japan) (Wii U Virtual Console).rom - MSX - nointro - null"
   },
+  "25094": {
+    "B34B756E16F07E26C2052823BAB93592": "Quarth (Japan) (Wii U Virtual Console).rom - MSX - nointro - null"
+  },
   "25173": {
     "490674405868A95E614C9B492F18E45B": "Galaxy Wars - Space Launcher (World) (v1.02) (Aftermarket) (Unl).vec - homebrew,lostlevel"
   },
@@ -3248,6 +3276,10 @@
   },
   "25612": {
     "F0466279DFBD8D333D78EEB1AB183BC1": "Super Metroid - Super Junkoid (v1.3) (P Yoshi).sfc - nointro,rapatches,metconst"
+  },
+  "25625": {
+    "63D47B222F8E54A69D7702DAEE2E9CB3": "King Kong 2 - Yomigaeru Densetu (Japan) (En) (v1.0) (Imanok).rom - MSX - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/MSX/Translation/English/25625-KingKong2-English.zip",
+    "A7BC0525D6367FE9B32EB568A14133E7": "King Kong 2 - Yomigaeru Densetsu (Japan).rom - MSX - nointro - null"
   },
   "25628": {
     "E1BC1D063355AE09757EC691FAFEEC7E": "Mortal Kombat 3 [Subset - Master Destiny 1cc].sfc - nointro,rapatches"
@@ -3634,6 +3666,9 @@
     "2A8F3D7372EBAFAF287A246A77E9DDB4": "(GMSE04) Super Mario Eclipse v1.0.4 hotfix - No Labels",
     "1938AF2AEE854415255E3220FC366DD1": "(GMSE04) Super Mario Eclipse v1.0.6 - gamebanana,lostlevel"
   },
+  "28948": {
+    "7F83AFD81A406F82FB91EBBB87B4B850": "mmpork.zip <Muchi Muchi Pork! (2007/ 4/17 MASTER VER.)> - Arcade - fbneo - null"
+  },
   "28949": {
     "36140D3035760C6F82A0BBD0A31F6F4A": "akatana.zip <Akai Katana (2010/ 8/13 MASTER VER.)> - fbneo"
   },
@@ -3678,6 +3713,9 @@
   },
   "29166": {
     "7D23CC327DB019F9792D19C97CF23AB7": "Activator (1986)(Cascade Games).dsk - cleancpc"
+  },
+  "29322": {
+    "37F1BA598AA681A45FF66898B644EF4B": "PSXFunkin' - With Parappa (v1.1.0) (LordScout) - PlayStation - lostlevel,gamebanana - null"
   },
   "29325": {
     "7B776B9FF46D1D900B13D5EEBD27DC0C": "SMW - UP The Romhack (Sweetdude).sfc - nointro,rapatches"
@@ -4281,6 +4319,9 @@
   "31892": {
     "F7AF51CECD3E170CC373FBA01753053C": "Pokemon Emerald - Scorched Silver (v1.3) (Sloo).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/GBA/Hacks/Pokemon%20Emerald/31892-PokemonEmerald-ScorchedSilver.zip"
   },
+  "31894": {
+    "3C4A05C9F667362C317510ED8C55FEC4": "XSpelunker (2017) (v1.4.3) (32K) (Brain Games).rom - MSX - homebrew,lostlevel - null"
+  },
   "31909": {
     "0073325E4B4B86DB19154F6A52E2A817": "Sonic 1 - Pantufa the Cat - Extended Edition (SHC2020) (VAdaPEGA).md - Genesis/Mega Drive - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/MD/Hacks/Sonic%20the%20Hedgehog/31909-Sonic1-PantufatheCat.zip"
   },
@@ -4427,6 +4468,10 @@
     "BFA9A1D26ACAF2699BE8B832BCA66F50": "Super Cooks (1989) (Compile) (En) (v1.0) (Django Translations).dsk - MSX - tosec,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/MSX/Translation/English/32666-SuperCooks-English.zip",
     "A71E74B0D373D6E93551889822AF9FEE": "Super Cooks (1989)(Compile)(JP).dsk - MSX - tosec - null"
   },
+  "32667": {
+    "7ACDD430663BD14CAB248AEDEA63A980": "Psycho World (Japan) [T-En by Django & FRS v3.0] - MSX -  - null",
+    "709C5545B009DB92A9C9501CF622FB9C": "Psycho World (1988)(Hertz)(JP).dsk - MSX - tosec - null"
+  },
   "32724": {
     "DC887349207B424D13C33E2E34A64F9A": "Formula One 06 [Subset - Multi] - redump,rapatches"
   },
@@ -4464,6 +4509,10 @@
   },
   "32823": {
     "B93F53F5FB7931B4A973624F15188E50": "Gun.Smoke - Hell's Maw (v1.0) (Hexadigital).nes - nointro,rapatches"
+  },
+  "32826": {
+    "533024B72C85F5B4D3E3266DBED4FE19": "Cave Story (USA) (Test 5) (Aftermarket) (Unl) - PlayStation - homebrew,lostlevel,github - null",
+    "7C59C217390EC02348DE7BBE28154F81": "Cave Story (USA) (Release 7) (Aftermarket) (Unl) - PlayStation - homebrew,lostlevel,github - null"
   },
   "32844": {
     "ECEAA049048A61EBE66F3F58E3723A5B": "Pokemon Emerald - Recharged Emerald (v2.2.5) (Jaizu).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Pokemon Emerald/32844-Pokemon-RechargedEmerald.zip"
@@ -4738,6 +4787,16 @@
   "33786": {
     "4876EAF017883717249015770CA881F4": "Cure, The (2005) (XL2S Entertainment).rom - MSX - homebrew,lostlevel - null"
   },
+  "33788": {
+    "C672C9D37070244F13902036F74BB641": "Caos Begins (2007) (Hikaru Games).rom - MSX - homebrew,lostlevel - null"
+  },
+  "33791": {
+    "88A8CBD98141026AEC62FAFC91357F3C": "Teodoro no sabe volar (2012) (Es) (Retroworks, Dimension Z).rom - MSX - homebrew,lostlevel - null",
+    "BF5FC1E33109289475084B5033EDC87A": "Teodoro no sabe volar (2012) (En) (Retroworks, Dimension Z).rom - MSX - homebrew,lostlevel - null"
+  },
+  "33793": {
+    "BED677AC0F7F10A9846FD8F1EC9328D0": "Pretty Kingdom (2014) (Nerlaska Studio).rom - MSX - homebrew,lostlevel - null"
+  },
   "33794": {
     "170687B7119215D7C0002C00C41F628D": "Wing Warriors (2015) (EGS, Kitmaker).rom - MSX - homebrew,lostlevel - null"
   },
@@ -4765,6 +4824,19 @@
   "33865": {
     "B5EFCD7124009068B63F8B144BAA3A89": "Binary Battle (2024) (v1.1) (Haplo).rom - MSX - homebrew,itchio,lostlevel - null"
   },
+  "33868": {
+    "7848F094AB4786E5CDCD499EC745D12B": "BitLogic (2015) (v1.0 - Final) (OXiAB Game Studio).rom - MSX - homebrew,itchio,lostlevel - null"
+  },
+  "33879": {
+    "2F35DD613B36690251AEB5C6CD5ECF1F": "Balloon Buster (2022) (v1.0) (Hakogame).rom - MSX - homebrew,lostlevel - null"
+  },
+  "33893": {
+    "AC7AB0AE39364DF4C2A15C4E1FF07972": "My Sacred Place (2022) (Mario Cavalcanti).rom - MSX - homebrew,lostlevel - null"
+  },
+  "33895": {
+    "6B6BF20D7A5557F44EBF2DC23347A5E1": "S.o.L.o. (2021) (v1.0) (En) (Roolandoo).rom - MSX - homebrew,lostlevel - null",
+    "D0743965E39EC01B79131E88590B44C1": "S.o.L.o. (2021) (v1.0) (Es) (Roolandoo).rom - MSX - homebrew,lostlevel - null"
+  },
   "33900": {
     "616A8884D755FD1D2137233FC7CAE9FF": "Poppie Land (2025) (meichnpp).dsk - MSX - homebrew,itchio,lostlevel - null"
   },
@@ -4774,11 +4846,21 @@
   "33968": {
     "4259B3C92DF4A20044C0124624C7A4AD": "Final Fantasy VI - BA Version (Ja) (v3.36c) (Haiyoru Konton).sfc - nointro,rapatches"
   },
+  "33981": {
+    "3A053ED7D346EA3B257F0F9EDC1FED5F": "XRacing (2018) (v1.0.5) (Brain Games).rom - MSX - homebrew,lostlevel - null"
+  },
+  "33985": {
+    "F4F464EAC58F8C16AE5C1BB4560ABAF0": "Snake and Rhino in the Sketchbook (2023) (v1.0) (ARC8).rom - MSX - homebrew,lostlevel - null"
+  },
   "33986": {
     "432DE13F52AFED4C625BFA3373396000": "Maiden's Extreme Fist 'BUN-GA-RUA' (2024) (v1.1.2) (Retromixis).rom - MSX - homebrew,lostlevel - null"
   },
   "33995": {
     "114264BBCD0FDFA7BD083A983606A200": "Rastan Saga (Japan).rom - MSX - nointro - null"
+  },
+  "34005": {
+    "B4B8793FC2101329E39A9EAEA27A7585": "Tales of Popolon (2017) (En) (Brain Games).rom - MSX - homebrew,lostlevel - null",
+    "D7D418514E3CFF546C53B9DE3F43BE72": "Tales of Popolon (2017) (Es) (Brain Games).rom - MSX - homebrew,lostlevel - null"
   },
   "34006": {
     "D826E04D46BE813079BFF7E8720D0F98": "LoZOoT - Hero of Law (v1.03) (Newer Team).z64 - nointro,rapatches",
@@ -4788,6 +4870,10 @@
   "34012": {
     "FD325B9F4997D70397F59379E679E420": "Yuurei-kun (Japan).rom - MSX - nointro - null",
     "D1B13768CAC94BD4ACAA68315DF4AE15": "Yuureikun - Mr. Ghost (Japan) (En) (v1.0.0) (MSX Translations).rom - MSX - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/MSX/Translation/English/34012-Yuureikun-MrGhost-English.zip"
+  },
+  "34027": {
+    "09DADA521E1764070A482BD73432E240": "Pentagram (1986) (A.C.G.).rom - MSX - lostlevel - null",
+    "F5C81B3DBC4F25EC5216F1A434FB6FC9": "Pentagram (1986) (A.C.G.) [BLOAD'CAS-',R].cas - MSX - lostlevel - null"
   },
   "34028": {
     "45E9109C358D91C9094D5CE36DD85FC0": "Squid Game Boy (World) (v1.1) (Aftermarket) (64 Bits Animation).gb - homebrew,itchio,lostlevel"
@@ -4819,6 +4905,12 @@
   "34096": {
     "C54284810931820A1B3E9E86B7AAC6F1": "Celeste Classic 2 (World) (v1.0) (Aftermarket) (Skaleee).gba - homebrew,lostlevel"
   },
+  "34126": {
+    "68A51418081E4EA60402B436625A5C5E": "Cube Droid Saves the Galaxy (2024) (MSX2) (bitsofbas).rom - MSX - homebrew,itchio,lostlevel - null"
+  },
+  "34127": {
+    "F763BB7AC109F205C1484348C676422B": "Cube Droid Holiday Special (2024) (MSX2) (bitsofbas).rom - MSX - homebrew,itchio,lostlevel - null"
+  },
   "34129": {
     "DF77829789B41CC5BE505E8CDCE80CE1": "GSPS - The Game (Poland) (Pl) (v1.0) (Aftermarket) (zachariasz455).gb - Game Boy - homebrew,itchio,lostlevel - null",
     "01CF4C043F69A9924F2A689E3FA60157": "GSPS - The Game (Poland) (En) (v1.0) (Aftermarket) (zachariasz455).gb - Game Boy - homebrew,itchio,lostlevel - null"
@@ -4831,6 +4923,9 @@
   },
   "34169": {
     "CD28442C350B764AC473D3EBCBEBC6BF": "Step (2021) (v1.2) (ASCII16) (Uninteresting).rom - MSX - homebrew,lostlevel - null"
+  },
+  "34233": {
+    "5B2C2E7E4F3ECA3BD8BB76EAB35F3116": "Super Mario World [Subset - Sub 90-Minute 96 Exit Speedrun].sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Subset/34233-SMW-Subset-Sub90Minute96ExitSpeedrun.zip"
   },
   "34300": {
     "BDA3E35BB2F45569DB7C05EF01902E7B": "Racing Lagoon [Subset - Gearhead] - redump,rapatches"
@@ -4858,6 +4953,9 @@
     "87BB642D39484F8FF94617B8760B4187": "SM64 - Super Mario 64 and the Koopa Power (v1.0.2) (VenusFeuerFalle).z64 - nointro,rapatches,rhdc",
     "530AA09C6FCEA4F2B5D29578F4A64933": "SM64 - Super Mario 64 and the Koopa Power (v1.1.2) (VenusFeuerFalle, LinCrash).z64 - nointro,rapatches,rhdc"
   },
+  "34325": {
+    "5BEC2F26C5E87A51C1D86352A5896C07": "Who Dares Wins (2016) (RetroForce).rom - MSX - homebrew,lostlevel - null"
+  },
   "34326": {
     "DE4DADEEA372B1883FECD5365B40A87C": "Fire Rescue (Japan).rom - MSX -  - null"
   },
@@ -4866,6 +4964,9 @@
   },
   "34390": {
     "50DAB78045AA04B95ADB97F4648D61B0": "Super Mario 64 (USA) [Subset - A Button Challenge].z64 - nointro,rapatches"
+  },
+  "34391": {
+    "56544155F910E8EDD851C52836517A18": "Where Is It - The Quest for the 10th Island (2021) (v1.0) (Ricco59).rom - MSX - homebrew,lostlevel - null"
   },
   "34399": {
     "0E5D415741EBEA44FC2048B82D5CD51A": "Mike Tyson's Punch-Out - Glass Joe's Punch Out!! (v1.2) (Landa).nes - nointro,rapatches"
@@ -4910,6 +5011,11 @@
     "680480A85E2985ED609D6DDE913A2506": "Legend of Zelda, The - Romhack Jam 1 - Return To Stone Tower (v1.3) (Nokaubure).z64 - nointro,rapatches",
     "4E76858409FE32BCA0E9FCCC4F7BD4E1": "Legend of Zelda, The - Romhack Jam 1 - Mechanical Shrine (v1.3) (arthurc).z64 - nointro,rapatches"
   },
+  "34500": {
+    "9DA9A2D4F8C83C563D2C88C8F9058916": "Legend of Zelda, The - Majora's Mask (USA) [Subset - Glitch Showcase].z64 - Nintendo 64 - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Subset/LoZ%20-%20Majora's%20Mask/34500-LoZ-MM-Subset-GlitchShowcase.zip",
+    "DEA8B7AA5FE22ABEC2E3031CC72236A3": "Zelda no Densetsu - Mujura no Kamen (Japan) [Subset - Glitch Showcase].z64 - Nintendo 64 - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Subset/LoZ%20-%20Majora's%20Mask/34500-LoZ-MM-Subset-GlitchShowcase.zip",
+    "963B0F26BF166A336892C61F92EAEA0E": "Legend of Zelda, The - Majora's Mask (USA) (Pt) [Subset - Glitch Showcase].z64 - Nintendo 64 - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Subset/LoZ%20-%20Majora's%20Mask/34500-LoZ-MM-Subset-GlitchShowcase.zip"
+  },
   "34501": {
     "BF0F77301387212379F7182A343589B7": "Walt Disney's The Jungle Book - Rhythm n' Groove [Subset - Crazy Perfect Full Clear] - redump,rapatches"
   },
@@ -4924,6 +5030,9 @@
   },
   "34509": {
     "FB86F69095469445A6E8962CD618B39E": "Dynasty Warriors 3 - Xtreme Legends [Subset Max Item Break].iso - redump,rapatches"
+  },
+  "34531": {
+    "713E9FD8449A7F07B754FBD53B5F55BE": "Grazers (2024) (v1.1) (Aftermarket) (Snauts).rom - MSX - homebrew,itchio,lostlevel - null"
   },
   "34533": {
     "F32D5D24D218A9813EA86AAE08C78C73": "Wicket el Ewok (Spain) (1987) (Walther Miller).rom - MSX - lostlevel - null"
@@ -4940,6 +5049,10 @@
   },
   "34886": {
     "2D0E8090EF236FCA175C1FCC44B2732C": "SM64 - TsucnenT's Treasures 2 (v1.0) (TsucnenT).z64 - Nintendo 64 - nointro,rhdc,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/34886-SM64-TsucnenTsTreasures2.zip"
+  },
+  "34905": {
+    "A58689D44636DFEB752AE49B549AB625": "Transball (2016) (En) (v1.3.2) (Braingames).rom - MSX - homebrew,github,lostlevel - null",
+    "F45889716EFFD3C2BC801693181189F8": "Transball (2016) (Es) (v1.3.2) (Braingames).rom - MSX - homebrew,github,lostlevel - null"
   },
   "34906": {
     "14C078A9ED5C14AC54A6EB5E94FA34D2": "Lupin Sansei - Cagliostro no Shiro (Japan).rom - MSX - nointro - null"
