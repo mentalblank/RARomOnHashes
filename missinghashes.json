@@ -1335,6 +1335,9 @@
     "9F778366E16E46ED0906C90DE76A61F2": "Tamori no Picross (Japan) (6-26).bs - nointro",
     "EF07BA497F0E7E6AE63DCA3143E37E6C": "Tamori no Picross (7-14) (Japan).bs - nointro,rapatches"
   },
+  "8685": {
+    "983280A80520EF5F0BCCA28A5ABEDC6C": "Pokemon Crystal - Joel's Bizarre Pokeventure (v1.0) (Freako).gbc - Game Boy Color - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/GBC/Hacks/Pokemon%20Crystal/8685-PokemonCrystalJBP.zip"
+  },
   "8696": {
     "89D33B24D7E0D5B0AB4441B469A3093F": "SMW - Cartuchito World (Maxwel) (2016-09-02).sfc - nointro,rapatches"
   },
@@ -2540,6 +2543,9 @@
   },
   "18987": {
     "F6332C87AB33177B3B8650A9D9500851": "Persona 4 (World) (Aftermarket) (Unl) (Demo).gb - homebrew,itchio,lostlevel"
+  },
+  "18988": {
+    "B9A2F5456CB75D02D6CCB24F0868287A": "Bomber Man 3D (1984)(Hudson Soft)(JP).dsk - MSX - tosec - null"
   },
   "19006": {
     "016E990C810854ED0D30FC9770745A13": "initdv3e.zip - mamesl"
@@ -4321,6 +4327,9 @@
   },
   "31894": {
     "3C4A05C9F667362C317510ED8C55FEC4": "XSpelunker (2017) (v1.4.3) (32K) (Brain Games).rom - MSX - homebrew,lostlevel - null"
+  },
+  "31906": {
+    "5F62CE8B5E76FA1248693721B92505FE": "SMW - Daisy's Crazy Adventure (v1.1.0) (BlueSheep123).sfc - SNES/Super Famicom - nointro,smwcentral,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/31906-SMW-DaisysCrazyAdventure.zip"
   },
   "31909": {
     "0073325E4B4B86DB19154F6A52E2A817": "Sonic 1 - Pantufa the Cat - Extended Edition (SHC2020) (VAdaPEGA).md - Genesis/Mega Drive - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/MD/Hacks/Sonic%20the%20Hedgehog/31909-Sonic1-PantufatheCat.zip"

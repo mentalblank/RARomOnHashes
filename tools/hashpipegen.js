@@ -136,7 +136,7 @@ async function fetchRecentCompletedGameIds() {
 
     const uniqueIds = [...new Set(allClaims.map((c) => c.GameID))];
 
-    console.log("Unique Game IDs (last 8 days):", uniqueIds);
+    console.error("Unique Game IDs (last 8 days):", uniqueIds);
     return uniqueIds;
   } catch (err) {
     console.error("Error fetching claims:", err.message);
