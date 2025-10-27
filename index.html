@@ -103,6 +103,12 @@
   </div>
 
   <script>
+    function getDownloadLink(url) {
+      if (url.includes("myrient.erista.me")) {
+        return `https://corsproxy.io/?url=${encodeURIComponent(url)}`;
+      }
+      return url;
+    }
     async function searchGame() {
       const searchInput = document.getElementById("searchInput").value.trim().toLowerCase(); // Convert input to lowercase
       const resultsDiv = document.getElementById("results");
@@ -142,8 +148,14 @@
             output += "<table class='w-full table-auto text-left table-dark rounded'><thead><tr><th class='px-4 py-2'>Hash</th><th class='px-4 py-2'>File</th><th class='px-4 py-2'>Action</th></tr></thead><tbody>";
             for (const [hash, url] of Object.entries(gameEntries)) {
               const fileName = url.split('/').pop();
-              output += `<tr><td class='px-4 py-2'>${hash}</td><td class='px-4 py-2'>${fileName}</td><td class='px-4 py-2'>
-                <a href="${url}" class='bg-blue-500 text-white px-4 py-2 rounded inline-block' target='_blank'>Download</a></td></tr>`;
+              const downloadUrl = getDownloadLink(url);
+              output += `<tr>
+                <td class='px-4 py-2'>${hash}</td>
+                <td class='px-4 py-2'>${fileName}</td>
+                <td class='px-4 py-2'>
+                  <a href="${downloadUrl}" class='bg-blue-500 text-white px-4 py-2 rounded inline-block' target='_blank'>Download</a>
+                </td>
+              </tr>`;
             }
             output += "</tbody></table>";
             found = true;

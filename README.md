@@ -24,6 +24,7 @@ This script adds download links for supported game files on RetroAchievements.or
 ## ⚠️ Important Notes
 
 - **Download Link Delays**: New or updated scripts may have a slight delay in generating links. If a link does not appear, refresh the page or source it manually from Archive.org or `hashlinks.json`.
+- **Myrient Links**: Due to changes on Myrient, all Myrient download requests now use corsproxy.io to prevent redirects.
 - **Game ID Changes**: RetroAchievements occasionally "recycles" game IDs, leading to mismatched links. Please report any issues or submit a pull request to update `hashlinks.json`.
 - **Update Cycle**: The script will pull updates from this repository only if a change has been made and check only once every 24 hours.
 - **Missing Hashes**: A significant amount of the missing hashes are due to issues with Wholee’s SNES archive dump on Archive.org, which will slowly be re-linked as the files are located elsewhere. The rest are mostly rom hacks.
