@@ -4,9 +4,9 @@ This script adds download links for supported game files on RetroAchievements.or
 
 ![Screenshot](https://i.imgur.com/O9ad6mm.png)
 
-## 🔗 Linked Hash Status (as of Oct. 27, 2025)
-- **Linked Hashes:** 14,194
-- **Missing Hashes:** 2,202
+## 🔗 Linked Hash Status (as of Oct. 31, 2025)
+- **Linked Hashes:** 31,788
+- **Missing Hashes:** 8,922
 
 ## 🌐 Searchable Web Application
 
@@ -23,22 +23,16 @@ This script adds download links for supported game files on RetroAchievements.or
 
 ## ⚠️ Important Notes
 
-- **Download Link Delays**: New or updated scripts may have a slight delay in generating links. If a link does not appear, refresh the page or source it manually from Archive.org or `hashlinks.json`.
-- **Myrient Links**: Due to changes on Myrient, all Myrient download requests now use corsproxy.io to prevent redirects.
+- **Download Link Delays**:  If a link does not appear, refresh the page or source it manually from the [web app version](https://mentalblank.github.io/RARomOnHashes) or `hashlinks.json`.
+- **Myrient Links**: Due to changes on Myrient, all Myrient download requests now use corsproxy.io to prevent redirects (filenames may be scrambled due to this).
+- **Archive.org Links**: As this project relies on a small number of Archive.org dumps, it is advised to remain signed into Archive.org so you can access these files.
 - **Game ID Changes**: RetroAchievements occasionally "recycles" game IDs, leading to mismatched links. Please report any issues or submit a pull request to update `hashlinks.json`.
 - **Update Cycle**: The script will pull updates from this repository only if a change has been made and check only once every 24 hours.
-- **Missing Hashes**: A significant amount of the missing hashes are due to issues with Wholee’s SNES archive dump on Archive.org, which will slowly be re-linked as the files are located elsewhere. The rest are mostly rom hacks.
 - **Manifest V3**: Userscripts may face compatibility issues with Chromium browsers (e.g., Chrome, Edge, Opera) after the shift to Manifest V3. You may need to [enable developer mode](https://www.tampermonkey.net/faq#Q209) to run userscripts. I use Firefox and do not troubleshoot Chromium-specific issues at this time.
-- **Archive.org**: As this project relies on a small number of Archive.org dumps, it is advised to remain signed into Archive.org so you can access these files.
 
-## 📜 Script Versions
+## 📜 Script
 
-There are three versions of the script available. Choose one to use at a time:
-
-- **[Updated Script](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/TamperMonkeyRetroachievements.js)**: The most current version with a GitHub-hosted hash list that can be edited via pull requests.
-- **[Fixed Original Script](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/OriginalTamperMonkeyRetroachievementsFixed.js)**: The original script by Wholee, with modifications for RetroAchievements’ new layout.
-- **[Original Wholee Script](https://archive.org/details/retroachievements_collection_v5)**: The initial, unmodified script (Non-Functional).
-> **Note:** My updated version is linked to more ROMs than the original or fixed versions of Wholee's script. This may change if Wholee comes back to update and fix their Archive.org upload, but my script can be edited far more often and more easily by multiple people.
+- **[CLICK HERE FOR USERSCRIPT](https://github.com/MentalBlank/RARomOnHashesUserScript/raw/refs/heads/main/TamperMonkeyRetroachievements.js)**
 
 ## 📥 Installation Instructions
 
@@ -54,7 +48,7 @@ There are three versions of the script available. Choose one to use at a time:
 
 - Open the **TamperMonkey dashboard** by clicking the TamperMonkey icon and selecting **Dashboard**.
 - Click on **"Add a new script"** (or the "+" icon).
-- Paste the contents of one of the above script versions into the editor.
+- Paste the contents of the above script into the editor.
 
 ### 3. Save and Activate
 
@@ -62,7 +56,7 @@ There are three versions of the script available. Choose one to use at a time:
 - Refresh any RetroAchievements.org "Supported Game Files" page to activate the script.
 > **Notes:**
 > - If no links appear ([Screenshot](https://i.imgur.com/O9ad6mm.png)) after a few seconds or a page refresh, you can check to see if the script is running in your browser's dev console which will say "***RA Hash List Script is running!***"
-> - You can also check [hashlinks.json](https://raw.githubusercontent.com/mentalblank/RARomOnHashes/refs/heads/main/hashlinks.json) to see if the hashes have been linked.
+> - You can also check the [web app version](https://mentalblank.github.io/RARomOnHashes) or [hashlinks.json](https://raw.githubusercontent.com/mentalblank/RARomOnHashes/refs/heads/main/hashlinks.json) to see if the hashes have been linked.
 
 ## 🔄 Pull Requests
 
@@ -72,7 +66,6 @@ To contribute updates to `hashlinks.json`, please ensure the following:
 
 - The JSON is valid.
 - Matching hashes are removed from `missinghashes.json`.
-- List the added or modified games in the commit description.
 
 ## 🙏 Thanks, Acknowledgements, & Credits
 
