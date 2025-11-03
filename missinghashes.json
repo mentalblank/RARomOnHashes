@@ -344,6 +344,12 @@
     "E36878C7D6C7ECBB090DE659E5F3893C": "Super Castlevania IV (USA) (MSU-1) (Conn,Kurrono).sfc - SNES/Super Famicom - nointro,msu1 - https://github.com/RetroAchievements/RAPatches/raw/main/SNES/MSU-1/562-SuperCastlevaniaIV-MSU1.zip",
     "75E904E769A99FE3C5207CFE13B5F52B": "Super Castlevania IV (USA) (Fr) (Xam) (1.0).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/SNES/Translation/French/562-SC4-FrenchTranslation.zip"
   },
+  "566": {
+    "8F831F708E134C5F256D6FFCBD3FAD6C": "Shadowrun (USA) (Mouse Support) (v1.0) (rainwarrior).sfc - SNES/Super Famicom - nointro,rhdn,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Improvement/566-Shadowrun-MouseSupport.zip",
+    "BB085908BF1937FA74E57F8F60C97A39": "Shadowrun (Europe) (Mouse Support) (v1.0) (rainwarrior).sfc - SNES/Super Famicom - nointro,rhdn,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Improvement/566-Shadowrun-MouseSupport.zip",
+    "4BB8081FE57C4485F60B88875141A91A": "Shadowrun (USA) (MSU-1) (v20210428) (Conn) (Mouse Support).sfc - SNES/Super Famicom - nointro,rapatches,lostlevel,msu1 - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/MSU-1/566-Shadowrun-MSU1.zip",
+    "060775AFE9E8E847FF3BBAD125E6A1AB": "Shadowrun (USA) (MSU-1) (v20210428).sfc - SNES/Super Famicom - nointro,rapatches,lostlevel,msu1 - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/MSU-1/566-Shadowrun-MSU1.zip"
+  },
   "567": {
     "5E294C4C1C2C5B914FDA2C0855FF51D4": "Rockman EXE 4.5 - Real Operation (Japan) (En) (v1.2) (Spikeman).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/GBA/Translation/English/567-MMBN4.5-EnglishTranslation.zip"
   },
