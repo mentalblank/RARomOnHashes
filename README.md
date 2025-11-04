@@ -24,7 +24,7 @@ This script adds download links for supported game files on RetroAchievements.or
 ## ⚠️ Important Notes
 
 - **Download Link Delays**:  If a link does not appear, refresh the page or source it manually from the [web app version](https://mentalblank.github.io/RARomOnHashes) or `hashlinks.json`.
-- **Myrient Links**: Due to changes on Myrient, all Myrient download requests now use corsproxy.io to prevent redirects (filenames may be scrambled due to this).
+- **Myrient Links**: Due to changes on Myrient, all Myrient download requests will now open the Myrient webpage and search the filename before downloading.
 - **Archive.org Links**: As this project relies on a small number of Archive.org dumps, it is advised to remain signed into Archive.org so you can access these files.
 - **Game ID Changes**: RetroAchievements occasionally "recycles" game IDs, leading to mismatched links. Please report any issues or submit a pull request to update `hashlinks.json`.
 - **Update Cycle**: The script will pull updates from this repository only if a change has been made and check only once every 24 hours.
@@ -55,7 +55,7 @@ This script adds download links for supported game files on RetroAchievements.or
 - Save the script by selecting **File > Save** or pressing **Ctrl + S** (Windows) / **Cmd + S** (Mac).
 - Refresh any RetroAchievements.org "Supported Game Files" page to activate the script.
 > **Notes:**
-> - If no links appear ([Screenshot](https://i.imgur.com/O9ad6mm.png)) after a few seconds or a page refresh, you can check to see if the script is running in your browser's dev console which will say "***RA Hash List Script is running!***"
+> - If no links appear ([Screenshot](https://i.imgur.com/O9ad6mm.png)) after a few seconds or a page refresh, you can check to see if the script is running in your browser's dev console which will say "***RA Rom Download Script running.***"
 > - You can also check the [web app version](https://mentalblank.github.io/RARomOnHashes) or [hashlinks.json](https://raw.githubusercontent.com/mentalblank/RARomOnHashes/refs/heads/main/hashlinks.json) to see if the hashes have been linked.
 
 ## 🔄 Pull Requests
