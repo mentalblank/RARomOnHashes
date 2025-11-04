@@ -53,10 +53,10 @@ async function generateHashes() {
           let romUrl;
           try {
             romUrl = await checkFileExists(
-              hashInfo.Name,
+              hashInfo.Name.trim(),
               consoleName,
               hashInfo.Labels,
-              hashInfo.Name
+              hashInfo.Name.trim()
             );
           } catch (err) {
             console.error(
@@ -201,59 +201,207 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
     };
 
     const tosecConsoleMap = {
+        "32X": [
+            "TOSEC/Sega/32X/Games",
+            "TOSEC/Sega/32X/Homebrew/Games",
+        ],
         "Amstrad CPC": [
-            "Amstrad/CPC/Games/[BIN]",
-            "Amstrad/CPC/Games/[CPR]",
-            "Amstrad/CPC/Games/[DSK]",
-            "Amstrad/CPC/Games/[HXCSTREAM]",
-            "Amstrad/CPC/Games/[MP3]",
-            "Amstrad/CPC/Games/[RAW]",
-            "Amstrad/CPC/Games/[ROM]",
-            "Amstrad/CPC/Games/[SNA]",
-            "Amstrad/CPC/Games/[TZX]",
-            "Amstrad/CPC/Games/[WAV]"
+            "TOSEC/Amstrad/CPC/Games/[BIN]",
+            "TOSEC/Amstrad/CPC/Games/[CPR]",
+            "TOSEC/Amstrad/CPC/Games/[DSK]",
+            "TOSEC/Amstrad/CPC/Games/[HXCSTREAM]",
+            "TOSEC/Amstrad/CPC/Games/[MP3]",
+            "TOSEC/Amstrad/CPC/Games/[RAW]",
+            "TOSEC/Amstrad/CPC/Games/[ROM]",
+            "TOSEC/Amstrad/CPC/Games/[SNA]",
+            "TOSEC/Amstrad/CPC/Games/[TZX]",
+            "TOSEC/Amstrad/CPC/Games/[WAV]"
         ],
         "Apple II": [
-            "Apple/II/Games/[2MG]",
-            "Apple/II/Games/[A2R]",
-            "Apple/II/Games/[AIF]/",
-            "Apple/II/Games/[BIN]",
-            "Apple/II/Games/[D13]",
-            "Apple/II/Games/[DSK]",
-            "Apple/II/Games/[EDD]",
-            "Apple/II/Games/[FDI]",
-            "Apple/II/Games/[NIB]",
-            "Apple/II/Games/[PO]",
-            "Apple/II/Games/[SHK]",
-            "Apple/II/Games/[WAV]",
-            "Apple/II/Games/[WOZ]"
+            "TOSEC/Apple/II/Games/[2MG]",
+            "TOSEC/Apple/II/Games/[A2R]",
+            "TOSEC/Apple/II/Games/[AIF]",
+            "TOSEC/Apple/II/Games/[BIN]",
+            "TOSEC/Apple/II/Games/[D13]",
+            "TOSEC/Apple/II/Games/[DSK]",
+            "TOSEC/Apple/II/Games/[EDD]",
+            "TOSEC/Apple/II/Games/[FDI]",
+            "TOSEC/Apple/II/Games/[NIB]",
+            "TOSEC/Apple/II/Games/[PO]",
+            "TOSEC/Apple/II/Games/[SHK]",
+            "TOSEC/Apple/II/Games/[WAV]",
+            "TOSEC/Apple/II/Games/[WOZ]"
+        ],
+        "Arcadia 2001": "TOSEC/Emerson/Arcadia 2001/Games",
+        "Arduboy": [
+            "TOSEC/Arduboy/Arduboy/Games/[HEX]",
+            "TOSEC/Arduboy/Arduboy/Games/[ARDUBOY]",
+        ],
+        "Atari 2600": [
+            "TOSEC/Atari/2600 & VCS/Games",
+            "TOSEC/Atari/2600 & VCS/Homebrew/Games/[BIN]",
+            "TOSEC/Atari/2600 & VCS/Homebrew/Games/[WAV]",
+            "TOSEC/Atari/2600 & VCS/Homebrew/Games/AtariAge Design Contest",
+        ],
+        "Atari 7800": [
+            "TOSEC/Atari/7800/Games",
+            "TOSEC/Atari/7800/Homebrew/Games",
+        ],
+        "Atari Jaguar": [
+            "TOSEC/Atari/Jaguar/Games/[ROM]",
+            "TOSEC/Atari/Jaguar/Games/[J64]",
+            "TOSEC/Atari/Jaguar/Games/[BIN]",
+            "TOSEC/Atari/Jaguar/Games/[JAG]",
+            "TOSEC/Atari/Jaguar/Games/[Multipart]",
+            "TOSEC/Atari/Jaguar/Homebrew/Games/[ABS]",
+            "TOSEC/Atari/Jaguar/Homebrew/Games/[BIN]",
+            "TOSEC/Atari/Jaguar/Homebrew/Games/[BJL]",
+            "TOSEC/Atari/Jaguar/Homebrew/Games/[J64]",
+            "TOSEC/Atari/Jaguar/Homebrew/Games/[JAG]",
+            "TOSEC/Atari/Jaguar/Homebrew/Games/[ROM]",
+        ],
+        "Atari Lynx": [
+            "TOSEC/Atari/Lynx/Games/[LNX]",
+            "TOSEC/Atari/Lynx/Games/[LYX]",
+            "TOSEC/Atari/Lynx/Games/[O]",
+            "TOSEC/Atari/Lynx/Homebrew/Games/[LNX]",
+            "TOSEC/Atari/Lynx/Homebrew/Games/[O]",
+        ],
+        "ColecoVision": [
+            "TOSEC/Coleco/ColecoVision/Games",
+            "TOSEC/Coleco/ColecoVision/Homebrew/Games",
+        ],
+        "Fairchild Channel F": "TOSEC/Fairchild/VES & Channel F/Games",
+        "Game Boy": [
+            "TOSEC/Nintendo/Game Boy/Games",
+            "TOSEC/Nintendo/Game Boy/Homebrew/Games",
+        ],
+        "Game Boy Advance": [
+            "TOSEC/Nintendo/Game Boy Advance/Games",
+            "TOSEC/Nintendo/Game Boy Advance/Homebrew/Games",
+        ],
+        "Game Boy Color": [
+            "TOSEC/Nintendo/Game Boy Color/Games/[GBC]",
+            "TOSEC/Nintendo/Game Boy Color/Homebrew/Games",
+            "TOSEC/Nintendo/Game Boy Color/Games/[GBX]",
+        ],
+        "Game Gear": "TOSEC/Sega/Game Gear/Homebrew/Games",
+        "Genesis/Mega Drive": [
+            "TOSEC/Sega/Mega Drive & Genesis/Games/[BIN]",
+            "TOSEC/Sega/Mega Drive & Genesis/Homebrew/Games",
+            "TOSEC/Sega/Mega Drive & Genesis/Games/[Multipart]",
+        ],
+        "Intellivision": [
+            "TOSEC/Mattel/Intellivision/Games/[BIN]",
+            "TOSEC/Mattel/Intellivision/Games/[Multipart]",
+        ],
+        "Magnavox Odyssey 2": "TOSEC/Magnavox/Odyssey2/Games",
+        "Master System": [
+            "TOSEC/Sega/Mark III & Master System/Games",
+            "TOSEC/Sega/Mark III & Master System/Homebrew/Games",
+        ],
+        "Mega Duck": [
+            "TOSEC/Creatronic/Mega Duck & Cougar Boy/Games",
+            "TOSEC/Creatronic/Mega Duck & Cougar Boy/Homebrew/Games",
         ],
         "MSX": [
-            "MSX/MSX/Games/[CAS]",
-            "MSX/MSX/Games/[DSK]",
-            "MSX/MSX/Games/[ROM]",
-            "MSX/MSX/Games/[WAV]",
-            "MSX/MSX/Games/[WV]",
-            "MSX/MSX2/Games/[CAS]",
-            "MSX/MSX2/Games/[DSK]",
-            "MSX/MSX2/Games/[HFE]",
-            "MSX/MSX2/Games/[ROM]",
-            "MSX/MSX2/Games/[SCP]",
-            "MSX/MSX2/Games/[WAV]"
+            "TOSEC/MSX/MSX/Games/[CAS]",
+            "TOSEC/MSX/MSX/Games/[DSK]",
+            "TOSEC/MSX/MSX/Games/[ROM]",
+            "TOSEC/MSX/MSX/Games/[WAV]",
+            "TOSEC/MSX/MSX/Games/[WV]",
+            "TOSEC/MSX/MSX2/Games/[CAS]",
+            "TOSEC/MSX/MSX2/Games/[DSK]",
+            "TOSEC/MSX/MSX2/Games/[HFE]",
+            "TOSEC/MSX/MSX2/Games/[ROM]",
+            "TOSEC/MSX/MSX2/Games/[SCP]",
+            "TOSEC/MSX/MSX2/Games/[WAV]",
         ],
+        "Neo Geo Pocket": [
+            "TOSEC/SNK/Neo-Geo Pocket/Games",
+            "TOSEC/SNK/Neo-Geo Pocket Color/Games",
+        ],
+        "NES/Famicom": [
+            "TOSEC/Nintendo/Famicom & Entertainment System/Games/[NES]",
+            "TOSEC/Nintendo/Famicom & Entertainment System/Homebrew/Games",
+        ],
+        "Nintendo 64": "TOSEC/Nintendo/64/Games",
+        "Nintendo DS": [
+            "TOSEC/Nintendo/DS/Games",
+            "TOSEC/Nintendo/DS/Homebrew/Games",
+        ],
+        "Nintendo DSi": "TOSEC/Nintendo/DSi/Games",
         "PC-8000/8800": [
-            "NEC/PC-8001/Games/[CMT]",
-            "NEC/PC-8001/Games/[D88]",
-            "NEC/PC-8001/Games/[T88]",
-            "NEC/PC-8001/Games/[WAV]",
-            "NEC/PC-8801/Games/[CAS]",
-            "NEC/PC-8801/Games/[CMT]",
-            "NEC/PC-8801/Games/[D88]",
-            "NEC/PC-8801/Games/[HFE]",
-            "NEC/PC-8801/Games/[SCP]",
-            "NEC/PC-8801/Games/[T88]",
-            "NEC/PC-8801/Games/[WAV]"
-        ]
+            "TOSEC/NEC/PC-8001/Games/[CMT]",
+            "TOSEC/NEC/PC-8001/Games/[D88]",
+            "TOSEC/NEC/PC-8001/Games/[T88]",
+            "TOSEC/NEC/PC-8001/Games/[WAV]",
+            "TOSEC/NEC/PC-8801/Games/[CAS]",
+            "TOSEC/NEC/PC-8801/Games/[CMT]",
+            "TOSEC/NEC/PC-8801/Games/[D88]",
+            "TOSEC/NEC/PC-8801/Games/[HFE]",
+            "TOSEC/NEC/PC-8801/Games/[SCP]",
+            "TOSEC/NEC/PC-8801/Games/[T88]",
+            "TOSEC/NEC/PC-8801/Games/[WAV]"
+        ],
+        "PC Engine/TurboGrafx-16": [
+            "TOSEC/NEC/PC-Engine & TurboGrafx-16/Games",
+            "TOSEC/NEC/PC-Engine & TurboGrafx-16/Homebrew/Games",
+        ],
+        "Pokemon Mini": "TOSEC/Nintendo/Pokemon Mini/Games",
+        "SG-1000": [
+            "TOSEC/Sega/Game 1000/Games",
+            "TOSEC/Sega/Game 1000/Homebrew/Games",
+        ],
+        "SNES/Super Famicom": "TOSEC/Nintendo/Super Famicom & Super Entertainment System/Games",
+        "Vectrex": "TOSEC/GCE/Vectrex/Games",
+        "Virtual Boy": "TOSEC/Nintendo/Virtual Boy/Games",
+        "Watara Supervision": [
+            "TOSEC/Watara/Supervision/Games",
+            "TOSEC/Watara/Supervision/Homebrew/Games",
+        ],
+        "WonderSwan": [
+            "TOSEC/Bandai/WonderSwan/Games",
+            "TOSEC/Bandai/WonderSwan Color/Games",
+        ],
+        "3DO Interactive Multiplayer": "TOSEC-ISO/Sega/32X/CD/Games/[ISO]",
+        "Atari Jaguar CD": "TOSEC-ISO/Atari/Jaguar CD/Games",
+        "Dreamcast": [
+            "TOSEC-ISO/Sega/Dreamcast/Games/US",
+            "TOSEC-ISO/Sega/Dreamcast/Games/PAL",
+            "TOSEC-ISO/Sega/Dreamcast/Games/JP",
+            "TOSEC-ISO/Sega/Dreamcast/Games/[CDI]",
+            "TOSEC-ISO/Sega/Dreamcast/Homebrew/Games/[CDI]",
+        ],
+        "Neo Geo CD": [
+            "TOSEC-ISO/SNK/Neo-Geo CD/Games/[ISO]",
+            "TOSEC-ISO/SNK/Neo-Geo CD/Games/[IMG]",
+        ],
+        "GameCube": "TOSEC-ISO/Nintendo/GameCube/Games",
+        "PC-FX": "TOSEC-ISO/NEC/PC-FX/Games",
+        "PC Engine CD/TurboGrafx-CD": "TOSEC-ISO/NEC/PC-Engine CD & TurboGrafx-16 CD/Games/[IMG]",
+        "PlayStation": [
+            "TOSEC-ISO/Sony/PlayStation/Games/[BIN]",
+            "TOSEC-ISO/Sony/PlayStation/Homebrew/Games/[BIN]",
+            "TOSEC-ISO/Sony/PlayStation/Homebrew/Games/[ISO]",
+        ],
+        "PlayStation 2": [
+            "TOSEC-ISO/Sony/PlayStation 2/Games/PAL/[ISO]",
+            "TOSEC-ISO/Sony/PlayStation 2/Games/JP/[ISO]",
+        ],
+        "PlayStation Portable": [
+            "TOSEC-ISO/Sony/PlayStation Portable/Games/[ISO]",
+            "TOSEC-ISO/Sony/PlayStation Portable/Homebrew/Games/[ISO]",
+        ],
+        "Saturn": [
+            "TOSEC-ISO/Sega/Saturn/Games/[ISO]",
+            "TOSEC-ISO/Sega/Saturn/Games/[BIN]",
+            "TOSEC-ISO/Sega/Saturn/Homebrew/Games/[ISO]",
+        ],
+        "Sega CD": [
+            "TOSEC-ISO/Sega/Mega-CD & Sega CD/CD/Games/[ISO]",
+            "TOSEC-ISO/Sega/Mega-CD & Sega CD/CD/Games/[IMG]",
+        ],
     };
 
     const miscConsoleMap = {
@@ -656,13 +804,46 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
     const consoleEntry = consoleMap?.[consoleName] || consoleName;
     const formattedConsoleNames = Array.isArray(consoleEntry) ? consoleEntry : [consoleEntry];
 
-    const cleanedFileName = fileName.replace(/^\//, "").replace(/\.[^.]+$/, "");
-    let fileCandidates;
+    const romExtensions = [".001", ".2mg", ".7z", ".32x", ".a2r", ".a26", ".a78", ".adf", ".adz", ".aif", ".ami", ".apk", ".arduboy", ".atr", ".b64", ".bjl", ".bin", ".bit", ".bs", ".bz2", ".cas", ".cbz", ".ccd", ".cdi", ".cdt", ".cfg", ".cg", ".chd", ".cia", ".cmt", ".col", ".com", ".cpr", ".cpr", ".crt", ".cue", ".d13", ".d64", ".d88", ".dfi", ".dl", ".do", ".dol", ".dsk", ".dsv", ".duck", ".e", ".e7", ".ecm", ".edd", ".eep", ".elf", ".fdi", ".fds", ".flux", ".g>", ".gb", ".gba", ".gbc", ".gbx", ".gcm", ".gcz", ".gen", ".gg", ".glsl", ".hdf", ".hdm", ".hdv", ".hex", ".hfe", ".hlsl", ".hxcstream", ".img", ".ims", ".ini", ".int", ".ipf", ".iso", ".jag", ".j64", ".jpe", ".lha", ".lnx", ".lyx", ".m4a", ".mcr", ".md", ".mdf", ".mds", ".mfi", ".mo5", ".mp3", ".mpk", ".ms", ".n64", ".ndd", ".nds", ".nes", ".ngc", ".ngp", ".nib", ".nrg", ".nsp", ".o", ".one", ".part1", ".pbp", ".pc2", ".pce", ".pdf", ".pkg", ".po", ".po", ".prg", ".ps2", ".qcow2", ".rar", ".raw", ".rom", ".rvz", ".sap", ".sav", ".scp", ".sfc", ".sg", ".sgx", ".shk", ".smc", ".smd", ".sms", ".sna", ".srm", ".st", ".st0", ".sta", ".sv", ".t64", ".t88", ".tap", ".tgx", ".tvc", ".tzx", ".uze", ".v64", ".vb", ".vdi", ".vec", ".vpk", ".wad", ".warc", ".wasm", ".wav", ".wbfs", ".wiu", ".woz", ".woz", ".ws", ".wsc", ".wua", ".wv", ".xdf", ".xex", ".xlm", ".z64", ".z80", ".zcci", ".zip"];
+
+    const sortedExtensions = romExtensions.sort((a, b) => b.length - a.length);
+
+    function cleanRomFileName(fileNameToClean) {
+      let cleaned = fileNameToClean.replace(/^\//, "");
+      for (const ext of sortedExtensions) {
+        if (cleaned.toLowerCase().endsWith(ext.toLowerCase())) {
+          cleaned = cleaned.slice(0, -ext.length);
+          break;
+        }
+      }
+      return cleaned;
+    }
+    let cleanedFileName = cleanRomFileName(fileName);
+    let hasAngular = /<[^>]*>/.test(fileName);
+
+    let removedAngular, cleanedAngular;
+    if (hasAngular) {
+        removedAngular = fileName.replace(/\s*<[^>]*>/g, "").trim();
+        cleanedAngular = cleanRomFileName(removedAngular);
+    }
+
+    let fileCandidates = [];
 
     const raConsoleName = raConsoleMap[consoleName];
     if (raConsoleName) {
         const extensions = consoleFileCandidates[consoleName] || defaultFileCandidates;
-        fileCandidates = extensions.map(ext => cleanedFileName + ext);
+        if (hasAngular) {
+            fileCandidates.push(
+                ...extensions.map(ext => cleanedAngular + ext),
+                ...extensions.map(ext => removedAngular + ext),
+                cleanedAngular,
+                removedAngular,
+            );
+        } else {
+            fileCandidates.push(...extensions.map(ext => cleanedFileName + ext), ...extensions.map(ext => fileName + ext), fileName);
+        }
+        fileCandidates = [...new Set(fileCandidates)];
+        console.log(fileCandidates);
         const raBaseUrl = `https://myrient.erista.me/files/RetroAchievements/RA - ${(raConsoleName)}/`;
         for (const candidate of fileCandidates) {
             const url = raBaseUrl + candidate;
@@ -673,7 +854,14 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
         }
     }
 
-    fileCandidates = [cleanedFileName + ".zip", fileName];
+    fileCandidates = [];
+    if (hasAngular) {
+        fileCandidates.push(cleanedAngular + ".zip", removedAngular + ".zip", cleanedAngular, removedAngular, fileName);
+    } else {
+        fileCandidates.push(cleanedFileName + ".zip", fileName + ".zip", fileName);
+    }
+    fileCandidates = [...new Set(fileCandidates)];
+    console.log(fileCandidates);
     let basePath;
     switch (dumpGroup) {
       case "fbneo":
@@ -689,13 +877,23 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
       case "Non-Redump":
         basePath = "No-Intro";
         break;
+      case "tosec":
+        basePath = "TOSEC";
+        break;
       default:
         basePath = dumpGroup;
     }
 
     for (const folder of formattedConsoleNames) {
       const cleanFolder = folder.replace(/^\/+|\/+$/g, "");
-      const baseUrl = cleanFolder ? `https://myrient.erista.me/files/${basePath}/${cleanFolder}/` : `https://myrient.erista.me/files/${basePath}/`;
+      const baseUrl =
+        dumpGroup === "tosec"
+          ? cleanFolder
+            ? `https://myrient.erista.me/files/${cleanFolder}/`
+            : `https://myrient.erista.me/files/`
+          : cleanFolder
+          ? `https://myrient.erista.me/files/${basePath}/${cleanFolder}/`
+          : `https://myrient.erista.me/files/${basePath}/`;
       for (const candidate of fileCandidates) {
         const url = baseUrl + candidate;
         try {
