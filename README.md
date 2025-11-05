@@ -4,14 +4,9 @@ This script adds download links for supported game files on RetroAchievements.or
 
 ![Screenshot](https://i.imgur.com/O9ad6mm.png)
 
-## 🔗 Linked Hash Status (as of Nov. 4, 2025)
-- **Linked Hashes:** 32,695
-- **Missing Hashes:** 8,043
-
-## 🌐 Searchable Web Application
-
-[Click here for the web app version](https://mentalblank.github.io/RARomOnHashes)
-> **Note:** Search by either the Game ID or a linked hash.
+## 🔗 Linked Hash Status (as of Nov. 7, 2025)
+- **Linked Hashes:** 33,724
+- **Missing Hashes:** 7,016
 
 ## ⚖️ Disclaimer
 
@@ -23,7 +18,7 @@ This script adds download links for supported game files on RetroAchievements.or
 
 ## ⚠️ Important Notes
 
-- **Download Link Delays**:  If a link does not appear, refresh the page or source it manually from the [web app version](https://mentalblank.github.io/RARomOnHashes) or `hashlinks.json`.
+- **Download Link Delays**:  If a link does not appear, refresh the page or source it manually from [hashlinks.json](https://raw.githubusercontent.com/mentalblank/RARomOnHashes/refs/heads/main/hashlinks.json).
 - **Myrient Links**: Due to changes on Myrient, all Myrient download requests will now open the Myrient webpage and search the filename before downloading.
 - **Archive.org Links**: As this project relies on a small number of Archive.org dumps, it is advised to remain signed into Archive.org so you can access these files.
 - **Game ID Changes**: RetroAchievements occasionally "recycles" game IDs, leading to mismatched links. Please report any issues or submit a pull request to update `hashlinks.json`.
@@ -56,7 +51,7 @@ This script adds download links for supported game files on RetroAchievements.or
 - Refresh any RetroAchievements.org "Supported Game Files" page to activate the script.
 > **Notes:**
 > - If no links appear ([Screenshot](https://i.imgur.com/O9ad6mm.png)) after a few seconds or a page refresh, you can check to see if the script is running in your browser's dev console which will say "***RA Rom Download Script running.***"
-> - You can also check the [web app version](https://mentalblank.github.io/RARomOnHashes) or [hashlinks.json](https://raw.githubusercontent.com/mentalblank/RARomOnHashes/refs/heads/main/hashlinks.json) to see if the hashes have been linked.
+> - You can also check [hashlinks.json](https://raw.githubusercontent.com/mentalblank/RARomOnHashes/refs/heads/main/hashlinks.json) to see if the hashes have been linked.
 
 ## 🔄 Pull Requests
 
@@ -70,7 +65,6 @@ To contribute updates to `hashlinks.json`, please ensure the following:
 ## 🙏 Thanks, Acknowledgements, & Credits
 
 - **Wholee**: For the RA Dump and the original script.
-- **Pipetboy**: For the web application idea.
 - **Erista Group & Myrient teams**: For their preservation efforts.
 - **RetroAchievements Team**: For their platform and contributions to emulation and nostalgia.
 - **All Users**: Thank you for using these scripts!
