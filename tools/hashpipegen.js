@@ -429,6 +429,7 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
             "Sega - 32X",
             "Sega - 32X (Aftermarket)"
         ],
+        "3DO Interactive Multiplayer": "Non-Redump - Panasonic - 3DO Interactive Multiplayer",
         "Arcadia 2001": "Emerson - Arcadia 2001",
         "Arduboy": "Arduboy Inc - Arduboy",
         "Atari 2600": [
@@ -449,6 +450,7 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
             "Atari - Atari Jaguar (JAG) (Aftermarket)",
             "Atari - Atari Jaguar (ROM) (Aftermarket)"
         ],
+        "Atari Jaguar CD": "Non-Redump - Atari - Atari Jaguar CD",
         "Atari Lynx": [
             "Atari - Atari Lynx (LYX)",
             "Atari - Atari Lynx (BLL)",
@@ -458,6 +460,11 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
             "Atari - Atari Lynx (LNX) (Aftermarket)",
         ],
         "ColecoVision": "Coleco - ColecoVision",
+        "Commodore 64": "Commodore - Commodore 64",
+        "Dreamcast": [
+            "Non-Redump - Sega - Dreamcast",
+            "Non-Redump - Sega - Dreamcast (Aftermarket)"
+        ],
         "Fairchild Channel F": "Fairchild - Channel F",
         "Famicom Disk System": [
             "Nintendo - Nintendo Entertainment System (Headered)",
@@ -476,6 +483,7 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
              "Nintendo - Game Boy Color",
              "Nintendo - Game Boy Color (Aftermarket)"
         ],
+        "GameCube": "Non-Redump - Nintendo - Nintendo GameCube",
         "Game Gear": [
             "Sega - Game Gear",
             "Sega - Game Gear (Aftermarket)",
@@ -514,6 +522,10 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
             "Nintendo - Family Computer Disk System (QD)",
             "Nintendo - Nintendo Entertainment System (Headered) (Aftermarket)"
         ],
+        "Nintendo 3DS": [
+            "Nintendo - Nintendo 3DS (Decrypted)",
+            "Nintendo - New Nintendo 3DS (Decrypted)"
+         ],
         "Nintendo 64": [
             "Nintendo - Nintendo 64 (BigEndian)",
             "Nintendo - Nintendo 64 (BigEndian)  (Aftermarket)"
@@ -522,17 +534,33 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
             "Nintendo - Nintendo DS (Decrypted)",
             "Nintendo - Nintendo DS (Decrypted) (Aftermarket)"
          ],
-        "Nintendo DSi": "Nintendo - Nintendo DSi (Digital)",
-        "PC Engine/TurboGrafx-16": "NEC - PC Engine - TurboGrafx-16",
+        "Nintendo DSi": "Nintendo - Nintendo DSi (Digital) (CDN) (Decrypted)",
+        "PC-8000/8800": "Non-Redump - NEC - PC-88",
+        "PC Engine/TurboGrafx-16": [
+            "NEC - PC Engine - TurboGrafx 16",
+            "NEC - PC Engine - TurboGrafx 16 (Aftermarket)"
+        ],
+        "PC Engine CD/TurboGrafx-CD": [
+            "Non-Redump - NEC - PC Engine CD + TurboGrafx CD",
+            "Non-Redump - NEC - PC Engine CD + TurboGrafx CD (Aftermarket)"
+        ],
+        "PlayStation": "Non-Redump - Sony - PlayStation",
+        "PlayStation 2": "Non-Redump - Sony - PlayStation 2",
         "PlayStation Portable": [
             "Sony - PlayStation Portable (PSN) (Decrypted)",
-            "Sony - PlayStation Portable (PSN) (Minis) (Decrypted)"
+            "Sony - PlayStation Portable (PSN) (Minis) (Decrypted)",
+            "Non-Redump - Sony - PlayStation Portable",
         ],
         "Pokemon Mini": [
             "Nintendo - Pokemon Mini",
             "Nintendo - Pokemon Mini (Aftermarket)"
         ],
         "Satellaview": "Nintendo - Satellaview",
+        "Saturn": "Non-Redump - Sega - Sega Saturn",
+        "Sega CD": [
+            "Non-Redump - Sega - Sega Mega CD + Sega CD",
+            "Non-Redump - Sega - Sega Mega CD + Sega CD (Aftermarket)"
+        ],
         "SG-1000": [
             "Sega - SG-1000 - SC-3000",
             "Sega - SG-1000 - SC-3000 (Aftermarket)"
@@ -541,6 +569,7 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
             "Nintendo - Super Nintendo Entertainment System",
             "Nintendo - Super Nintendo Entertainment System (Aftermarket)"
         ],
+        "Super Cassette Vision": "Epoch - Super Cassette Vision",
         "Vectrex": "GCE - Vectrex",
         "Virtual Boy": [
             "Nintendo - Virtual Boy",
@@ -550,13 +579,17 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
             "Watara - Supervision",
             "Watara - Supervision (Aftermarket)"
         ],
-        "Wii": "Nintendo - Wii (Digital) (CDN)",
+        "Wii": [
+            "Nintendo - Wii (Digital) (CDN)",
+            "Non-Redump - Nintendo - Wii"
+        ],
         "WonderSwan": [
             "Bandai - WonderSwan",
             "Bandai - WonderSwan (Aftermarket)",
             "Bandai - WonderSwan Color",
             "Bandai - WonderSwan Color (Aftermarket)"
-        ]
+        ],
+        "Wii U": "Non-Redump - Nintendo - Wii U"
     };
 
     const nonRedumpConsoleMap = {
