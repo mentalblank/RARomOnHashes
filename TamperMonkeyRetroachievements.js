@@ -3,7 +3,7 @@
 // @namespace    https://github.com/MentalBlank/RARomOnHashes
 // @updateURL    https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/TamperMonkeyRetroachievements.js
 // @downloadURL  https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/TamperMonkeyRetroachievements.js
-// @version      1.0.5
+// @version      1.0.6
 // @description  Add download links to retroachievements.org Supported Game Files pages
 // @author       MentalBlank
 // @match        https://retroachievements.org/*
@@ -14,6 +14,37 @@
 // ==/UserScript==
 
 'use strict';
+
+function idbOpen() {
+    return new Promise((resolve, reject) => {
+        const request = indexedDB.open('RAHashCache', 1);
+        request.onupgradeneeded = e => {
+            e.target.result.createObjectStore('store');
+        };
+        request.onsuccess = e => resolve(e.target.result);
+        request.onerror = reject;
+    });
+}
+
+async function idbSet(key, value) {
+    const db = await idbOpen();
+    return new Promise((resolve, reject) => {
+        const tx = db.transaction('store', 'readwrite');
+        tx.objectStore('store').put(value, key);
+        tx.oncomplete = resolve;
+        tx.onerror = reject;
+    });
+}
+
+async function idbGet(key) {
+    const db = await idbOpen();
+    return new Promise((resolve, reject) => {
+        const tx = db.transaction('store', 'readonly');
+        const req = tx.objectStore('store').get(key);
+        req.onsuccess = () => resolve(req.result);
+        req.onerror = reject;
+    });
+}
 
 function delayAction(callback, delayTime) {
     setTimeout(callback, delayTime);
@@ -40,8 +71,7 @@ if (document.readyState === 'loading') {
     delayAction(onDomLoaded, 500);
 }
 
-function onDomLoaded() {
-
+async function onDomLoaded() {
     // ================= RA Page Logic =================
     if (window.location.hostname.includes("retroachievements.org")) {
         console.log("RA Rom Download Script running.");
@@ -50,8 +80,8 @@ function onDomLoaded() {
         const retroachievementsHashList = collectionDownloadURL + 'hashlinks.json';
         const updateInterval = 86400; // 24 hours
         const currentUnixTimestamp = Math.floor(Date.now() / 1000);
-        const collectionLastUpdated = parseInt(localStorage.getItem('collectionLastUpdated')) / 1000;
-        const collectionLastModified = parseInt(localStorage.getItem('collectionLastModified'));
+        const collectionLastUpdated = parseInt(await idbGet('collectionLastUpdated')) / 1000;
+        const collectionLastModified = parseInt(await idbGet('collectionLastModified'));
         const apiUrl = 'https://api.github.com/repos/MentalBlank/RARomOnHashes/commits?path=hashlinks.json';
 
         if (isNaN(collectionLastUpdated) || currentUnixTimestamp > collectionLastUpdated + updateInterval) {
@@ -61,32 +91,33 @@ function onDomLoaded() {
                     if (!commits || commits.length === 0) throw new Error("Can't get last commit date from GitHub.");
                     const lastCommitDate = new Date(commits[0].commit.committer.date).getTime();
                     if (lastCommitDate === collectionLastModified) {
-                        localStorage.setItem('collectionLastUpdated', Date.now());
-                        injectArchiveGames(JSON.parse(localStorage.getItem('collectionROMList')));
+                        idbSet('collectionLastUpdated', Date.now());
+                        idbGet('collectionROMList').then(val => injectArchiveGames(JSON.parse(val)));
                     } else {
                         const corsProxy = "https://corsproxy.io/?url=";
                         fetch(corsProxy + retroachievementsHashList, { cache: 'no-cache' })
                             .then(response => response.json())
-                            .then(output => {
+                            .then(async output => {
                                 injectArchiveGames(output);
-                                localStorage.setItem('collectionROMList', JSON.stringify(output));
-                                localStorage.setItem('collectionLastUpdated', Date.now());
-                                localStorage.setItem('collectionLastModified', lastCommitDate);
+                                await idbSet('collectionROMList', JSON.stringify(output));
+                                await idbSet('collectionLastUpdated', Date.now());
+                                await idbSet('collectionLastModified', lastCommitDate);
                             })
                             .catch(err => handleError(err, "Can't get hash list from GitHub."));
                     }
                 })
                 .catch(err => handleError(err, "Can't get commit info from GitHub."));
         } else {
-            injectArchiveGames(JSON.parse(localStorage.getItem('collectionROMList')));
+            const val = await idbGet('collectionROMList');
+            injectArchiveGames(JSON.parse(val));
         }
 
-        function handleError(err, msg) {
+        async function handleError(err, msg) {
             console.error(msg, err);
             injectArchiveGames(null, true, msg);
-            localStorage.removeItem('collectionLastModified');
-            localStorage.removeItem('collectionLastUpdated');
-            localStorage.removeItem('collectionROMList');
+            await idbSet('collectionLastModified', null);
+            await idbSet('collectionLastUpdated', null);
+            await idbSet('collectionROMList', null);
         }
 
         function injectArchiveGames(gameData, boolArchiveOrgDown = false, message = '') {
@@ -100,7 +131,6 @@ function onDomLoaded() {
             for (let x = 0; x < hashLists.length; x++) {
                 const retroHashNode = hashLists[x].querySelector("div.flex.flex-col.border-l-2");
                 if (!retroHashNode) continue;
-
                 const retroHashElement = retroHashNode.querySelector("p.font-mono");
                 if (!retroHashElement) continue;
 
@@ -124,8 +154,6 @@ function onDomLoaded() {
                                 if (!romURL.startsWith("http")) continue;
 
                                 const fileName = romURL.substring(romURL.lastIndexOf('/') + 1);
-
-                                // Append autoSearch filename for Myrient
                                 if (romURL.includes("myrient.erista.me")) {
                                     romURL += `#autoSearch=${encodeURIComponent(fileName)}`;
                                 }
@@ -155,14 +183,13 @@ function onDomLoaded() {
             const searchName = fullFileName.replace(/\.[^/.]+$/, "");
             const searchInput = document.querySelector('input#search');
             if (searchInput) {
-                // Fill search box
                 searchInput.disabled = true;
                 searchInput.value = searchName;
                 searchInput.dispatchEvent(new Event('input', { bubbles: true }));
                 searchInput.dispatchEvent(new KeyboardEvent('keydown', { bubbles: true, cancelable: true, key: 'Enter', code: 'Enter', keyCode: 13, which: 13 }));
                 searchInput.disabled = false;
             }
-            // Navigate directly to file URL
+
             const fileUrl = window.location.origin + window.location.pathname.replace(/\/+$/, "") + "/" + encodeURIComponent(fullFileName);
             window.location.href = fileUrl;
         }
