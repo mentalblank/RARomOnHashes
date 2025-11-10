@@ -2,7 +2,7 @@
 
 This script adds download links for supported game files on RetroAchievements.org's "Supported Game Files" pages. It uses hash information to inject direct download links for supported ROM files. Please ensure you comply with RetroAchievements' policies and the legal framework in your region when using this tool.
 
-![Screenshot](https://i.imgur.com/O9ad6mm.png)
+![Screenshot](https://i.imgur.com/XvBpKxx.png)
 
 ## 🔗 Linked Hash Status (as of Nov. 8, 2025)
 - **Linked Hashes:** 35,180
@@ -18,10 +18,10 @@ This script adds download links for supported game files on RetroAchievements.or
 
 ## ⚠️ Important Notes
 
-- **Download Link Delays**:  If a link does not appear, refresh the page or source it manually from [hashlinks.json](https://raw.githubusercontent.com/mentalblank/RARomOnHashes/refs/heads/main/hashlinks.json).
+- **Download Link Delays**:  If a link does not appear, refresh the page or source it manually from [`hashlinks.json`](https://raw.githubusercontent.com/mentalblank/RARomOnHashes/refs/heads/main/hashlinks.json).
 - **Myrient Links**: Due to changes on Myrient, all Myrient download requests will now open the Myrient webpage and search the filename before downloading.
 - **Archive.org Links**: As this project relies on a small number of Archive.org dumps, it is advised to remain signed into Archive.org so you can access these files.
-- **Game ID Changes**: RetroAchievements occasionally "recycles" game IDs, leading to mismatched links. Please report any issues or submit a pull request to update `hashlinks.json`.
+- **Game ID Changes**: RetroAchievements occasionally "recycles" game IDs, leading to mismatched links. Please report any issues or submit a pull request to update [`hashlinks.json`](https://raw.githubusercontent.com/mentalblank/RARomOnHashes/refs/heads/main/hashlinks.json).
 - **Update Cycle**: The script will pull updates from this repository only if a change has been made and check only once every 24 hours.
 - **Manifest V3**: Userscripts may face compatibility issues with Chromium browsers (e.g., Chrome, Edge, Opera) after the shift to Manifest V3. You may need to [enable developer mode](https://www.tampermonkey.net/faq#Q209) to run userscripts. I use Firefox and do not troubleshoot Chromium-specific issues at this time.
 
@@ -50,8 +50,8 @@ This script adds download links for supported game files on RetroAchievements.or
 - Save the script by selecting **File > Save** or pressing **Ctrl + S** (Windows) / **Cmd + S** (Mac).
 - Refresh any RetroAchievements.org "Supported Game Files" page to activate the script.
 > **Notes:**
-> - If no links appear ([Screenshot](https://i.imgur.com/O9ad6mm.png)) after a few seconds or a page refresh, you can check to see if the script is running in your browser's dev console which will say "***RA Rom Download Script running.***"
-> - You can also check [hashlinks.json](https://raw.githubusercontent.com/mentalblank/RARomOnHashes/refs/heads/main/hashlinks.json) to see if the hashes have been linked.
+> - If no links appear ([Screenshot](https://i.imgur.com/XvBpKxx.png)) after a few seconds or a page refresh, you can check to see if the script is running in your browser's dev console which will say "***RA Rom Download Script running.***"
+> - You can also check [`hashlinks.json`](https://raw.githubusercontent.com/mentalblank/RARomOnHashes/refs/heads/main/hashlinks.json) to see if the hashes have been linked.
 
 ## 🔄 Pull Requests
 

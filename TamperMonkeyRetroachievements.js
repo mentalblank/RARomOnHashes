@@ -3,11 +3,12 @@
 // @namespace    https://github.com/MentalBlank/RARomOnHashes
 // @updateURL    https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/TamperMonkeyRetroachievements.js
 // @downloadURL  https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/TamperMonkeyRetroachievements.js
-// @version      1.0.6
+// @version      1.0.7
 // @description  Add download links to retroachievements.org Supported Game Files pages
 // @author       MentalBlank
 // @match        https://retroachievements.org/*
 // @match        https://myrient.erista.me/files/*
+// @match        https://rezi.one/*
 // @icon         https://static.retroachievements.org/assets/images/favicon.webp
 // @grant        none
 // @run-at       document-end
@@ -15,183 +16,170 @@
 
 'use strict';
 
-function idbOpen() {
+// ========== IndexedDB helpers ==========
+async function idbOpen() {
     return new Promise((resolve, reject) => {
-        const request = indexedDB.open('RAHashCache', 1);
-        request.onupgradeneeded = e => {
-            e.target.result.createObjectStore('store');
-        };
-        request.onsuccess = e => resolve(e.target.result);
-        request.onerror = reject;
+        const req = indexedDB.open('RAHashCache', 1);
+        req.onupgradeneeded = e => e.target.result.createObjectStore('store');
+        req.onsuccess = e => resolve(e.target.result);
+        req.onerror = reject;
     });
 }
 
 async function idbSet(key, value) {
     const db = await idbOpen();
-    return new Promise((resolve, reject) => {
-        const tx = db.transaction('store', 'readwrite');
-        tx.objectStore('store').put(value, key);
-        tx.oncomplete = resolve;
-        tx.onerror = reject;
-    });
+    const tx = db.transaction('store', 'readwrite');
+    tx.objectStore('store').put(value, key);
+    return new Promise((res, rej) => { tx.oncomplete = res; tx.onerror = rej; });
 }
 
 async function idbGet(key) {
     const db = await idbOpen();
-    return new Promise((resolve, reject) => {
-        const tx = db.transaction('store', 'readonly');
-        const req = tx.objectStore('store').get(key);
-        req.onsuccess = () => resolve(req.result);
-        req.onerror = reject;
-    });
+    const tx = db.transaction('store', 'readonly');
+    const req = tx.objectStore('store').get(key);
+    return new Promise((res, rej) => { req.onsuccess = () => res(req.result); req.onerror = rej; });
 }
 
-function delayAction(callback, delayTime) {
-    setTimeout(callback, delayTime);
-}
+// ========== RA page logic ==========
+async function handleRA() {
+    console.log("RA Rom Download Script running.");
+    const collectionUrl = 'https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/hashlinks.json';
+    const apiUrl = 'https://api.github.com/repos/MentalBlank/RARomOnHashes/commits?path=hashlinks.json';
+    const updateInterval = 86400; // 24h
 
-function initObserver() {
-    const observer = new MutationObserver(() => {
-        const hashSection = document.querySelector('ul.flex.flex-col.gap-3[data-testid="named-hashes"]');
-        if (hashSection && !hashSection.dataset.scriptInjected) {
-            hashSection.dataset.scriptInjected = "true";
-            delayAction(onDomLoaded, 200);
+    const currentTime = Math.floor(Date.now() / 1000);
+    const lastUpdated = parseInt(await idbGet('collectionLastUpdated')) / 1000;
+    const lastModified = parseInt(await idbGet('collectionLastModified'));
+
+    async function injectGames(gameData, archiveDown = false, msg = '') {
+        const hashListParent = document.querySelector('ul.flex.flex-col.gap-3[data-testid="named-hashes"]');
+        if (!hashListParent) return;
+        const gameId = window.location.pathname.split("/")[2];
+        for (const li of hashListParent.querySelectorAll('li')) {
+            if (li.dataset.scriptInjected) continue;
+            li.dataset.scriptInjected = "true";
+
+            const hashNode = li.querySelector("div.flex.flex-col.border-l-2");
+            const hashElement = hashNode?.querySelector("p.font-mono");
+            if (!hashElement) continue;
+
+            const retroHash = hashElement.innerText.trim().toLowerCase();
+            hashElement.innerText = retroHash;
+
+            const linksContainer = hashNode;
+            const links = [];
+
+            const romMatch = gameData?.[gameId]?.find(obj =>
+                Object.keys(obj).some(h => h.toLowerCase() === retroHash)
+            );
+
+            if (romMatch) {
+                const hashKey = Object.keys(romMatch).find(h => h.toLowerCase() === retroHash);
+                const romURL = romMatch[hashKey];
+                const link = romURL.includes("myrient.erista.me")
+                    ? `${romURL.substring(0, romURL.lastIndexOf('/') + 1)}#autoSearch=${encodeURIComponent(romURL.split("/").pop())}`
+                    : romURL;
+                links.push(`<a href="${link}" target="_blank">Download ROM</a>`);
+            } else {
+                const fullFileName = li.querySelector("span.font-bold")?.innerText.trim() || retroHash;
+                links.push(`<a href="https://rezi.one/#autoSearch=${encodeURIComponent(fullFileName)}" target="_blank" style="color:#0af;">Search on Rezi</a>`);
+            }
+
+            links.forEach(html => {
+                const div = document.createElement('div');
+                div.innerHTML = html;
+                linksContainer.appendChild(div);
+            });
         }
+    }
+
+    async function fetchData() {
+        try {
+            const commits = await fetch(apiUrl).then(r => r.json());
+            const commitDate = new Date(commits[0].commit.committer.date).getTime();
+
+            if (commitDate === lastModified) {
+                await idbSet('collectionLastUpdated', Date.now());
+                injectGames(JSON.parse(await idbGet('collectionROMList')));
+            } else {
+                const data = await fetch("https://corsproxy.io/?" + collectionUrl, { cache: 'no-cache' }).then(r => r.json());
+                injectGames(data);
+                await idbSet('collectionROMList', JSON.stringify(data));
+                await idbSet('collectionLastUpdated', Date.now());
+                await idbSet('collectionLastModified', commitDate);
+            }
+        } catch (err) {
+            console.error("Error fetching hash list:", err);
+            injectGames(null, true, "Error fetching hash list");
+            await idbSet('collectionLastModified', null);
+            await idbSet('collectionLastUpdated', null);
+            await idbSet('collectionROMList', null);
+        }
+    }
+
+    const cacheValid = !isNaN(lastUpdated) && currentTime <= lastUpdated + updateInterval;
+    if (cacheValid) {
+        injectGames(JSON.parse(await idbGet('collectionROMList')));
+    } else {
+        await fetchData();
+    }
+
+    const hashSection = document.querySelector('ul.flex.flex-col.gap-3[data-testid="named-hashes"]');
+    if (hashSection) {
+        const observer = new MutationObserver(() => handleRA());
+        observer.observe(hashSection, { childList: true, subtree: true });
+    }
+}
+
+// ========== Myrient/Rezi auto-search ==========
+function handleAutoSearch(inputSelector, isMyrient = false) {
+    const hash = window.location.hash;
+    if (!hash?.startsWith("#autoSearch=")) return;
+    const fullFileName = decodeURIComponent(hash.replace("#autoSearch=", ""));
+    const searchName = fullFileName.replace(/\.[^/.]+$/, "");
+
+    if (isMyrient) {
+        const searchInput = document.querySelector(inputSelector);
+        if (searchInput) {
+            searchInput.disabled = true;
+            searchInput.value = searchName;
+            searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+            searchInput.dispatchEvent(new KeyboardEvent('keydown', { bubbles: true, cancelable: true, key: 'Enter', code: 'Enter', keyCode: 13, which: 13 }));
+            searchInput.disabled = false;
+        }
+        const fileUrl = `${window.location.origin}${window.location.pathname.replace(/\/+$/, "")}/${encodeURIComponent(fullFileName)}`;
+        window.location.href = fileUrl;
+    } else {
+        const interval = setInterval(() => {
+            try {
+                const input = document.querySelector(inputSelector);
+                if (input) {
+                    input.focus();
+                    const nativeSetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, "value").set;
+                    nativeSetter.call(input, searchName);
+                    input.dispatchEvent(new Event('input', { bubbles: true }));
+                    input.dispatchEvent(new KeyboardEvent('keydown', { bubbles: true, cancelable: true, key: 'Enter', code: 'Enter', keyCode: 13, which: 13 }));
+                    clearInterval(interval);
+                }
+            } catch {}
+        }, 100);
+    }
+}
+
+// ========== Initialization ==========
+function init() {
+    if (window.location.hostname.includes("retroachievements.org")) handleRA();
+    if (window.location.hostname.includes("myrient.erista.me")) handleAutoSearch('input#search', true);
+    if (window.location.hostname.includes("rezi.one")) handleAutoSearch('input#SEARCHBOX');
+
+    const observer = new MutationObserver(() => {
+        if (document.querySelector('ul.flex.flex-col.gap-3[data-testid="named-hashes"]')) handleRA();
     });
     observer.observe(document.body, { childList: true, subtree: true });
 }
 
 if (document.readyState === 'loading') {
-    document.addEventListener("DOMContentLoaded", () => {
-        initObserver();
-        delayAction(onDomLoaded, 500);
-    });
+    document.addEventListener('DOMContentLoaded', () => setTimeout(init, 500));
 } else {
-    initObserver();
-    delayAction(onDomLoaded, 500);
-}
-
-async function onDomLoaded() {
-    // ================= RA Page Logic =================
-    if (window.location.hostname.includes("retroachievements.org")) {
-        console.log("RA Rom Download Script running.");
-
-        const collectionDownloadURL = 'https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/';
-        const retroachievementsHashList = collectionDownloadURL + 'hashlinks.json';
-        const updateInterval = 86400; // 24 hours
-        const currentUnixTimestamp = Math.floor(Date.now() / 1000);
-        const collectionLastUpdated = parseInt(await idbGet('collectionLastUpdated')) / 1000;
-        const collectionLastModified = parseInt(await idbGet('collectionLastModified'));
-        const apiUrl = 'https://api.github.com/repos/MentalBlank/RARomOnHashes/commits?path=hashlinks.json';
-
-        if (isNaN(collectionLastUpdated) || currentUnixTimestamp > collectionLastUpdated + updateInterval) {
-            fetch(apiUrl)
-                .then(response => response.json())
-                .then(commits => {
-                    if (!commits || commits.length === 0) throw new Error("Can't get last commit date from GitHub.");
-                    const lastCommitDate = new Date(commits[0].commit.committer.date).getTime();
-                    if (lastCommitDate === collectionLastModified) {
-                        idbSet('collectionLastUpdated', Date.now());
-                        idbGet('collectionROMList').then(val => injectArchiveGames(JSON.parse(val)));
-                    } else {
-                        const corsProxy = "https://corsproxy.io/?url=";
-                        fetch(corsProxy + retroachievementsHashList, { cache: 'no-cache' })
-                            .then(response => response.json())
-                            .then(async output => {
-                                injectArchiveGames(output);
-                                await idbSet('collectionROMList', JSON.stringify(output));
-                                await idbSet('collectionLastUpdated', Date.now());
-                                await idbSet('collectionLastModified', lastCommitDate);
-                            })
-                            .catch(err => handleError(err, "Can't get hash list from GitHub."));
-                    }
-                })
-                .catch(err => handleError(err, "Can't get commit info from GitHub."));
-        } else {
-            const val = await idbGet('collectionROMList');
-            injectArchiveGames(JSON.parse(val));
-        }
-
-        async function handleError(err, msg) {
-            console.error(msg, err);
-            injectArchiveGames(null, true, msg);
-            await idbSet('collectionLastModified', null);
-            await idbSet('collectionLastUpdated', null);
-            await idbSet('collectionROMList', null);
-        }
-
-        function injectArchiveGames(gameData, boolArchiveOrgDown = false, message = '') {
-            const hashListParent = document.querySelector('ul.flex.flex-col.gap-3[data-testid="named-hashes"]');
-            if (!hashListParent) return;
-
-            const hashLists = hashListParent.getElementsByTagName('li');
-            const gameId = window.location.pathname.split("/")[2];
-            if (!gameData || !gameData[gameId]) return;
-
-            for (let x = 0; x < hashLists.length; x++) {
-                const retroHashNode = hashLists[x].querySelector("div.flex.flex-col.border-l-2");
-                if (!retroHashNode) continue;
-                const retroHashElement = retroHashNode.querySelector("p.font-mono");
-                if (!retroHashElement) continue;
-
-                const retroHash = retroHashElement.innerText.trim().toLowerCase();
-                retroHashElement.innerText = retroHash;
-
-                if (retroHashNode.querySelector(".ra-rom-download")) continue;
-
-                if (boolArchiveOrgDown) {
-                    retroHashNode.insertAdjacentHTML("beforeend", `<b>${message}</b>`);
-                    continue;
-                }
-
-                try {
-                    const romList = gameData[gameId];
-                    for (let i = 0; i < romList.length; i++) {
-                        const hashData = romList[i];
-                        for (const hash in hashData) {
-                            if (retroHash === hash.toLowerCase()) {
-                                let romURL = hashData[hash];
-                                if (!romURL.startsWith("http")) continue;
-
-                                const fileName = romURL.substring(romURL.lastIndexOf('/') + 1);
-                                if (romURL.includes("myrient.erista.me")) {
-                                    romURL += `#autoSearch=${encodeURIComponent(fileName)}`;
-                                }
-
-                                retroHashNode.insertAdjacentHTML(
-                                    "beforeend",
-                                    `<div class="ra-rom-download">
-                                        <b><a href="${romURL}" target="_blank">Download ${fileName}</a></b>
-                                    </div>`
-                                );
-                                break;
-                            }
-                        }
-                    }
-                } catch (err) {
-                    console.error("Error processing hash data:", err);
-                }
-            }
-        }
-    }
-
-    // ================= Myrient Page Logic =================
-    if (window.location.hostname.includes("myrient.erista.me")) {
-        const hash = window.location.hash;
-        if (hash?.startsWith("#autoSearch=")) {
-            const fullFileName = decodeURIComponent(hash.replace("#autoSearch=", ""));
-            const searchName = fullFileName.replace(/\.[^/.]+$/, "");
-            const searchInput = document.querySelector('input#search');
-            if (searchInput) {
-                searchInput.disabled = true;
-                searchInput.value = searchName;
-                searchInput.dispatchEvent(new Event('input', { bubbles: true }));
-                searchInput.dispatchEvent(new KeyboardEvent('keydown', { bubbles: true, cancelable: true, key: 'Enter', code: 'Enter', keyCode: 13, which: 13 }));
-                searchInput.disabled = false;
-            }
-
-            const fileUrl = window.location.origin + window.location.pathname.replace(/\/+$/, "") + "/" + encodeURIComponent(fullFileName);
-            window.location.href = fileUrl;
-        }
-    }
+    setTimeout(init, 500);
 }
