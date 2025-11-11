@@ -876,7 +876,6 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
             fileCandidates.push(...extensions.map(ext => cleanedFileName + ext), ...extensions.map(ext => fileName + ext), fileName);
         }
         fileCandidates = [...new Set(fileCandidates)];
-        console.log(fileCandidates);
         const raBaseUrl = `https://myrient.erista.me/files/RetroAchievements/RA - ${(raConsoleName)}/`;
         for (const candidate of fileCandidates) {
             const url = raBaseUrl + candidate;
@@ -894,7 +893,6 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
         fileCandidates.push(cleanedFileName + ".zip", fileName + ".zip", fileName);
     }
     fileCandidates = [...new Set(fileCandidates)];
-    console.log(fileCandidates);
     let basePath;
     switch (dumpGroup) {
       case "fbneo":
