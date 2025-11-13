@@ -12922,6 +12922,9 @@
   "34508": {
     "B4799CDF60FFA240D24E7444C0F28713": "Pikmin 1² [Subset - Randomizer Run] - GameCube - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GameCube/Subset/34508-Pikmin1Squared-Subset-RandomizerRun.zip"
   },
+  "34511": {
+    "189EDE6E61594D8A496BC546BA0D2B0F": "Pikmin 2 - Regrown (v2.1) (Ochrehorns) - GameCube - lostlevel - null"
+  },
   "34532": {
     "9E7D36C4BF2BF721EF5BFDE4E11A5316": "Find It! (2020) (v1.1) (Fabf).rom - MSX - homebrew,lostlevel - null"
   },
@@ -13140,9 +13143,28 @@
   },
   "35867": {
     "9D12A43D2E5873AD39C0F255C7A63C09": "EarthBound - Bound to the Dark World (v1.1) (Chromadeline).sfc - SNES/Super Famicom - nointro,itchio,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/EarthBound/35867-EarthBound-BoundtotheDarkWorld.zip",
-    "EE588DCE05F1F440F49CFB43B24C4710": "EarthBound - Bound to the Dark World (v1.2) (Chromadeline).sfc - SNES/Super Famicom -  - null"
+    "EE588DCE05F1F440F49CFB43B24C4710": "EarthBound - Bound to the Dark World (v1.2) (Chromadeline).sfc - SNES/Super Famicom -  - null",
+    "DE74D9F5CE1708561809FF5498D5F91C": "EarthBound - Bound to the Dark World (v1.4) (Chromadeline).sfc - SNES/Super Famicom - nointro,itchio,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/EarthBound/35867-EarthBound-BoundtotheDarkWorld.zip"
   },
   "35912": {
     "689EEE6BB07BDCA77ED7D1EBE90F26C3": "Legend of Zelda [Subset - Low%] - NES/Famicom -  - null"
+  },
+  "35915": {
+    "0144019E6A624AB7E9483FDF9CB0601F": "Cardinal Island (World) (v1.1) (Aftermarket) (Vivian Video).gbc - Game Boy Color - homebrew,itchio,lostlevel - null"
+  },
+  "35916": {
+    "D721146D446FC15DF1D817FD22332446": "Private Idol Disc Vol. 1 - Yuu Kinoshita (Japan) - Saturn -  - null"
+  },
+  "35917": {
+    "850A5B5F4559D911F08A25EEE6008027": "Rock Band 2 DX - Guitar Hero Live (v1.0) (Proyecto Dj Yohan) - PlayStation 2 - lostlevel - null"
+  },
+  "36035": {
+    "7966A3AA5AAA2B14E810A6C4AF87EC78": "Super Mario Galaxy [Subset - Coin Collector] - Wii - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/Wii/Subset/36035-SMG-Subset-CoinCollector.zip"
+  },
+  "36087": {
+    "A05649BB93B24F8596B7075228481024": "Private Idol Disc Vol. 2 - Miki Uchiyama (Japan) - Saturn -  - null"
+  },
+  "36094": {
+    "AB9EC49BEDC2DFB675A8A8CA901F8366": "Private Idol Disc Vol. 3 - Akemi Ooshima (Japan) (2M) - Saturn -  - null"
   }
 }

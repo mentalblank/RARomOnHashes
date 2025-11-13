@@ -1179,14 +1179,15 @@ async function main() {
   updateReadmeCount();
 
   if (totalSuccessful > 0) {
-    console.log("Update hashes\n");
+    console.log("Update hashes");
+    console.log("");
     if (newCount > 0) {
-      console.log(`\nNew hashes added: ${newCount}`);
+      console.log(`New hashes added: ${newCount}`);
     }
     if (alreadyExistedCount > 0) {
-      console.log(`\nHashes already existed: ${alreadyExistedCount}`);
+      console.log(`Hashes already existed: ${alreadyExistedCount}`);
     }
-    console.log(`\nTotal successful this run: ${totalSuccessful}`);
+    console.log(`Total successful this run: ${totalSuccessful}`);
   }
 }
 
