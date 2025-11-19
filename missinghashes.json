@@ -4941,7 +4941,8 @@
     "A0D064C91023F15A10A3FB05F7D95337": "Haunted Zone, The (Japan) (En) (v1.0) (Mugi).iso - PlayStation Portable - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/PlayStation%20Portable/Translation/English/20509-HauntedZone-English.zip"
   },
   "20554": {
-    "A78A71D6264BF5ED21A09F703C7A34F1": "Snow White & the 7 Clever Boys (Europe) - PlayStation 2 - redump - null"
+    "A78A71D6264BF5ED21A09F703C7A34F1": "Snow White & the 7 Clever Boys (Europe) - PlayStation 2 - redump - null",
+    "229635F68A1F1D95CFFE3B51EA52BD43": "Snow White & the 7 Clever Boys (Europe) (En,Fr,De) (RA Compatibility) (v0.1) (pinguupinguu) - PlayStation 2 - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Fix/20554-SnowWhiteSevenCleverBoys-RACompatibilityFix.zip"
   },
   "20556": {
     "67C2FE5419F14C1E183C2CAFB94FA65A": "Weetabix vs the Titchies (1984)(Romik Software)[tape].dsk - Amstrad CPC - cleancpc - null"
@@ -13166,5 +13167,20 @@
   },
   "36094": {
     "AB9EC49BEDC2DFB675A8A8CA901F8366": "Private Idol Disc Vol. 3 - Akemi Ooshima (Japan) (2M) - Saturn -  - null"
+  },
+  "36177": {
+    "65F0ADEB7E6B61D7C47BF01E77CDF13B": "Private Idol Disc - Tokubetsu-hen - Cosplayers (Japan) (2M) - Saturn -  - null"
+  },
+  "36254": {
+    "40C97BC15DB4D4786090CCF22B951BE3": "Dynasty Warriors 6 (USA) [Subset - Max Level] - PlayStation 2 - RAPatches - null"
+  },
+  "36259": {
+    "B2C9F2588078A5FCB7D9EDFDE1DE5258": "SM64 - Sm64Kitty's Kaizo Hack (v1.1) (Katx).z64 - Nintendo 64 - nointro,rhdc,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/36259-SM64-SmKittysKaizoHack.zip"
+  },
+  "36329": {
+    "7C478EEACD8EED4B3E18A31893B5F45A": "SMW - Super Alabama Beach Mouse (v1.1) (marvisjj).sfc - SNES/Super Famicom - nointro,smwcentral,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/36329-SMW-SuperAlabamaBeachMouse.zip"
+  },
+  "36407": {
+    "5F78DA393160195AE7D4B66E5BA3D37A": "Pokemon Sapphire - Royal Sapphire (v1.7) (ShockinglyGongas).gba - Game Boy Advance - nointro,pokecommunity,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Pokemon%20Sapphire/36407-PokemonSapphire-RoyalSapphire.zip"
   }
 }
