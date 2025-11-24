@@ -1653,6 +1653,9 @@
   "9089": {
     "55387193C8B9D61ABB019BF984FF5361": "WWF Wrestlemania (USA).nes - NES/Famicom - nointro - null"
   },
+  "9097": {
+    "BFA46F13C36688373E504584A3A8D09E": "Gouketsuji Ichizoku (Japan) (Color Hack) (v1.0) (Dolsilwa).md - Genesis/Mega Drive - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/MD/Cosmetic/Gouketsuji%20Ichizoku/9097-GouketsujiIchizoku-ColorHack.zip"
+  },
   "9101": {
     "BD30E236546A8579F182A2B8CB7F0A5C": "Shinsetsu Samurai Spirits - Bushidou Retsuden (Japan) (En) (v1.1) (Deuce) - Neo Geo CD - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/Neo%20Geo%20CD/Translation/English/9101-ShinsetuSamuraiSpirits-English.zip"
   },
@@ -6893,9 +6896,6 @@
   "26219": {
     "A729ED9B55FD8496B807D39C3BB9299E": "Buster Fight (Japan) (En,Ja).gg - Game Gear - nointro - null"
   },
-  "26257": {
-    "96A3FFAFE3423190418FD44C2741AC11": "arcade\\dkongpe.zip - Arcade - fbneo - null"
-  },
   "26258": {
     "7A3C991B1F590D407BD353D44FDC423F": "arcade\\dkspkyrmx.zip - Arcade - fbneo - null"
   },
@@ -11503,7 +11503,8 @@
   "32795": {
     "A579CEFAD682E09CFEFB8710E8B2BB3A": "SMW - RetroAchievements Vanilla Level Design Contest Vol. 1 (Beta) (RA Community, SubliminalSiren).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/32795-SMW-RAVLDC-Vol1.zip",
     "51ED670A3C26B01CD170BE1335461A25": "SMW - RetroAchievements Vanilla Level Design Contest Vol. 1 (Beta 2) (RA Community, SubliminalSiren).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/32795-SMW-RAVLDC-Vol1.zip",
-    "EA49A48CA68846EAF611610471D6B5AE": "SMW - RetroAchievements Vanilla Level Design Contest Vol. 1 (Judge's Version) (RA Community, SubliminalSiren).sfc - SNES/Super Famicom -  - null"
+    "EA49A48CA68846EAF611610471D6B5AE": "SMW - RetroAchievements Vanilla Level Design Contest Vol. 1 (Judge's Version) (RA Community, SubliminalSiren).sfc - SNES/Super Famicom -  - null",
+    "CB272886FEE9794B37ED3F9B95F4DFEF": "RetroAchievements Vanilla Level Design Contest Vol.1 (SubliminalSiren) (V1.0) (Release) - SNES/Super Famicom -  - null"
   },
   "32797": {
     "5D78E41BB0995E0E3CB9184331295986": "SMW - Easyland 2 (v1.0) (RicardoDeMelo).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/32797-SMW-Easyland2.zip"
@@ -13182,5 +13183,8 @@
   },
   "36407": {
     "5F78DA393160195AE7D4B66E5BA3D37A": "Pokemon Sapphire - Royal Sapphire (v1.7) (ShockinglyGongas).gba - Game Boy Advance - nointro,pokecommunity,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Pokemon%20Sapphire/36407-PokemonSapphire-RoyalSapphire.zip"
+  },
+  "36536": {
+    "D92C1EBE55807FAB5921D960130D6925": "Rock Shot - Atari 2600 -  - null"
   }
 }
