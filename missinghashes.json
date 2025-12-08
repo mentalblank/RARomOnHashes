@@ -13103,9 +13103,6 @@
   "35649": {
     "A15D84AC06F9F1BBBB44B8B72AD7E8F3": "Comic-Sans (World) (Eduardo Minholi, Nuno Abilio).wasm - WASM-4 - homebrew,lostlevel - null"
   },
-  "35650": {
-    "A359288D51EBE7678DF4891D09452AA4": "Duck Maze (World) (Julia Marques Sanches).wasm - WASM-4 - homebrew,lostlevel - null"
-  },
   "35651": {
     "F07ACAE65361275FEC4271DA94F54065": "Earth Invaders (World) (Yara F. Scramin).wasm - WASM-4 - homebrew,lostlevel - null"
   },
@@ -13195,5 +13192,8 @@
   },
   "36980": {
     "BE02352320C563C250BC3C65BFC95440": "SM64 - Sooper Wooper 64 (v2021-05-17) (MishuK9).z64 - Nintendo 64 - nointro,rapatches,rhdc - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/36980-SM64-SooperWooper64.zip"
+  },
+  "37098": {
+    "EF8984F9E252298296F373598CA63E7E": "Mini Running Ant (World) (Aftermarket) (Unl).min - Pokemon Mini - homebrew,itchio,nointro - null"
   }
 }
