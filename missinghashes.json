@@ -6336,6 +6336,9 @@
   "24669": {
     "5ED6EA9BDD44843215EB47FD95F7B417": "09-9-Blackjack.tvc - Elektor TV Games Computer -  - null"
   },
+  "24671": {
+    "14B6DC270D41EF89F30E5F3B1FE6F4FD": "Circledrive (Europe) (ESS-009-3) (Enhanced - Compatibility Fix).tvc - Elektor TV Games Computer - lostlevel - null"
+  },
   "24676": {
     "663EED15FD2A7A39C21622D09E21FBF9": "4 in a Row (Europe) (ESS-007-7).tvc - Elektor TV Games Computer - lostlevel - null"
   },
@@ -6378,9 +6381,6 @@
   },
   "24727": {
     "48A82C45BF09AEEC3F31472CA1B2AB13": "Daleks (World) (Mapes).uze - Uzebox - homebrew,lostlevel - null"
-  },
-  "24731": {
-    "991E6C0B0BB37EEA3010FC3DC77A4F7E": "Columns (World) (D3thAdd3r).uze - Uzebox - homebrew,lostlevel - null"
   },
   "24745": {
     "187BC5FD6D073047CF0F06DF8D5465BC": "Lander (World) (Harty123).uze - Uzebox - homebrew,lostlevel - null"
@@ -8628,6 +8628,9 @@
   },
   "30461": {
     "1F60E82A74F015DD945371C89F7A92D3": "Pikmin 2 - Multiplayer (v2.2) (PikHacker) - GameCube - redump,github,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GameCube/Hacks/Pikmin%202/30461-Pikmin2-Multiplayer.zip"
+  },
+  "30462": {
+    "0B05BBE610ECF21530AADE82F4246FC0": "Discrete Orange (v1.0) - Game Boy Advance - homebrew - null"
   },
   "30463": {
     "92326E503B07AA5D601357423361D3C7": "Puffy - P.S. I Love You (Japan) - PlayStation - redump - null"
@@ -12103,7 +12106,10 @@
     "598881AEC8A8044FF00D353567A54F4A": "Dashosaur DX (World) (v0.23) (Aftermarket) (GB Studio) (Sleeping Panda Games).gbc - Game Boy Color - homebrew,itchio,lostlevel - null"
   },
   "33505": {
-    "AA7360D99D71606FDB5CF049FA56E1F7": "Dragon Quest IV - Chapters of the Chosen [Party Chat] [Subset - Title Tracker] - Nintendo DS -  - null"
+    "AA7360D99D71606FDB5CF049FA56E1F7": "Dragon Quest IV - Chapters of the Chosen [Party Chat] [Subset - Title Tracker] - Nintendo DS -  - null",
+    "73BA4991A189B69D2E9D5CE0895C7AEB": "Dragon Quest IV - The Chapters of the Chosen (USA) [Subset - Title Tracker].nds - Nintendo DS - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/NDS/Subset/33505-DQIV-Subset-TitleTracker.7z",
+    "DA0F1A4E64769EA8ED47F1AFEDBA2BD9": "Dragon Quest IV - The Chapters of the Chosen (Europe) [Subset - Title Tracker].nds - Nintendo DS - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/NDS/Subset/33505-DQIV-Subset-TitleTracker.7z",
+    "D031FCA138921A97BD40031D56812CC2": "Dragon Quest IV - The Chapters of the Chosen (USA) [Subset - Title Tracker with Party Chat].nds - Nintendo DS - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/NDS/Subset/33505-DQIV-Subset-TitleTracker.7z"
   },
   "33521": {
     "AFFA75A9CD1F5677A42F0DE1F44F184E": "SMW - Law & Order - Mushroom Kingdom Unit - Pilot Episode - Tragic Fox Tails (v1.0.2) (Major Case Squad).sfc - SNES/Super Famicom - nointro,smwcentral,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/33521-SMW-LawandOrderMKU-PilotEpisode.zip"
@@ -12927,9 +12933,6 @@
   "34511": {
     "189EDE6E61594D8A496BC546BA0D2B0F": "Pikmin 2 - Regrown (v2.1) (Ochrehorns) - GameCube - lostlevel - null"
   },
-  "34532": {
-    "9E7D36C4BF2BF721EF5BFDE4E11A5316": "Find It! (2020) (v1.1) (Fabf).rom - MSX - homebrew,lostlevel - null"
-  },
   "34563": {
     "47FC98F54FF09DE13B8B063768933DE6": "Bomberman Online (USA) [Subset - Multi] - Dreamcast - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/Dreamcast/Subset/34563-BombermanOnline-Subset-Multi.zip"
   },
@@ -13195,5 +13198,14 @@
   },
   "37098": {
     "EF8984F9E252298296F373598CA63E7E": "Mini Running Ant (World) (Aftermarket) (Unl).min - Pokemon Mini - homebrew,itchio,nointro - null"
+  },
+  "37132": {
+    "F91EFFEC4A48252D69C51E1AC3EFA272": "SM64 - Bounce Tales 64 (v1.0 fix) (AloXado320).z64 - Nintendo 64 - nointro,rapatches,rhdc - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/37132-SM64-BounceTales.zip"
+  },
+  "37208": {
+    "A0AE1395AD7DF02729858A5ECC8486DD": "Super Smash Bros. Melee (USA) (En,Ja) (Rev 2) (C-Stick in Single-Player) [Subset - Very Hard Runs] - GameCube - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GameCube/Subset/37208-SSBMelee-Subset-VeryHardRuns.zip"
+  },
+  "37467": {
+    "4EA69D47666C3F1E0B0AC236665EB082": "Rock Band [Subset - Expert Full Combos] - PlayStation 2 - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Subset/37467-RockBand-Subset-ExpertFullCombos.zip"
   }
 }
