@@ -850,7 +850,8 @@
     "B8E059610D47341CDDA5D9D7A0CD370D": "Hikari no Senshi Foton - The Ultimate Game on Planet Earth (Japan) (En) (v1.00beta) (KingMike).nes - NES/Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/NES/Translation/English/5088-HikarinoSenshiPhoton-English.zip"
   },
   "5097": {
-    "EE459E3CE100A862FF1949CE5B6D972B": "Spelunker II - Yuusha e no Chousen (Japan) (En) (v1.0) (Stardust Crusaders).nes - NES/Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/NES/Translation/English/5097-SpelunkerII-English.zip"
+    "EE459E3CE100A862FF1949CE5B6D972B": "Spelunker II - Yuusha e no Chousen (Japan) (En) (v1.0) (Stardust Crusaders).nes - NES/Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/NES/Translation/English/5097-SpelunkerII-English.zip",
+    "9599E442B8EB56E05A3020E5580CB533": "Spelunker II - Yuusha e no Chousen (Japan) (En) (v1.01b) (Cabal Translations).nes - NES/Famicom -  - null"
   },
   "5098": {
     "3C75F56589F064ED9A759BA4645412CF": "BattleCity - Tank 1990 (v1.0) (Yanshan Software).nes - NES/Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/NES/Hacks/BattleCity/5098-BattleCity-Tank1990.zip"
@@ -6225,6 +6226,9 @@
   "24423": {
     "4D1BB9D3C5DCB5AB47D67C50D901B1F6": "MLB 07 - The Show (USA) - PlayStation 2 - redump - null"
   },
+  "24428": {
+    "57A0FC74C9A052415D9E44740B3923DC": "Banjo-Kazooie - Santa's Village (v1.1) (Kurko Mods).z64 - Nintendo 64 - nointro,rapatches - null"
+  },
   "24444": {
     "E6648876B3929976D40F66D248A0999D": "NHL 2K3 (SLES-51341) [97FFE993] - PlayStation 2 - redump - null"
   },
@@ -10335,6 +10339,9 @@
     "AF4C28EDAAC7EFA7D866C49EC7F96421": "The Wizard of Oz disk C.woz - Apple II - wozaday - null",
     "1E98B45543BFA45CD8B4DBD96C3323A8": "The Wizard of Oz disk D.woz - Apple II - wozaday - null"
   },
+  "32107": {
+    "B16A89F1787C83212B964E7FB570A060": "King of Fighters, The - Battle de Paradise (En) (marc_max, xenophile127) (v1.0).ngc - Neo Geo Pocket - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/Neo%20Geo%20Pocket/Translation/English/32107-KoF-BattledeParadise-English.zip"
+  },
   "32114": {
     "7ED0C718A8798062B9774E2C6E230A10": "Fraction Munchers.woz - Apple II - wozaday - null"
   },
@@ -13187,6 +13194,9 @@
   "36536": {
     "D92C1EBE55807FAB5921D960130D6925": "Rock Shot - Atari 2600 -  - null"
   },
+  "36636": {
+    "F7D0FDD44DB4982B915E2951F72815A9": "Metroid Prime - Double Trouble (v1.15) (Fantaselion) - GameCube - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GameCube/Hacks/Metroid%20Prime/36636-MetroidPrime-DoubleTrouble.zip"
+  },
   "36922": {
     "D6DFC46C0CD78A658E04EBCB0FCE54FF": "SM64 - Despair Mario's Gambit 64 (v1.1 Final) (GMDDoesDMG).z64 - Nintendo 64 - nointro,rhdc,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/36922-SM64-DespairMariosGambit64.zip"
   },
@@ -13205,7 +13215,13 @@
   "37208": {
     "A0AE1395AD7DF02729858A5ECC8486DD": "Super Smash Bros. Melee (USA) (En,Ja) (Rev 2) (C-Stick in Single-Player) [Subset - Very Hard Runs] - GameCube - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GameCube/Subset/37208-SSBMelee-Subset-VeryHardRuns.zip"
   },
+  "37280": {
+    "7C6F10E15C6323FBB3BF2557580650F8": "SMW - Easyland 3 (v1.0) (RicardoDeMelo).sfc - SNES/Super Famicom - nointro,smwcentral,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/37280-SMW-Easyland3.zip"
+  },
   "37467": {
     "4EA69D47666C3F1E0B0AC236665EB082": "Rock Band [Subset - Expert Full Combos] - PlayStation 2 - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Subset/37467-RockBand-Subset-ExpertFullCombos.zip"
+  },
+  "37597": {
+    "B6F644876B1EC7453F752918CB6D02DE": "Asteroids (World) (Aftermarket) (Unl) - Atari Jaguar -  - null"
   }
 }
