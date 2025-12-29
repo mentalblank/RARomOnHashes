@@ -8,9 +8,9 @@ This userscript automatically adds download links for supported ROMs on RetroAch
 
 ---
 
-## 🔗 Linked Hash Status (as of Dec. 22, 2025)
-- **Linked Hashes:** 35,880
-- **Missing Hashes:** 5,149
+## 🔗 Linked Hash Status (as of Dec. 29, 2025)
+- **Linked Hashes:** 35,884
+- **Missing Hashes:** 5,164
 
 ---
 

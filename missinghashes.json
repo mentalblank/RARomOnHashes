@@ -434,6 +434,10 @@
   "3294": {
     "C83B918D17F903C530C00A2CB2522652": "WipEout Fusion (USA) - PlayStation 2 - redump - null"
   },
+  "3308": {
+    "1520CC660FFA2238F38D2525CE9EAEF2": "Armored Core 3 (USA) (Inverted Analog) (v1.64) (VanLaser) - PlayStation 2 - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Improvement/3308-ArmoredCore3-AnalogControls.zip",
+    "461CBB0D1361CF24DE68509A26FD929E": "Armored Core 3 (USA) (Analog) (v1.64) (VanLaser) - PlayStation 2 - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Improvement/3308-ArmoredCore3-AnalogControls.zip"
+  },
   "3327": {
     "12FDE34A073E0A92FE84C74661433482": "Otogirisou (Japan) (En) (v1.0) (Translated Games).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/SNES/Translation/English/3327-Otogirisou-English.zip"
   },
@@ -2128,6 +2132,13 @@
   },
   "11340": {
     "16E92791A41E0199715D762C2356B084": "Threads of Fate (USA) - PlayStation - redump - null"
+  },
+  "11342": {
+    "5F84ECB0EC9450FC681E443516805286": "Tomb Raider (USA) (Rev 1) - PlayStation -  - null",
+    "86B2F5E7DFD0EC41463BDBB51A1C7871": "Tomb Raider (USA) (Rev2, Rev3, Rev4) - PlayStation -  - null",
+    "17B7CCD159522841E0C4A6ABEB10B89D": "Tomb Raider (USA) (Rev5) - PlayStation -  - null",
+    "98163D740F08ACE1BB215F9DBBBCD450": "Tomb Raider (USA) (Rev6) - PlayStation -  - null",
+    "DE79A7335C9FD7C353B599EDA90B505B": "Tomb Raider (Europe) - PlayStation -  - null"
   },
   "11546": {
     "0538AE22FE0DC602331C241F435A3247": "Choro Q 64 2 - Hacha Mecha Grand Prix Race (Japan) (En) (v1.0) (Zoinkity).z64 - Nintendo 64 - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/N64/Translation/English/11546-ChoroQ642-English.zip"
@@ -12957,6 +12968,9 @@
   "34766": {
     "3882D4CCBEC0798E256CD9F7B9EF0A05": "Resident Evil - The Darkside Chronicles (Europe) - Wii - redump - null"
   },
+  "34874": {
+    "F76B93DD4EC7848655D1C4BAE442468D": "Zero - Tsukihami no Kamen (Japan) (En) (v1.5) (Tempus) - Wii - redump,rhdn,rapatches - null"
+  },
   "34875": {
     "B5AC0ED309F59730C238E3500B7BD10D": "Paper Mario - Mario HATES 2025 (v1.0) (Den, Wrymouth, Darxoon).z64 - Nintendo 64 - nointro,github,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Paper%20Mario/34875-PM-MarioHATES2025.zip"
   },
@@ -13212,6 +13226,9 @@
   "37132": {
     "F91EFFEC4A48252D69C51E1AC3EFA272": "SM64 - Bounce Tales 64 (v1.0 fix) (AloXado320).z64 - Nintendo 64 - nointro,rapatches,rhdc - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/37132-SM64-BounceTales.zip"
   },
+  "37193": {
+    "0D7D46D63A371CAE49294E48BBC7127F": "Teenage Mutant Ninja Turtles - The Legend Returns (Russia) (Aftermarket) (Unl).md - Genesis/Mega Drive - nointro - null"
+  },
   "37208": {
     "A0AE1395AD7DF02729858A5ECC8486DD": "Super Smash Bros. Melee (USA) (En,Ja) (Rev 2) (C-Stick in Single-Player) [Subset - Very Hard Runs] - GameCube - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GameCube/Subset/37208-SSBMelee-Subset-VeryHardRuns.zip"
   },
@@ -13221,7 +13238,23 @@
   "37467": {
     "4EA69D47666C3F1E0B0AC236665EB082": "Rock Band [Subset - Expert Full Combos] - PlayStation 2 - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Subset/37467-RockBand-Subset-ExpertFullCombos.zip"
   },
-  "37597": {
-    "B6F644876B1EC7453F752918CB6D02DE": "Asteroids (World) (Aftermarket) (Unl) - Atari Jaguar -  - null"
+  "37508": {
+    "04CB9CB0DF052531120D1BE9154A9CF4": "SMB1 - Mario Bros. Untold (v1.0) (Dark_Lord05).nes - NES/Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/NES/Hacks/Super%20Mario%20Bros/37508-SMB1-MarioBrosUntold.zip"
+  },
+  "37573": {
+    "E0C18949C34E86576405944FA616F56C": "SM64 - The Phantom's Call (English) (v2.0) (PhantomPhire).z64 - Nintendo 64 - nointro,rhdc - null",
+    "05EFE824339137D3716A0530C78AE4B1": "SM64 - The Phantom's Call (German) (v2.0) (PhantomPhire).z64 - Nintendo 64 - nointro,rhdc - null"
+  },
+  "37574": {
+    "A3A97786B8BA2D02C303703D34913942": "Vib-Ripple [Subset - Imported Photo Petas] - PlayStation 2 - redump - null"
+  },
+  "37578": {
+    "971F0A72513A4BB18D19F761F9E40FEC": "Helichoppy (World) (v1.0) (Aftermarket) (Vivian Video) - Game Boy - homebrew,itchio - null"
+  },
+  "37601": {
+    "DF229E68772CA4F77388C2C0541B02C9": "Tokyo Xtreme Racer Drift 2 (SLUS-21394) [B32E008E] - PlayStation 2 -  - null"
+  },
+  "37603": {
+    "F4FC3AE6A9ED4BE2B67DEDED9E27C039": "Super Smash Bros. (USA) [Subset - Very Hard Runs] - Nintendo 64 -  - null"
   }
 }
