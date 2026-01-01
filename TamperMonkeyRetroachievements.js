@@ -3,7 +3,7 @@
 // @namespace    https://github.com/MentalBlank/RARomOnHashes
 // @updateURL    https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/TamperMonkeyRetroachievements.js
 // @downloadURL  https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/TamperMonkeyRetroachievements.js
-// @version      1.0.7
+// @version      1.0.8
 // @description  Add download links to retroachievements.org Supported Game Files pages
 // @author       MentalBlank
 // @match        https://retroachievements.org/*
@@ -102,7 +102,7 @@ async function handleRA() {
                 await idbSet('collectionLastUpdated', Date.now());
                 injectGames(JSON.parse(await idbGet('collectionROMList')));
             } else {
-                const data = await fetch("https://corsproxy.io/?" + collectionUrl, { cache: 'no-cache' }).then(r => r.json());
+                const data = await fetch(collectionUrl, { cache: 'no-cache' }).then(r => r.json());
                 injectGames(data);
                 await idbSet('collectionROMList', JSON.stringify(data));
                 await idbSet('collectionLastUpdated', Date.now());
