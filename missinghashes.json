@@ -3486,6 +3486,9 @@
   "17147": {
     "E2736CBA283E6BE4E95F1FAD3E6C93C5": "Legend of Zelda, The - Ocarina of Time - Four Swords Arena Edition (MelonSpeedruns,Psi-Hate).z64 - Nintendo 64 - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/N64/Hacks/LoZ%20-%20Ocarina%20of%20Time/17147-LoZOoT-FourSwordsArenaEdition.zip"
   },
+  "17158": {
+    "E0D2431402DA98DEAF39AFF243992E96": "Moorhuhn 2 (Germany) (En) (v1.1) (John Osborne) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PlayStation/Translation/English/17158-Moorhuhn2-English.zip"
+  },
   "17166": {
     "372B003E0DB5E51A13A7ACE480A675D4": "...Iru! (Japan) (En) (v1.0) (SnowyAria) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/PlayStation/Translation/English/17166-Iru-English.7z"
   },
@@ -10944,7 +10947,8 @@
     "FD3B020C383E0FD32EC6D46E37CDF49B": "Pokemon Crystal - Digimon Crystal (v20250214) (Guzeinbuick).gbc - Game Boy Color - nointro,rapatches,pokecommunity - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBC/Hacks/Pokemon%20Crystal/32383-PokemonCrystal-DigimonCrystal.zip"
   },
   "32384": {
-    "D99EBC097AF29CA3643C5AD72EC36E9D": "Pokemon TCG - Digimon Adventure TCG (Guzeinbuick).gbc - Game Boy Color - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBC/Hacks/Pokemon%20Trading%20Card%20Game/32384-PokemonTCG-DigimonAdventureTCG.zip"
+    "D99EBC097AF29CA3643C5AD72EC36E9D": "Pokemon TCG - Digimon Adventure TCG (Guzeinbuick).gbc - Game Boy Color - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBC/Hacks/Pokemon%20Trading%20Card%20Game/32384-PokemonTCG-DigimonAdventureTCG.zip",
+    "13F4E8DA51DDEFE4A505800A10AE4122": "Pokemon TCG - Digimon Adventure TCG Remastered (Guzeinbuick).gbc - Game Boy Color - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBC/Hacks/Pokemon%20Trading%20Card%20Game/32384-PokemonTCG-DigimonAdventureTCG.zip"
   },
   "32412": {
     "AEE160F087A738A35F7297D765B3D733": "Agent USA.woz - Apple II - wozaday - null"
@@ -11544,7 +11548,9 @@
   },
   "32805": {
     "3068F8936864C745702B1D317B96FF1B": "SMW - Friends and Rivalry (En) (v1.03) (bandicoot).sfc - SNES/Super Famicom - nointro,rapatches,smwcentral - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/32805-SMW-FriendsandRivalry.zip",
-    "26449D03FF64E69DDD9A3C9902A5656D": "SMW - Rivalidade entre Amigos (Pt) (v1.03) (bandicoot).sfc - SNES/Super Famicom - nointro,rapatches,smwcentral - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/32805-SMW-FriendsandRivalry.zip"
+    "26449D03FF64E69DDD9A3C9902A5656D": "SMW - Rivalidade entre Amigos (Pt) (v1.03) (bandicoot).sfc - SNES/Super Famicom - nointro,rapatches,smwcentral - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/32805-SMW-FriendsandRivalry.zip",
+    "610269494391D385BBA6ACC1B6B13803": "SMW - Friends and Rivalry (En) (v1.05) (bandicoot).sfc - SNES/Super Famicom - nointro,rhdn,smwcentral,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/32805-SMW-FriendsandRivalry.zip",
+    "586DCC803A6961F2A5E8A7877B347246": "SMW - Rivalidade entre Amigos (Pt) (v1.05) (bandicoot).sfc - SNES/Super Famicom - nointro,rhdn,smwcentral,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/32805-SMW-FriendsandRivalry.zip"
   },
   "32807": {
     "FF2BF2B6DEC1348887FD958DD3751F33": "Sonic 2 - SNOLF (v0.5) (drmelon).md - Genesis/Mega Drive - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/MD/Hacks/Sonic%20the%20Hedgehog%202/32807-Sonic2-SNOLF.zip"
@@ -12719,7 +12725,9 @@
     "2C6FBAA9CF37C06D82A35E17F335A93F": "Pokemon FireRed - Pokemon Eclat Pourpre (En) (v2.0) (Myst, Mickey).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Pokemon%20FireRed/34107-PokemonFireRed-EclatPourpre.7z"
   },
   "34108": {
-    "41BF40A70D5C065DC8225AFC97303EDD": "Pokemon Emerald - Pokemon Lazarus (Demo 1.2) (Nemo622).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Pokemon%20Emerald/34108-PokemonEmerald-Lazarus.7z"
+    "41BF40A70D5C065DC8225AFC97303EDD": "Pokemon Emerald - Pokemon Lazarus (Demo 1.2) (Nemo622).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Pokemon%20Emerald/34108-PokemonEmerald-Lazarus.7z",
+    "E8326583F1F0F26217836213BE3509F1": "Pokemon Emerald - Pokemon Lazarus (v1.1) (Nemo622).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Pokemon%20Emerald/34108-PokemonEmerald-Lazarus.zip",
+    "2057204E19099C7CE602CF559573D09B": "Pokemon Emerald - Pokemon Lazarus (v1.0) (Nemo622).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Pokemon%20Emerald/34108-PokemonEmerald-Lazarus.zip"
   },
   "34123": {
     "1F674B8F94D349DFD8505857DABEF7BA": "Kirby Red Diamond - Game Boy Advance -  - null"
@@ -13220,6 +13228,9 @@
   "36980": {
     "BE02352320C563C250BC3C65BFC95440": "SM64 - Sooper Wooper 64 (v2021-05-17) (MishuK9).z64 - Nintendo 64 - nointro,rapatches,rhdc - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/36980-SM64-SooperWooper64.zip"
   },
+  "37048": {
+    "D3515716F640151E607EAF7B38AC8A33": "FE8 - The Szechuan Sword -  A PostModern Strategy Game (v2023) (Kalastar).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Fire%20Emblem%20-%20The%20Sacred%20Stones/37048-FE8-TheSzechuanSword.zip"
+  },
   "37098": {
     "EF8984F9E252298296F373598CA63E7E": "Mini Running Ant (World) (Aftermarket) (Unl).min - Pokemon Mini - homebrew,itchio,nointro - null"
   },
@@ -13254,7 +13265,14 @@
   "37601": {
     "DF229E68772CA4F77388C2C0541B02C9": "Tokyo Xtreme Racer Drift 2 (SLUS-21394) [B32E008E] - PlayStation 2 -  - null"
   },
+  "37602": {
+    "B0482AF144D81C5707D4748E2FE51CFD": "Garfield - The Lost Levels (USA) (Sega Channel).md - Genesis/Mega Drive - nointro - null"
+  },
   "37603": {
     "F4FC3AE6A9ED4BE2B67DEDED9E27C039": "Super Smash Bros. (USA) [Subset - Very Hard Runs] - Nintendo 64 -  - null"
+  },
+  "37648": {
+    "C5797D8D775F8028C649FB620A2EA725": "Eternity of Sorrow - Nintendo DS -  - null",
+    "A5D8D8895387B47DC9076B67BA06667B": "Castlevania DoS - Eternity of Sorrow (v1.0 - No Touch Screen) (WetBandAid) - Nintendo DS -  - null"
   }
 }
