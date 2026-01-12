@@ -3211,7 +3211,8 @@
     "68F241562DF2A2B426F0036EC15E54DF": "Zombie Tycoon (USA) (v3) (minis) (PSN).iso - PlayStation Portable - nointro - null"
   },
   "16452": {
-    "E325415639128477867DF7310817D5B2": "7th Dragon 2020 (Japan) (En) (v0.91) (Pokeytax).iso - PlayStation Portable - lostlevel - null"
+    "E325415639128477867DF7310817D5B2": "7th Dragon 2020 (Japan) (En) (v0.91) (Pokeytax).iso - PlayStation Portable - lostlevel - null",
+    "7E7C92D47EDB58C7D16F672230231590": "7th Dragon 2020 (Japan).iso - PlayStation Portable -  - null"
   },
   "16465": {
     "D81DF118AF451D20FDF7D70A631CD189": "Team Innocent - The Point of No Return - G.C.P.O.SS (Japan) (En) (v0.9) (Derek Pascarella) - PC-FX - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PC-FX/Translation/English/16465-TeamInnocent-English.zip",
@@ -3408,9 +3409,6 @@
   },
   "17094": {
     "FDB1E1F59BE78A56C0684253ED1CF261": "Arkanoid - Chinese Edition (v1.0) (Superjustinbros).nes - NES/Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/NES/Hacks/Arkanoid/17094-Arkanoid-ChineseEdition.zip"
-  },
-  "17097": {
-    "0A4152A81309D82A58D8782E41E5D103": "Aladdin (Europe).nes - NES/Famicom - nointro - null"
   },
   "17098": {
     "2DF2B6631E3F8D6A6552C288D6155BA8": "Lion King III, The - Timon & Pumbaa (Asia) (En) (Pirate).nes - NES/Famicom - nointro - null"
@@ -11894,6 +11892,9 @@
   "33102": {
     "FFFA4E0AD7AEC0E59DAFD3D0BF9EB360": "Pokemon Crystal - Pokemon Orange (Suloku Patch - PSS) (PiaCRT).gbc - Game Boy Color - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBC/Hacks/Pokemon%20Crystal/33102-PokemonCrystal-Orange.zip"
   },
+  "33103": {
+    "C75B0134DB376129763942364FDCFF30": "Pokémon - FireRed Version [Subset - Carcinisation].gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Subset/33103-PokemonFireRed-Subset-Carcinsation.zip"
+  },
   "33105": {
     "9A7CB662613B86960B176B60EDDC336F": "Donkey Kong Country NES Edition (v1.3) (the jabu).nes - NES/Famicom - nointro,rhdn,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/NES/Hacks/Donkey%20Kong%20Country%204/33105-DKC-NESEdition.zip"
   },
@@ -13225,6 +13226,9 @@
   "36955": {
     "0AF94E267C637F74227C6A47F43F578E": "Waffle Painter (USA) (v1.1) (Aftermarket) (Vivian Video).a78 - Atari 7800 - homebrew,itchio,lostlevel - null"
   },
+  "36972": {
+    "ECE9EBB71413BBEE956B9DF1E46725C6": "SM64 - The Dark Stars (v1.1.3) (Caasje).z64 - Nintendo 64 - nointro,rapatches,rhdc - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/36972-SM64-DarkStars.7z"
+  },
   "36980": {
     "BE02352320C563C250BC3C65BFC95440": "SM64 - Sooper Wooper 64 (v2021-05-17) (MishuK9).z64 - Nintendo 64 - nointro,rapatches,rhdc - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/36980-SM64-SooperWooper64.zip"
   },
@@ -13242,6 +13246,9 @@
   },
   "37208": {
     "A0AE1395AD7DF02729858A5ECC8486DD": "Super Smash Bros. Melee (USA) (En,Ja) (Rev 2) (C-Stick in Single-Player) [Subset - Very Hard Runs] - GameCube - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GameCube/Subset/37208-SSBMelee-Subset-VeryHardRuns.zip"
+  },
+  "37243": {
+    "ADA226686C1F22A78BADDDC15DE03B2C": "Private Idol Disc Vol. 5 - Nanako Fujisaki (Japan) - Saturn -  - null"
   },
   "37280": {
     "7C6F10E15C6323FBB3BF2557580650F8": "SMW - Easyland 3 (v1.0) (RicardoDeMelo).sfc - SNES/Super Famicom - nointro,smwcentral,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/37280-SMW-Easyland3.zip"
@@ -13271,8 +13278,23 @@
   "37603": {
     "F4FC3AE6A9ED4BE2B67DEDED9E27C039": "Super Smash Bros. (USA) [Subset - Very Hard Runs] - Nintendo 64 -  - null"
   },
+  "37605": {
+    "33D0B28ECDE800F2A6528A2CD5FE2438": "Ocarina.of.Time.DX.4-3.SD.Beta.v0.3.1.-.28.November.2025.3 - Nintendo 64 -  - null"
+  },
+  "37606": {
+    "6405C587CA920DB57C06C51F34BC7CC4": "Guzzler (1986)(Players)[cr].dsk - Amstrad CPC - cleancpc - null"
+  },
+  "37607": {
+    "71659A7E9BC406A65471A507C61E4DA1": "Waffle Painter (World) (v1.0) (Aftermarket) (Vivian Video).md - Genesis/Mega Drive - homebrew,itchio,lostlevel - null"
+  },
   "37648": {
     "C5797D8D775F8028C649FB620A2EA725": "Eternity of Sorrow - Nintendo DS -  - null",
     "A5D8D8895387B47DC9076B67BA06667B": "Castlevania DoS - Eternity of Sorrow (v1.0 - No Touch Screen) (WetBandAid) - Nintendo DS -  - null"
+  },
+  "37697": {
+    "D1DEE37187359ADFE5DD644C5776A864": "F-Zero GX (USA) [Subset - Completionist] - GameCube - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GameCube/Subset/9699-FZeroGX-Completionist.zip"
+  },
+  "37786": {
+    "61D1B633249ACDF3982BDF41B7A1646D": "Grand Theft Auto - San Andreas [Subset - Master Save] - PlayStation 2 - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Subset/37786-GTASanAndreas-MasterSave.zip"
   }
 }
