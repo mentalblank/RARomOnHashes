@@ -13259,6 +13259,9 @@
   "37508": {
     "04CB9CB0DF052531120D1BE9154A9CF4": "SMB1 - Mario Bros. Untold (v1.0) (Dark_Lord05).nes - NES/Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/NES/Hacks/Super%20Mario%20Bros/37508-SMB1-MarioBrosUntold.zip"
   },
+  "37509": {
+    "37EEB0B6914BE944C03D6442623E0244": "K-On! Houkago Live!! HD Ver. (English 4-1-23).iso - PlayStation Portable -  - null"
+  },
   "37573": {
     "E0C18949C34E86576405944FA616F56C": "SM64 - The Phantom's Call (English) (v2.0) (PhantomPhire).z64 - Nintendo 64 - nointro,rhdc - null",
     "05EFE824339137D3716A0530C78AE4B1": "SM64 - The Phantom's Call (German) (v2.0) (PhantomPhire).z64 - Nintendo 64 - nointro,rhdc - null"
@@ -13278,6 +13281,13 @@
   "37603": {
     "F4FC3AE6A9ED4BE2B67DEDED9E27C039": "Super Smash Bros. (USA) [Subset - Very Hard Runs] - Nintendo 64 -  - null"
   },
+  "37604": {
+    "5947BC6016400399703BF628C8122853": "Super Mario Advance (USA, Europe) - Subset patch - Game Boy Advance -  - null",
+    "D035CBE42815C340F78631BC6AB32F92": "Mario & Luigi - Superstar Saga (Europe) (En,Fr,De,Es,It) - Subset Patch - Game Boy Advance -  - null",
+    "28AE60EA08AE2B1906F0DF137D853177": "Super Mario Advance 2 - Super Mario World (Europe) (En,Fr,De,Es) - Subset patch - Game Boy Advance -  - null",
+    "C95FD922C577D69B713C1766F1C50D2B": "Super Mario Advance 3 - Yoshi's Island (Europe) (En,Fr,De,Es,It) - Subset patch - Game Boy Advance -  - null",
+    "92EC5B30C547374A640943D7EAFE0DC9": "Super Mario Advance 4 - Super Mario Bros. 3 (USA) (Rev 1) (Switches - RetroAchievements Edition) - Subset patch - Game Boy Advance -  - null"
+  },
   "37605": {
     "33D0B28ECDE800F2A6528A2CD5FE2438": "Ocarina.of.Time.DX.4-3.SD.Beta.v0.3.1.-.28.November.2025.3 - Nintendo 64 -  - null"
   },
@@ -13296,5 +13306,20 @@
   },
   "37786": {
     "61D1B633249ACDF3982BDF41B7A1646D": "Grand Theft Auto - San Andreas [Subset - Master Save] - PlayStation 2 - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Subset/37786-GTASanAndreas-MasterSave.zip"
+  },
+  "37814": {
+    "9F5913C0B6CD4F7BB243FE2E1F0CAE77": "Final Fantasy IV Advance (USA) - Bit Improvement for FF4A (v1.0a) (Deathlike2).gba - Game Boy Advance - nointro - null"
+  },
+  "37815": {
+    "684F93C67F991C8EC2DCD2FC6B8D7DF3": "Final Fantasy IX (Disc 1) - PlayStation -  - null",
+    "479DBF754EB7ED9557D05B5ED7F50531": "Final Fantasy IX (Disc 4) - PlayStation -  - null",
+    "835C610189ADD7E102B089052D204D6A": "Final Fantasy IX (Disc 3) - PlayStation -  - null",
+    "D7632F59C245A85665D00854DE57A63D": "Final Fantasy IX (Disc 2) - PlayStation -  - null"
+  },
+  "37913": {
+    "E60DDAF73EE51ECBA7DD22219FAEDE50": "Carrot Kingdom (Revision B).bin - Atari 2600 - homebrew - null"
+  },
+  "37914": {
+    "D5275921DB5AF85A7120D0149E8D329E": "SMW - Grand Poo World 3 (Barbarian) (Hack) - Copie - SNES/Super Famicom -  - null"
   }
 }
