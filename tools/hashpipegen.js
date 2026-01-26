@@ -966,16 +966,20 @@ function mergeHashes(allGameHashes) {
     if (!hashlinks2[id]) hashlinks2[id] = [{}];
     const gameHashes = allGameHashes[id];
 
-    const processEntry = (url, id, hash) => {
-      const alreadyExists =
-        hashlinks2[id] &&
-        Array.isArray(hashlinks2[id]) &&
-        hashlinks2[id].some(
-          (obj) => obj && typeof obj === "object" && obj.hasOwnProperty(hash)
-        );
+    const existingHashes = new Set();
+    if (hashlinks2[id] && Array.isArray(hashlinks2[id])) {
+      hashlinks2[id].forEach((obj) => {
+        if (obj && typeof obj === "object") {
+          Object.keys(obj).forEach((key) => existingHashes.add(key));
+        }
+      });
+    }
 
-      if (!alreadyExists) {
+    const processEntry = (url, id, hash) => {
+      if (!existingHashes.has(hash)) {
+        if (!hashlinks2[id][0]) hashlinks2[id][0] = {};
         hashlinks2[id][0][hash] = url;
+        existingHashes.add(hash);
       }
     };
 
