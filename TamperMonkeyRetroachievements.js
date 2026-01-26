@@ -16,6 +16,9 @@
 
 'use strict';
 
+let cachedGameData = null;
+let hashListObserver = null;
+
 // ========== IndexedDB helpers ==========
 async function idbOpen() {
     return new Promise((resolve, reject) => {
@@ -100,9 +103,11 @@ async function handleRA() {
 
             if (commitDate === lastModified) {
                 await idbSet('collectionLastUpdated', Date.now());
-                injectGames(JSON.parse(await idbGet('collectionROMList')));
+                if (!cachedGameData) cachedGameData = JSON.parse(await idbGet('collectionROMList'));
+                injectGames(cachedGameData);
             } else {
                 const data = await fetch(collectionUrl, { cache: 'no-cache' }).then(r => r.json());
+                cachedGameData = data;
                 injectGames(data);
                 await idbSet('collectionROMList', JSON.stringify(data));
                 await idbSet('collectionLastUpdated', Date.now());
@@ -119,15 +124,17 @@ async function handleRA() {
 
     const cacheValid = !isNaN(lastUpdated) && currentTime <= lastUpdated + updateInterval;
     if (cacheValid) {
-        injectGames(JSON.parse(await idbGet('collectionROMList')));
+        if (!cachedGameData) cachedGameData = JSON.parse(await idbGet('collectionROMList'));
+        injectGames(cachedGameData);
     } else {
         await fetchData();
     }
 
     const hashSection = document.querySelector('ul.flex.flex-col.gap-3[data-testid="named-hashes"]');
     if (hashSection) {
-        const observer = new MutationObserver(() => handleRA());
-        observer.observe(hashSection, { childList: true, subtree: true });
+        if (hashListObserver) hashListObserver.disconnect();
+        hashListObserver = new MutationObserver(() => handleRA());
+        hashListObserver.observe(hashSection, { childList: true, subtree: true });
     }
 }
 
