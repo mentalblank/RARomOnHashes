@@ -3,7 +3,7 @@
 // @namespace    https://github.com/MentalBlank/RARomOnHashes
 // @updateURL    https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/TamperMonkeyRetroachievements.js
 // @downloadURL  https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/TamperMonkeyRetroachievements.js
-// @version      1.0.8
+// @version      1.0.9
 // @description  Add download links to retroachievements.org Supported Game Files pages
 // @author       MentalBlank
 // @match        https://retroachievements.org/*
@@ -16,14 +16,28 @@
 
 'use strict';
 
+let cachedGameData = null;
+let hashListObserver = null;
+
 // ========== IndexedDB helpers ==========
+let dbPromise = null;
 async function idbOpen() {
-    return new Promise((resolve, reject) => {
+    if (dbPromise) return dbPromise;
+    dbPromise = new Promise((resolve, reject) => {
         const req = indexedDB.open('RAHashCache', 1);
         req.onupgradeneeded = e => e.target.result.createObjectStore('store');
-        req.onsuccess = e => resolve(e.target.result);
-        req.onerror = reject;
+        req.onsuccess = e => {
+            const db = e.target.result;
+            db.onclose = () => { dbPromise = null; };
+            db.onversionchange = () => { db.close(); dbPromise = null; };
+            resolve(db);
+        };
+        req.onerror = (e) => {
+            dbPromise = null;
+            reject(e);
+        };
     });
+    return dbPromise;
 }
 
 async function idbSet(key, value) {
@@ -41,7 +55,13 @@ async function idbGet(key) {
 }
 
 // ========== RA page logic ==========
+let hashObserver;
+
 async function handleRA() {
+    if (hashObserver) {
+        hashObserver.disconnect();
+    }
+
     console.log("RA Rom Download Script running.");
     const collectionUrl = 'https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/hashlinks.json';
     const apiUrl = 'https://api.github.com/repos/MentalBlank/RARomOnHashes/commits?path=hashlinks.json';
@@ -55,6 +75,19 @@ async function handleRA() {
         const hashListParent = document.querySelector('ul.flex.flex-col.gap-3[data-testid="named-hashes"]');
         if (!hashListParent) return;
         const gameId = window.location.pathname.split("/")[2];
+
+        const gameHashesMap = new Map();
+        if (gameData?.[gameId]) {
+            gameData[gameId].forEach(obj => {
+                Object.entries(obj).forEach(([hash, url]) => {
+                    const lowerHash = hash.toLowerCase();
+                    if (!gameHashesMap.has(lowerHash)) {
+                        gameHashesMap.set(lowerHash, url);
+                    }
+                });
+            });
+        }
+
         for (const li of hashListParent.querySelectorAll('li')) {
             if (li.dataset.scriptInjected) continue;
             li.dataset.scriptInjected = "true";
@@ -69,13 +102,9 @@ async function handleRA() {
             const linksContainer = hashNode;
             const links = [];
 
-            const romMatch = gameData?.[gameId]?.find(obj =>
-                Object.keys(obj).some(h => h.toLowerCase() === retroHash)
-            );
+            const romURL = gameHashesMap.get(retroHash);
 
-            if (romMatch) {
-                const hashKey = Object.keys(romMatch).find(h => h.toLowerCase() === retroHash);
-                const romURL = romMatch[hashKey];
+            if (romURL) {
                 const link = romURL.includes("myrient.erista.me")
                     ? `${romURL.substring(0, romURL.lastIndexOf('/') + 1)}#autoSearch=${encodeURIComponent(romURL.split("/").pop())}`
                     : romURL;
@@ -100,9 +129,11 @@ async function handleRA() {
 
             if (commitDate === lastModified) {
                 await idbSet('collectionLastUpdated', Date.now());
-                injectGames(JSON.parse(await idbGet('collectionROMList')));
+                if (!cachedGameData) cachedGameData = JSON.parse(await idbGet('collectionROMList'));
+                injectGames(cachedGameData);
             } else {
                 const data = await fetch(collectionUrl, { cache: 'no-cache' }).then(r => r.json());
+                cachedGameData = data;
                 injectGames(data);
                 await idbSet('collectionROMList', JSON.stringify(data));
                 await idbSet('collectionLastUpdated', Date.now());
@@ -119,15 +150,18 @@ async function handleRA() {
 
     const cacheValid = !isNaN(lastUpdated) && currentTime <= lastUpdated + updateInterval;
     if (cacheValid) {
-        injectGames(JSON.parse(await idbGet('collectionROMList')));
+        if (!cachedGameData) cachedGameData = JSON.parse(await idbGet('collectionROMList'));
+        await injectGames(cachedGameData);
     } else {
         await fetchData();
     }
 
     const hashSection = document.querySelector('ul.flex.flex-col.gap-3[data-testid="named-hashes"]');
     if (hashSection) {
-        const observer = new MutationObserver(() => handleRA());
-        observer.observe(hashSection, { childList: true, subtree: true });
+        if (!hashObserver) {
+            hashObserver = new MutationObserver(() => handleRA());
+        }
+        hashObserver.observe(hashSection, { childList: true, subtree: true });
     }
 }
 

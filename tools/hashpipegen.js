@@ -146,6 +146,20 @@ async function fetchRecentCompletedGameIds() {
   }
 }
 
+const romExtensions = [".001", ".2mg", ".7z", ".32x", ".a2r", ".a26", ".a78", ".adf", ".adz", ".aif", ".ami", ".apk", ".arduboy", ".atr", ".b64", ".bjl", ".bin", ".bit", ".bs", ".bz2", ".cas", ".cbz", ".ccd", ".cdi", ".cdt", ".cfg", ".cg", ".chd", ".cia", ".cmt", ".col", ".com", ".cpr", ".cpr", ".crt", ".cue", ".d13", ".d64", ".d88", ".dfi", ".dl", ".do", ".dol", ".dsk", ".dsv", ".duck", ".e", ".e7", ".ecm", ".edd", ".eep", ".elf", ".fdi", ".fds", ".flux", ".g>", ".gb", ".gba", ".gbc", ".gbx", ".gcm", ".gcz", ".gen", ".gg", ".glsl", ".hdf", ".hdm", ".hdv", ".hex", ".hfe", ".hlsl", ".hxcstream", ".img", ".ims", ".ini", ".int", ".ipf", ".iso", ".jag", ".j64", ".jpe", ".lha", ".lnx", ".lyx", ".m4a", ".mcr", ".md", ".mdf", ".mds", ".mfi", ".mo5", ".mp3", ".mpk", ".ms", ".n64", ".ndd", ".nds", ".nes", ".ngc", ".ngp", ".nib", ".nrg", ".nsp", ".o", ".one", ".part1", ".pbp", ".pc2", ".pce", ".pdf", ".pkg", ".po", ".po", ".prg", ".ps2", ".qcow2", ".rar", ".raw", ".rom", ".rvz", ".sap", ".sav", ".scp", ".sfc", ".sg", ".sgx", ".shk", ".smc", ".smd", ".sms", ".sna", ".srm", ".st", ".st0", ".sta", ".sv", ".t64", ".t88", ".tap", ".tgx", ".tvc", ".tzx", ".uze", ".v64", ".vb", ".vdi", ".vec", ".vpk", ".wad", ".warc", ".wasm", ".wav", ".wbfs", ".wiu", ".woz", ".woz", ".ws", ".wsc", ".wua", ".wv", ".xdf", ".xex", ".xlm", ".z64", ".z80", ".zcci", ".zip"];
+
+const sortedExtensions = [...new Set(romExtensions)].sort((a, b) => b.length - a.length);
+
+function escapeRegExp(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+const extensionsRegex = new RegExp('(' + sortedExtensions.map(escapeRegExp).join('|') + ')$', 'i');
+
+function cleanRomFileName(fileNameToClean) {
+  let cleaned = fileNameToClean.replace(/^\//, "");
+  return cleaned.replace(extensionsRegex, '');
+}
 
 async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
     if (!fileName || fileName.includes("[legacy]") || fileName.includes("[elf]") || consoleName.includes("Hubs")) {
@@ -837,20 +851,6 @@ async function checkFileExists(fileName, consoleName, hashlabels, hashname) {
     const consoleEntry = consoleMap?.[consoleName] || consoleName;
     const formattedConsoleNames = Array.isArray(consoleEntry) ? consoleEntry : [consoleEntry];
 
-    const romExtensions = [".001", ".2mg", ".7z", ".32x", ".a2r", ".a26", ".a78", ".adf", ".adz", ".aif", ".ami", ".apk", ".arduboy", ".atr", ".b64", ".bjl", ".bin", ".bit", ".bs", ".bz2", ".cas", ".cbz", ".ccd", ".cdi", ".cdt", ".cfg", ".cg", ".chd", ".cia", ".cmt", ".col", ".com", ".cpr", ".cpr", ".crt", ".cue", ".d13", ".d64", ".d88", ".dfi", ".dl", ".do", ".dol", ".dsk", ".dsv", ".duck", ".e", ".e7", ".ecm", ".edd", ".eep", ".elf", ".fdi", ".fds", ".flux", ".g>", ".gb", ".gba", ".gbc", ".gbx", ".gcm", ".gcz", ".gen", ".gg", ".glsl", ".hdf", ".hdm", ".hdv", ".hex", ".hfe", ".hlsl", ".hxcstream", ".img", ".ims", ".ini", ".int", ".ipf", ".iso", ".jag", ".j64", ".jpe", ".lha", ".lnx", ".lyx", ".m4a", ".mcr", ".md", ".mdf", ".mds", ".mfi", ".mo5", ".mp3", ".mpk", ".ms", ".n64", ".ndd", ".nds", ".nes", ".ngc", ".ngp", ".nib", ".nrg", ".nsp", ".o", ".one", ".part1", ".pbp", ".pc2", ".pce", ".pdf", ".pkg", ".po", ".po", ".prg", ".ps2", ".qcow2", ".rar", ".raw", ".rom", ".rvz", ".sap", ".sav", ".scp", ".sfc", ".sg", ".sgx", ".shk", ".smc", ".smd", ".sms", ".sna", ".srm", ".st", ".st0", ".sta", ".sv", ".t64", ".t88", ".tap", ".tgx", ".tvc", ".tzx", ".uze", ".v64", ".vb", ".vdi", ".vec", ".vpk", ".wad", ".warc", ".wasm", ".wav", ".wbfs", ".wiu", ".woz", ".woz", ".ws", ".wsc", ".wua", ".wv", ".xdf", ".xex", ".xlm", ".z64", ".z80", ".zcci", ".zip"];
-
-    const sortedExtensions = romExtensions.sort((a, b) => b.length - a.length);
-
-    function cleanRomFileName(fileNameToClean) {
-      let cleaned = fileNameToClean.replace(/^\//, "");
-      for (const ext of sortedExtensions) {
-        if (cleaned.toLowerCase().endsWith(ext.toLowerCase())) {
-          cleaned = cleaned.slice(0, -ext.length);
-          break;
-        }
-      }
-      return cleaned;
-    }
     let cleanedFileName = cleanRomFileName(fileName);
     let hasAngular = /<[^>]*>/.test(fileName);
 
@@ -966,16 +966,20 @@ function mergeHashes(allGameHashes) {
     if (!hashlinks2[id]) hashlinks2[id] = [{}];
     const gameHashes = allGameHashes[id];
 
-    const processEntry = (url, id, hash) => {
-      const alreadyExists =
-        hashlinks2[id] &&
-        Array.isArray(hashlinks2[id]) &&
-        hashlinks2[id].some(
-          (obj) => obj && typeof obj === "object" && obj.hasOwnProperty(hash)
-        );
+    const existingHashes = new Set();
+    if (hashlinks2[id] && Array.isArray(hashlinks2[id])) {
+      hashlinks2[id].forEach((obj) => {
+        if (obj && typeof obj === "object") {
+          Object.keys(obj).forEach((key) => existingHashes.add(key));
+        }
+      });
+    }
 
-      if (!alreadyExists) {
+    const processEntry = (url, id, hash) => {
+      if (!existingHashes.has(hash)) {
+        if (!hashlinks2[id][0]) hashlinks2[id][0] = {};
         hashlinks2[id][0][hash] = url;
+        existingHashes.add(hash);
       }
     };
 
