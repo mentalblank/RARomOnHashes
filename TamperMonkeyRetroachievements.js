@@ -55,6 +55,19 @@ async function handleRA() {
         const hashListParent = document.querySelector('ul.flex.flex-col.gap-3[data-testid="named-hashes"]');
         if (!hashListParent) return;
         const gameId = window.location.pathname.split("/")[2];
+
+        const gameHashesMap = new Map();
+        if (gameData?.[gameId]) {
+            gameData[gameId].forEach(obj => {
+                Object.entries(obj).forEach(([hash, url]) => {
+                    const lowerHash = hash.toLowerCase();
+                    if (!gameHashesMap.has(lowerHash)) {
+                        gameHashesMap.set(lowerHash, url);
+                    }
+                });
+            });
+        }
+
         for (const li of hashListParent.querySelectorAll('li')) {
             if (li.dataset.scriptInjected) continue;
             li.dataset.scriptInjected = "true";
@@ -69,13 +82,9 @@ async function handleRA() {
             const linksContainer = hashNode;
             const links = [];
 
-            const romMatch = gameData?.[gameId]?.find(obj =>
-                Object.keys(obj).some(h => h.toLowerCase() === retroHash)
-            );
+            const romURL = gameHashesMap.get(retroHash);
 
-            if (romMatch) {
-                const hashKey = Object.keys(romMatch).find(h => h.toLowerCase() === retroHash);
-                const romURL = romMatch[hashKey];
+            if (romURL) {
                 const link = romURL.includes("myrient.erista.me")
                     ? `${romURL.substring(0, romURL.lastIndexOf('/') + 1)}#autoSearch=${encodeURIComponent(romURL.split("/").pop())}`
                     : romURL;
