@@ -3122,6 +3122,9 @@
   "16188": {
     "209EC3CF2429FA740F30C401916CB059": "Galaxian.woz - Apple II - wozaday - null"
   },
+  "16191": {
+    "53D90E468C9EAE4D602FEACC6295A021": "Pokemon Crystal - Polished Crystal (v3.2.3) (Rangi).gbc - Game Boy Color - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/GBC/Hacks/Pokemon%20Crystal/16191-PokemonPolishedCrystal.zip"
+  },
   "16198": {
     "7B880D705E0F1BC3E8D23E5569AEEF2C": "Pokemon White - Volt White (v3.1) (Drayano).nds - Nintendo DS - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/NDS/Hacks/Pokemon%20Black%20and%20White/16198-Pokemon-BlazeBlackVoltWhite.zip",
     "C48382957670ECB1150946D9670573A4": "Pokemon Black - Blaze Black (v3.1) (Drayano).nds - Nintendo DS - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/NDS/Hacks/Pokemon%20Black%20and%20White/16198-Pokemon-BlazeBlackVoltWhite.zip"
@@ -12189,6 +12192,9 @@
   "33554": {
     "83A1B9ADDD8F25BBA63979B431485FA7": "Wolleyball in Wonderland (World) (Proto) (Aftermarket) (Unl).pce - PC Engine/TurboGrafx-16 - nointro - null"
   },
+  "33563": {
+    "FE9B5EF770E02D001B0391BBA234D87D": "Hide the Baby (USA) (v1.2) (Aftermarket) (gameblabla) - Sega CD - homebrew,lostlevel - null"
+  },
   "33566": {
     "6A99E07B9BAF09D68D24BACC49293C4C": "Pokemon Emerald - Cave Escape (v20250109) (Ketchupplant).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Pokemon%20Emerald/33566-PokemonEmerald-CaveEscape.zip"
   },
@@ -13272,6 +13278,9 @@
   "37578": {
     "971F0A72513A4BB18D19F761F9E40FEC": "Helichoppy (World) (v1.0) (Aftermarket) (Vivian Video) - Game Boy - homebrew,itchio - null"
   },
+  "37596": {
+    "3F7C9101DD287074002B04BF19A0968B": "Puyo Puyo!! 20th Anniversary [Subset - Multi Co-op] - Wii - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/Wii/Subset/37596-PuyoPuyo20thAnniversary-Subset-Multi.zip"
+  },
   "37601": {
     "DF229E68772CA4F77388C2C0541B02C9": "Tokyo Xtreme Racer Drift 2 (SLUS-21394) [B32E008E] - PlayStation 2 -  - null"
   },
@@ -13316,10 +13325,23 @@
     "835C610189ADD7E102B089052D204D6A": "Final Fantasy IX (Disc 3) - PlayStation -  - null",
     "D7632F59C245A85665D00854DE57A63D": "Final Fantasy IX (Disc 2) - PlayStation -  - null"
   },
+  "37880": {
+    "B5AE14C8973591DF1EDEB3ACA59D9BC8": "SM64 - Twisted Adventures (v2.2) (Lincrash, SomeRussianMarioDude).z64 - Nintendo 64 - nointro,rhdc,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/37880-SM64-TwistedAdv.zip"
+  },
   "37913": {
     "E60DDAF73EE51ECBA7DD22219FAEDE50": "Carrot Kingdom (Revision B).bin - Atari 2600 - homebrew - null"
   },
   "37914": {
-    "D5275921DB5AF85A7120D0149E8D329E": "SMW - Grand Poo World 3 (Barbarian) (Hack) - Copie - SNES/Super Famicom -  - null"
+    "D5275921DB5AF85A7120D0149E8D329E": "SMW - Grand Poo World 3 (Barbarian) (Hack) - Copie - SNES/Super Famicom -  - null",
+    "5A6AE88B0775D20111899C06156B88FC": "SMW - Grand Poo World 3 [Subset - Bonus].sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Subset/37914-SMW-GPW3-Subset-TowerofFateHard.zip"
+  },
+  "37915": {
+    "313E828372751E76D5EA6CFD0C014844": "SUPER SMASH BROS. Melee - GameCube -  - null"
+  },
+  "37921": {
+    "8E2D64C8B6A65EA989A41AAC7152BB26": "SMW - TMT 1 (v2008) (SR5000).sfc - SNES/Super Famicom - nointro,rapatches - null"
+  },
+  "37925": {
+    "8D07CB3E23EE2C8E1579B11587222095": "Monster Hunter Portable 3rd  [Subset - Multiplayer] - PlayStation Portable -  - null"
   }
 }
