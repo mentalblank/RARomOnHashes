@@ -17,13 +17,26 @@
 'use strict';
 
 // ========== IndexedDB helpers ==========
+let dbPromise = null;
+
 async function idbOpen() {
-    return new Promise((resolve, reject) => {
+    if (dbPromise) return dbPromise;
+
+    dbPromise = new Promise((resolve, reject) => {
         const req = indexedDB.open('RAHashCache', 1);
         req.onupgradeneeded = e => e.target.result.createObjectStore('store');
-        req.onsuccess = e => resolve(e.target.result);
-        req.onerror = reject;
+        req.onsuccess = e => {
+            const db = e.target.result;
+            db.onclose = () => { dbPromise = null; };
+            db.onversionchange = () => { db.close(); dbPromise = null; };
+            resolve(db);
+        };
+        req.onerror = (e) => {
+            dbPromise = null;
+            reject(e);
+        };
     });
+    return dbPromise;
 }
 
 async function idbSet(key, value) {
