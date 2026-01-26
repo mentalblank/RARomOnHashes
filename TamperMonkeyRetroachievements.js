@@ -41,7 +41,13 @@ async function idbGet(key) {
 }
 
 // ========== RA page logic ==========
+let hashObserver;
+
 async function handleRA() {
+    if (hashObserver) {
+        hashObserver.disconnect();
+    }
+
     console.log("RA Rom Download Script running.");
     const collectionUrl = 'https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/hashlinks.json';
     const apiUrl = 'https://api.github.com/repos/MentalBlank/RARomOnHashes/commits?path=hashlinks.json';
@@ -119,15 +125,17 @@ async function handleRA() {
 
     const cacheValid = !isNaN(lastUpdated) && currentTime <= lastUpdated + updateInterval;
     if (cacheValid) {
-        injectGames(JSON.parse(await idbGet('collectionROMList')));
+        await injectGames(JSON.parse(await idbGet('collectionROMList')));
     } else {
         await fetchData();
     }
 
     const hashSection = document.querySelector('ul.flex.flex-col.gap-3[data-testid="named-hashes"]');
     if (hashSection) {
-        const observer = new MutationObserver(() => handleRA());
-        observer.observe(hashSection, { childList: true, subtree: true });
+        if (!hashObserver) {
+            hashObserver = new MutationObserver(() => handleRA());
+        }
+        hashObserver.observe(hashSection, { childList: true, subtree: true });
     }
 }
 
