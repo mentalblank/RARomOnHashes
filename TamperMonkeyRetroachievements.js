@@ -18,6 +18,10 @@
 
 let cachedGameData = null;
 let hashListObserver = null;
+// Optimization: Memoization variables to avoid rebuilding the hash map on every DOM mutation
+let lastGameData = null;
+let lastGameId = null;
+let lastGameHashesMap = null;
 
 // ========== IndexedDB helpers ==========
 let dbPromise = null;
@@ -76,16 +80,25 @@ async function handleRA() {
         if (!hashListParent) return;
         const gameId = window.location.pathname.split("/")[2];
 
-        const gameHashesMap = new Map();
-        if (gameData?.[gameId]) {
-            gameData[gameId].forEach(obj => {
-                Object.entries(obj).forEach(([hash, url]) => {
-                    const lowerHash = hash.toLowerCase();
-                    if (!gameHashesMap.has(lowerHash)) {
-                        gameHashesMap.set(lowerHash, url);
-                    }
+        let gameHashesMap;
+        if (gameData === lastGameData && gameId === lastGameId && lastGameHashesMap) {
+            // Optimization: Reuse the existing map if the game data and ID haven't changed
+            gameHashesMap = lastGameHashesMap;
+        } else {
+            gameHashesMap = new Map();
+            if (gameData?.[gameId]) {
+                gameData[gameId].forEach(obj => {
+                    Object.entries(obj).forEach(([hash, url]) => {
+                        const lowerHash = hash.toLowerCase();
+                        if (!gameHashesMap.has(lowerHash)) {
+                            gameHashesMap.set(lowerHash, url);
+                        }
+                    });
                 });
-            });
+            }
+            lastGameData = gameData;
+            lastGameId = gameId;
+            lastGameHashesMap = gameHashesMap;
         }
 
         for (const li of hashListParent.querySelectorAll('li')) {
@@ -129,13 +142,26 @@ async function handleRA() {
 
             if (commitDate === lastModified) {
                 await idbSet('collectionLastUpdated', Date.now());
-                if (!cachedGameData) cachedGameData = JSON.parse(await idbGet('collectionROMList'));
+                if (!cachedGameData) {
+                    let data = await idbGet('collectionROMList');
+                    if (typeof data === 'string') {
+                        try {
+                            data = JSON.parse(data);
+                            await idbSet('collectionROMList', data);
+                        } catch (e) {
+                            console.error("Error parsing stored data", e);
+                            data = null;
+                        }
+                    }
+                    cachedGameData = data;
+                }
                 injectGames(cachedGameData);
             } else {
                 const data = await fetch(collectionUrl, { cache: 'no-cache' }).then(r => r.json());
                 cachedGameData = data;
                 injectGames(data);
-                await idbSet('collectionROMList', JSON.stringify(data));
+                // Optimization: Store data as an object to avoid expensive JSON serialization/deserialization
+                await idbSet('collectionROMList', data);
                 await idbSet('collectionLastUpdated', Date.now());
                 await idbSet('collectionLastModified', commitDate);
             }
@@ -150,7 +176,18 @@ async function handleRA() {
 
     const cacheValid = !isNaN(lastUpdated) && currentTime <= lastUpdated + updateInterval;
     if (cacheValid) {
-        if (!cachedGameData) cachedGameData = JSON.parse(await idbGet('collectionROMList'));
+        if (!cachedGameData) {
+            let data = await idbGet('collectionROMList');
+            if (typeof data === 'string') {
+                try {
+                    data = JSON.parse(data);
+                    await idbSet('collectionROMList', data);
+                } catch (e) {
+                    data = null;
+                }
+            }
+            cachedGameData = data;
+        }
         await injectGames(cachedGameData);
     } else {
         await fetchData();
