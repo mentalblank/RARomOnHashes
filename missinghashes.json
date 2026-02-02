@@ -3123,7 +3123,8 @@
     "209EC3CF2429FA740F30C401916CB059": "Galaxian.woz - Apple II - wozaday - null"
   },
   "16191": {
-    "53D90E468C9EAE4D602FEACC6295A021": "Pokemon Crystal - Polished Crystal (v3.2.3) (Rangi).gbc - Game Boy Color - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/GBC/Hacks/Pokemon%20Crystal/16191-PokemonPolishedCrystal.zip"
+    "53D90E468C9EAE4D602FEACC6295A021": "Pokemon Crystal - Polished Crystal (v3.2.3) (Rangi).gbc - Game Boy Color - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/GBC/Hacks/Pokemon%20Crystal/16191-PokemonPolishedCrystal.zip",
+    "54F6A58D3A865531925E688D78A33C8F": "Pokemon Crystal - Polished Crystal (v3.2.3) (Faithful) (Rangi).gbc - Game Boy Color - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/GBC/Hacks/Pokemon%20Crystal/16191-PokemonPolishedCrystal.zip"
   },
   "16198": {
     "7B880D705E0F1BC3E8D23E5569AEEF2C": "Pokemon White - Volt White (v3.1) (Drayano).nds - Nintendo DS - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/NDS/Hacks/Pokemon%20Black%20and%20White/16198-Pokemon-BlazeBlackVoltWhite.zip",
@@ -6869,6 +6870,9 @@
   },
   "26031": {
     "F6C9D5184D59C1FAC2451E4E6D955E4C": "Airwolf II (1987)(Encore)[cr].dsk - Amstrad CPC - cleancpc - null"
+  },
+  "26048": {
+    "FDFCA64DF08F378CCDF04383EF19A8AE": "Five Nights at Freddy's 1 (v1.5.5) (BasDEV) - PlayStation Portable - homebrew,lostlevel - null"
   },
   "26053": {
     "A3F5EBDA2EB3DA39F8291DEE03F8AE7D": "Fired Up (Europe) (En,Fr,De,Es,It) (v1.02).iso - PlayStation Portable - nointro,redump - null"
@@ -13256,6 +13260,10 @@
   "37243": {
     "ADA226686C1F22A78BADDDC15DE03B2C": "Private Idol Disc Vol. 5 - Nanako Fujisaki (Japan) - Saturn -  - null"
   },
+  "37275": {
+    "20BB15CBF61F85684D88C348A121FC1A": "Robo Tito (NTSC) (Aftermarket) (VHZC).a26 - Atari 2600 - homebrew,itchio,lostlevel - null",
+    "E2BD71A61584DA41AC7C55B90DEAB543": "Robo Tito (PAL60) (Aftermarket) (VHZC).a26 - Atari 2600 - homebrew,itchio,lostlevel - null"
+  },
   "37280": {
     "7C6F10E15C6323FBB3BF2557580650F8": "SMW - Easyland 3 (v1.0) (RicardoDeMelo).sfc - SNES/Super Famicom - nointro,smwcentral,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/37280-SMW-Easyland3.zip"
   },
@@ -13310,6 +13318,9 @@
     "C5797D8D775F8028C649FB620A2EA725": "Eternity of Sorrow - Nintendo DS -  - null",
     "A5D8D8895387B47DC9076B67BA06667B": "Castlevania DoS - Eternity of Sorrow (v1.0 - No Touch Screen) (WetBandAid) - Nintendo DS -  - null"
   },
+  "37649": {
+    "5089D523E7D5A2E56BA86D65A3737751": "Yu-Gi-Oh! - World Championship 2011 - Nexus Revival (v0.4) (xvx).nds - Nintendo DS - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/NDS/Hacks/Yu-Gi-Oh!%20World%20Championship%202011/37649-YGO-WC2011-NexusRevival.zip"
+  },
   "37697": {
     "D1DEE37187359ADFE5DD644C5776A864": "F-Zero GX (USA) [Subset - Completionist] - GameCube - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GameCube/Subset/9699-FZeroGX-Completionist.zip"
   },
@@ -13341,7 +13352,16 @@
   "37921": {
     "8E2D64C8B6A65EA989A41AAC7152BB26": "SMW - TMT 1 (v2008) (SR5000).sfc - SNES/Super Famicom - nointro,rapatches - null"
   },
+  "37923": {
+    "597AF15CC043C11F60F1E5CC6F091380": "Bees (NTSC) (Aftermarket) (atari2600land).a26 - Atari 2600 - homebrew,atariage,lostlevel - null"
+  },
   "37925": {
     "8D07CB3E23EE2C8E1579B11587222095": "Monster Hunter Portable 3rd  [Subset - Multiplayer] - PlayStation Portable -  - null"
+  },
+  "37954": {
+    "1C79946027716F0E20E132E4FE3D589F": "SM64 - Auri's Amazing Arch Adventure (v1.0) (Caasje).z64 - Nintendo 64 - nointro,rhdc - null"
+  },
+  "37955": {
+    "4D018F3C633F14C3DF36F28D6A8784D3": "SM64 - Despair Mario's Gambit Hint Arts (v1.0) (various).z64 - Nintendo 64 - nointro,rhdc - null"
   }
 }
