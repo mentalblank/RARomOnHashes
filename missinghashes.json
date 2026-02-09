@@ -2176,6 +2176,28 @@
   "11835": {
     "45FF4E34868E32D638F5DB2FC36BDEBD": "Pokemon Red - Pokemon Black (v0.07) (Ax461).gb - Game Boy - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/Game%20Boy/Hacks/Pokemon%20Red/11835-PokemonRed-PokemonBlack.zip"
   },
+  "11843": {
+    "1577640560B3CBFF587EE29BA073A2C1": "Game Boy Advance Video - Cartoon Network Collection - Edition Platinum (France).gba - Game Boy Advance - nointro - null",
+    "9E026E4C444DDD4CDCD275F7162835F1": "Game Boy Advance Video - Cartoon Network Collection - Special Edition (USA, Europe).gba - Game Boy Advance - nointro - null",
+    "A1DCDF3F1625FEB7ECD54D747D08FB37": "Game Boy Advance Video - Cartoon Network Collection - Premium Edition (USA, Europe).gba - Game Boy Advance - nointro - null",
+    "224F20711583402F8575795B3CCEA869": "Game Boy Advance Video - Strawberry Shortcake - Volume 1 (USA).gba - Game Boy Advance - nointro - null",
+    "9D88169F003267C96A4A42E8F4C377BD": "Game Boy Advance Video - Cartoon Network Collection - Volume 1 (USA, Europe).gba - Game Boy Advance - nointro - null",
+    "36DFCAB0D39BAE344F1E9ECDA2A226B7": "Game Boy Advance Video - Sonic X - Volume 1 (USA).gba - Game Boy Advance - nointro - null",
+    "09A08B8E39FA938D4DD121642F3A0CB1": "Game Boy Advance Video - Codename - Kids Next Door - Volume 1 (USA, Europe).gba - Game Boy Advance - nointro - null",
+    "FC8CB7B530C412E403B4B4EB98751586": "Game Boy Advance Video - Cartoon Network Collection - Edition Speciale (France).gba - Game Boy Advance - nointro - null",
+    "80236C93C72DC4EE4BD0E3C22FFAC303": "Game Boy Advance Video - Cartoon Network Collection - Volume 2 (USA, Europe).gba - Game Boy Advance - nointro - null",
+    "60FA719B84F02367ADDC3D0DAD085AA8": "Game Boy Advance Video - Super Robot Monkey Team - Hyper Force Go! - Volume 1 (USA).gba - Game Boy Advance - nointro - null",
+    "638D4C91D3119289573E94FC47AA2AB0": "Game Boy Advance Video - Cartoon Network Collection - Platinum Edition (USA, Europe).gba - Game Boy Advance - nointro - null",
+    "D7B7AAA61D7DBC76ED84ABE391DEE6DF": "Game Boy Advance Video - Yu-Gi-Oh! - Yugi vs. Joey (France).gba - Game Boy Advance - nointro - null",
+    "41322207C6B54012F094A3410DF58C7A": "Game Boy Advance Video - Teenage Mutant Ninja Turtles - Le Demenagement (France).gba - Game Boy Advance - nointro - null",
+    "340F5CE39C1D2EA31A7B61148B376F70": "Game Boy Advance Video - Disney Channel Collection - Volume 1 (USA).gba - Game Boy Advance - nointro - null",
+    "3FC8B5ADF57D1C1975C132686D398FCF": "Game Boy Advance Video - Cartoon Network Collection - Edition Premium (France).gba - Game Boy Advance - nointro - null",
+    "CFF33AABB6BDAC294C1A250AFE5248B0": "Game Boy Advance Video - Cartoon Network Collection - Limited Edition (USA).gba - Game Boy Advance - nointro - null",
+    "E6BDA86BEDEC314B4A2096AFDA57367F": "Game Boy Advance Video - Dragon Ball GT - Volume 1 (USA).gba - Game Boy Advance - nointro - null",
+    "E6E630C0E5EFE24D54242B55388FC4B2": "Game Boy Advance Video - Yu-Gi-Oh! - Yugi vs. Joey (USA, Europe).gba - Game Boy Advance - nointro - null",
+    "4A6CF80D29A6E4AB9B4204E6783657E0": "Game Boy Advance Video - The Proud Family - Volume 1 (USA).gba - Game Boy Advance - nointro - null",
+    "B38AA51C2C27BF689E3D3DA520D77339": "Game Boy Advance Video - Teenage Mutant Ninja Turtles - Things Change (USA, Europe).gba - Game Boy Advance - nointro - null"
+  },
   "12443": {
     "1D0D29C33CC9D5051AED4F7C2C543A06": "Pokemon Emerald - Flora Sky (Completed Dex) (Sky).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/GBA/Hacks/Pokemon%20Emerald/12443-PokemonEmerald-FloraSky.zip"
   },
@@ -13014,13 +13036,18 @@
   },
   "34882": {
     "182C8DA6D8A958E3317D7E652B8492BB": "SMW - Crash Bandicoot and the Retro Dimension (En) (v1.0) (Bandicoot).sfc - SNES/Super Famicom - nointro,rhdn,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/34882-SMW-CrashBandicootRetroDimension.zip",
-    "636EA1CEA4D4EF1C49C81A888DD45660": "SMW - Crash Bandicoot and the Retro Dimension (Pt) (v1.0) (Bandicoot).sfc - SNES/Super Famicom - nointro,rhdn,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/34882-SMW-CrashBandicootRetroDimension.zip"
+    "636EA1CEA4D4EF1C49C81A888DD45660": "SMW - Crash Bandicoot and the Retro Dimension (Pt) (v1.0) (Bandicoot).sfc - SNES/Super Famicom - nointro,rhdn,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/34882-SMW-CrashBandicootRetroDimension.zip",
+    "A19025D30D2F056B5D2F67C6D2DF4FB0": "SMW - Crash Bandicoot and the Retro Dimension (En) (v1.07) (Bandicoot).sfc - SNES/Super Famicom - nointro,rhdn,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/34882-SMW-CrashBandicootRetroDimension.zip",
+    "5AD584A19226C0F1A21E48F16C1260DE": "SMW - Crash Bandicoot and the Retro Dimension (Pt) (v1.07) (Bandicoot).sfc - SNES/Super Famicom - nointro,rhdn,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/34882-SMW-CrashBandicootRetroDimension.zip"
   },
   "34885": {
     "3580B6EB0E26F89F9D89A615EF1663C4": "SM64 - TsucnenT's Treasures (v1.0) (TsucnenT).z64 - Nintendo 64 - nointro,rhdc,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/34885-SM64-TsucnenTsTreasures.zip"
   },
   "34886": {
     "2D0E8090EF236FCA175C1FCC44B2732C": "SM64 - TsucnenT's Treasures 2 (v1.0) (TsucnenT).z64 - Nintendo 64 - nointro,rhdc,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/34886-SM64-TsucnenTsTreasures2.zip"
+  },
+  "34888": {
+    "D4695FD523207A93035A502805E5ECC1": "SMW - 20 Challenges - Episode 5 - Community Vibe (2026-02-06) (Drakel).sfc - SNES/Super Famicom - nointro - null"
   },
   "34889": {
     "228118CE7DFDF5B30FD6DDCDAD48D97A": "Pokemon FireRed - Pokemon Pseudo Red (v1.2.5) (Blackflameds).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Pokemon%20FireRed/34889-PokemonFireRed-PseudoRed.zip"
@@ -13283,6 +13310,10 @@
   "37574": {
     "A3A97786B8BA2D02C303703D34913942": "Vib-Ripple [Subset - Imported Photo Petas] - PlayStation 2 - redump - null"
   },
+  "37577": {
+    "744FE521D58BEB5ED16CBFC9E02F352B": "Pokemon Emerald - Too Many Types 2 (v1.4.0) (kobazco) (Alt).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Pokemon%20Emerald/37577-PokemonEmerald-TooManyTypes2.zip",
+    "524B56155162145CCF93EF8B9771B7BA": "Pokemon Emerald - Too Many Types 2 (v1.4.0) (kobazco).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Pokemon%20Emerald/37577-PokemonEmerald-TooManyTypes2.zip"
+  },
   "37578": {
     "971F0A72513A4BB18D19F761F9E40FEC": "Helichoppy (World) (v1.0) (Aftermarket) (Vivian Video) - Game Boy - homebrew,itchio - null"
   },
@@ -13326,6 +13357,9 @@
   },
   "37786": {
     "61D1B633249ACDF3982BDF41B7A1646D": "Grand Theft Auto - San Andreas [Subset - Master Save] - PlayStation 2 - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Subset/37786-GTASanAndreas-MasterSave.zip"
+  },
+  "37792": {
+    "C6AEF2FC4F7CA37013C8CACCA94C701F": "Punch Out - Phred's Cool Punch Out 2 - Turbo!! (v3.5) (Master Phred).nes - NES/Famicom - nointro,rhdn,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/NES/Hacks/Mike%20Tyson's%20Punch-Out/37792-PunchOut-Phred'sPunchOut2.zip"
   },
   "37814": {
     "9F5913C0B6CD4F7BB243FE2E1F0CAE77": "Final Fantasy IV Advance (USA) - Bit Improvement for FF4A (v1.0a) (Deathlike2).gba - Game Boy Advance - nointro - null"
