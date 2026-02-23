@@ -4427,6 +4427,9 @@
   "19167": {
     "3FC53A0D8981EB60867D0876C0554E02": "F1 Circus '92 - The Speed of Sound (Japan).pce - PC Engine/TurboGrafx-16 - nointro - null"
   },
+  "19194": {
+    "4BAB193192D5955BAB19DEBA5E21E6D3": "Echo Night - Beyond (USA) (Es) (v1.0.1) (Tío Víctor) - PlayStation 2 - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Translation/Spanish/19194-EchoNightBeyond-Spanish.zip"
+  },
   "19197": {
     "05F79A2B32108022ADA2974269D7349A": "Demon Stone (USA) - PlayStation 2 - redump - null"
   },
@@ -7114,6 +7117,9 @@
   },
   "26970": {
     "3488E5354BC565A022129C674E184402": "Legend of Zelda, The - The Stone Legion (v1.0) (Sword Legion).nes - NES/Famicom - nointro,rapatches,rhdn - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/NES/Hacks/Legend%20of%20Zelda/26970-LoZ-TheStoneLegion.zip"
+  },
+  "26981": {
+    "3B970AA70D18538B8F31EC5C92A18B6B": "Syobon Action (World) (v1.3) (Aftermarket) (Daniel Riberio) - PlayStation Portable - homebrew,lostlevel - null"
   },
   "26988": {
     "5AFB82183810450EC5B36AAF8AD1BB23": "Billy The Kid (1990)(Mastertronic)[cr].dsk - Amstrad CPC - cleancpc - null"
@@ -12020,6 +12026,9 @@
     "8443BB79427EFCC1E32F128CEC9B12EE": "Pokemon FireRed - Pokemon Verde Musgo (Easy Version) (v2021-05-04) (ABJOPE Team).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/GBA/Hacks/Pokemon%20FireRed/33275-PokemonFireRed-VerdeMusgo.7z",
     "7CC3F804BE35AFED16DED65CE5756416": "Pokemon FireRed - Pokemon Verde Musgo (Hard Version) (v2021-05-04) (ABJOPE Team).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/GBA/Hacks/Pokemon%20FireRed/33275-PokemonFireRed-VerdeMusgo.7z"
   },
+  "33276": {
+    "16A811628CD9245F2101E218581CD594": "Sonic Robo Blast 2 (USA) (v0.2a) (Aftermarket) (SSNTails, Saxman).32x - 32X - homebrew,lostlevel - null"
+  },
   "33278": {
     "1162A3BEACF4DA17E459C31191F45B70": "Dunjonquest - The Temple of Apshai rev. 4.woz - Apple II - wozaday - null"
   },
@@ -13246,6 +13255,9 @@
   "36177": {
     "65F0ADEB7E6B61D7C47BF01E77CDF13B": "Private Idol Disc - Tokubetsu-hen - Cosplayers (Japan) (2M) - Saturn -  - null"
   },
+  "36253": {
+    "65C7435CF98C28DF7EECC37B648A1B0C": "SM64 - Mario Adventure 2 (v1.7) (aglab2).z64 - Nintendo 64 - nointro,rhdc,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/36253-SM64-MarioAdventure2.zip"
+  },
   "36254": {
     "40C97BC15DB4D4786090CCF22B951BE3": "Dynasty Warriors 6 (USA) [Subset - Max Level] - PlayStation 2 - RAPatches - null"
   },
@@ -13266,6 +13278,9 @@
   },
   "36922": {
     "D6DFC46C0CD78A658E04EBCB0FCE54FF": "SM64 - Despair Mario's Gambit 64 (v1.1 Final) (GMDDoesDMG).z64 - Nintendo 64 - nointro,rhdc,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/36922-SM64-DespairMariosGambit64.zip"
+  },
+  "36930": {
+    "1960361D6799E0159B82C1A922B3E426": "FFVI - Hope Eternal and Love Everlasting (v1.1) (Piggy Chan!).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Final%20Fantasy%20VI/36930-FFVI-HopeEternalandLoveEverlasting.zip"
   },
   "36955": {
     "0AF94E267C637F74227C6A47F43F578E": "Waffle Painter (USA) (v1.1) (Aftermarket) (Vivian Video).a78 - Atari 7800 - homebrew,itchio,lostlevel - null"
@@ -13312,6 +13327,10 @@
   },
   "37509": {
     "37EEB0B6914BE944C03D6442623E0244": "K-On! Houkago Live!! HD Ver. (English 4-1-23).iso - PlayStation Portable -  - null"
+  },
+  "37513": {
+    "A8B4AA514ADFA3C253C93F96141EF070": "Just Dance 2020 - Just Dance 2026 (v2026-01-20) (Explicit) (Sofie) - Wii -  - null",
+    "8CDC60A5886E478BBE040FEBC17ADBCE": "Just Dance 2020 - Just Dance 2026 (v2026-01-20) (Clean) (Sofie) - Wii -  - null"
   },
   "37573": {
     "E0C18949C34E86576405944FA616F56C": "SM64 - The Phantom's Call (English) (v2.0) (PhantomPhire).z64 - Nintendo 64 - nointro,rhdc - null",
@@ -13365,6 +13384,9 @@
   "37697": {
     "D1DEE37187359ADFE5DD644C5776A864": "F-Zero GX (USA) [Subset - Completionist] - GameCube - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GameCube/Subset/9699-FZeroGX-Completionist.zip"
   },
+  "37773": {
+    "1A0D27B65BC0AAEC8853DB5C4ECDFA50": "Sonic the Hedgehog 2 - Frenzy (v1.1) (Yoshister).sms - Master System - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/Master%20System/Hacks/Sonic%20the%20Hedgehog%202/37773-Sonic2-Frenzy.zip"
+  },
   "37786": {
     "61D1B633249ACDF3982BDF41B7A1646D": "Grand Theft Auto - San Andreas [Subset - Master Save] - PlayStation 2 - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Subset/37786-GTASanAndreas-MasterSave.zip"
   },
@@ -13416,5 +13438,23 @@
   },
   "37955": {
     "4D018F3C633F14C3DF36F28D6A8784D3": "SM64 - Despair Mario's Gambit Hint Arts (v1.0) (various).z64 - Nintendo 64 - nointro,rhdc - null"
+  },
+  "38012": {
+    "1BEAADC7B532AE9F6616126DE0F19A8A": "SM64 - Phi's Star Challenge (v3.0) (Narumi).z64 - Nintendo 64 - nointro,rhdc,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/38012-SM64-PhisStarChallenge.zip"
+  },
+  "38014": {
+    "F5FDFFC669C29483760655C7F5FF90F4": "Walfie's Nonograms (World) (v1.1.0) (Aftermarket) (Walfie).gbc - Game Boy Color - homebrew,itchio - null"
+  },
+  "38036": {
+    "0156B0B9C002B4F9B9FEC777D4503594": "Pokemon Mini Ambulation (World) (v1.0) (Aftermarket) (Inkbox).min - Pokemon Mini - homebrew,lostlevel - null"
+  },
+  "38047": {
+    "7D38F43DF5CD5613FA1256DE1D351D33": "GB Dash (World) (v1.0) (Aftermarket) (TiTi).gb - Game Boy - homebrew,itchio,lostlevel - null"
+  },
+  "38057": {
+    "23F8643DB43FDDA595C3D2E56BAEF643": "Spooky Walking Simulator FX (World) (v1.0.1) (haloopdy).arduboy - Arduboy - homebrew,lostlevel - null"
+  },
+  "38058": {
+    "022C234A6E290B73EDBF598FD61263C4": "SMW - Jigsaw's Test (v1.0) (CaseP, Foursword4).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/38058-SMW-JigsawsTest.zip"
   }
 }
