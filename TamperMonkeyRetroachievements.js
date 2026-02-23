@@ -19,6 +19,10 @@
 let cachedGameData = null;
 let hashListObserver = null;
 
+let lastGameId = null;
+let lastGameHashesMap = null;
+let lastGameData = null;
+
 // ========== IndexedDB helpers ==========
 let dbPromise = null;
 async function idbOpen() {
@@ -71,57 +75,6 @@ async function handleRA() {
     const lastUpdated = parseInt(await idbGet('collectionLastUpdated')) / 1000;
     const lastModified = parseInt(await idbGet('collectionLastModified'));
 
-    async function injectGames(gameData, archiveDown = false, msg = '') {
-        const hashListParent = document.querySelector('ul.flex.flex-col.gap-3[data-testid="named-hashes"]');
-        if (!hashListParent) return;
-        const gameId = window.location.pathname.split("/")[2];
-
-        const gameHashesMap = new Map();
-        if (gameData?.[gameId]) {
-            gameData[gameId].forEach(obj => {
-                Object.entries(obj).forEach(([hash, url]) => {
-                    const lowerHash = hash.toLowerCase();
-                    if (!gameHashesMap.has(lowerHash)) {
-                        gameHashesMap.set(lowerHash, url);
-                    }
-                });
-            });
-        }
-
-        for (const li of hashListParent.querySelectorAll('li')) {
-            if (li.dataset.scriptInjected) continue;
-            li.dataset.scriptInjected = "true";
-
-            const hashNode = li.querySelector("div.flex.flex-col.border-l-2");
-            const hashElement = hashNode?.querySelector("p.font-mono");
-            if (!hashElement) continue;
-
-            const retroHash = hashElement.innerText.trim().toLowerCase();
-            hashElement.innerText = retroHash;
-
-            const linksContainer = hashNode;
-            const links = [];
-
-            const romURL = gameHashesMap.get(retroHash);
-
-            if (romURL) {
-                const link = romURL.includes("myrient.erista.me")
-                    ? `${romURL.substring(0, romURL.lastIndexOf('/') + 1)}#autoSearch=${encodeURIComponent(romURL.split("/").pop())}`
-                    : romURL;
-                links.push(`<a href="${link}" target="_blank">Download ROM</a>`);
-            } else {
-                const fullFileName = li.querySelector("span.font-bold")?.innerText.trim() || retroHash;
-                links.push(`<a href="https://rezi.one/#autoSearch=${encodeURIComponent(fullFileName)}" target="_blank" style="color:#0af;">Search on Rezi</a>`);
-            }
-
-            links.forEach(html => {
-                const div = document.createElement('div');
-                div.innerHTML = html;
-                linksContainer.appendChild(div);
-            });
-        }
-    }
-
     async function fetchData() {
         try {
             const commits = await fetch(apiUrl).then(r => r.json());
@@ -162,6 +115,68 @@ async function handleRA() {
             hashObserver = new MutationObserver(() => handleRA());
         }
         hashObserver.observe(hashSection, { childList: true, subtree: true });
+    }
+}
+
+async function injectGames(gameData, archiveDown = false, msg = '') {
+    const hashListParent = document.querySelector('ul.flex.flex-col.gap-3[data-testid="named-hashes"]');
+    if (!hashListParent) return;
+    const gameId = window.location.pathname.split("/")[2];
+
+    let gameHashesMap;
+
+    // Optimization: Memoize the map creation if gameId and gameData haven't changed
+    if (lastGameId === gameId && lastGameData === gameData && lastGameHashesMap) {
+        gameHashesMap = lastGameHashesMap;
+    } else {
+        gameHashesMap = new Map();
+        if (gameData?.[gameId]) {
+            gameData[gameId].forEach(obj => {
+                Object.entries(obj).forEach(([hash, url]) => {
+                    const lowerHash = hash.toLowerCase();
+                    if (!gameHashesMap.has(lowerHash)) {
+                        gameHashesMap.set(lowerHash, url);
+                    }
+                });
+            });
+        }
+        // Update cache
+        lastGameId = gameId;
+        lastGameData = gameData;
+        lastGameHashesMap = gameHashesMap;
+    }
+
+    for (const li of hashListParent.querySelectorAll('li')) {
+        if (li.dataset.scriptInjected) continue;
+        li.dataset.scriptInjected = "true";
+
+        const hashNode = li.querySelector("div.flex.flex-col.border-l-2");
+        const hashElement = hashNode?.querySelector("p.font-mono");
+        if (!hashElement) continue;
+
+        const retroHash = hashElement.innerText.trim().toLowerCase();
+        hashElement.innerText = retroHash;
+
+        const linksContainer = hashNode;
+        const links = [];
+
+        const romURL = gameHashesMap.get(retroHash);
+
+        if (romURL) {
+            const link = romURL.includes("myrient.erista.me")
+                ? `${romURL.substring(0, romURL.lastIndexOf('/') + 1)}#autoSearch=${encodeURIComponent(romURL.split("/").pop())}`
+                : romURL;
+            links.push(`<a href="${link}" target="_blank">Download ROM</a>`);
+        } else {
+            const fullFileName = li.querySelector("span.font-bold")?.innerText.trim() || retroHash;
+            links.push(`<a href="https://rezi.one/#autoSearch=${encodeURIComponent(fullFileName)}" target="_blank" style="color:#0af;">Search on Rezi</a>`);
+        }
+
+        links.forEach(html => {
+            const div = document.createElement('div');
+            div.innerHTML = html;
+            linksContainer.appendChild(div);
+        });
     }
 }
 
