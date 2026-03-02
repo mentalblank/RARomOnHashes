@@ -3405,7 +3405,8 @@
     "89C24187C23EC65A2C2953AC5172DCEB": "SMW - This Hack Needs a Name (v1.2) (yeahman).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/SNES/Hacks/Super%20Mario%20World/17051-ThisHackNeedsaName.zip"
   },
   "17052": {
-    "392E6D6061855D32722935CF58C3D563": "SM64 - Super Mario Jammin' Journey (v1.3) (goosedajuice).z64 - Nintendo 64 - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/N64/Hacks/Super%20Mario%2064/17052-SM64-JamminJourney.zip"
+    "392E6D6061855D32722935CF58C3D563": "SM64 - Super Mario Jammin' Journey (v1.3) (goosedajuice).z64 - Nintendo 64 - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/N64/Hacks/Super%20Mario%2064/17052-SM64-JamminJourney.zip",
+    "2613ED60F0851BE77A7FDC26658E2B00": "SM64 - Super Mario Jammin' Journey (v1.4) (goosedajuice).z64 - Nintendo 64 - nointro,rhdc - null"
   },
   "17055": {
     "98CE3DDA6530B382036478BF9850F1A1": "Quest Arrest (World) (v1.1) (GB Compatible) (Aftermarket) (Unl).gbc - Game Boy - nointro - null"
@@ -4929,6 +4930,9 @@
   },
   "20354": {
     "4214AFE860956C27C05699B2388694C5": "Pokemon Crystal - Crystal 251 (v2.3) (Razormime).gbc - Game Boy Color - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBC/Hacks/Pokemon%20Crystal/20354-PokemonCrystal-Crystal251.zip"
+  },
+  "20360": {
+    "92D026535D6C3A3BAE33D82FCC0C0A17": "TOCA Touring Car Championship (Europe) (En,Fr,De,Es,It) (v1.0) - PlayStation - redump - null"
   },
   "20376": {
     "148CF661E96EFEB03BDD4542E06BD8F0": "SMW2 - SMWC Island (SMWCentral).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/main/SNES/Hacks/Super%20Mario%20World%202/20376-SMW2-SMWCIsland.zip"
@@ -13282,6 +13286,9 @@
   "36930": {
     "1960361D6799E0159B82C1A922B3E426": "FFVI - Hope Eternal and Love Everlasting (v1.1) (Piggy Chan!).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Final%20Fantasy%20VI/36930-FFVI-HopeEternalandLoveEverlasting.zip"
   },
+  "36934": {
+    "3159992A4320BFFEDC9399D45782CD61": "Cookie Clicker PSP (World) (Aftermarket) (XD) - PlayStation Portable - homebrew,lostlevel - null"
+  },
   "36955": {
     "0AF94E267C637F74227C6A47F43F578E": "Waffle Painter (USA) (v1.1) (Aftermarket) (Vivian Video).a78 - Atari 7800 - homebrew,itchio,lostlevel - null"
   },
@@ -13338,6 +13345,9 @@
   },
   "37574": {
     "A3A97786B8BA2D02C303703D34913942": "Vib-Ripple [Subset - Imported Photo Petas] - PlayStation 2 - redump - null"
+  },
+  "37575": {
+    "CC9B95C3D79CE2664C3BAFFBFAB4BEA2": "Metroid Prime 2 - Echoes - Double Trouble (v1.271) (Fantaselion) - GameCube - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GameCube/Hacks/Metroid%20Prime%202/37575-MetroidPrime2-DoubleTrouble.zip"
   },
   "37577": {
     "744FE521D58BEB5ED16CBFC9E02F352B": "Pokemon Emerald - Too Many Types 2 (v1.4.0) (kobazco) (Alt).gba - Game Boy Advance - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/GBA/Hacks/Pokemon%20Emerald/37577-PokemonEmerald-TooManyTypes2.zip",
@@ -13439,11 +13449,20 @@
   "37955": {
     "4D018F3C633F14C3DF36F28D6A8784D3": "SM64 - Despair Mario's Gambit Hint Arts (v1.0) (various).z64 - Nintendo 64 - nointro,rhdc - null"
   },
+  "38011": {
+    "06E4A2AEE420B89ACB465AB243C56622": "Final Fantasy IX [Subset - Collector's Rank] (Disc 3) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PlayStation/Subset/38011-FFIX-Subset-CollectorsRank.zip",
+    "5763FF9069D2688317E18F7F7248F47F": "Final Fantasy IX [Subset - Collector's Rank] (Disc 1) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PlayStation/Subset/38011-FFIX-Subset-CollectorsRank.zip",
+    "D71B62D352CB42AABB671791F220C12C": "Final Fantasy IX [Subset - Collector's Rank] (Disc 4) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PlayStation/Subset/38011-FFIX-Subset-CollectorsRank.zip",
+    "6C8FCC19CC0EA1B5AE900B209598E4CC": "Final Fantasy IX [Subset - Collector's Rank] (Disc 2) - PlayStation - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PlayStation/Subset/38011-FFIX-Subset-CollectorsRank.zip"
+  },
   "38012": {
     "1BEAADC7B532AE9F6616126DE0F19A8A": "SM64 - Phi's Star Challenge (v3.0) (Narumi).z64 - Nintendo 64 - nointro,rhdc,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/N64/Hacks/Super%20Mario%2064/38012-SM64-PhisStarChallenge.zip"
   },
   "38014": {
     "F5FDFFC669C29483760655C7F5FF90F4": "Walfie's Nonograms (World) (v1.1.0) (Aftermarket) (Walfie).gbc - Game Boy Color - homebrew,itchio - null"
+  },
+  "38017": {
+    "8345E8A8D334B94F8D472DE44CC5C4EC": "Kirby - Nightmare in Dream Land [Subset - Single Ability Runs] - Game Boy Advance -  - null"
   },
   "38036": {
     "0156B0B9C002B4F9B9FEC777D4503594": "Pokemon Mini Ambulation (World) (v1.0) (Aftermarket) (Inkbox).min - Pokemon Mini - homebrew,lostlevel - null"
@@ -13456,5 +13475,14 @@
   },
   "38058": {
     "022C234A6E290B73EDBF598FD61263C4": "SMW - Jigsaw's Test (v1.0) (CaseP, Foursword4).sfc - SNES/Super Famicom - nointro,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/SNES/Hacks/Super%20Mario%20World/38058-SMW-JigsawsTest.zip"
+  },
+  "38059": {
+    "76B970B1497E9EC92EE9209895F4D682": "SpongeBob PixelPants (NTSC) (v2006) (Aftermarket) (Chris Read).a26 - Atari 2600 - homebrew,lostlevel - null"
+  },
+  "38061": {
+    "4D128D44CB93D1244F033EDDE3D8DD14": "Gold Miner (World) (v20230410) (Aftermarket) (FlashPig).gba - Game Boy Advance - homebrew,lostlevel - null"
+  },
+  "38071": {
+    "0764E26E62AAA76EF6BB9A5B4995AA7E": "Enthusia - Professional Racing [Subset - Max Level Cars] - PlayStation 2 - redump,rapatches - https://github.com/RetroAchievements/RAPatches/raw/refs/heads/main/PS2/Subset/38071-Enthusia-Subset-MaxLevelCars.zip"
   }
 }
