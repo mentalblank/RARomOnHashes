@@ -1,5 +1,7 @@
 # RetroAchievements.org Supported Game Files TamperMonkey Script
 
+### NOTE: Due to Myrient closing down on 31 MARCH 2026, I will be abandoning and archiving this project. If a similar preservation project is launched then I may revisit this project. Thanks gamers.
+
 This userscript automatically adds download links for supported ROMs on RetroAchievements.org "Supported Game Files" pages. It uses hash information to inject direct download links for supported ROM files.
 
 > **Note:** Please ensure you comply with RetroAchievements’ policies and the legal framework in your region when using this tool.

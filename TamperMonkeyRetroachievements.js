@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Rom Download on RA Hash List
 // @namespace    https://github.com/MentalBlank/RARomOnHashes
-// @updateURL    https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/TamperMonkeyRetroachievements.js
-// @downloadURL  https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/TamperMonkeyRetroachievements.js
-// @version      1.0.9
+// @updateURL    https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/abandonedScript.js
+// @downloadURL  https://raw.githubusercontent.com/MentalBlank/RARomOnHashes/main/abandonedScript.js
+// @version      1.1.0
 // @description  Add download links to retroachievements.org Supported Game Files pages
 // @author       MentalBlank
 // @match        https://retroachievements.org/*
